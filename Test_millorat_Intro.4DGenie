@@ -440,7 +440,7 @@ end
 Form
     Name                         Form3
     Bgtype                       Color
-    Color                        BLACK
+    Color                        DEEPSKYBLUE
     Image                        (None)
     Source.Height                0
     Source.Left                  0
@@ -452,18 +452,6 @@ Form
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-Gradient
-    Name                         Gradient3
-    ColorWidth                   1
-    Direction                    Chord1
-    EndColor                     ROYALBLUE
-    Height                       237
-    Left                         0
-    StartColor                   TURQUOISE
-    SwapColors                   No
-    Top                          0
-    Width                        319
 end
 Strings
     Name                         Strings3
@@ -479,13 +467,33 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         60
-    Strings                      Preheating...\n
+    Left                         64
+    Strings                      Pausing...\n
     StringsStyle                 Message
-    Top                          108
+    Top                          36
     Visible                      Yes
     Width                        200
     OnChanged                    ''
+end
+Video
+    Name                         Video0
+    Frames.First                 0
+    Frames.Last                  11
+    Frames.FrameDelay            70
+    Height                       134
+    Left                         92
+    Source.Height                256
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 256
+    Visible                      Yes
+    Top                          60
+    Video                        spinner.gif
+    Width                        139
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
 end
 Form
     Name                         Form4
@@ -603,65 +611,67 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
+Strings
+    Name                         Strings9
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      'Main Menu'
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+Image
+    Name                         Image1
+    Height                       60
+    Image                        logo_info_reprap.png
+    Left                         0
+    Source.Height                152
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 763
+    Visible                      Yes
+    Top                          20
+    Width                        320
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
 UserButton
     Name                         Userbutton12
-    Height                       100
-    Images                       'button (4).png\nbutton (10).png'
-    Left                         4
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          16
-    Width                        100
-    OnChanged                    Form2Activate
-end
-UserButton
-    Name                         Userbutton13
-    Height                       100
-    Images                       'button (5).png\nbutton (11).png'
-    Left                         108
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          16
-    Width                        100
-    OnChanged                    Form1Activate
-end
-UserButton
-    Name                         Userbutton14
-    Height                       100
-    Images                       'button (9).png\nbutton (15).png'
-    Left                         212
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          16
-    Width                        100
-    OnChanged                    Form8Activate
-end
-UserButton
-    Name                         Userbutton15
-    Height                       100
-    Images                       'button (7).png\nbutton (13).png'
+    Height                       140
+    Images                       'button (38).png\nbutton (37).png'
     Left                         8
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          124
-    Width                        100
-    OnChanged                    Form6Activate
+    Top                          92
+    Width                        150
+    OnChanged                    Form2Activate
 end
 UserButton
-    Name                         Userbutton16
-    Height                       100
-    Images                       'button (8).png\nbutton (16).png'
-    Left                         212
+    Name                         Userbutton13
+    Height                       140
+    Images                       'button (41).png\nbutton (40).png'
+    Left                         164
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          120
-    Width                        100
-    OnChanged                    Form7Activate
+    Top                          92
+    Width                        150
+    OnChanged                    Form4Activate
 end
 Form
     Name                         Form6
@@ -1270,7 +1280,7 @@ Strings
     Name                         Strings6
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       17
+    Height                       20
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -1298,7 +1308,7 @@ UserButton
     Stretch                      No
     Top                          144
     Width                        110
-    OnChanged                    'Report Message'
+    OnChanged                    Form3Activate
 end
 UserButton
     Name                         Userbutton19

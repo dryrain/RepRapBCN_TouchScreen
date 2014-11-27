@@ -1,6 +1,6 @@
 #platform "uLCD-32PTU"
 
-// generated 24/11/2014 14:02:14
+// generated 27/11/2014 9:51:26
 
 #MODE RUNFLASH
 
@@ -116,130 +116,154 @@
     REPORT_OBJ      5
     REPORT_EVENT    7
 // End P1.inc
-    nObjects        59
-    nInputs         56
-    ANITIMERS       1
+    nObjects        98
+    nInputs         68
+    ANITIMERS       0
 #END
 
 #DATA
-    word formstidx 0, 1, 7, 14, 15, 22, 25, 27, 28, 45, 59
-    word formenidx 1, 7, 14, 15, 22, 25, 27, 28, 45, 59, 59
-    word IPControls -1, -1, -1, -1, -1, 0, 44, 88, -1, -1, -1, 132, 176, 220, -1, -1, 264, 330, 352, 374, 396, 418, -1, 440, 506, 550, 594, 638, 682, 726, 770, 814, 858, 902, 946, 990, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1034, 1100, -1, 1144, 1188
+    word formstidx 0, 1, 7, 12, 13, 20, 23, 25, 26, 43, 61, 79, 97
+    word formenidx 1, 7, 12, 13, 20, 23, 25, 26, 43, 61, 79, 97, 98
+    word IPControls -1, -1, -1, -1, -1, 0, 44, 88, 132, 176, -1, 220, -1, -1, 264, 308, 330, 352, 374, 396, -1, 418, 484, 528, 572, 616, 660, 704, 748, 792, 836, 880, 924, 968, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1012, 1078, -1, -1, -1, -1, -1, -1, 1144, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1210, 1276, 1320, 1364, 1408, 1452
     word IPData tWinButton, 0, -1, -1, -1, -1, -1, -1, 0, 22, 12,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 4,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 110, 10,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
-                tAniButton, 1, -1, -1, 100, -1, -1, -1, 0, 154, 2,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 198, 14,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 242, 12,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 154, 12,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 198, 30,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 242, 32,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 286, 14,
-                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 308, 0,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+                OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 16,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 18,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 20,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 22,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 24,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 462, 26,
-                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 484, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 440, 26,
+                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 462, 0,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 528, 28,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 506, 28,
                 OT_ACTIVATE, 10, 4, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 572, 2,
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 550, 2,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 616, 6,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 594, 6,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 660, 36,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 638, 36,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 704, 2,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 682, 2,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 748, 4,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 726, 4,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 792, 6,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 770, 6,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 836, 8,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 814, 8,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 880, 10,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 858, 10,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 924, 16,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 902, 16,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7,
-                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 968, 18,
+                tWinButton, 1, -1, -1, -1, -1, -1, -1, 0, 946, 18,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1012, 8,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 990, 8,
                 OT_ACTIVATE, 10, 5, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1056, 38,
-                OT_ACTIVATE, 10, 3, 0, 18, 0, 0, 0, 0, 1078, 0,
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1034, 38,
+                OT_ACTIVATE, 10, 3, 0, 18, 0, 0, 0, 0, 1056, 0,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1122, 40,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 19,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1166, 42,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1100, 40,
+                OT_ACTIVATE, 10, 12, 0, 18, 0, 0, 0, 0, 1122, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1166, 34,
+                OT_ACTIVATE, 10, 3, 0, 18, 0, 0, 0, 0, 1188, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1232, 48,
+                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 1254, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1298, 50,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1342, 52,
+                OT_ACTIVATE, 10, 7, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1386, 42,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1210, 44,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 21
-    word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 36, 32, 265, 71, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 2 
-    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 36, 92, 265, 131, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 2 
-    word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 36, 148, 265, 187, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 2 
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1430, 44,
+                OT_ACTIVATE, 10, 7, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1474, 46,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22
+    word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 2 
+    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 80, 176, 241, 217, WHITE, BLACK, 0, 1, 1, 2 
+    word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 9 
     word iStrings3  Strings3StartH, Strings3StartL, Strings3Size, 64, 36, 263, 55, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 3 
     word iStrings4  Strings4StartH, Strings4StartL, Strings4Size, 0, 0, 319, 16, WHITE, BLACK, 0, 1, 1, 8 
     word iStrings5  Strings5StartH, Strings5StartL, Strings5Size, 60, 20, 259, 187, WHITE, BLACK, 0, 1, 1, 7 
     word iStrings6  Strings6StartH, Strings6StartL, Strings6Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 9 
-
-    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 292, 136, 314, 162, WHITE, BLACK, 0, 1, 1, 9 
+    word iStrings7  Strings7StartH, Strings7StartL, Strings7Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 10 
+    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 10 
     word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 5 
+    word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 11 
+    word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 11 
+    word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 56, 48, 255, 67, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 12 
     word oDipSwitchs 0
     word oKnobs 0
     word oRockerSwitchs 0
     word oRotarySwitchs 0
     word oGSliders 0
     word oTrackbars 0
-    word oWinButtons 9, iWinbutton0, iWinbutton1, iWinbutton2, iWinbutton3, iWinbutton4, iWinbutton5, iWinbutton6, iWinbutton7, iWinbutton8
+    word oWinButtons 9, iWinbutton0, iWinbutton1, iWinbutton2, iWinbutton3, iWinbutton4, iWinbutton5, -1, iWinbutton7, iWinbutton8
     word oAngularmeters 0
     word oCoolgauges 0
     word oCustomdigitss 0
-    word oForms 11, -1, -1, -1, -1, iForm4, -1, -1, -1, -1, -1, -1
+    word oForms 13, -1, -1, -1, -1, iForm4, -1, -1, -1, -1, -1, -1, -1, -1
     word oGauges 0
     word oImages 2, iImage0, iImage1
     word oKeyboards 0
     word oLeds 0
-    word oLeddigitss 7, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6
+    word oLeddigitss 18, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6, iLeddigits7, iLeddigits8, iLeddigits9, iLeddigits10, iLeddigits11, iLeddigits12, iLeddigits13, iLeddigits14, iLeddigits15, iLeddigits16, iLeddigits17
     word oMeters 0
-    word oStringss 10, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, -1, iStrings8, iStrings9
+    word oStringss 13, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12
     word oThermometers 2, iThermometer0, iThermometer1
     word oUserleds 0
-    word oVideos 1, iVideo0
-    word oStaticTexts 7, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6
+    word oVideos 2, iVideo0, iVideo1
+    word oStaticTexts 20, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, iStatictext9, iStatictext10, iStatictext11, iStatictext12, iStatictext13, iStatictext14, iStatictext15, iStatictext16, iStatictext17, iStatictext18, iStatictext19
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
-    word oUserImagess 3, iUserimages0, iUserimages1, iUserimages2
+    word oUserImagess 1, iUserimages0
     word oPinInputs 0
     word o4Dbuttons 0
-    word oAniButtons 1, iAnibutton0
+    word oAniButtons 0
     word oColorPickers 0
-    word oUserButtons 22, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, -1, -1, -1, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21
+    word oUserButtons 26, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, iUserbutton14, iUserbutton15, iUserbutton16, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21, iUserbutton22, iUserbutton23, iUserbutton24, iUserbutton25
     word oTimers 0
     word oSoundss 0
     word oPinOutputs 0
-    word formBGcol 0x0000, 0x1C9F, 0x1C9F, 0x05FF, BGIMAGE, 0x05FF, 0x1C9F, 0x1C9F, 0x05FF, 0x05FF, 0x05FF
+    word formBGcol 0xFFFF, 0x1C9F, 0x1C9F, 0x05FF, BGIMAGE, 0x05FF, 0x1C9F, 0x1C9F, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF
     word kKeyboardKeystrokes -1
     word OPDataL 38, 3, 1, 21, 0,
                 134, 3, 1, 21, 0,
                 232, 3, 1, 21, 0,
-                230, 3, 1, 20, 1,
-                16, 2, 1, 28, 0,
-                80, 2, 1, 28, 0,
-                144, 2, 1, 28, 0
+                52, 3, 1, 17, 0,
+                96, 2, 1, 28, 0,
+                168, 2, 1, 28, 0,
+                264, 2, 1, 17, 0,
+                152, 3, 1, 17, 0,
+                52, 3, 1, 17, 0,
+                152, 3, 1, 17, 0,
+                264, 2, 1, 17, 0,
+                96, 2, 1, 28, 0,
+                168, 2, 1, 28, 0,
+                52, 3, 1, 17, 0,
+                152, 3, 1, 17, 0,
+                264, 2, 1, 17, 0,
+                96, 2, 1, 28, 0,
+                168, 2, 1, 28, 0
 #END
 
-var hFonts[10] ;
-var stringsCV[10] := [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], hstrings ;
-var ANd[1], ANe[1], ANp[1], ANt[1] ;
-var ANi[ANITIMERS] := [0] ;
+var hFonts[13] ;
+var stringsCV[13] := [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], hstrings ;
 // Start P2.inc
 var oObjects[MaxTotObjects+1] ;                 // address of objects
 var curform ;
@@ -300,14 +324,6 @@ func WriteObject(var ObjectType, var ObjectIdx, var NewVal)
             case tUserButton :
                 j := IPControls[oUserButtons[ObjectIdx+1]] ;
                 break ;
-            case tAniButton :
-                j := IPControls[oAniButtons[ObjectIdx+1]] ;
-                if (*(j+IPData+IPD_P2) != -1) TurnOffAniButtons(*(j+IPData+IPD_P2)) ;
-                if (NewVal)
-                    NewVal := img_GetWord(hndl, i , IMAGE_FRAMES) -1 ;
-                endif
-         //       j := -1 ;
-         //       break ;
             default : j := -1 ;
         endswitch
         if (j != -1) 
@@ -356,39 +372,6 @@ func TurnOffButtons(var group)
     next
 endfunc
 
-func TurnOffAniButtons(var group)
-    var i, j, k, l;
-    for (j := 0; j < nInputs; j++)
-        k := j*IPDatasize ;
-        if (*(IPData+k+IPD_P2) == group)
-            if (*(IPData+k) == tAniButton)
-                l := oAniButtons[*(IPData+k+IPD_OBJVidx)/2] ;
-                if (img_GetWord(hndl, l, IMAGE_INDEX))
-                    i := 0 ;
-                    while ((i < ANITIMERS) && (ANi[i] != 0))    // find spare timer
-                        i++ ;
-                    wend
-                    if (i == ANITIMERS)                         // 'normal' button if none available
-                        img_SetWord(hndl, l, IMAGE_INDEX, 0);
-                        img_Show(hndl, l);
-                    else
-                        ANd[i] := 0 ; // direction (0)up/(1)down
-                        ANp[i] := *(IPData+k+IPD_P3) ;
-                        ANi[i] := IPData+k ;
-                        ANt[i] := *(IPData+k+IPD_P4) ;
-                        // do first frame
-                        img_SetWord(hndl, l, IMAGE_INDEX, ANp[i]);
-                        img_Show(hndl, l);      // only shows on current form
-                        // #frames?
-                        sys_SetTimer(TIMER7-i, ANt[i]) ;
-                        sys_SetTimerEvent(TIMER7-i, ANe[i]);
-                    endif
-
-                endif
-            endif
-        endif
-    next
-endfunc
 
 // WARNING, this code will crash if newval exceeds maximum displayable number
 func ledDigitsDisplay(var imgidx, var typeptr, var setptr)
@@ -477,7 +460,6 @@ func UpdateObjects(var newval)
 // temp for **User??       if ((inputtype != tUserButton) || (!*(input+IPD_P1)))
             img_Show(hndl, *(object));      // only shows on current form
 //        endif
-//        if ((inputtype == tAniButton) && (newval > 1)) newval := 1;
         if ((inputtype == t4Dbutton) || (inputtype == tUserButton) || (inputtype == tWinButton)) 
             if (*(input+IPD_P1))
                 newval &= 1;
@@ -531,42 +513,12 @@ func UpdateObjects(var newval)
 endfunc
 
 // End P2.inc
-func ANTimer0()
-    ANITIMER(0) ;
-endfunc
-
-func ANITIMER(var an)
-    object := oAniButtons + *(ANi[an]+IPD_OBJVidx) ;
-    if (ANd[an]) // pen is down, increment frame
-        ANp[an]++ ;
-    else
-        ANp[an]-- ;
-    endif
-    if (ANp[an] == *(ANi[an]+IPD_P3))           // complated downward movement?
-        if (*(ANi[an]+IPD_P1))                  // for momentary we need to start up cycle
-            ANd[an] := 0 ;
-            sys_SetTimer(TIMER7-an, ANt[an]) ;
-        else                                    // otherwise update object as down
-            inputtype := tAniButton ;
-            UpdateObjects(ANp[an]) ;
-            ANi[an] := 0 ;                      // free timer
-        endif
-    else if(ANp[an])                            // in the middle of an animation, just show it
-        img_SetWord(hndl, *(object), IMAGE_INDEX, ANp[an]);
-        img_Show(hndl, *(object));      // only shows on current form
-        sys_SetTimer(TIMER7-an, ANt[an]) ;
-    else
-        if ((*(ANi[an]+IPD_P1)) || (*(ANi[an]+IPD_P2) == -1))                   // for momentary we only report 'up'
-            inputtype := tAniButton ;
-            UpdateObjects(ANp[an]) ;
-        else                                    // else just show final 'position'
-            img_SetWord(hndl, *(object), IMAGE_INDEX, ANp[an]);
-            img_Show(hndl, *(object));
-        endif
-        ANi[an] := 0 ;                       // free timer
-    endif
- endfunc
 func DoGFXObjects()
+    switch (curform)
+        case 2:
+            gfx_Panel(PANEL_RAISED, 80, 44, 162, 135, WHEAT) ;
+        break ;
+    endswitch
 endfunc
 
 // Start P3.inc
@@ -634,9 +586,12 @@ func main()
     hFonts[4] := FONT3 ;
     hFonts[5] := FONT3 ;
     hFonts[6] := FONT3 ;
-    hFonts[8] := file_LoadImageControl("TEST_M~2.da1", "TEST_M~2.gc1", 1)  ;
+    hFonts[7] := FONT3 ;
+    hFonts[8] := FONT3 ;
     hFonts[9] := FONT3 ;
-    ANe[0] := ANTimer0 ;
+    hFonts[10] := FONT3 ;
+    hFonts[11] := FONT3 ;
+    hFonts[12] := FONT3 ;
 // Start P4.inc
     hstrings := file_Open("TEST_M~2.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
     // init comms
@@ -844,67 +799,6 @@ gbutton:
 endsub ;
 
 cAniButton:
-    i := 0 ;
-    object := oAniButtons + *(input+IPD_OBJVidx) ;
-    while ((i < ANITIMERS) && (ANi[i] != input))            // see if this obect has animation in progress
-        i++ ;
-    wend
-    if (i != ANITIMERS)                                     // exit if so
-        endsub ;
-    endif
-    if ( (!*(input+IPD_P1)) && (*(input+IPD_P2) != -1))     // Check group button action
-        if (img_GetWord(hndl, *(object), IMAGE_INDEX))      // ignore touch if this button is down
-            endsub ;
-        endif
-        i := 0 ;
-        while (i < ANITIMERS)
-            for (j := 0; j < nInputs; j++)
-                n := IPData+j*IPDatasize ;
-                if ((ANi[i] == n) && (*(n) == *(input+IPD_P2))) // ANi is address of input in IPData and this group
-                    endsub ;                                // ignore touch if any group animation in progress
-                endif
-            next
-            i++ ;
-        wend
-    endif
-
-    repeat
-        i := 0 ;
-        while ((i < ANITIMERS) && (ANi[i] != 0))            // find spare timer
-            i++ ;
-        wend
-        if (i == ANITIMERS)                                 // if no spare timer then speed up timer 0
-            ANt[0] := 1 ;
-        endif
-    until(i != ANITIMERS) ;
-
-    ANi[i] := input ;
-    if (*(input+IPD_P1))                                    // momentary, reports 0, but should report 1
-        ANd[i] := 1 ;                                       // direction (0)up/(1)down
-    else if (*(input+IPD_P2) == -1)                         // Toggle, reports 0+2, but should report 0+1
-        j := img_GetWord(hndl, *(object), IMAGE_INDEX) ;    // current state
-        if (j)
-            ANd[i] := 0 ;
-        else
-            ANd[i] := 1 ;
-        endif
-    else                                                    // group action
-        TurnOffAniButtons(*(input+IPD_P2)) ;                   // up all other buttons
-        ANd[i] := 1 ;
-    endif
-
-    if (ANd[i])
-        ANp[i] := 0 ;
-    else
-        ANp[i] := *(input+IPD_P3) ;
-    endif
-
-    ANt[i] := *(input+IPD_P4) ;                             // set timer period
-    img_SetWord(hndl, *(object), IMAGE_INDEX, ANp[i]);
-    img_Show(hndl, *(object));                              // do first frame
-    sys_SetTimer(TIMER7-i, ANt[i]) ;
-    sys_SetTimerEvent(TIMER7-i, ANe[i]);
-endsub ;
 
 cColorPicker:
 

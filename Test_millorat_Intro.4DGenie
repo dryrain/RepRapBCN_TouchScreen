@@ -431,7 +431,7 @@ end
 Form
     Name                         Form4
     Bgtype                       Color
-    Color                        BLACK
+    Color                        DEEPSKYBLUE
     Image                        (None)
     Source.Height                0
     Source.Left                  0
@@ -444,18 +444,6 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Gradient
-    Name                         Gradient4
-    ColorWidth                   1
-    Direction                    Chord1
-    EndColor                     ROYALBLUE
-    Height                       240
-    Left                         0
-    StartColor                   TURQUOISE
-    SwapColors                   No
-    Top                          0
-    Width                        320
-end
 UserButton
     Name                         Userbutton6
     Height                       100
@@ -464,7 +452,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          24
     Width                        100
     OnChanged                    Form5Activate
 end
@@ -476,7 +464,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          24
     Width                        100
     OnChanged                    ''
 end
@@ -488,7 +476,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          24
     Width                        100
     OnChanged                    ''
 end
@@ -500,7 +488,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          132
     Width                        100
     OnChanged                    ''
 end
@@ -512,7 +500,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          132
     Width                        100
     OnChanged                    ''
 end
@@ -524,8 +512,30 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          132
     Width                        100
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings13
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      Utilities\n
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
     OnChanged                    ''
 end
 Form
@@ -1202,7 +1212,7 @@ Form
     Source.Left                  0
     Source.Top                   0
     Source.Width                 0
-    OnActivate                   ''
+    OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
@@ -1339,7 +1349,7 @@ UserButton
     Stretch                      No
     Top                          152
     Width                        90
-    OnChanged                    Form3Activate
+    OnChanged                    Form13Activate
 end
 StaticText
     Name                         Statictext5
@@ -1483,7 +1493,7 @@ Form
     Source.Left                  0
     Source.Top                   0
     Source.Width                 0
-    OnActivate                   ''
+    OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
@@ -1753,7 +1763,7 @@ UserButton
     Stretch                      No
     Top                          152
     Width                        90
-    OnChanged                    Form7Activate
+    OnChanged                    Form13Activate
 end
 Form
     Name                         Form11
@@ -2093,4 +2103,185 @@ Video
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
+end
+Form
+    Name                         Form13
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton26
+    Height                       100
+    Images                       'button (62).png\nbutton (63).png'
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        100
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton27
+    Height                       100
+    Images                       'button (5).png\nbutton (11).png'
+    Left                         108
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        100
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton28
+    Height                       100
+    Images                       'button (6).png\nbutton (12).png'
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        100
+    OnChanged                    Form14Activate
+end
+UserButton
+    Name                         Userbutton29
+    Height                       100
+    Images                       'button (7).png\nbutton (13).png'
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          132
+    Width                        100
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton30
+    Height                       100
+    Images                       'button (8).png\nbutton (16).png'
+    Left                         212
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          132
+    Width                        100
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton31
+    Height                       100
+    Images                       'button (9).png\nbutton (15).png'
+    Left                         108
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          132
+    Width                        100
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings14
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      Setup\n
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+Form
+    Name                         Form14
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+LedDigits
+    Name                         Leddigits18
+    Color                        BLACK
+    Decimals                     0
+    Digits                       3
+    Height                       70
+    LeadingZero                  Yes
+    Left                         56
+    OutlineColor                 BLACK
+    Palette.High                 0xE01217
+    Palette.Low                  0x3161F1
+    Top                          88
+    Visible                      Yes
+    Width                        206
+    OnChanged                    ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton32
+    Height                       40
+    Images                       'button (28).png\nbutton (27).png'
+    Left                         124
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        55
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton33
+    Height                       40
+    Images                       'button (30).png\nbutton (29).png'
+    Left                         124
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          180
+    Width                        55
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton34
+    Height                       33
+    Images                       'button (19).png\nbutton (20).png'
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          200
+    Width                        60
+    OnChanged                    Form13Activate
 end

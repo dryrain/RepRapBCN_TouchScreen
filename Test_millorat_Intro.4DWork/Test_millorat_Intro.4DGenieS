@@ -1,6 +1,6 @@
 #platform "uLCD-32PTU"
 
-// generated 27/11/2014 9:51:26
+// generated 01/12/2014 12:33:13
 
 #MODE RUNFLASH
 
@@ -116,15 +116,15 @@
     REPORT_OBJ      5
     REPORT_EVENT    7
 // End P1.inc
-    nObjects        98
-    nInputs         68
+    nObjects        108
+    nInputs         82
     ANITIMERS       0
 #END
 
 #DATA
-    word formstidx 0, 1, 7, 12, 13, 20, 23, 25, 26, 43, 61, 79, 97
-    word formenidx 1, 7, 12, 13, 20, 23, 25, 26, 43, 61, 79, 97, 98
-    word IPControls -1, -1, -1, -1, -1, 0, 44, 88, 132, 176, -1, 220, -1, -1, 264, 308, 330, 352, 374, 396, -1, 418, 484, 528, 572, 616, 660, 704, 748, 792, 836, 880, 924, 968, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1012, 1078, -1, -1, -1, -1, -1, -1, 1144, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1210, 1276, 1320, 1364, 1408, 1452
+    word formstidx 0, 1, 7, 12, 13, 19, 22, 24, 25, 42, 60, 78, 96, 97, 103
+    word formenidx 1, 7, 12, 13, 19, 22, 24, 25, 42, 60, 78, 96, 97, 103, 108
+    word IPControls -1, -1, -1, -1, -1, 0, 44, 88, 132, 176, -1, 220, -1, 264, 308, 330, 352, 374, 396, -1, 418, 484, 528, 572, 616, 660, 704, 748, 792, 836, 880, 924, 968, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1012, 1078, -1, -1, -1, -1, -1, -1, 1144, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1188, 1254, 1298, 1342, 1386, 1430, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1474, 1518, 1540, 1606, 1628, 1650, -1, -1, 1672, 1716, 1760
     word IPData tWinButton, 0, -1, -1, -1, -1, -1, -1, 0, 22, 12,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 4,
@@ -178,21 +178,35 @@
                 OT_ACTIVATE, 10, 12, 0, 18, 0, 0, 0, 0, 1122, 0,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1166, 34,
-                OT_ACTIVATE, 10, 3, 0, 18, 0, 0, 0, 0, 1188, 0,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1232, 48,
-                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 1254, 0,
+                OT_ACTIVATE, 10, 13, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1210, 48,
+                OT_ACTIVATE, 10, 2, 0, 18, 0, 0, 0, 0, 1232, 0,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
-                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1298, 50,
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1276, 50,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1342, 52,
-                OT_ACTIVATE, 10, 7, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1386, 42,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1320, 52,
+                OT_ACTIVATE, 10, 13, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1364, 42,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1430, 44,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1408, 44,
                 OT_ACTIVATE, 10, 7, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1474, 46,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22
+                tUserButton, 0, -1, -1, -1, -1, -1, -1, 0, 1452, 46,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1496, 54,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 56,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1562, 58,
+                OT_ACTIVATE, 10, 14, 0, 18, 0, 0, 0, 0, 1584, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 14,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 60,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 62,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 64,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1694, 66,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1738, 68,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 33,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1782, 70,
+                OT_ACTIVATE, 10, 13, 0, 18, 0, 0, 0, 0, 0, 0
     word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 2 
     word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 80, 176, 241, 217, WHITE, BLACK, 0, 1, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 9 
@@ -206,6 +220,8 @@
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 11 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 11 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 56, 48, 255, 67, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 12 
+    word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 4 
+    word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 13 
     word oDipSwitchs 0
     word oKnobs 0
     word oRockerSwitchs 0
@@ -216,14 +232,14 @@
     word oAngularmeters 0
     word oCoolgauges 0
     word oCustomdigitss 0
-    word oForms 13, -1, -1, -1, -1, iForm4, -1, -1, -1, -1, -1, -1, -1, -1
+    word oForms 15, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
     word oGauges 0
     word oImages 2, iImage0, iImage1
     word oKeyboards 0
     word oLeds 0
-    word oLeddigitss 18, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6, iLeddigits7, iLeddigits8, iLeddigits9, iLeddigits10, iLeddigits11, iLeddigits12, iLeddigits13, iLeddigits14, iLeddigits15, iLeddigits16, iLeddigits17
+    word oLeddigitss 19, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6, iLeddigits7, iLeddigits8, iLeddigits9, iLeddigits10, iLeddigits11, iLeddigits12, iLeddigits13, iLeddigits14, iLeddigits15, iLeddigits16, iLeddigits17, iLeddigits18
     word oMeters 0
-    word oStringss 13, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12
+    word oStringss 15, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14
     word oThermometers 2, iThermometer0, iThermometer1
     word oUserleds 0
     word oVideos 2, iVideo0, iVideo1
@@ -236,11 +252,11 @@
     word o4Dbuttons 0
     word oAniButtons 0
     word oColorPickers 0
-    word oUserButtons 26, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, iUserbutton14, iUserbutton15, iUserbutton16, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21, iUserbutton22, iUserbutton23, iUserbutton24, iUserbutton25
+    word oUserButtons 35, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, iUserbutton14, iUserbutton15, iUserbutton16, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21, iUserbutton22, iUserbutton23, iUserbutton24, iUserbutton25, iUserbutton26, iUserbutton27, iUserbutton28, iUserbutton29, iUserbutton30, iUserbutton31, iUserbutton32, iUserbutton33, iUserbutton34
     word oTimers 0
     word oSoundss 0
     word oPinOutputs 0
-    word formBGcol 0xFFFF, 0x1C9F, 0x1C9F, 0x05FF, BGIMAGE, 0x05FF, 0x1C9F, 0x1C9F, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF
+    word formBGcol 0xFFFF, 0x1C9F, 0x1C9F, 0x05FF, 0x05FF, 0x05FF, 0x1C9F, 0x1C9F, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF
     word kKeyboardKeystrokes -1
     word OPDataL 38, 3, 1, 21, 0,
                 134, 3, 1, 21, 0,
@@ -259,11 +275,12 @@
                 152, 3, 1, 17, 0,
                 264, 2, 1, 17, 0,
                 96, 2, 1, 28, 0,
-                168, 2, 1, 28, 0
+                168, 2, 1, 28, 0,
+                56, 3, 1, 68, 0
 #END
 
-var hFonts[13] ;
-var stringsCV[13] := [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], hstrings ;
+var hFonts[15] ;
+var stringsCV[15] := [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], hstrings ;
 // Start P2.inc
 var oObjects[MaxTotObjects+1] ;                 // address of objects
 var curform ;
@@ -592,6 +609,8 @@ func main()
     hFonts[10] := FONT3 ;
     hFonts[11] := FONT3 ;
     hFonts[12] := FONT3 ;
+    hFonts[13] := FONT3 ;
+    hFonts[14] := FONT3 ;
 // Start P4.inc
     hstrings := file_Open("TEST_M~2.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
     // init comms

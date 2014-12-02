@@ -238,7 +238,7 @@ UserButton
     Stretch                      No
     Top                          204
     Width                        60
-    OnChanged                    Form5Activate
+    OnChanged                    Form4Activate
 end
 Form
     Name                         Form2
@@ -466,7 +466,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    ''
+    OnChanged                    Form1Activate
 end
 UserButton
     Name                         Userbutton8
@@ -514,7 +514,7 @@ UserButton
     Stretch                      No
     Top                          132
     Width                        100
-    OnChanged                    ''
+    OnChanged                    Form8Activate
 end
 Strings
     Name                         Strings13
@@ -1068,7 +1068,7 @@ UserButton
     Stretch                      No
     Top                          204
     Width                        60
-    OnChanged                    Form5Activate
+    OnChanged                    Form4Activate
 end
 LedDigits
     Name                         Leddigits0
@@ -1251,7 +1251,7 @@ UserButton
     Stretch                      No
     Top                          152
     Width                        110
-    OnChanged                    Form3Activate
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton19

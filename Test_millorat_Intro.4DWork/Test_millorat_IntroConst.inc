@@ -1,4 +1,4 @@
-// File generated 02/12/2014 11:35:23
+// File generated 05/12/2014 11:56:11
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -32,6 +32,16 @@
 #constant  Strings12Size     19
 #constant  Strings14Count    1
 #constant  Strings14Size     23
+#constant  Strings16Count    1
+#constant  Strings16Size     31
+#constant  Strings15Count    1
+#constant  Strings15Size     24
+#constant  Strings17Count    1
+#constant  Strings17Size     33
+#constant  Strings18Count    1
+#constant  Strings18Size     32
+#constant  Strings19Count    1
+#constant  Strings19Size     29
 // object indexes into ImageControl
 #CONST
     iImage0         // offset 0x0
@@ -104,27 +114,27 @@
     iStatictext11   // offset 0xE6EC00
     iStatictext12   // offset 0xE6F200
     iStatictext13   // offset 0xE6FA00
-    iLeddigits11    // offset 0xE70E00
-    iiLeddigits11   // offset 0xE71E00
-    iLeddigits12    // offset 0xE76800
-    iiLeddigits12   // offset 0xE77800
-    iStatictext14   // offset 0xE7C200
-    iUserbutton23   // offset 0xE7C600
-    iUserbutton24   // offset 0xE83200
-    iUserbutton25   // offset 0xE93800
-    iUserbutton20   // offset 0xE9A400
-    iUserbutton21   // offset 0xEA1000
-    iUserbutton22   // offset 0xEA7C00
-    iStatictext15   // offset 0xEB8200
-    iLeddigits13    // offset 0xEB8800
-    iiLeddigits13   // offset 0xEB9400
-    iStatictext16   // offset 0xEBBA00
-    iLeddigits14    // offset 0xEBC000
-    iiLeddigits14   // offset 0xEBCC00
-    iStatictext17   // offset 0xEBF200
-    iLeddigits15    // offset 0xEBFA00
-    iiLeddigits15   // offset 0xEC0200
-    iStatictext18   // offset 0xEC2800
+    iLeddigits11    // offset 0xE71000
+    iiLeddigits11   // offset 0xE72000
+    iLeddigits12    // offset 0xE76A00
+    iiLeddigits12   // offset 0xE77A00
+    iStatictext14   // offset 0xE7C400
+    iUserbutton23   // offset 0xE7C800
+    iUserbutton24   // offset 0xE83400
+    iUserbutton25   // offset 0xE93A00
+    iUserbutton20   // offset 0xE9A600
+    iUserbutton21   // offset 0xEA1200
+    iUserbutton22   // offset 0xEA7E00
+    iStatictext15   // offset 0xEB8400
+    iLeddigits13    // offset 0xEB8A00
+    iiLeddigits13   // offset 0xEB9600
+    iStatictext16   // offset 0xEBBC00
+    iLeddigits14    // offset 0xEBC200
+    iiLeddigits14   // offset 0xEBCE00
+    iStatictext17   // offset 0xEBF400
+    iLeddigits15    // offset 0xEBFC00
+    iiLeddigits15   // offset 0xEC0400
+    iStatictext18   // offset 0xEC2A00
     iLeddigits16    // offset 0xEC3E00
     iiLeddigits16   // offset 0xEC4E00
     iLeddigits17    // offset 0xEC9800
@@ -138,10 +148,34 @@
     iUserbutton30   // offset 0xF64200
     iUserbutton31   // offset 0xF6E000
     iLeddigits18    // offset 0xF77E00
-    iiLeddigits18   // offset 0xF7F000
-    iUserbutton32   // offset 0xF94800
-    iUserbutton33   // offset 0xF96C00
-    iUserbutton34   // offset 0xF99000
+    iiLeddigits18   // offset 0xF7E200
+    iUserbutton32   // offset 0xF91000
+    iUserbutton33   // offset 0xF93400
+    iUserbutton34   // offset 0xF95800
+    iStatictext20   // offset 0xF97800
+    iUserbutton35   // offset 0xF98E00
+    iUserbutton36   // offset 0xFA2C00
+    iUserbutton37   // offset 0xFB6600
+    iUserbutton38   // offset 0xFCA000
+    iUserbutton39   // offset 0xFD3E00
+    iUserbutton40   // offset 0xFDDC00
+    iLeddigits19    // offset 0xFE7A00
+    iiLeddigits19   // offset 0xFEDE00
+    iStatictext21   // offset 0x1000C00
+    iUserbutton41   // offset 0x1002600
+    iUserbutton42   // offset 0x1004A00
+    iUserbutton43   // offset 0x1006E00
+    iUserbutton44   // offset 0x1008E00
+    iUserbutton46   // offset 0x100AE00
+    iUserbutton48   // offset 0x100D200
+    iLeddigits20    // offset 0x100F600
+    iiLeddigits20   // offset 0x1015A00
+    iStatictext22   // offset 0x1028800
+    iUserbutton45   // offset 0x102A200
+    iUserbutton47   // offset 0x102C200
+    iUserbutton49   // offset 0x102E600
+    iLeddigits21    // offset 0x1030A00
+    iiLeddigits21   // offset 0x1036E00
 #END
 
 #constant  Strings0StartH   0x0
@@ -174,6 +208,16 @@
 #constant  Strings12StartL   0x1A00
 #constant  Strings14StartH   0x0
 #constant  Strings14StartL   0x1C00
+#constant  Strings16StartH   0x0
+#constant  Strings16StartL   0x1E00
+#constant  Strings15StartH   0x0
+#constant  Strings15StartL   0x2000
+#constant  Strings17StartH   0x0
+#constant  Strings17StartL   0x2200
+#constant  Strings18StartH   0x0
+#constant  Strings18StartL   0x2400
+#constant  Strings19StartH   0x0
+#constant  Strings19StartL   0x2600
 #IFNOT EXISTS NOGLOBALS
 var disk, hndl ;
 #ENDIF

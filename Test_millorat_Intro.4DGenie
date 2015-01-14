@@ -47,198 +47,60 @@ end
 Form
     Name                         Form1
     Bgtype                       Color
-    Color                        DODGERBLUE
+    Color                        DEEPSKYBLUE
     Image                        (None)
     Source.Height                0
     Source.Left                  0
     Source.Top                   0
     Source.Width                 0
-    OnActivate                   'Report Message'
+    OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Thermometer
-    Name                         Thermometer1
-    Caption                      Thermometer0
-    Color                        0xDCB2A5
-    ColorAfter                   0x000051
-    ColorBefore                  clRed
-    Direction                    Vertical
-    Font.Color                   BLACK
-    Font.Effects                 []
-    Font.Name                    Arial
-    Font.Size                    8
-    Font.Style                   []
-    Height                       161
-    Left                         152
-    Scale.Color                  BLACK
-    Scale.Decimals               0
-    Scale.Heightmax              14
-    Scale.Heightmin              8
-    Scale.Max                    100
-    Scale.Min                    0
-    Scale.Offset                 20
-    Scale.Position               After
-    Scale.ScaleType              Linear
-    Scale.SmallStep              5
-    Scale.Step                   25
-    Scale.Visible                Yes
-    Setpoint.Bitmap              (None)
-    Setpoint.Color               BLUE
-    Setpoint.Shape               Line
-    Setpoint.Value               33
-    Setpoint.Visible             No
-    ShowCaption                  No
-    Top                          8
-    Value.Bitmap                 (None)
-    Value.Color                  clAqua
-    Value.Shape                  Line
-    Value.Value                  100
-    Value.Visible                Yes
-    Visible                      No
-    Width                        91
-    OnChanged                    ''
-end
-StaticText
-    Name                         Statictext0
-    AutoSize                     Yes
-    Caption                      'Extruder (Cº)'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    9
-    Font.Style                   []
-    Height                       28
-    Left                         48
-    Top                          168
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        75
-    WordWrap                     Yes
-end
 StaticText
     Name                         Statictext3
     AutoSize                     Yes
-    Caption                      'Bed (Cº)'
+    Caption                      STOP?
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    Tahoma
-    Font.Size                    9
+    Font.Size                    28
     Font.Style                   []
-    Height                       13
-    Left                         176
-    Top                          168
+    Height                       45
+    Left                         112
+    Top                          48
     Transparent                  Yes
     Visible                      Yes
-    Width                        48
+    Width                        107
     WordWrap                     Yes
-end
-Thermometer
-    Name                         Thermometer0
-    Caption                      Thermometer0
-    Color                        0xDCB2A5
-    ColorAfter                   0x000051
-    ColorBefore                  clRed
-    Direction                    Vertical
-    Font.Color                   BLACK
-    Font.Effects                 []
-    Font.Name                    Arial
-    Font.Size                    8
-    Font.Style                   []
-    Height                       161
-    Left                         40
-    Scale.Color                  BLACK
-    Scale.Decimals               0
-    Scale.Heightmax              14
-    Scale.Heightmin              8
-    Scale.Max                    350
-    Scale.Min                    0
-    Scale.Offset                 20
-    Scale.Position               After
-    Scale.ScaleType              Linear
-    Scale.SmallStep              25
-    Scale.Step                   50
-    Scale.Visible                Yes
-    Setpoint.Bitmap              (None)
-    Setpoint.Color               BLUE
-    Setpoint.Shape               Line
-    Setpoint.Value               33
-    Setpoint.Visible             No
-    ShowCaption                  No
-    Top                          8
-    Value.Bitmap                 (None)
-    Value.Color                  clAqua
-    Value.Shape                  Line
-    Value.Value                  100
-    Value.Visible                Yes
-    Visible                      No
-    Width                        93
-    OnChanged                    ''
-end
-WinButton
-    Name                         Winbutton5
-    Appearance.Alignment         Center
-    Appearance.Layout            Left
-    Appearance.PictureAlignment  Right
-    Appearance.SimpleLayout      No
-    Appearance.Spacing           3
-    AutoSizeToPicture            No
-    Bevel                        Yes
-    BevelColor                   0x52E1B6
-    Caption                      Preheat
-    Color                        0x37C9C6
-    Font.Color                   clWindowText
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    8
-    Font.Style                   []
-    Height                       74
-    Left                         252
-    Matrix                       -1
-    Momentary                    No
-    Picture                      (None)
-    StatusWhenOff.BGcolor        RED
-    StatusWhenOff.Caption        Off
-    StatusWhenOff.Glow           Yes
-    StatusWhenOff.Color          WHITE
-    StatusWhenOff.Effects        []
-    StatusWhenOff.Name           Tahoma
-    StatusWhenOff.Size           8
-    StatusWhenOff.Style          []
-    StatusWhenOff.Visible        Yes
-    StatusWhenOn.BGcolor         RED
-    StatusWhenOn.Caption         On
-    StatusWhenOn.Glow            Yes
-    StatusWhenOn.Color           WHITE
-    StatusWhenOn.Effects         []
-    StatusWhenOn.Name            Tahoma
-    StatusWhenOn.Size            8
-    StatusWhenOn.Style           []
-    StatusWhenOn.Visible         Yes
-    Top                          72
-    Visible                      Yes
-    Width                        60
-    OnChanged                    'Report Message'
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
 end
 UserButton
     Name                         Userbutton1
-    Height                       50
-    Images                       'button (67).png\nbutton (66).png'
-    Left                         4
+    Height                       76
+    Images                       'button (79).png\nbutton (80).png'
+    Left                         180
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
-    Width                        60
-    OnChanged                    Form4Activate
+    Top                          120
+    Width                        110
+    OnChanged                    Form12Activate
+end
+UserButton
+    Name                         Userbutton61
+    Height                       76
+    Images                       'button (82).png\nbutton (81).png'
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        110
+    OnChanged                    Form9Activate
 end
 Form
     Name                         Form2
@@ -702,6 +564,18 @@ UserButton
     Width                        100
     OnChanged                    ''
 end
+UserButton
+    Name                         Userbutton62
+    Height                       100
+    Images                       'button (85).png\nbutton (86).png'
+    Left                         108
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          132
+    Width                        100
+    OnChanged                    ''
+end
 Form
     Name                         Form7
     Bgtype                       Color
@@ -929,7 +803,7 @@ WinButton
     Font.Name                    Tahoma
     Font.Size                    8
     Font.Style                   []
-    Height                       35
+    Height                       31
     Left                         120
     Matrix                       -1
     Momentary                    Yes
@@ -1290,7 +1164,7 @@ end
 UserButton
     Name                         Userbutton18
     Height                       76
-    Images                       'button (23).png\nbutton (33).png\nbutton (24).png\nbutton (24).png'
+    Images                       'button (77).png\nbutton (78).png\nbutton (59).png\nbutton (60).png'
     Left                         104
     Matrix                       -1
     Momentary                    No
@@ -1309,7 +1183,7 @@ UserButton
     Stretch                      No
     Top                          152
     Width                        90
-    OnChanged                    Form12Activate
+    OnChanged                    Form1Activate
 end
 StaticText
     Name                         Statictext6
@@ -2460,7 +2334,7 @@ end
 UserButton
     Name                         Userbutton40
     Height                       100
-    Images                       'button (68).png\nbutton (69).png'
+    Images                       'button (84).png\nbutton (83).png'
     Left                         212
     Matrix                       -1
     Momentary                    Yes

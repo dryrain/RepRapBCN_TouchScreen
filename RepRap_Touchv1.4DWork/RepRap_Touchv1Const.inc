@@ -1,4 +1,4 @@
-// File generated 15/01/2015 14:16:30
+// File generated 20/01/2015 12:54:33
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -14,8 +14,6 @@
 #constant  Strings9Size     25
 #constant  Strings20Count    1
 #constant  Strings20Size     25
-#constant  Strings5Count    1
-#constant  Strings5Size     13
 #constant  Strings4Count    1
 #constant  Strings4Size     25
 #constant  Strings6Count    1
@@ -85,128 +83,133 @@
     iUserbutton54   // offset 0x134200
     iUserbutton62   // offset 0x13E000
     iUserbutton17   // offset 0x147E00
-    iWinbutton0     // offset 0x14AE00
-    iWinbutton1     // offset 0x14DC00
-    iWinbutton2     // offset 0x150400
-    iWinbutton3     // offset 0x153200
-    iWinbutton4     // offset 0x155A00
-    iWinbutton7     // offset 0x158800
-    iWinbutton8     // offset 0x15B600
-    iUserbutton3    // offset 0x15E400
-    iLeddigits0     // offset 0x161400
-    iiLeddigits0    // offset 0x162600
-    iLeddigits1     // offset 0x165E00
-    iiLeddigits1    // offset 0x167000
-    iLeddigits2     // offset 0x16A800
-    iiLeddigits2    // offset 0x16BA00
-    iStatictext1    // offset 0x16F200
-    iStatictext2    // offset 0x16F600
-    iStatictext4    // offset 0x16FA00
-    iUserbutton63   // offset 0x16FE00
-    iUserbutton18   // offset 0x178400
-    iUserbutton19   // offset 0x188A00
-    iStatictext6    // offset 0x18F600
-    iLeddigits4     // offset 0x190C00
-    iiLeddigits4    // offset 0x191C00
-    iLeddigits5     // offset 0x196600
-    iiLeddigits5    // offset 0x197600
-    iStatictext7    // offset 0x19C000
-    iUserbutton16   // offset 0x19C400
-    iStatictext5    // offset 0x1A3000
-    iStatictext8    // offset 0x1A3600
-    iStatictext9    // offset 0x1A3C00
-    iLeddigits3     // offset 0x1A4400
-    iiLeddigits3    // offset 0x1A5000
-    iLeddigits6     // offset 0x1A7600
-    iiLeddigits6    // offset 0x1A7E00
-    iLeddigits7     // offset 0x1AA400
-    iiLeddigits7    // offset 0x1AB000
-    iLeddigits8     // offset 0x1AD600
-    iiLeddigits8    // offset 0x1AE200
-    iLeddigits9     // offset 0x1B0800
-    iiLeddigits9    // offset 0x1B1400
-    iLeddigits10    // offset 0x1B3A00
-    iiLeddigits10   // offset 0x1B4200
-    iStatictext10   // offset 0x1B6800
-    iStatictext11   // offset 0x1B6E00
-    iStatictext12   // offset 0x1B7400
-    iStatictext13   // offset 0x1B7C00
-    iLeddigits11    // offset 0x1B9000
-    iiLeddigits11   // offset 0x1BA000
-    iLeddigits12    // offset 0x1BEA00
-    iiLeddigits12   // offset 0x1BFA00
-    iStatictext14   // offset 0x1C4400
-    iUserbutton23   // offset 0x1C4800
-    iUserbutton24   // offset 0x1CB400
-    iUserbutton25   // offset 0x1DBA00
-    iUserbutton20   // offset 0x1E2600
-    iUserbutton21   // offset 0x1E9200
-    iUserbutton22   // offset 0x1EFE00
-    iStatictext15   // offset 0x200400
-    iLeddigits13    // offset 0x200A00
-    iiLeddigits13   // offset 0x201600
-    iStatictext16   // offset 0x203C00
-    iLeddigits14    // offset 0x204200
-    iiLeddigits14   // offset 0x204E00
-    iStatictext17   // offset 0x207400
-    iLeddigits15    // offset 0x207C00
-    iiLeddigits15   // offset 0x208400
-    iStatictext18   // offset 0x20AA00
-    iLeddigits16    // offset 0x20BE00
-    iiLeddigits16   // offset 0x20CE00
-    iLeddigits17    // offset 0x211800
-    iiLeddigits17   // offset 0x212800
-    iStatictext19   // offset 0x217200
-    iVideo1         // offset 0x217600
-    iUserbutton26   // offset 0x284A00
-    iUserbutton27   // offset 0x28E800
-    iUserbutton28   // offset 0x298600
-    iUserbutton29   // offset 0x2A2400
-    iUserbutton30   // offset 0x2AC200
-    iUserbutton31   // offset 0x2B6000
-    iLeddigits18    // offset 0x2BFE00
-    iiLeddigits18   // offset 0x2C6200
-    iUserbutton32   // offset 0x2D9000
-    iUserbutton33   // offset 0x2DB400
-    iUserbutton34   // offset 0x2DD800
-    iStatictext20   // offset 0x2E0800
-    iUserbutton35   // offset 0x2E1E00
-    iUserbutton36   // offset 0x2EBC00
-    iUserbutton37   // offset 0x2F5A00
-    iUserbutton39   // offset 0x2FF800
-    iUserbutton40   // offset 0x309600
-    iUserbutton38   // offset 0x313400
-    iLeddigits19    // offset 0x31D200
-    iiLeddigits19   // offset 0x323600
-    iStatictext21   // offset 0x336400
-    iUserbutton41   // offset 0x337E00
-    iUserbutton42   // offset 0x33A200
-    iUserbutton43   // offset 0x33C600
-    iUserbutton46   // offset 0x33F600
-    iUserbutton48   // offset 0x341A00
-    iLeddigits20    // offset 0x343E00
-    iiLeddigits20   // offset 0x34A200
-    iStatictext22   // offset 0x35D000
-    iUserbutton44   // offset 0x35EA00
-    iUserbutton47   // offset 0x361A00
-    iUserbutton49   // offset 0x363E00
-    iLeddigits21    // offset 0x366200
-    iiLeddigits21   // offset 0x36C600
-    iUserbutton45   // offset 0x37F400
-    iUserimages1    // offset 0x382400
-    iUserbutton52   // offset 0x386000
-    iStatictext23   // offset 0x390E00
-    iUserbutton51   // offset 0x396400
-    iUserbutton53   // offset 0x399400
-    iUserimages2    // offset 0x3A4200
-    iUserbutton55   // offset 0x3A7800
-    iUserbutton56   // offset 0x3B1600
-    iUserbutton57   // offset 0x3BB400
-    iUserbutton58   // offset 0x3C5200
-    iUserbutton59   // offset 0x3CC800
-    iUserbutton60   // offset 0x3D3E00
+    iUserbutton64   // offset 0x14AE00
+    iUserbutton65   // offset 0x159800
+    iWinbutton0     // offset 0x161600
+    iWinbutton1     // offset 0x164400
+    iWinbutton2     // offset 0x166C00
+    iWinbutton3     // offset 0x169A00
+    iWinbutton4     // offset 0x16C200
+    iWinbutton7     // offset 0x16F000
+    iWinbutton8     // offset 0x171E00
+    iUserbutton3    // offset 0x174C00
+    iLeddigits0     // offset 0x177C00
+    iiLeddigits0    // offset 0x178E00
+    iLeddigits1     // offset 0x17C600
+    iiLeddigits1    // offset 0x17D800
+    iLeddigits2     // offset 0x181000
+    iiLeddigits2    // offset 0x182200
+    iStatictext1    // offset 0x185A00
+    iStatictext2    // offset 0x185E00
+    iStatictext4    // offset 0x186200
+    iUserbutton63   // offset 0x186600
+    iUserbutton18   // offset 0x18EC00
+    iUserbutton19   // offset 0x19F200
+    iStatictext6    // offset 0x1A5E00
+    iLeddigits4     // offset 0x1A7200
+    iiLeddigits4    // offset 0x1A8200
+    iLeddigits5     // offset 0x1ACC00
+    iiLeddigits5    // offset 0x1ADC00
+    iStatictext7    // offset 0x1B2600
+    iUserbutton16   // offset 0x1B2A00
+    iStatictext5    // offset 0x1B9600
+    iStatictext8    // offset 0x1B9C00
+    iStatictext9    // offset 0x1BA200
+    iLeddigits3     // offset 0x1BAA00
+    iiLeddigits3    // offset 0x1BB600
+    iLeddigits6     // offset 0x1BDC00
+    iiLeddigits6    // offset 0x1BE400
+    iLeddigits7     // offset 0x1C0A00
+    iiLeddigits7    // offset 0x1C1600
+    iLeddigits8     // offset 0x1C3C00
+    iiLeddigits8    // offset 0x1C4800
+    iLeddigits9     // offset 0x1C6E00
+    iiLeddigits9    // offset 0x1C7A00
+    iLeddigits10    // offset 0x1CA000
+    iiLeddigits10   // offset 0x1CA800
+    iStatictext10   // offset 0x1CCE00
+    iStatictext11   // offset 0x1CD400
+    iStatictext12   // offset 0x1CDA00
+    iStatictext13   // offset 0x1CE200
+    iLeddigits11    // offset 0x1CF800
+    iiLeddigits11   // offset 0x1D0800
+    iLeddigits12    // offset 0x1D5200
+    iiLeddigits12   // offset 0x1D6200
+    iStatictext14   // offset 0x1DAC00
+    iUserbutton23   // offset 0x1DB000
+    iUserbutton24   // offset 0x1E1C00
+    iUserbutton25   // offset 0x1F2200
+    iUserbutton20   // offset 0x1F8E00
+    iUserbutton21   // offset 0x1FFA00
+    iUserbutton22   // offset 0x206600
+    iStatictext15   // offset 0x216C00
+    iLeddigits13    // offset 0x217200
+    iiLeddigits13   // offset 0x217E00
+    iStatictext16   // offset 0x21A400
+    iLeddigits14    // offset 0x21AA00
+    iiLeddigits14   // offset 0x21B600
+    iStatictext17   // offset 0x21DC00
+    iLeddigits15    // offset 0x21E400
+    iiLeddigits15   // offset 0x21EC00
+    iStatictext18   // offset 0x221200
+    iLeddigits16    // offset 0x222800
+    iiLeddigits16   // offset 0x223800
+    iLeddigits17    // offset 0x228200
+    iiLeddigits17   // offset 0x229200
+    iStatictext19   // offset 0x22DC00
+    iVideo1         // offset 0x22E000
+    iUserbutton26   // offset 0x29B400
+    iUserbutton27   // offset 0x2A5200
+    iUserbutton28   // offset 0x2AF000
+    iUserbutton29   // offset 0x2B8E00
+    iUserbutton30   // offset 0x2C2C00
+    iUserbutton31   // offset 0x2CCA00
+    iLeddigits18    // offset 0x2D6800
+    iiLeddigits18   // offset 0x2DCC00
+    iUserbutton32   // offset 0x2EFA00
+    iUserbutton33   // offset 0x2F1E00
+    iUserbutton34   // offset 0x2F4200
+    iStatictext20   // offset 0x2F7200
+    iUserbutton35   // offset 0x2F8800
+    iUserbutton36   // offset 0x302600
+    iUserbutton37   // offset 0x30C400
+    iUserbutton39   // offset 0x316200
+    iUserbutton40   // offset 0x320000
+    iUserbutton38   // offset 0x329E00
+    iLeddigits19    // offset 0x333C00
+    iiLeddigits19   // offset 0x33A000
+    iStatictext21   // offset 0x34CE00
+    iUserbutton41   // offset 0x34E800
+    iUserbutton42   // offset 0x350C00
+    iUserbutton43   // offset 0x353000
+    iUserbutton46   // offset 0x356000
+    iUserbutton48   // offset 0x358400
+    iLeddigits20    // offset 0x35A800
+    iiLeddigits20   // offset 0x360C00
+    iStatictext22   // offset 0x373A00
+    iUserbutton44   // offset 0x375400
+    iUserbutton47   // offset 0x378400
+    iUserbutton49   // offset 0x37A800
+    iLeddigits21    // offset 0x37CC00
+    iiLeddigits21   // offset 0x383000
+    iUserbutton45   // offset 0x395E00
+    iUserimages1    // offset 0x398E00
+    iUserbutton52   // offset 0x39CA00
+    iStatictext23   // offset 0x3A7800
+    iUserbutton51   // offset 0x3ACE00
+    iUserbutton53   // offset 0x3AFE00
+    iUserimages2    // offset 0x3BAC00
+    iUserbutton55   // offset 0x3BE200
+    iUserbutton56   // offset 0x3C8000
+    iUserbutton57   // offset 0x3D1E00
+    iUserbutton58   // offset 0x3DBC00
+    iUserbutton59   // offset 0x3E3200
+    iUserbutton60   // offset 0x3EA800
 #END
 
+#constant  Strings5Size     0
+#constant  Strings5StartH   0
+#constant  Strings5StartL   0
 #constant  Strings0StartH   0x0
 #constant  Strings0StartL   0x0
 #constant  Strings1StartH   0x0
@@ -219,50 +222,48 @@
 #constant  Strings9StartL   0x800
 #constant  Strings20StartH   0x0
 #constant  Strings20StartL   0xA00
-#constant  Strings5StartH   0x0
-#constant  Strings5StartL   0xC00
 #constant  Strings4StartH   0x0
-#constant  Strings4StartL   0xE00
+#constant  Strings4StartL   0xC00
 #constant  Strings6StartH   0x0
-#constant  Strings6StartL   0x1000
+#constant  Strings6StartL   0xE00
 #constant  Strings2StartH   0x0
-#constant  Strings2StartL   0x1200
+#constant  Strings2StartL   0x1000
 #constant  Strings7StartH   0x0
-#constant  Strings7StartL   0x1400
+#constant  Strings7StartL   0x1200
 #constant  Strings8StartH   0x0
-#constant  Strings8StartL   0x1600
+#constant  Strings8StartL   0x1400
 #constant  Strings10StartH   0x0
-#constant  Strings10StartL   0x1800
+#constant  Strings10StartL   0x1600
 #constant  Strings11StartH   0x0
-#constant  Strings11StartL   0x1A00
+#constant  Strings11StartL   0x1800
 #constant  Strings12StartH   0x0
-#constant  Strings12StartL   0x1C00
+#constant  Strings12StartL   0x1A00
 #constant  Strings14StartH   0x0
-#constant  Strings14StartL   0x1E00
+#constant  Strings14StartL   0x1C00
 #constant  Strings16StartH   0x0
-#constant  Strings16StartL   0x2000
+#constant  Strings16StartL   0x1E00
 #constant  Strings15StartH   0x0
-#constant  Strings15StartL   0x2200
+#constant  Strings15StartL   0x2000
 #constant  Strings17StartH   0x0
-#constant  Strings17StartL   0x2400
+#constant  Strings17StartL   0x2200
 #constant  Strings18StartH   0x0
-#constant  Strings18StartL   0x2600
+#constant  Strings18StartL   0x2400
 #constant  Strings19StartH   0x0
-#constant  Strings19StartL   0x2800
+#constant  Strings19StartL   0x2600
 #constant  Strings21StartH   0x0
-#constant  Strings21StartL   0x2A00
+#constant  Strings21StartL   0x2800
 #constant  Strings22StartH   0x0
-#constant  Strings22StartL   0x2C00
+#constant  Strings22StartL   0x2A00
 #constant  Strings23StartH   0x0
-#constant  Strings23StartL   0x2E00
+#constant  Strings23StartL   0x2C00
 #constant  Strings24StartH   0x0
-#constant  Strings24StartL   0x3000
+#constant  Strings24StartL   0x2E00
 #constant  Strings25StartH   0x0
-#constant  Strings25StartL   0x3200
+#constant  Strings25StartL   0x3000
 #constant  Strings26StartH   0x0
-#constant  Strings26StartL   0x3400
+#constant  Strings26StartL   0x3200
 #constant  Strings27StartH   0x0
-#constant  Strings27StartL   0x3600
+#constant  Strings27StartL   0x3400
 #IFNOT EXISTS NOGLOBALS
 var disk, hndl ;
 #ENDIF

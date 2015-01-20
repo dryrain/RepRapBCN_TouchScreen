@@ -362,7 +362,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    ''
+    OnChanged                    Form7Activate
 end
 UserButton
     Name                         Userbutton9
@@ -550,7 +550,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    Form15Activate
+    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton54
@@ -579,7 +579,7 @@ end
 Form
     Name                         Form7
     Bgtype                       Color
-    Color                        DODGERBLUE
+    Color                        DEEPSKYBLUE
     Image                        (None)
     Source.Height                0
     Source.Left                  0
@@ -592,28 +592,6 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings5
-    Alignment                    Left
-    BGcolor                      BLACK
-    Height                       168
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         64
-    Strings                      'Fuck you !!!'
-    StringsStyle                 Message
-    Top                          12
-    Visible                      Yes
-    Width                        200
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton17
     Height                       50
@@ -624,7 +602,31 @@ UserButton
     Stretch                      No
     Top                          184
     Width                        60
-    OnChanged                    Form5Activate
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton64
+    Height                       102
+    Images                       'Extruder_ON.png\nExtruder_OFF.png\nbutton (94).png\nbutton (93).png'
+    Left                         68
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          28
+    Width                        73
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton65
+    Height                       62
+    Images                       ok.png\nApply.png
+    Left                         200
+    Matrix                       -1
+    Momentary                    No
+    Stretch                      Yes
+    Top                          108
+    Width                        64
+    OnChanged                    'Report Message'
 end
 Form
     Name                         Form8

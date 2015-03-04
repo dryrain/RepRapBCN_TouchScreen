@@ -1,5 +1,5 @@
 ﻿Version     0.0
-Platform    uLCD-32PTU-LR
+Platform    uLCD-32PTU-L
 PlatRes     240x320
 Depends
 end
@@ -362,7 +362,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    Form7Activate
+    OnChanged                    Form23Activate
 end
 UserButton
     Name                         Userbutton9
@@ -516,7 +516,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    Form19Activate
+    OnChanged                    'Report Message'
 end
 Strings
     Name                         Strings20
@@ -550,7 +550,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton54
@@ -574,7 +574,7 @@ UserButton
     Stretch                      No
     Top                          132
     Width                        100
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 Form
     Name                         Form7
@@ -984,11 +984,11 @@ UserButton
     Name                         Userbutton3
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
-    Left                         4
+    Left                         0
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
+    Top                          190
     Width                        60
     OnChanged                    Form4Activate
 end
@@ -1129,13 +1129,109 @@ UserButton
     Name                         Userbutton63
     Height                       50
     Images                       'button (98).png\nbutton (97).png'
-    Left                         228
+    Left                         235
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          180
+    Top                          190
     Width                        85
     OnChanged                    'Report Message'
+end
+WinButton
+    Name                         Winbutton5
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      E+
+    Color                        GREENYELLOW
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       31
+    Left                         160
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          204
+    Visible                      Yes
+    Width                        56
+    OnChanged                    'Report Message'
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+WinButton
+    Name                         Winbutton6
+    Appearance.Alignment         Center
+    Appearance.Layout            Left
+    Appearance.PictureAlignment  Right
+    Appearance.SimpleLayout      No
+    Appearance.Spacing           3
+    AutoSizeToPicture            No
+    Bevel                        Yes
+    BevelColor                   clWhite
+    Caption                      E-
+    Color                        GREENYELLOW
+    Font.Color                   clWindowText
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    8
+    Font.Style                   []
+    Height                       31
+    Left                         84
+    Matrix                       -1
+    Momentary                    Yes
+    Picture                      (None)
+    StatusWhenOff.BGcolor        RED
+    StatusWhenOff.Caption        ''
+    StatusWhenOff.Glow           Yes
+    StatusWhenOff.Color          WHITE
+    StatusWhenOff.Effects        []
+    StatusWhenOff.Name           Tahoma
+    StatusWhenOff.Size           8
+    StatusWhenOff.Style          []
+    StatusWhenOff.Visible        Yes
+    StatusWhenOn.BGcolor         RED
+    StatusWhenOn.Caption         ''
+    StatusWhenOn.Glow            Yes
+    StatusWhenOn.Color           WHITE
+    StatusWhenOn.Effects         []
+    StatusWhenOn.Name            Tahoma
+    StatusWhenOn.Size            8
+    StatusWhenOn.Style           []
+    StatusWhenOn.Visible         Yes
+    Top                          204
+    Visible                      Yes
+    Width                        56
+    OnChanged                    'Report Message'
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
 end
 Form
     Name                         Form9
@@ -1179,11 +1275,11 @@ UserButton
     Name                         Userbutton18
     Height                       76
     Images                       'button (77).png\nbutton (78).png\nbutton (59).png\nbutton (60).png'
-    Left                         104
+    Left                         108
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          152
+    Top                          156
     Width                        110
     OnChanged                    'Report Message'
 end
@@ -1195,7 +1291,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          152
+    Top                          156
     Width                        90
     OnChanged                    Form1Activate
 end
@@ -1226,7 +1322,7 @@ LedDigits
     LeadingZero                  Yes
     Left                         96
     OutlineColor                 DEEPSKYBLUE
-    Palette.High                 NAVY
+    Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
     Top                          32
     Visible                      Yes
@@ -1277,11 +1373,11 @@ UserButton
     Name                         Userbutton16
     Height                       76
     Images                       'button (53).png\nbutton (52).png'
-    Left                         220
+    Left                         224
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          152
+    Top                          156
     Width                        90
     OnChanged                    Form13Activate
 end
@@ -1360,15 +1456,15 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits6
-    Color                        BLACK
+    Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       2
     Height                       28
     LeadingZero                  Yes
     Left                         264
-    OutlineColor                 BLACK
+    OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
+    Palette.Low                  DEEPSKYBLUE
     Top                          84
     Visible                      Yes
     Width                        35
@@ -1386,7 +1482,7 @@ LedDigits
     LeadingZero                  Yes
     Left                         152
     OutlineColor                 DEEPSKYBLUE
-    Palette.High                 NAVY
+    Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
     Top                          84
     Visible                      Yes
@@ -1700,287 +1796,6 @@ UserButton
     OnChanged                    Form13Activate
 end
 Form
-    Name                         Form11
-    Bgtype                       Color
-    Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 0
-    OnActivate                   ''
-    OnCreate                     ''
-    OnRepeat                     ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-UserButton
-    Name                         Userbutton20
-    Height                       76
-    Images                       'button (25).png\nbutton (26).png'
-    Left                         8
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          152
-    Width                        90
-    OnChanged                    'Report Message'
-end
-UserButton
-    Name                         Userbutton21
-    Height                       76
-    Images                       'button (53).png\nbutton (52).png'
-    Left                         220
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          152
-    Width                        90
-    OnChanged                    Form7Activate
-end
-UserButton
-    Name                         Userbutton22
-    Height                       76
-    Images                       'button (61).png\nbutton (59).png'
-    Left                         104
-    Matrix                       -1
-    Momentary                    No
-    Stretch                      No
-    Top                          152
-    Width                        110
-    OnChanged                    'Report Message'
-end
-Strings
-    Name                         Strings10
-    Alignment                    Left
-    BGcolor                      BLACK
-    Height                       22
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         44
-    Strings                      ''
-    StringsStyle                 Message
-    Top                          120
-    Visible                      Yes
-    Width                        232
-    OnChanged                    ''
-end
-StaticText
-    Name                         Statictext15
-    AutoSize                     Yes
-    Caption                      E1
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         20
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        23
-    WordWrap                     Yes
-end
-LedDigits
-    Name                         Leddigits13
-    Color                        BLACK
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         52
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Visible                      Yes
-    Width                        53
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext16
-    AutoSize                     Yes
-    Caption                      E2
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         120
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        23
-    WordWrap                     Yes
-end
-LedDigits
-    Name                         Leddigits14
-    Color                        BLACK
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         152
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Visible                      Yes
-    Width                        53
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext17
-    AutoSize                     Yes
-    Caption                      Bed
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         224
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        35
-    WordWrap                     Yes
-end
-LedDigits
-    Name                         Leddigits15
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       28
-    LeadingZero                  Yes
-    Left                         264
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Visible                      Yes
-    Width                        35
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext18
-    AutoSize                     Yes
-    Caption                      Time
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    24
-    Font.Style                   []
-    Height                       36
-    Left                         12
-    Top                          28
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        70
-    WordWrap                     Yes
-end
-Strings
-    Name                         Strings11
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      Paused...\n
-    StringsStyle                 Message
-    Top                          0
-    Visible                      Yes
-    Width                        320
-    OnChanged                    ''
-end
-LedDigits
-    Name                         Leddigits16
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         96
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          32
-    Visible                      Yes
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits17
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         168
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          32
-    Visible                      Yes
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext19
-    AutoSize                     Yes
-    Caption                      :
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    20
-    Font.Style                   [Bold]
-    Height                       33
-    Left                         154
-    Top                          32
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        12
-    WordWrap                     Yes
-end
-Form
     Name                         Form12
     Bgtype                       Color
     Color                        DEEPSKYBLUE
@@ -2018,26 +1833,6 @@ Strings
     Width                        200
     OnChanged                    ''
 end
-Video
-    Name                         Video1
-    Frames.First                 0
-    Frames.Last                  11
-    Frames.FrameDelay            70
-    Height                       134
-    Left                         88
-    Source.Height                256
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 256
-    Visible                      Yes
-    Top                          72
-    Video                        spinner.gif
-    Width                        139
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
 Form
     Name                         Form13
     Bgtype                       Color
@@ -2069,7 +1864,7 @@ end
 UserButton
     Name                         Userbutton27
     Height                       100
-    Images                       'button (72).png\nbutton (73).png'
+    Images                       button_Speed.png\nbutton_Speed_pressed.png
     Left                         108
     Matrix                       -1
     Momentary                    Yes
@@ -2088,7 +1883,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton29
@@ -2100,7 +1895,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    Form16Activate
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton30
@@ -2715,7 +2510,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         0
-    Strings                      'Insert Filament...\n'
+    Strings                      'Ready ...\n'
     StringsStyle                 Message
     Top                          0
     Visible                      Yes
@@ -2740,39 +2535,31 @@ UserButton
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          164
+    Top                          168
     Width                        85
     OnChanged                    'Report Message'
 end
-StaticText
-    Name                         Statictext23
-    AutoSize                     Yes
-    Caption                      'Insert the tip of the filament and press GO'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    14
-    Font.Style                   []
-    Height                       46
-    Left                         56
+Strings
+    Name                         Strings11
+    Alignment                    Center
+    BGcolor                      DEEPSKYBLUE
+    Height                       49
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Arial
+    Font.Opaque                  Yes
+    Font.Size                    22
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         88
+    Strings                      'Press to Insert Filament\n'
+    StringsStyle                 Message
     Top                          112
-    Transparent                  Yes
     Visible                      Yes
-    Width                        237
-    WordWrap                     Yes
-end
-UserButton
-    Name                         Userbutton51
-    Height                       50
-    Images                       'button (67).png\nbutton (66).png'
-    Left                         4
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          188
-    Width                        60
-    OnChanged                    Form6Activate
+    Width                        144
+    OnChanged                    ''
 end
 Form
     Name                         Form20
@@ -2805,12 +2592,48 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         60
-    Strings                      Preheating...
+    Strings                      'Which Extruder\n'
     StringsStyle                 Message
-    Top                          96
+    Top                          28
     Visible                      Yes
     Width                        200
     OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton75
+    Height                       75
+    Images                       'button (23).png\nbutton (20).png'
+    Left                         40
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          80
+    Width                        100
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton76
+    Height                       75
+    Images                       'button (24).png\nbutton (21).png'
+    Left                         180
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          80
+    Width                        100
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton77
+    Height                       50
+    Images                       'button (67).png\nbutton (66).png'
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          188
+    Width                        60
+    OnChanged                    Form6Activate
 end
 Form
     Name                         Form21
@@ -2843,7 +2666,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         64
-    Strings                      DONE\n
+    Strings                      SUCCES
     StringsStyle                 Message
     Top                          108
     Visible                      Yes
@@ -2937,7 +2760,7 @@ end
 UserButton
     Name                         Userbutton57
     Height                       100
-    Images                       'button (18).png\nbutton (19).png'
+    Images                       Cool.png\ncool_verd.png
     Left                         212
     Matrix                       -1
     Momentary                    Yes
@@ -2956,7 +2779,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    Form16Activate
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton59
@@ -2968,7 +2791,7 @@ UserButton
     Stretch                      No
     Top                          24
     Width                        100
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton60
@@ -3046,5 +2869,469 @@ Strings
     Top                          100
     Visible                      Yes
     Width                        93
+    OnChanged                    ''
+end
+Form
+    Name                         Form23
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings5
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      Calibrations\n
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton66
+    Height                       100
+    Images                       'button (63).png\nbutton (62).png'
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          132
+    Width                        100
+    OnChanged                    Form4Activate
+end
+UserButton
+    Name                         Userbutton67
+    Height                       100
+    Images                       button_extruder_cal.png\nbutton_extruder_cal_verd.png
+    Left                         108
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        100
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton68
+    Height                       100
+    Images                       button_calibration.png\nbutton_calibration_verd.png
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        100
+    OnChanged                    'Report Message'
+end
+Form
+    Name                         Form24
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings28
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      'Bed Calibration result\n'
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext0
+    AutoSize                     Yes
+    Caption                      Success
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    48
+    Font.Style                   []
+    Height                       77
+    Left                         48
+    Top                          44
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        224
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton69
+    Height                       65
+    Images                       'button (6).png\nbutton (7).png'
+    Left                         116
+    Matrix                       -1
+    Momentary                    No
+    Stretch                      No
+    Top                          144
+    Width                        85
+    OnChanged                    Form5Activate
+end
+Form
+    Name                         Form25
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings29
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      'Bed Calibration result\n'
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext24
+    AutoSize                     Yes
+    Caption                      'Need to Calibrate'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    22
+    Font.Style                   []
+    Height                       35
+    Left                         48
+    Top                          28
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        221
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext25
+    AutoSize                     Yes
+    Caption                      1)
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    22
+    Font.Style                   []
+    Height                       35
+    Left                         60
+    Top                          68
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        27
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext26
+    AutoSize                     Yes
+    Caption                      2)
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    22
+    Font.Style                   []
+    Height                       35
+    Left                         60
+    Top                          104
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        27
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext27
+    AutoSize                     Yes
+    Caption                      3)
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    22
+    Font.Style                   []
+    Height                       35
+    Left                         60
+    Top                          140
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        27
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton70
+    Height                       65
+    Images                       'button (6).png\nbutton (7).png'
+    Left                         232
+    Matrix                       -1
+    Momentary                    No
+    Stretch                      No
+    Top                          172
+    Width                        85
+    OnChanged                    Form23Activate
+end
+Strings
+    Name                         Strings30
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       27
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         96
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          72
+    Visible                      Yes
+    Width                        115
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings31
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       27
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         96
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          108
+    Visible                      Yes
+    Width                        115
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings32
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       27
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         96
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          144
+    Visible                      Yes
+    Width                        115
+    OnChanged                    ''
+end
+Form
+    Name                         Form26
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   'Report Message'
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton71
+    Height                       87
+    Images                       Extruder_ON.png
+    Left                         128
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          28
+    Width                        65
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings33
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       22
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Arial
+    Font.Opaque                  Yes
+    Font.Size                    22
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         116
+    Strings                      120º/220º\n
+    StringsStyle                 Message
+    Top                          124
+    Visible                      Yes
+    Width                        92
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton74
+    Height                       65
+    Images                       'button_wait.png\nbutton_wait.png\nbutton (4).png\nbutton (5).png'
+    Left                         120
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          168
+    Width                        85
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings35
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       20
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  Yes
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         0
+    Strings                      Heating...\n
+    StringsStyle                 Message
+    Top                          0
+    Visible                      Yes
+    Width                        320
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton20
+    Height                       50
+    Images                       'button (67).png\nbutton (66).png'
+    Left                         4
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          188
+    Width                        60
+    OnChanged                    'Report Message'
+end
+Form
+    Name                         Form11
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings10
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       32
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Arial
+    Font.Opaque                  Yes
+    Font.Size                    22
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         88
+    Strings                      Processing\n
+    StringsStyle                 Message
+    Top                          88
+    Visible                      Yes
+    Width                        140
     OnChanged                    ''
 end

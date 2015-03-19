@@ -1,6 +1,6 @@
 ﻿Version     0.0
-Platform    uLCD-32PTU-L
-PlatRes     240x320
+Platform    uLCD-35DT-L
+PlatRes     320x480
 Depends
 end
 Options
@@ -9,7 +9,7 @@ Options
     Checksum                     No
     ResponseSize                 1
     Multidrop                    No
-    Destination                  1
+    Destination                  2
     SndBuf                       2
 end
 Form
@@ -3334,4 +3334,86 @@ Strings
     Visible                      Yes
     Width                        140
     OnChanged                    ''
+end
+Form
+    Name                         Form27
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext15
+    AutoSize                     Yes
+    Caption                      'Select Line which fits BEST!'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    26
+    Font.Style                   []
+    Height                       57
+    Left                         28
+    Top                          52
+    Transparent                  Yes
+    Visible                      Yes
+    Width                        440
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton21
+    Height                       75
+    Images                       button_n1.png
+    Left                         32
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          164
+    Width                        75
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton22
+    Height                       75
+    Images                       button_n2.png
+    Left                         148
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          164
+    Width                        75
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton51
+    Height                       75
+    Images                       button_n3.png
+    Left                         268
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          164
+    Width                        75
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton72
+    Height                       75
+    Images                       button_n4.png
+    Left                         380
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          164
+    Width                        75
+    OnChanged                    'Report Message'
 end

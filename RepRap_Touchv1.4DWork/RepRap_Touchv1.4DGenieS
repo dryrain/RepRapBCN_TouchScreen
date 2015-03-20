@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 17/03/2015 13:50:46
+// generated 20/03/2015 10:55:36
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -315,7 +315,7 @@
     word iStrings6  Strings6StartH, Strings6StartL, Strings6Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 9 
     word iStrings7  Strings7StartH, Strings7StartL, Strings7Size, 44, 120, 275, 141, WHITE, BLACK, 0, 1, 1, 10 
     word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 10 
-    word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 5 
+
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 88, 88, 227, 119, WHITE, BLACK, 0, 1, 1, 11 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 88, 112, 231, 160, WHITE, DEEPSKYBLUE, 0, 1, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 56, 48, 255, 67, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 12 
@@ -352,14 +352,14 @@
     word oAngularmeters 0
     word oCoolgauges 0
     word oCustomdigitss 0
-    word oForms 28, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+    word oForms 28, iForm0, -1, -1, -1, -1, iForm5, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
     word oGauges 0
-    word oImages 2, iImage0, iImage1
+    word oImages 0
     word oKeyboards 0
     word oLeds 0
     word oLeddigitss 22, iLeddigits0, iLeddigits1, iLeddigits2, iLeddigits3, iLeddigits4, iLeddigits5, iLeddigits6, iLeddigits7, iLeddigits8, iLeddigits9, iLeddigits10, iLeddigits11, iLeddigits12, -1, -1, -1, -1, -1, iLeddigits18, iLeddigits19, iLeddigits20, iLeddigits21
     word oMeters 0
-    word oStringss 36, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, iStrings20, iStrings21, iStrings22, iStrings23, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, -1, iStrings35
+    word oStringss 36, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, -1, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, iStrings20, iStrings21, iStrings22, iStrings23, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, -1, iStrings35
     word oThermometers 0
     word oUserleds 0
     word oVideos 1, iVideo0
@@ -376,7 +376,7 @@
     word oTimers 0
     word oSoundss 0
     word oPinOutputs 0
-    word formBGcol 0xFFFF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF
+    word formBGcol BGIMAGE, 0x05FF, 0x05FF, 0x05FF, 0x05FF, BGIMAGE, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF, 0x05FF
     word kKeyboardKeystrokes -1
     word OPDataL 32, 3, 1, 21, 0,
                 140, 3, 1, 21, 0,
@@ -726,7 +726,6 @@ func main()
     hFonts[6] := FONT3 ;
     hFonts[7] := FONT3 ;
     hFonts[8] := FONT3 ;
-    hFonts[9] := FONT3 ;
     hFonts[11] := file_LoadImageControl("REPRAP~2.da1", "REPRAP~2.gc1", 1)  ;
     hFonts[12] := FONT3 ;
     hFonts[13] := FONT3 ;

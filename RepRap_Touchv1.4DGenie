@@ -14,32 +14,16 @@ Options
 end
 Form
     Name                         Form0
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        WHITE
-    Image                        (None)
-    Source.Height                0
+    Image                        Pàgina1.png
+    Source.Height                320
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 480
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-Image
-    Name                         Image0
-    Height                       57
-    Image                        logo_info_reprap.png
-    Left                         12
-    Source.Height                152
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 763
-    Visible                      Yes
-    Top                          88
-    Width                        293
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
@@ -402,13 +386,13 @@ UserButton
 end
 Form
     Name                         Form5
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
+    Image                        Fons_pag_2.png
+    Source.Height                320
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 480
     OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
@@ -416,66 +400,28 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings9
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      'Main Menu'
-    StringsStyle                 Message
-    Top                          0
-    Visible                      Yes
-    Width                        320
-    OnChanged                    ''
-end
-Image
-    Name                         Image1
-    Height                       60
-    Image                        logo_info_reprap.png
-    Left                         0
-    Source.Height                152
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 763
-    Visible                      Yes
-    Top                          20
-    Width                        320
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
 UserButton
     Name                         Userbutton12
-    Height                       140
-    Images                       'button (38).png\nbutton (37).png'
-    Left                         8
+    Height                       198
+    Images                       Botoprint_sense_apretar_pag_2.png\nBotoprint_apretat_pag_2.png
+    Left                         24
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          92
-    Width                        150
+    Top                          104
+    Width                        199
     OnChanged                    Form2Activate
 end
 UserButton
     Name                         Userbutton13
-    Height                       140
-    Images                       'button (41).png\nbutton (40).png'
-    Left                         164
+    Height                       198
+    Images                       Botoutilities_sense_apretar_pag_2.png\nBotoutilities_apretat_pag_2.png
+    Left                         256
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          92
-    Width                        150
+    Top                          104
+    Width                        198
     OnChanged                    Form4Activate
 end
 Form

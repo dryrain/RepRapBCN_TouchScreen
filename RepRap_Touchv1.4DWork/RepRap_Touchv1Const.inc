@@ -1,4 +1,4 @@
-// File generated 20/03/2015 10:55:21
+// File generated 08/04/2015 9:28:32
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -221,6 +221,7 @@
     iUserbutton22   // offset 0x467C00
     iUserbutton51   // offset 0x46D400
     iUserbutton72   // offset 0x472C00
+    iForm28         // offset 0x478400
 #END
 
 #constant  Strings9Size     0

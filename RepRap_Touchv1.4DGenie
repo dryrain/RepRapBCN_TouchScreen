@@ -3363,3 +3363,19 @@ UserButton
     Width                        75
     OnChanged                    'Report Message'
 end
+Form
+    Name                         Form28
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        Captura.JPG
+    Source.Height                488
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 734
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end

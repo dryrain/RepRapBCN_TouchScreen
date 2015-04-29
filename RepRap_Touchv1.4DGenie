@@ -10,10 +10,14 @@ Options
     ResponseSize                 1
     Multidrop                    No
     Destination                  2
+    MainForm                     0
     SndBuf                       2
+    ButtonDisable                No
+    SignedDigits                 No
 end
 Form
     Name                         Form0
+    Alias                        Form0
     Bgtype                       Image
     Color                        WHITE
     Image                        Pàgina1.png
@@ -30,13 +34,14 @@ Form
 end
 Form
     Name                         Form1
-    Bgtype                       Color
+    Alias                        Form1
+    Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
+    Image                        00_BackYouSure.png
+    Source.Height                320
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 480
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -44,57 +49,42 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext3
-    AutoSize                     Yes
-    Caption                      STOP?
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    28
-    Font.Style                   []
-    Height                       45
-    Left                         112
-    Top                          48
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        107
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton1
-    Height                       76
-    Images                       'button (79).png\nbutton (80).png'
-    Left                         180
+    Alias                        Userbutton1
+    Height                       156
+    Images                       00_accept.png
+    Left                         280
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          120
-    Width                        110
+    Top                          96
+    Width                        112
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton61
-    Height                       76
-    Images                       'button (82).png\nbutton (81).png'
-    Left                         32
+    Alias                        Userbutton61
+    Height                       160
+    Images                       00_cancel.png
+    Left                         100
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          120
-    Width                        110
+    Top                          96
+    Width                        99
     OnChanged                    Form9Activate
 end
 Form
     Name                         Form2
-    Bgtype                       Color
+    Alias                        Form2
+    Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
+    Image                        00_backgSelecFile.png
+    Source.Height                320
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 480
     OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
@@ -104,52 +94,20 @@ Form
 end
 UserButton
     Name                         Userbutton4
-    Height                       50
-    Images                       'button (67).png\nbutton (66).png'
-    Left                         4
+    Alias                        Userbutton4
+    Height                       40
+    Images                       00_flechaGOBACK.png
+    Left                         8
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
-    Width                        60
+    Top                          8
+    Width                        44
     OnChanged                    Form5Activate
-end
-Panel
-    Name                         Panel0
-    Color                        WHEAT
-    Height                       135
-    Left                         80
-    Outlined                     No
-    OutlineColor                 WHITE
-    Pattern                      Fine
-    State                        Raised
-    Top                          44
-    Width                        162
-end
-Strings
-    Name                         Strings0
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      'Pick a file...'
-    StringsStyle                 Message
-    Top                          0
-    Visible                      Yes
-    Width                        320
-    OnChanged                    ''
 end
 Strings
     Name                         Strings1
+    Alias                        Strings1
     Alignment                    Left
     BGcolor                      BLACK
     Height                       42
@@ -157,67 +115,60 @@ Strings
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         80
+    Left                         72
     Strings                      ''
     StringsStyle                 Message
-    Top                          176
-    Visible                      Yes
-    Width                        162
+    Top                          192
+    Width                        310
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton5
-    Height                       100
-    Images                       'button (49).png\nbutton (47).png'
-    Left                         256
+    Alias                        Userbutton5
+    Height                       45
+    Images                       00_FlechaUP.png
+    Left                         380
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          64
-    Width                        50
+    Width                        62
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton14
-    Height                       100
-    Images                       'button (48).png\nbutton (46).png'
-    Left                         16
+    Alias                        Userbutton14
+    Height                       45
+    Images                       00_FlechaDOWN.png
+    Left                         380
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          64
-    Width                        50
+    Top                          256
+    Width                        63
     OnChanged                    'Report Message'
-end
-UserImages
-    Name                         Userimages0
-    Height                       106
-    Images                       new-file-md.png\nunnamed.png
-    Left                         116
-    Stretch                      Yes
-    Top                          56
-    Width                        92
-    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton15
-    Height                       105
-    Images                       ''
-    Left                         116
+    Alias                        Userbutton15
+    Height                       74
+    Images                       01_iconFile.png
+    Left                         176
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          56
-    Width                        92
+    Top                          116
+    Width                        94
     OnChanged                    'Report Message'
 end
 Form
     Name                         Form3
+    Alias                        Form3
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -234,6 +185,7 @@ Form
 end
 Strings
     Name                         Strings3
+    Alias                        Strings3
     Alignment                    Center
     BGcolor                      BLANCHEDALMOND
     Height                       20
@@ -250,12 +202,12 @@ Strings
     Strings                      Pausing...\n
     StringsStyle                 Message
     Top                          36
-    Visible                      Yes
     Width                        200
     OnChanged                    ''
 end
 Video
     Name                         Video0
+    Alias                        Video0
     Frames.First                 0
     Frames.Last                  11
     Frames.FrameDelay            70
@@ -265,7 +217,6 @@ Video
     Source.Left                  0
     Source.Top                   0
     Source.Width                 256
-    Visible                      Yes
     Top                          60
     Video                        spinner.gif
     Width                        139
@@ -276,6 +227,7 @@ Video
 end
 Form
     Name                         Form4
+    Alias                        Form4
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -292,6 +244,7 @@ Form
 end
 UserButton
     Name                         Userbutton6
+    Alias                        Userbutton6
     Height                       100
     Images                       'button (62).png\nbutton (63).png'
     Left                         4
@@ -304,6 +257,7 @@ UserButton
 end
 Strings
     Name                         Strings13
+    Alias                        Strings13
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -320,12 +274,12 @@ Strings
     Strings                      Utilities\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton7
+    Alias                        Userbutton7
     Height                       100
     Images                       'button (11).png\nbutton (10).png'
     Left                         108
@@ -338,6 +292,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton8
+    Alias                        Userbutton8
     Height                       100
     Images                       'button (76).png\nbutton (75).png'
     Left                         212
@@ -350,6 +305,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton9
+    Alias                        Userbutton9
     Height                       100
     Images                       'button (13).png\nbutton (12).png'
     Left                         4
@@ -362,6 +318,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton10
+    Alias                        Userbutton10
     Height                       100
     Images                       'button (74).png\nbutton (75).png'
     Left                         108
@@ -374,6 +331,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton11
+    Alias                        Userbutton11
     Height                       100
     Images                       'button (15).png\nbutton (14).png'
     Left                         212
@@ -386,9 +344,10 @@ UserButton
 end
 Form
     Name                         Form5
+    Alias                        Form5
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Fons_pag_2.png
+    Image                        00_BackMenu.png
     Source.Height                320
     Source.Left                  0
     Source.Top                   0
@@ -402,30 +361,33 @@ Form
 end
 UserButton
     Name                         Userbutton12
-    Height                       198
-    Images                       Botoprint_sense_apretar_pag_2.png\nBotoprint_apretat_pag_2.png
-    Left                         24
+    Alias                        Userbutton12
+    Height                       194
+    Images                       00_Print.png
+    Left                         76
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          104
-    Width                        199
+    Top                          72
+    Width                        131
     OnChanged                    Form2Activate
 end
 UserButton
     Name                         Userbutton13
-    Height                       198
-    Images                       Botoutilities_sense_apretar_pag_2.png\nBotoutilities_apretat_pag_2.png
-    Left                         256
+    Alias                        Userbutton13
+    Height                       164
+    Images                       00_Utilities.png
+    Left                         276
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          104
-    Width                        198
+    Top                          96
+    Width                        118
     OnChanged                    Form4Activate
 end
 Form
     Name                         Form6
+    Alias                        Form6
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -442,6 +404,7 @@ Form
 end
 UserButton
     Name                         Userbutton0
+    Alias                        Userbutton0
     Height                       100
     Images                       'button (62).png\nbutton (63).png'
     Left                         4
@@ -454,6 +417,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton2
+    Alias                        Userbutton2
     Height                       100
     Images                       'button (1).png\nbutton (2).png'
     Left                         4
@@ -466,6 +430,7 @@ UserButton
 end
 Strings
     Name                         Strings20
+    Alias                        Strings20
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -482,12 +447,12 @@ Strings
     Strings                      Filament\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton50
+    Alias                        Userbutton50
     Height                       100
     Images                       'button.png\nbutton (3).png'
     Left                         108
@@ -500,6 +465,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton54
+    Alias                        Userbutton54
     Height                       100
     Images                       'button (8).png\nbutton (9).png'
     Left                         212
@@ -512,6 +478,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton62
+    Alias                        Userbutton62
     Height                       100
     Images                       'button (85).png\nbutton (86).png'
     Left                         108
@@ -524,6 +491,7 @@ UserButton
 end
 Form
     Name                         Form7
+    Alias                        Form7
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -540,6 +508,7 @@ Form
 end
 UserButton
     Name                         Userbutton17
+    Alias                        Userbutton17
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -552,6 +521,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton64
+    Alias                        Userbutton64
     Height                       102
     Images                       'Extruder_ON.png\nExtruder_OFF.png\nbutton (94).png\nbutton (93).png'
     Left                         68
@@ -564,6 +534,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton65
+    Alias                        Userbutton65
     Height                       62
     Images                       ok.png\nApply.png
     Left                         200
@@ -576,6 +547,7 @@ UserButton
 end
 Form
     Name                         Form8
+    Alias                        Form8
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -592,6 +564,7 @@ Form
 end
 WinButton
     Name                         Winbutton0
+    Alias                        Winbutton0
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -631,7 +604,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          112
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -640,6 +612,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton1
+    Alias                        Winbutton1
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -679,7 +652,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          116
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -688,6 +660,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton2
+    Alias                        Winbutton2
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -727,7 +700,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          72
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -736,6 +708,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton3
+    Alias                        Winbutton3
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -775,7 +748,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          156
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -784,6 +756,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton4
+    Alias                        Winbutton4
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -823,7 +796,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          116
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -832,6 +804,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton7
+    Alias                        Winbutton7
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -871,7 +844,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          72
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -880,6 +852,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton8
+    Alias                        Winbutton8
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -919,7 +892,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          72
-    Visible                      Yes
     Width                        82
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -928,6 +900,7 @@ WinButton
 end
 UserButton
     Name                         Userbutton3
+    Alias                        Userbutton3
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         0
@@ -940,6 +913,7 @@ UserButton
 end
 LedDigits
     Name                         Leddigits0
+    Alias                        Leddigits0
     Color                        BLACK
     Decimals                     0
     Digits                       3
@@ -950,7 +924,6 @@ LedDigits
     Palette.High                 clLime
     Palette.Low                  0x005100
     Top                          20
-    Visible                      Yes
     Width                        65
     OnChanged                    ''
     OnTouchMoving                ''
@@ -959,6 +932,7 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits1
+    Alias                        Leddigits1
     Color                        BLACK
     Decimals                     0
     Digits                       3
@@ -969,7 +943,6 @@ LedDigits
     Palette.High                 clLime
     Palette.Low                  0x005100
     Top                          20
-    Visible                      Yes
     Width                        65
     OnChanged                    ''
     OnTouchMoving                ''
@@ -978,6 +951,7 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits2
+    Alias                        Leddigits2
     Color                        BLACK
     Decimals                     0
     Digits                       3
@@ -988,7 +962,6 @@ LedDigits
     Palette.High                 clLime
     Palette.Low                  0x005100
     Top                          20
-    Visible                      Yes
     Width                        65
     OnChanged                    ''
     OnTouchMoving                ''
@@ -997,6 +970,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext1
+    Alias                        Statictext1
     AutoSize                     Yes
     Caption                      X
     Color                        BLACK
@@ -1009,12 +983,12 @@ StaticText
     Left                         16
     Top                          24
     Transparent                  Yes
-    Visible                      Yes
     Width                        14
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext2
+    Alias                        Statictext2
     AutoSize                     Yes
     Caption                      Y
     Color                        BLACK
@@ -1027,12 +1001,12 @@ StaticText
     Left                         124
     Top                          24
     Transparent                  Yes
-    Visible                      Yes
     Width                        14
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext4
+    Alias                        Statictext4
     AutoSize                     Yes
     Caption                      Z
     Color                        BLACK
@@ -1045,12 +1019,12 @@ StaticText
     Left                         228
     Top                          24
     Transparent                  Yes
-    Visible                      Yes
     Width                        13
     WordWrap                     Yes
 end
 Strings
     Name                         Strings4
+    Alias                        Strings4
     Alignment                    Center
     BGcolor                      BLACK
     Height                       17
@@ -1067,12 +1041,12 @@ Strings
     Strings                      'Move Axis'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton63
+    Alias                        Userbutton63
     Height                       50
     Images                       'button (98).png\nbutton (97).png'
     Left                         235
@@ -1085,6 +1059,7 @@ UserButton
 end
 WinButton
     Name                         Winbutton5
+    Alias                        Winbutton5
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -1124,7 +1099,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          204
-    Visible                      Yes
     Width                        56
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -1133,6 +1107,7 @@ WinButton
 end
 WinButton
     Name                         Winbutton6
+    Alias                        Winbutton6
     Appearance.Alignment         Center
     Appearance.Layout            Left
     Appearance.PictureAlignment  Right
@@ -1172,7 +1147,6 @@ WinButton
     StatusWhenOn.Style           []
     StatusWhenOn.Visible         Yes
     Top                          204
-    Visible                      Yes
     Width                        56
     OnChanged                    'Report Message'
     OnTouchMoving                ''
@@ -1181,13 +1155,14 @@ WinButton
 end
 Form
     Name                         Form9
-    Bgtype                       Color
+    Alias                        Form9
+    Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
+    Image                        00_BackPrinting.png
+    Source.Height                320
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 480
     OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
@@ -1197,6 +1172,7 @@ Form
 end
 Strings
     Name                         Strings6
+    Alias                        Strings6
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -1205,7 +1181,7 @@ Strings
     Font.CharSet                 ANSI
     Font.Italic                  No
     Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
+    Font.Opaque                  No
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
@@ -1213,65 +1189,48 @@ Strings
     Strings                      Printing...\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
-    Width                        320
+    Width                        480
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton18
-    Height                       76
-    Images                       'button (77).png\nbutton (78).png\nbutton (59).png\nbutton (60).png'
-    Left                         108
+    Alias                        Userbutton18
+    Height                       151
+    Images                       00_play.png\n00_play.png\n00_play.png\n00_play.png
+    Left                         180
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          156
-    Width                        110
+    Top                          20
+    Width                        112
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton19
-    Height                       76
-    Images                       'button (25).png\nbutton (26).png'
-    Left                         8
+    Alias                        Userbutton19
+    Height                       152
+    Images                       00_stop.png
+    Left                         32
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          156
-    Width                        90
+    Top                          20
+    Width                        112
     OnChanged                    Form1Activate
-end
-StaticText
-    Name                         Statictext6
-    AutoSize                     Yes
-    Caption                      Time
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    24
-    Font.Style                   []
-    Height                       36
-    Left                         12
-    Top                          28
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        70
-    WordWrap                     Yes
 end
 LedDigits
     Name                         Leddigits4
+    Alias                        Leddigits4
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       2
     Height                       35
     LeadingZero                  Yes
-    Left                         96
+    Left                         312
     OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
-    Top                          32
-    Visible                      Yes
+    Top                          268
     Width                        56
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1280,17 +1239,17 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits5
+    Alias                        Leddigits5
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       2
     Height                       35
     LeadingZero                  Yes
-    Left                         168
+    Left                         384
     OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
-    Top                          32
-    Visible                      Yes
+    Top                          268
     Width                        56
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1299,6 +1258,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext7
+    Alias                        Statictext7
     AutoSize                     Yes
     Caption                      :
     Color                        BLACK
@@ -1308,92 +1268,38 @@ StaticText
     Font.Size                    20
     Font.Style                   [Bold]
     Height                       33
-    Left                         154
-    Top                          32
+    Left                         372
+    Top                          268
     Transparent                  Yes
-    Visible                      Yes
     Width                        12
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton16
-    Height                       76
-    Images                       'button (53).png\nbutton (52).png'
-    Left                         224
+    Alias                        Userbutton16
+    Height                       148
+    Images                       00_settings.png
+    Left                         324
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          156
-    Width                        90
+    Top                          28
+    Width                        126
     OnChanged                    Form13Activate
-end
-StaticText
-    Name                         Statictext5
-    AutoSize                     Yes
-    Caption                      E1
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         20
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        23
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext8
-    AutoSize                     Yes
-    Caption                      E2
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         120
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        23
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext9
-    AutoSize                     Yes
-    Caption                      Bed
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         224
-    Top                          84
-    Transparent                  Yes
-    Visible                      Yes
-    Width                        36
-    WordWrap                     Yes
 end
 LedDigits
     Name                         Leddigits3
+    Alias                        Leddigits3
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
     Height                       28
     LeadingZero                  Yes
-    Left                         52
+    Left                         92
     OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
-    Top                          84
-    Visible                      Yes
+    Top                          212
     Width                        52
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1402,17 +1308,17 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits6
+    Alias                        Leddigits6
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       2
     Height                       28
     LeadingZero                  Yes
-    Left                         264
+    Left                         188
     OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
-    Top                          84
-    Visible                      Yes
+    Top                          212
     Width                        35
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1421,17 +1327,17 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits7
+    Alias                        Leddigits7
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
     Height                       28
     LeadingZero                  Yes
-    Left                         152
+    Left                         284
     OutlineColor                 DEEPSKYBLUE
     Palette.High                 LIGHTYELLOW
     Palette.Low                  DEEPSKYBLUE
-    Top                          84
-    Visible                      Yes
+    Top                          212
     Width                        53
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1440,6 +1346,7 @@ LedDigits
 end
 Strings
     Name                         Strings2
+    Alias                        Strings2
     Alignment                    Left
     BGcolor                      BLACK
     Height                       22
@@ -1448,20 +1355,20 @@ Strings
     Font.CharSet                 ANSI
     Font.Italic                  No
     Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
+    Font.Opaque                  No
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         44
+    Left                         16
     Strings                      ''
     StringsStyle                 Message
-    Top                          120
-    Visible                      Yes
+    Top                          256
     Width                        232
     OnChanged                    ''
 end
 Form
     Name                         Form10
+    Alias                        Form10
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -1478,6 +1385,7 @@ Form
 end
 Strings
     Name                         Strings7
+    Alias                        Strings7
     Alignment                    Left
     BGcolor                      BLACK
     Height                       22
@@ -1494,12 +1402,12 @@ Strings
     Strings                      ''
     StringsStyle                 Message
     Top                          120
-    Visible                      Yes
     Width                        232
     OnChanged                    ''
 end
 Strings
     Name                         Strings8
+    Alias                        Strings8
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -1516,12 +1424,12 @@ Strings
     Strings                      Ready...
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 LedDigits
     Name                         Leddigits8
+    Alias                        Leddigits8
     Color                        BLACK
     Decimals                     0
     Digits                       3
@@ -1532,7 +1440,6 @@ LedDigits
     Palette.High                 LIGHTYELLOW
     Palette.Low                  0x005100
     Top                          84
-    Visible                      Yes
     Width                        53
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1541,6 +1448,7 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits9
+    Alias                        Leddigits9
     Color                        BLACK
     Decimals                     0
     Digits                       3
@@ -1551,7 +1459,6 @@ LedDigits
     Palette.High                 LIGHTYELLOW
     Palette.Low                  0x005100
     Top                          84
-    Visible                      Yes
     Width                        53
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1560,6 +1467,7 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits10
+    Alias                        Leddigits10
     Color                        BLACK
     Decimals                     0
     Digits                       2
@@ -1570,7 +1478,6 @@ LedDigits
     Palette.High                 LIGHTYELLOW
     Palette.Low                  0x005100
     Top                          84
-    Visible                      Yes
     Width                        34
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1579,6 +1486,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext10
+    Alias                        Statictext10
     AutoSize                     Yes
     Caption                      E1
     Color                        BLACK
@@ -1591,12 +1499,12 @@ StaticText
     Left                         20
     Top                          84
     Transparent                  Yes
-    Visible                      Yes
     Width                        23
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext11
+    Alias                        Statictext11
     AutoSize                     Yes
     Caption                      E2
     Color                        BLACK
@@ -1609,12 +1517,12 @@ StaticText
     Left                         120
     Top                          84
     Transparent                  Yes
-    Visible                      Yes
     Width                        23
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext12
+    Alias                        Statictext12
     AutoSize                     Yes
     Caption                      Bed
     Color                        BLACK
@@ -1627,12 +1535,12 @@ StaticText
     Left                         224
     Top                          84
     Transparent                  Yes
-    Visible                      Yes
     Width                        36
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext13
+    Alias                        Statictext13
     AutoSize                     Yes
     Caption                      Time
     Color                        BLACK
@@ -1645,12 +1553,12 @@ StaticText
     Left                         12
     Top                          28
     Transparent                  Yes
-    Visible                      Yes
     Width                        70
     WordWrap                     Yes
 end
 LedDigits
     Name                         Leddigits11
+    Alias                        Leddigits11
     Color                        BLACK
     Decimals                     0
     Digits                       2
@@ -1661,7 +1569,6 @@ LedDigits
     Palette.High                 LIGHTYELLOW
     Palette.Low                  0x005100
     Top                          32
-    Visible                      Yes
     Width                        56
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1670,6 +1577,7 @@ LedDigits
 end
 LedDigits
     Name                         Leddigits12
+    Alias                        Leddigits12
     Color                        BLACK
     Decimals                     0
     Digits                       2
@@ -1680,7 +1588,6 @@ LedDigits
     Palette.High                 LIGHTYELLOW
     Palette.Low                  0x005100
     Top                          32
-    Visible                      Yes
     Width                        56
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1689,6 +1596,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext14
+    Alias                        Statictext14
     AutoSize                     Yes
     Caption                      :
     Color                        BLACK
@@ -1701,12 +1609,12 @@ StaticText
     Left                         154
     Top                          32
     Transparent                  Yes
-    Visible                      Yes
     Width                        12
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton23
+    Alias                        Userbutton23
     Height                       76
     Images                       'button (57).png\nbutton (58).png'
     Left                         8
@@ -1719,6 +1627,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton24
+    Alias                        Userbutton24
     Height                       76
     Images                       'button (55).png\nbutton (54).png'
     Left                         104
@@ -1731,6 +1640,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton25
+    Alias                        Userbutton25
     Height                       76
     Images                       'button (53).png\nbutton (52).png'
     Left                         220
@@ -1743,6 +1653,7 @@ UserButton
 end
 Form
     Name                         Form12
+    Alias                        Form12
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -1759,6 +1670,7 @@ Form
 end
 Strings
     Name                         Strings12
+    Alias                        Strings12
     Alignment                    Center
     BGcolor                      BLANCHEDALMOND
     Height                       20
@@ -1775,12 +1687,12 @@ Strings
     Strings                      Stopping...\n
     StringsStyle                 Message
     Top                          48
-    Visible                      Yes
     Width                        200
     OnChanged                    ''
 end
 Form
     Name                         Form13
+    Alias                        Form13
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -1797,6 +1709,7 @@ Form
 end
 UserButton
     Name                         Userbutton26
+    Alias                        Userbutton26
     Height                       100
     Images                       'button (62).png\nbutton (63).png'
     Left                         4
@@ -1809,6 +1722,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton27
+    Alias                        Userbutton27
     Height                       100
     Images                       button_Speed.png\nbutton_Speed_pressed.png
     Left                         108
@@ -1821,6 +1735,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton28
+    Alias                        Userbutton28
     Height                       100
     Images                       'button (88).png\nbutton (92).png'
     Left                         108
@@ -1833,6 +1748,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton29
+    Alias                        Userbutton29
     Height                       100
     Images                       'button (87).png\nbutton (91).png'
     Left                         4
@@ -1845,6 +1761,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton30
+    Alias                        Userbutton30
     Height                       100
     Images                       'button (94).png\nbutton (93).png'
     Left                         212
@@ -1857,6 +1774,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton31
+    Alias                        Userbutton31
     Height                       100
     Images                       'button (89).png\nbutton (90).png'
     Left                         212
@@ -1869,6 +1787,7 @@ UserButton
 end
 Strings
     Name                         Strings14
+    Alias                        Strings14
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -1885,12 +1804,12 @@ Strings
     Strings                      Setup\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 Form
     Name                         Form14
+    Alias                        Form14
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -1907,6 +1826,7 @@ Form
 end
 LedDigits
     Name                         Leddigits18
+    Alias                        Leddigits18
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
@@ -1917,7 +1837,6 @@ LedDigits
     Palette.High                 WHITE
     Palette.Low                  DEEPSKYBLUE
     Top                          88
-    Visible                      Yes
     Width                        182
     OnChanged                    ''
     OnTouchMoving                ''
@@ -1926,6 +1845,7 @@ LedDigits
 end
 UserButton
     Name                         Userbutton32
+    Alias                        Userbutton32
     Height                       40
     Images                       'button (28).png\nbutton (27).png'
     Left                         124
@@ -1938,6 +1858,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton33
+    Alias                        Userbutton33
     Height                       40
     Images                       'button (30).png\nbutton (29).png'
     Left                         124
@@ -1950,6 +1871,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton34
+    Alias                        Userbutton34
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -1962,6 +1884,7 @@ UserButton
 end
 Strings
     Name                         Strings16
+    Alias                        Strings16
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -1978,12 +1901,12 @@ Strings
     Strings                      'Set printing speed...\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 StaticText
     Name                         Statictext20
+    Alias                        Statictext20
     AutoSize                     Yes
     Caption                      %
     Color                        BLACK
@@ -1996,12 +1919,12 @@ StaticText
     Left                         244
     Top                          96
     Transparent                  Yes
-    Visible                      Yes
     Width                        47
     WordWrap                     Yes
 end
 Form
     Name                         Form15
+    Alias                        Form15
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2018,6 +1941,7 @@ Form
 end
 Strings
     Name                         Strings15
+    Alias                        Strings15
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2034,12 +1958,12 @@ Strings
     Strings                      Preheat\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton35
+    Alias                        Userbutton35
     Height                       100
     Images                       'button (62).png\nbutton (63).png'
     Left                         4
@@ -2052,6 +1976,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton36
+    Alias                        Userbutton36
     Height                       100
     Images                       'button (68).png\nbutton (69).png'
     Left                         108
@@ -2064,6 +1989,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton37
+    Alias                        Userbutton37
     Height                       100
     Images                       'button (71).png\nbutton (70).png'
     Left                         212
@@ -2076,6 +2002,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton39
+    Alias                        Userbutton39
     Height                       100
     Images                       'button (72).png\nbutton (73).png'
     Left                         108
@@ -2088,6 +2015,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton40
+    Alias                        Userbutton40
     Height                       100
     Images                       'button (84).png\nbutton (83).png'
     Left                         212
@@ -2100,6 +2028,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton38
+    Alias                        Userbutton38
     Height                       100
     Images                       'button (72).png\nbutton (73).png'
     Left                         4
@@ -2112,6 +2041,7 @@ UserButton
 end
 Form
     Name                         Form16
+    Alias                        Form16
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2128,6 +2058,7 @@ Form
 end
 Strings
     Name                         Strings17
+    Alias                        Strings17
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2144,12 +2075,12 @@ Strings
     Strings                      'Set Nozzle temperature...\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 LedDigits
     Name                         Leddigits19
+    Alias                        Leddigits19
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
@@ -2160,7 +2091,6 @@ LedDigits
     Palette.High                 WHITE
     Palette.Low                  DEEPSKYBLUE
     Top                          88
-    Visible                      Yes
     Width                        182
     OnChanged                    ''
     OnTouchMoving                ''
@@ -2169,6 +2099,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext21
+    Alias                        Statictext21
     AutoSize                     Yes
     Caption                      ºC
     Color                        BLACK
@@ -2181,12 +2112,12 @@ StaticText
     Left                         244
     Top                          96
     Transparent                  Yes
-    Visible                      Yes
     Width                        53
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton41
+    Alias                        Userbutton41
     Height                       40
     Images                       'button (28).png\nbutton (27).png'
     Left                         124
@@ -2199,6 +2130,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton42
+    Alias                        Userbutton42
     Height                       40
     Images                       'button (30).png\nbutton (29).png'
     Left                         124
@@ -2211,6 +2143,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton43
+    Alias                        Userbutton43
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -2223,6 +2156,7 @@ UserButton
 end
 Form
     Name                         Form17
+    Alias                        Form17
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2239,6 +2173,7 @@ Form
 end
 Strings
     Name                         Strings18
+    Alias                        Strings18
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2255,12 +2190,12 @@ Strings
     Strings                      'Set Bed temperature...\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton46
+    Alias                        Userbutton46
     Height                       40
     Images                       'button (30).png\nbutton (29).png'
     Left                         124
@@ -2273,6 +2208,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton48
+    Alias                        Userbutton48
     Height                       40
     Images                       'button (28).png\nbutton (27).png'
     Left                         124
@@ -2285,6 +2221,7 @@ UserButton
 end
 LedDigits
     Name                         Leddigits20
+    Alias                        Leddigits20
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
@@ -2295,7 +2232,6 @@ LedDigits
     Palette.High                 WHITE
     Palette.Low                  DEEPSKYBLUE
     Top                          88
-    Visible                      Yes
     Width                        182
     OnChanged                    ''
     OnTouchMoving                ''
@@ -2304,6 +2240,7 @@ LedDigits
 end
 StaticText
     Name                         Statictext22
+    Alias                        Statictext22
     AutoSize                     Yes
     Caption                      ºC
     Color                        BLACK
@@ -2316,12 +2253,12 @@ StaticText
     Left                         244
     Top                          96
     Transparent                  Yes
-    Visible                      Yes
     Width                        53
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton44
+    Alias                        Userbutton44
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -2334,6 +2271,7 @@ UserButton
 end
 Form
     Name                         Form18
+    Alias                        Form18
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2350,6 +2288,7 @@ Form
 end
 Strings
     Name                         Strings19
+    Alias                        Strings19
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2366,12 +2305,12 @@ Strings
     Strings                      'Set Fan speed...\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton47
+    Alias                        Userbutton47
     Height                       40
     Images                       'button (30).png\nbutton (29).png'
     Left                         124
@@ -2384,6 +2323,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton49
+    Alias                        Userbutton49
     Height                       40
     Images                       'button (28).png\nbutton (27).png'
     Left                         124
@@ -2396,6 +2336,7 @@ UserButton
 end
 LedDigits
     Name                         Leddigits21
+    Alias                        Leddigits21
     Color                        DEEPSKYBLUE
     Decimals                     0
     Digits                       3
@@ -2406,7 +2347,6 @@ LedDigits
     Palette.High                 WHITE
     Palette.Low                  DEEPSKYBLUE
     Top                          88
-    Visible                      Yes
     Width                        182
     OnChanged                    ''
     OnTouchMoving                ''
@@ -2415,6 +2355,7 @@ LedDigits
 end
 UserButton
     Name                         Userbutton45
+    Alias                        Userbutton45
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -2427,6 +2368,7 @@ UserButton
 end
 Form
     Name                         Form19
+    Alias                        Form19
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2443,6 +2385,7 @@ Form
 end
 Strings
     Name                         Strings21
+    Alias                        Strings21
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2459,12 +2402,12 @@ Strings
     Strings                      'Ready ...\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages1
+    Alias                        Userimages1
     Height                       82
     Images                       Filament-Icon-1587x1600.jpg
     Left                         116
@@ -2475,6 +2418,7 @@ UserImages
 end
 UserButton
     Name                         Userbutton52
+    Alias                        Userbutton52
     Height                       65
     Images                       'button (4).png\nbutton (5).png'
     Left                         120
@@ -2487,6 +2431,7 @@ UserButton
 end
 Strings
     Name                         Strings11
+    Alias                        Strings11
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
     Height                       49
@@ -2503,12 +2448,12 @@ Strings
     Strings                      'Press to Insert Filament\n'
     StringsStyle                 Message
     Top                          112
-    Visible                      Yes
     Width                        144
     OnChanged                    ''
 end
 Form
     Name                         Form20
+    Alias                        Form20
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2525,6 +2470,7 @@ Form
 end
 Strings
     Name                         Strings22
+    Alias                        Strings22
     Alignment                    Center
     BGcolor                      BLACK
     Height                       31
@@ -2541,12 +2487,12 @@ Strings
     Strings                      'Which Extruder\n'
     StringsStyle                 Message
     Top                          28
-    Visible                      Yes
     Width                        200
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton75
+    Alias                        Userbutton75
     Height                       75
     Images                       'button (23).png\nbutton (20).png'
     Left                         40
@@ -2559,6 +2505,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton76
+    Alias                        Userbutton76
     Height                       75
     Images                       'button (24).png\nbutton (21).png'
     Left                         180
@@ -2571,6 +2518,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton77
+    Alias                        Userbutton77
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -2583,6 +2531,7 @@ UserButton
 end
 Form
     Name                         Form21
+    Alias                        Form21
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2599,6 +2548,7 @@ Form
 end
 Strings
     Name                         Strings23
+    Alias                        Strings23
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2615,12 +2565,12 @@ Strings
     Strings                      SUCCES
     StringsStyle                 Message
     Top                          108
-    Visible                      Yes
     Width                        200
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton53
+    Alias                        Userbutton53
     Height                       65
     Images                       'button (6).png\nbutton (7).png'
     Left                         120
@@ -2633,6 +2583,7 @@ UserButton
 end
 UserImages
     Name                         Userimages2
+    Alias                        Userimages2
     Height                       81
     Images                       ok.png
     Left                         120
@@ -2643,6 +2594,7 @@ UserImages
 end
 Form
     Name                         Form22
+    Alias                        Form22
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2659,6 +2611,7 @@ Form
 end
 UserButton
     Name                         Userbutton55
+    Alias                        Userbutton55
     Height                       100
     Images                       'button (62).png\nbutton (63).png'
     Left                         4
@@ -2671,6 +2624,7 @@ UserButton
 end
 Strings
     Name                         Strings24
+    Alias                        Strings24
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2687,12 +2641,12 @@ Strings
     Strings                      Temperature\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton56
+    Alias                        Userbutton56
     Height                       100
     Images                       'button (17).png\nbutton (16).png'
     Left                         108
@@ -2705,6 +2659,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton57
+    Alias                        Userbutton57
     Height                       100
     Images                       Cool.png\ncool_verd.png
     Left                         212
@@ -2717,6 +2672,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton58
+    Alias                        Userbutton58
     Height                       75
     Images                       'button (23).png\nbutton (20).png'
     Left                         4
@@ -2729,6 +2685,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton59
+    Alias                        Userbutton59
     Height                       75
     Images                       'button (24).png\nbutton (21).png'
     Left                         108
@@ -2741,6 +2698,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton60
+    Alias                        Userbutton60
     Height                       75
     Images                       'button (64).png\nbutton (22).png'
     Left                         212
@@ -2753,6 +2711,7 @@ UserButton
 end
 Strings
     Name                         Strings25
+    Alias                        Strings25
     Alignment                    Center
     BGcolor                      BLACK
     Height                       22
@@ -2769,12 +2728,12 @@ Strings
     Strings                      120º/220º\n
     StringsStyle                 Message
     Top                          100
-    Visible                      Yes
     Width                        92
     OnChanged                    ''
 end
 Strings
     Name                         Strings26
+    Alias                        Strings26
     Alignment                    Center
     BGcolor                      BLACK
     Height                       22
@@ -2791,12 +2750,12 @@ Strings
     Strings                      220º/220º
     StringsStyle                 Message
     Top                          100
-    Visible                      Yes
     Width                        92
     OnChanged                    ''
 end
 Strings
     Name                         Strings27
+    Alias                        Strings27
     Alignment                    Center
     BGcolor                      BLACK
     Height                       22
@@ -2813,12 +2772,12 @@ Strings
     Strings                      50º/50º
     StringsStyle                 Message
     Top                          100
-    Visible                      Yes
     Width                        93
     OnChanged                    ''
 end
 Form
     Name                         Form23
+    Alias                        Form23
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2835,6 +2794,7 @@ Form
 end
 Strings
     Name                         Strings5
+    Alias                        Strings5
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2851,12 +2811,12 @@ Strings
     Strings                      Calibrations\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton66
+    Alias                        Userbutton66
     Height                       100
     Images                       'button (63).png\nbutton (62).png'
     Left                         4
@@ -2869,6 +2829,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton67
+    Alias                        Userbutton67
     Height                       100
     Images                       button_extruder_cal.png\nbutton_extruder_cal_verd.png
     Left                         108
@@ -2881,6 +2842,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton68
+    Alias                        Userbutton68
     Height                       100
     Images                       button_calibration.png\nbutton_calibration_verd.png
     Left                         4
@@ -2893,6 +2855,7 @@ UserButton
 end
 Form
     Name                         Form24
+    Alias                        Form24
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2909,6 +2872,7 @@ Form
 end
 Strings
     Name                         Strings28
+    Alias                        Strings28
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2925,12 +2889,12 @@ Strings
     Strings                      'Bed Calibration result\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 StaticText
     Name                         Statictext0
+    Alias                        Statictext0
     AutoSize                     Yes
     Caption                      Success
     Color                        BLACK
@@ -2943,12 +2907,12 @@ StaticText
     Left                         48
     Top                          44
     Transparent                  Yes
-    Visible                      Yes
     Width                        224
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton69
+    Alias                        Userbutton69
     Height                       65
     Images                       'button (6).png\nbutton (7).png'
     Left                         116
@@ -2961,6 +2925,7 @@ UserButton
 end
 Form
     Name                         Form25
+    Alias                        Form25
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -2977,6 +2942,7 @@ Form
 end
 Strings
     Name                         Strings29
+    Alias                        Strings29
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -2993,12 +2959,12 @@ Strings
     Strings                      'Bed Calibration result\n'
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 StaticText
     Name                         Statictext24
+    Alias                        Statictext24
     AutoSize                     Yes
     Caption                      'Need to Calibrate'
     Color                        BLACK
@@ -3011,12 +2977,12 @@ StaticText
     Left                         48
     Top                          28
     Transparent                  Yes
-    Visible                      Yes
     Width                        221
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext25
+    Alias                        Statictext25
     AutoSize                     Yes
     Caption                      1)
     Color                        BLACK
@@ -3029,12 +2995,12 @@ StaticText
     Left                         60
     Top                          68
     Transparent                  Yes
-    Visible                      Yes
     Width                        27
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext26
+    Alias                        Statictext26
     AutoSize                     Yes
     Caption                      2)
     Color                        BLACK
@@ -3047,12 +3013,12 @@ StaticText
     Left                         60
     Top                          104
     Transparent                  Yes
-    Visible                      Yes
     Width                        27
     WordWrap                     Yes
 end
 StaticText
     Name                         Statictext27
+    Alias                        Statictext27
     AutoSize                     Yes
     Caption                      3)
     Color                        BLACK
@@ -3065,12 +3031,12 @@ StaticText
     Left                         60
     Top                          140
     Transparent                  Yes
-    Visible                      Yes
     Width                        27
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton70
+    Alias                        Userbutton70
     Height                       65
     Images                       'button (6).png\nbutton (7).png'
     Left                         232
@@ -3083,6 +3049,7 @@ UserButton
 end
 Strings
     Name                         Strings30
+    Alias                        Strings30
     Alignment                    Left
     BGcolor                      BLACK
     Height                       27
@@ -3099,12 +3066,12 @@ Strings
     Strings                      ''
     StringsStyle                 Message
     Top                          72
-    Visible                      Yes
     Width                        115
     OnChanged                    ''
 end
 Strings
     Name                         Strings31
+    Alias                        Strings31
     Alignment                    Left
     BGcolor                      BLACK
     Height                       27
@@ -3121,12 +3088,12 @@ Strings
     Strings                      ''
     StringsStyle                 Message
     Top                          108
-    Visible                      Yes
     Width                        115
     OnChanged                    ''
 end
 Strings
     Name                         Strings32
+    Alias                        Strings32
     Alignment                    Left
     BGcolor                      BLACK
     Height                       27
@@ -3143,12 +3110,12 @@ Strings
     Strings                      ''
     StringsStyle                 Message
     Top                          144
-    Visible                      Yes
     Width                        115
     OnChanged                    ''
 end
 Form
     Name                         Form26
+    Alias                        Form26
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -3165,6 +3132,7 @@ Form
 end
 UserButton
     Name                         Userbutton71
+    Alias                        Userbutton71
     Height                       87
     Images                       Extruder_ON.png
     Left                         128
@@ -3177,6 +3145,7 @@ UserButton
 end
 Strings
     Name                         Strings33
+    Alias                        Strings33
     Alignment                    Center
     BGcolor                      BLACK
     Height                       22
@@ -3193,12 +3162,12 @@ Strings
     Strings                      120º/220º\n
     StringsStyle                 Message
     Top                          124
-    Visible                      Yes
     Width                        92
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton74
+    Alias                        Userbutton74
     Height                       65
     Images                       'button_wait.png\nbutton_wait.png\nbutton (4).png\nbutton (5).png'
     Left                         120
@@ -3211,6 +3180,7 @@ UserButton
 end
 Strings
     Name                         Strings35
+    Alias                        Strings35
     Alignment                    Center
     BGcolor                      BLACK
     Height                       20
@@ -3227,12 +3197,12 @@ Strings
     Strings                      Heating...\n
     StringsStyle                 Message
     Top                          0
-    Visible                      Yes
     Width                        320
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton20
+    Alias                        Userbutton20
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
     Left                         4
@@ -3245,6 +3215,7 @@ UserButton
 end
 Form
     Name                         Form11
+    Alias                        Form11
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -3261,6 +3232,7 @@ Form
 end
 Strings
     Name                         Strings10
+    Alias                        Strings10
     Alignment                    Center
     BGcolor                      BLACK
     Height                       32
@@ -3277,12 +3249,12 @@ Strings
     Strings                      Processing\n
     StringsStyle                 Message
     Top                          88
-    Visible                      Yes
     Width                        140
     OnChanged                    ''
 end
 Form
     Name                         Form27
+    Alias                        Form27
     Bgtype                       Color
     Color                        DEEPSKYBLUE
     Image                        (None)
@@ -3299,6 +3271,7 @@ Form
 end
 StaticText
     Name                         Statictext15
+    Alias                        Statictext15
     AutoSize                     Yes
     Caption                      'Select Line which fits BEST!'
     Color                        BLACK
@@ -3311,12 +3284,12 @@ StaticText
     Left                         28
     Top                          52
     Transparent                  Yes
-    Visible                      Yes
     Width                        440
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton21
+    Alias                        Userbutton21
     Height                       75
     Images                       button_n1.png
     Left                         32
@@ -3329,6 +3302,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton22
+    Alias                        Userbutton22
     Height                       75
     Images                       button_n2.png
     Left                         148
@@ -3341,6 +3315,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton51
+    Alias                        Userbutton51
     Height                       75
     Images                       button_n3.png
     Left                         268
@@ -3353,6 +3328,7 @@ UserButton
 end
 UserButton
     Name                         Userbutton72
+    Alias                        Userbutton72
     Height                       75
     Images                       button_n4.png
     Left                         380
@@ -3365,6 +3341,7 @@ UserButton
 end
 Form
     Name                         Form28
+    Alias                        Form28
     Bgtype                       Image
     Color                        BLACK
     Image                        Captura.JPG

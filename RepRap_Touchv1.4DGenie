@@ -120,11 +120,11 @@ Strings
     Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         72
+    Left                         60
     Strings                      ''
     StringsStyle                 Message
-    Top                          192
-    Width                        310
+    Top                          168
+    Width                        322
     OnChanged                    ''
 end
 UserButton
@@ -156,14 +156,14 @@ end
 UserButton
     Name                         Userbutton15
     Alias                        Userbutton15
-    Height                       74
-    Images                       01_iconFile.png
-    Left                         176
+    Height                       80
+    Images                       01_iconFile_Lienzo.png
+    Left                         136
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          116
-    Width                        94
+    Top                          84
+    Width                        160
     OnChanged                    'Report Message'
 end
 Form
@@ -1186,7 +1186,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         0
-    Strings                      Printing...\n
+    Strings                      \n
     StringsStyle                 Message
     Top                          0
     Width                        480
@@ -1196,12 +1196,12 @@ UserButton
     Name                         Userbutton18
     Alias                        Userbutton18
     Height                       151
-    Images                       00_play.png\n00_play.png\n00_play.png\n00_play.png
+    Images                       00_pause_Lienzo.png\n00_pause_Lienzo.png\n00_play.png\n00_play.png
     Left                         180
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          20
+    Top                          24
     Width                        112
     OnChanged                    'Report Message'
 end
@@ -1218,62 +1218,6 @@ UserButton
     Width                        112
     OnChanged                    Form1Activate
 end
-LedDigits
-    Name                         Leddigits4
-    Alias                        Leddigits4
-    Color                        DEEPSKYBLUE
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         312
-    OutlineColor                 DEEPSKYBLUE
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  DEEPSKYBLUE
-    Top                          268
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits5
-    Alias                        Leddigits5
-    Color                        DEEPSKYBLUE
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         384
-    OutlineColor                 DEEPSKYBLUE
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  DEEPSKYBLUE
-    Top                          268
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext7
-    Alias                        Statictext7
-    AutoSize                     Yes
-    Caption                      :
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    20
-    Font.Style                   [Bold]
-    Height                       33
-    Left                         372
-    Top                          268
-    Transparent                  Yes
-    Width                        12
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton16
     Alias                        Userbutton16
@@ -1287,369 +1231,137 @@ UserButton
     Width                        126
     OnChanged                    Form13Activate
 end
-LedDigits
-    Name                         Leddigits3
-    Alias                        Leddigits3
-    Color                        DEEPSKYBLUE
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         92
-    OutlineColor                 DEEPSKYBLUE
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  DEEPSKYBLUE
-    Top                          212
-    Width                        52
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits6
-    Alias                        Leddigits6
-    Color                        DEEPSKYBLUE
-    Decimals                     0
-    Digits                       2
-    Height                       28
-    LeadingZero                  Yes
-    Left                         188
-    OutlineColor                 DEEPSKYBLUE
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  DEEPSKYBLUE
-    Top                          212
-    Width                        35
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits7
-    Alias                        Leddigits7
-    Color                        DEEPSKYBLUE
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         284
-    OutlineColor                 DEEPSKYBLUE
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  DEEPSKYBLUE
-    Top                          212
-    Width                        53
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
 Strings
     Name                         Strings2
     Alias                        Strings2
     Alignment                    Left
     BGcolor                      BLACK
-    Height                       22
+    Height                       50
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
+    Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    12
+    Font.Size                    49
     Font.Strikethrough           No
     Font.Underline               No
     Left                         16
-    Strings                      ''
+    Strings                      \n
     StringsStyle                 Message
     Top                          256
-    Width                        232
-    OnChanged                    ''
-end
-Form
-    Name                         Form10
-    Alias                        Form10
-    Bgtype                       Color
-    Color                        DEEPSKYBLUE
-    Image                        (None)
-    Source.Height                0
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 0
-    OnActivate                   'Report Message'
-    OnCreate                     ''
-    OnRepeat                     ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-Strings
-    Name                         Strings7
-    Alias                        Strings7
-    Alignment                    Left
-    BGcolor                      BLACK
-    Height                       22
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         44
-    Strings                      ''
-    StringsStyle                 Message
-    Top                          120
-    Width                        232
+    Width                        308
     OnChanged                    ''
 end
 Strings
-    Name                         Strings8
-    Alias                        Strings8
+    Name                         Strings0
+    Alias                        Strings0
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       20
+    Height                       33
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    25
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         0
-    Strings                      Ready...
+    Left                         92
+    Strings                      \n
     StringsStyle                 Message
-    Top                          0
-    Width                        320
+    Top                          208
+    Width                        48
     OnChanged                    ''
 end
-LedDigits
-    Name                         Leddigits8
-    Alias                        Leddigits8
-    Color                        BLACK
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         52
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Width                        53
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits9
-    Alias                        Leddigits9
-    Color                        BLACK
-    Decimals                     0
-    Digits                       3
-    Height                       28
-    LeadingZero                  Yes
-    Left                         152
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Width                        53
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits10
-    Alias                        Leddigits10
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       28
-    LeadingZero                  Yes
-    Left                         264
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          84
-    Width                        34
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext10
-    Alias                        Statictext10
-    AutoSize                     Yes
-    Caption                      E1
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         20
-    Top                          84
-    Transparent                  Yes
-    Width                        23
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext11
-    Alias                        Statictext11
-    AutoSize                     Yes
-    Caption                      E2
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         120
-    Top                          84
-    Transparent                  Yes
-    Width                        23
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext12
-    Alias                        Statictext12
-    AutoSize                     Yes
-    Caption                      Bed
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    16
-    Font.Style                   []
-    Height                       25
-    Left                         224
-    Top                          84
-    Transparent                  Yes
-    Width                        36
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext13
-    Alias                        Statictext13
-    AutoSize                     Yes
-    Caption                      Time
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    24
-    Font.Style                   []
-    Height                       36
-    Left                         12
-    Top                          28
-    Transparent                  Yes
-    Width                        70
-    WordWrap                     Yes
-end
-LedDigits
-    Name                         Leddigits11
-    Alias                        Leddigits11
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         96
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          32
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-LedDigits
-    Name                         Leddigits12
-    Alias                        Leddigits12
-    Color                        BLACK
-    Decimals                     0
-    Digits                       2
-    Height                       35
-    LeadingZero                  Yes
-    Left                         168
-    OutlineColor                 BLACK
-    Palette.High                 LIGHTYELLOW
-    Palette.Low                  0x005100
-    Top                          32
-    Width                        56
-    OnChanged                    ''
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext14
-    Alias                        Statictext14
-    AutoSize                     Yes
-    Caption                      :
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    20
-    Font.Style                   [Bold]
+Strings
+    Name                         Strings9
+    Alias                        Strings9
+    Alignment                    Left
+    BGcolor                      BLACK
     Height                       33
-    Left                         154
-    Top                          32
-    Transparent                  Yes
-    Width                        12
-    WordWrap                     Yes
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    25
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         188
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          208
+    Width                        48
+    OnChanged                    ''
 end
-UserButton
-    Name                         Userbutton23
-    Alias                        Userbutton23
-    Height                       76
-    Images                       'button (57).png\nbutton (58).png'
-    Left                         8
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          152
-    Width                        90
-    OnChanged                    Form2Activate
+Strings
+    Name                         Strings34
+    Alias                        Strings34
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       33
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    25
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         284
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          208
+    Width                        48
+    OnChanged                    ''
 end
-UserButton
-    Name                         Userbutton24
-    Alias                        Userbutton24
-    Height                       76
-    Images                       'button (55).png\nbutton (54).png'
-    Left                         104
-    Matrix                       -1
-    Momentary                    No
-    Stretch                      No
-    Top                          152
-    Width                        110
-    OnChanged                    'Report Message'
+Strings
+    Name                         Strings36
+    Alias                        Strings36
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       33
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    25
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         380
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          208
+    Width                        48
+    OnChanged                    ''
 end
-UserButton
-    Name                         Userbutton25
-    Alias                        Userbutton25
-    Height                       76
-    Images                       'button (53).png\nbutton (52).png'
-    Left                         220
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          152
-    Width                        90
-    OnChanged                    Form13Activate
+Strings
+    Name                         Strings37
+    Alias                        Strings37
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       52
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    50
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         360
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          256
+    Width                        97
+    OnChanged                    ''
 end
 Form
     Name                         Form12
@@ -3355,4 +3067,226 @@ Form
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
+end
+Form
+    Name                         Form10
+    Alias                        Form10
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        00_BackPrintSettings.png
+    Source.Height                320
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 480
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton23
+    Alias                        Userbutton23
+    Height                       34
+    Images                       00_flechaUP_1.png
+    Left                         64
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          100
+    Width                        51
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton24
+    Alias                        Userbutton24
+    Height                       34
+    Images                       00_flechaUP_1.png
+    Left                         160
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          100
+    Width                        51
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton25
+    Alias                        Userbutton25
+    Height                       34
+    Images                       00_flechaUP_1.png
+    Left                         260
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          100
+    Width                        51
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton73
+    Alias                        Userbutton73
+    Height                       34
+    Images                       00_flechaUP_1.png
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          100
+    Width                        51
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton78
+    Alias                        Userbutton78
+    Height                       34
+    Images                       00_flechaDOWN_1.png
+    Left                         64
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          216
+    Width                        51
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton79
+    Alias                        Userbutton79
+    Height                       34
+    Images                       00_flechaDOWN_1.png
+    Left                         160
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          216
+    Width                        51
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton80
+    Alias                        Userbutton80
+    Height                       34
+    Images                       00_flechaDOWN_1.png
+    Left                         260
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          216
+    Width                        51
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton81
+    Alias                        Userbutton81
+    Height                       34
+    Images                       00_flechaDOWN_1.png
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          216
+    Width                        51
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings7
+    Alias                        Strings7
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       52
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    50
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         56
+    Strings                      111\n
+    StringsStyle                 Message
+    Top                          148
+    Width                        68
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings8
+    Alias                        Strings8
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       52
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    50
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         164
+    Strings                      11\n
+    StringsStyle                 Message
+    Top                          148
+    Width                        47
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings38
+    Alias                        Strings38
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       52
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    50
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         252
+    Strings                      111\n
+    StringsStyle                 Message
+    Top                          148
+    Width                        68
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings39
+    Alias                        Strings39
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       52
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    50
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         356
+    Strings                      111%\n
+    StringsStyle                 Message
+    Top                          148
+    Width                        91
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton82
+    Alias                        Userbutton82
+    Height                       40
+    Images                       00_flechaGOBACK.png
+    Left                         8
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          8
+    Width                        44
+    OnChanged                    'Report Message'
 end

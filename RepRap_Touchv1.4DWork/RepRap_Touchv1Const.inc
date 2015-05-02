@@ -1,4 +1,4 @@
-// File generated 30/04/2015 11:26:26
+// File generated 02/05/2015 18:21:25
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -74,14 +74,14 @@
 #constant  Strings35Size     26
 #constant  Strings10Count    1
 #constant  Strings10Size     15
-#constant  Strings7Count    1
-#constant  Strings7Size     4
-#constant  Strings8Count    1
-#constant  Strings8Size     3
-#constant  Strings38Count    1
-#constant  Strings38Size     4
-#constant  Strings39Count    1
-#constant  Strings39Size     5
+#constant  Strings7Count    0
+#constant  Strings7Size     1
+#constant  Strings8Count    0
+#constant  Strings8Size     1
+#constant  Strings38Count    0
+#constant  Strings38Size     1
+#constant  Strings39Count    0
+#constant  Strings39Size     1
 // object indexes into ImageControl
 #CONST
     iForm0          // offset 0x0
@@ -204,14 +204,14 @@
     iForm28         // offset 0x51BE00
     iForm10         // offset 0x567000
     iUserbutton23   // offset 0x5B2200
-    iUserbutton24   // offset 0x5B3E00
-    iUserbutton25   // offset 0x5B5A00
-    iUserbutton73   // offset 0x5B7600
-    iUserbutton78   // offset 0x5B9200
-    iUserbutton79   // offset 0x5BAE00
-    iUserbutton80   // offset 0x5BCA00
-    iUserbutton81   // offset 0x5BE600
-    iUserbutton82   // offset 0x5C0200
+    iUserbutton24   // offset 0x5B6E00
+    iUserbutton25   // offset 0x5BBA00
+    iUserbutton73   // offset 0x5C0600
+    iUserbutton78   // offset 0x5C5200
+    iUserbutton79   // offset 0x5C9E00
+    iUserbutton80   // offset 0x5CEA00
+    iUserbutton81   // offset 0x5D3600
+    iUserbutton82   // offset 0x5D8200
 #END
 
 #constant  Strings1StartH   0x0

@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 30/04/2015 11:26:40
+// generated 02/05/2015 18:21:38
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -124,7 +124,7 @@
     REPORT_MAGIC_EVENT_DBYTES 11
 // End P1.inc
     nObjects        128
-    nInputs         189
+    nInputs         194
     nAniTimers      0
     nStrings        40
 #END
@@ -132,7 +132,7 @@
 #DATA
     word FormStartIndex 0, 1, 4, 9, 10, 16, 19, 24, 27, 47, 118, 112, 51, 51, 57, 63, 69, 75, 81, 86, 88, 91, 93, 99, 102, 104, 109, 112, 117
     word FormEndIndex 1, 4, 9, 10, 16, 19, 24, 27, 47, 51, 128, 112, 51, 57, 63, 69, 75, 81, 86, 88, 91, 93, 99, 102, 104, 109, 112, 117, 118
-    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, 308, 374, 418, 462, 506, 550, -1, 572, 638, 704, 770, 814, 858, 880, 924, 990, 1034, 1078, 1122, 1166, 1210, 1254, 1298, 1342, 1386, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1452, 1496, 1540, -1, 1584, 1628, 1672, 1716, 1760, 1826, 1870, 1914, 1980, -1, -1, 2046, 2090, 2134, -1, 2178, 2222, 2266, 2310, 2332, 2354, -1, -1, -1, 2376, 2420, 2464, 2508, 2552, -1, -1, -1, 2596, 2640, 2684, -1, -1, 2728, -1, 2772, 2816, 2860, 2904, 2948, -1, 2992, 3058, 3102, 3146, 3190, 3234, 3300, 3366, 3410, -1, 3454, -1, -1, -1, -1, 3520, 3564, 3586, 3630, -1, 3674, 3718, 3762, 3806, -1, -1, 3850, 3894, 3938, 3982, 4026, 4048, 4070, 4092, 4114
+    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, 308, 374, 418, 462, 506, 550, -1, 572, 638, 704, 770, 814, 858, 880, 924, 990, 1034, 1078, 1122, 1166, 1210, 1254, 1298, 1342, 1386, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1452, 1496, 1540, -1, 1584, 1628, 1672, 1716, 1760, 1826, 1870, 1914, 1980, -1, -1, 2046, 2090, 2134, -1, 2178, 2222, 2266, 2310, 2332, 2354, -1, -1, -1, 2376, 2420, 2464, 2508, 2552, -1, -1, -1, 2596, 2640, 2684, -1, -1, 2728, -1, 2772, 2816, 2860, 2904, 2948, -1, 2992, 3058, 3102, 3146, 3190, 3234, 3300, 3366, 3410, -1, 3454, -1, -1, -1, -1, 3520, 3564, 3586, 3630, -1, 3674, 3718, 3762, 3806, -1, -1, 3850, 3894, 3938, 3982, 4026, 4070, 4114, 4158, 4202
     word InputData tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 22, 4,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 124,
@@ -210,7 +210,7 @@
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1650, 40,
                 OT_ACTIVATE, 10, 1, 0, 18, 0, 0, 0, 0, 0, 0,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1694, 34,
-                OT_ACTIVATE, 10, 13, 0, 18, 0, 0, 0, 0, 0, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1738, 54,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 1782, 56,
@@ -316,21 +316,26 @@
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4004, 148,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 73,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 158,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 160,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 162,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 0, 164,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4136, 166,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 82
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4048, 158,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4092, 160,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 79,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4136, 162,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 80,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4180, 164,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 81,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 4224, 166,
+                OT_ACTIVATE, 10, 9, 0, 18, 0, 0, 0, 0, 4246, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9
     word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 139, 240, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 60, 168, 381, 209, WHITE, BLACK, 0, 0, 1, 2 
+    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 124, 176, 329, 217, WHITE, BLACK, 0, 0, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 16, 256, 323, 305, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings3  Strings3StartH, Strings3StartL, Strings3Size, 64, 36, 263, 55, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 3 
     word iStrings4  Strings4StartH, Strings4StartL, Strings4Size, 0, 0, 319, 16, WHITE, BLACK, 0, 1, 1, 8 
     word iStrings5  Strings5StartH, Strings5StartL, Strings5Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 23 
     word iStrings6  Strings6StartH, Strings6StartL, Strings6Size, 0, 0, 479, 19, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings7  Strings7StartH, Strings7StartL, Strings7Size, 56, 148, 123, 199, WHITE, BLACK, 0, 0, 1, 10 
-    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 164, 148, 210, 199, WHITE, BLACK, 0, 0, 1, 10 
+    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 160, 148, 206, 199, WHITE, BLACK, 0, 0, 1, 10 
     word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 188, 208, 235, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 88, 88, 227, 119, WHITE, BLACK, 0, 1, 1, 11 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 88, 112, 231, 160, WHITE, DEEPSKYBLUE, 0, 1, 1, 19 
@@ -690,10 +695,10 @@ endfunc
 func main()
     var comTX[50], cmdi, i, j, ImageTouched, TouchStatus, oldn ;
 
-    putstr("Mounting...\n");
+    //putstr("Mounting...\n");
     if (!(file_Mount()))
         while(!(file_Mount()))
-            putstr("Drive not mounted...");
+            //putstr("Drive not mounted...");
             pause(200);
             gfx_Cls();
             pause(200);

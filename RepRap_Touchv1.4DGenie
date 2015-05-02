@@ -120,11 +120,11 @@ Strings
     Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         60
+    Left                         124
     Strings                      ''
     StringsStyle                 Message
-    Top                          168
-    Width                        322
+    Top                          176
+    Width                        206
     OnChanged                    ''
 end
 UserButton
@@ -158,7 +158,7 @@ UserButton
     Alias                        Userbutton15
     Height                       80
     Images                       01_iconFile_Lienzo.png
-    Left                         136
+    Left                         148
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1229,7 +1229,7 @@ UserButton
     Stretch                      No
     Top                          28
     Width                        126
-    OnChanged                    Form13Activate
+    OnChanged                    'Report Message'
 end
 Strings
     Name                         Strings2
@@ -3078,7 +3078,7 @@ Form
     Source.Left                  0
     Source.Top                   0
     Source.Width                 480
-    OnActivate                   ''
+    OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
@@ -3088,106 +3088,106 @@ end
 UserButton
     Name                         Userbutton23
     Alias                        Userbutton23
-    Height                       34
-    Images                       00_flechaUP_1.png
-    Left                         64
+    Height                       80
+    Images                       00_flechaUP_1_Bigger_area.png
+    Left                         60
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        51
+    Top                          52
+    Width                        60
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton24
     Alias                        Userbutton24
-    Height                       34
-    Images                       00_flechaUP_1.png
-    Left                         160
+    Height                       80
+    Images                       00_flechaUP_1_Bigger_area.png
+    Left                         156
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        51
+    Top                          52
+    Width                        60
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton25
     Alias                        Userbutton25
-    Height                       34
-    Images                       00_flechaUP_1.png
-    Left                         260
+    Height                       80
+    Images                       00_flechaUP_1_Bigger_area.png
+    Left                         256
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        51
+    Top                          52
+    Width                        60
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton73
     Alias                        Userbutton73
-    Height                       34
-    Images                       00_flechaUP_1.png
-    Left                         368
+    Height                       80
+    Images                       00_flechaUP_1_Bigger_area.png
+    Left                         364
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        51
+    Top                          52
+    Width                        60
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton78
     Alias                        Userbutton78
-    Height                       34
-    Images                       00_flechaDOWN_1.png
-    Left                         64
+    Height                       80
+    Images                       00_flechaDOWN_1_Bigger_area.png
+    Left                         60
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          216
-    Width                        51
-    OnChanged                    ''
+    Width                        60
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton79
     Alias                        Userbutton79
-    Height                       34
-    Images                       00_flechaDOWN_1.png
-    Left                         160
+    Height                       80
+    Images                       00_flechaDOWN_1_Bigger_area.png
+    Left                         156
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          216
-    Width                        51
-    OnChanged                    ''
+    Width                        60
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton80
     Alias                        Userbutton80
-    Height                       34
-    Images                       00_flechaDOWN_1.png
-    Left                         260
+    Height                       80
+    Images                       00_flechaDOWN_1_Bigger_area.png
+    Left                         256
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          216
-    Width                        51
-    OnChanged                    ''
+    Width                        60
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton81
     Alias                        Userbutton81
-    Height                       34
-    Images                       00_flechaDOWN_1.png
-    Left                         368
+    Height                       80
+    Images                       00_flechaDOWN_1_Bigger_area.png
+    Left                         364
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          216
-    Width                        51
-    OnChanged                    ''
+    Width                        60
+    OnChanged                    'Report Message'
 end
 Strings
     Name                         Strings7
@@ -3205,7 +3205,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         56
-    Strings                      111\n
+    Strings                      ''
     StringsStyle                 Message
     Top                          148
     Width                        68
@@ -3226,8 +3226,8 @@ Strings
     Font.Size                    50
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         164
-    Strings                      11\n
+    Left                         160
+    Strings                      \n
     StringsStyle                 Message
     Top                          148
     Width                        47
@@ -3249,7 +3249,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         252
-    Strings                      111\n
+    Strings                      \n
     StringsStyle                 Message
     Top                          148
     Width                        68
@@ -3271,7 +3271,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         356
-    Strings                      111%\n
+    Strings                      \n
     StringsStyle                 Message
     Top                          148
     Width                        91
@@ -3288,5 +3288,5 @@ UserButton
     Stretch                      No
     Top                          8
     Width                        44
-    OnChanged                    'Report Message'
+    OnChanged                    Form9Activate
 end

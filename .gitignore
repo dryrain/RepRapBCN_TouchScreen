@@ -214,3 +214,16 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+REPRAP~2.d01
+*.d02
+REPRAP~2.d03
+*.d04
+REPRAP~2.dat
+REPRAP~2.txf
+REPRAP~2.d05
+REPRAP~2.g01
+REPRAP~2.g02
+REPRAP~2.g03
+REPRAP~2.g04
+REPRAP~2.g05
+REPRAP~2.gci

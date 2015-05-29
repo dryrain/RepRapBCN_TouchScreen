@@ -1,4 +1,4 @@
-// File generated 12/05/2015 11:56:04
+// File generated 27/05/2015 9:39:39
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -92,6 +92,18 @@
 #constant  Strings44Size     1
 #constant  Strings45Count    0
 #constant  Strings45Size     1
+#constant  Strings13Count    1
+#constant  Strings13Size     8
+#constant  Strings48Count    1
+#constant  Strings48Size     10
+#constant  Strings46Count    1
+#constant  Strings46Size     8
+#constant  Strings49Count    1
+#constant  Strings49Size     10
+#constant  Strings47Count    1
+#constant  Strings47Size     8
+#constant  Strings50Count    1
+#constant  Strings50Size     10
 // object indexes into ImageControl
 #CONST
     iForm0          // offset 0x0
@@ -235,11 +247,14 @@
     iUserbutton89   // offset 0x6CFA00
     iUserbutton90   // offset 0x6D4600
     iUserbutton91   // offset 0x6DD600
+    iUserimages3    // offset 0x6DFE00
+    iUserbutton93   // offset 0x707000
+    iUserbutton94   // offset 0x718200
+    iUserimages4    // offset 0x729400
+    iUserimages5    // offset 0x750600
+    iUserbutton95   // offset 0x777800
 #END
 
-#constant  Strings13Size     0
-#constant  Strings13StartH   0
-#constant  Strings13StartL   0
 #constant  Strings1StartH   0x0
 #constant  Strings1StartL   0x0
 #constant  Strings3StartH   0x0
@@ -330,6 +345,18 @@
 #constant  Strings44StartL   0x5600
 #constant  Strings45StartH   0x0
 #constant  Strings45StartL   0x5800
+#constant  Strings13StartH   0x0
+#constant  Strings13StartL   0x5A00
+#constant  Strings48StartH   0x0
+#constant  Strings48StartL   0x5C00
+#constant  Strings46StartH   0x0
+#constant  Strings46StartL   0x5E00
+#constant  Strings49StartH   0x0
+#constant  Strings49StartL   0x6000
+#constant  Strings47StartH   0x0
+#constant  Strings47StartL   0x6200
+#constant  Strings50StartH   0x0
+#constant  Strings50StartL   0x6400
 #IFNOT EXISTS NOGLOBALS
 var hndl ;
 #ENDIF

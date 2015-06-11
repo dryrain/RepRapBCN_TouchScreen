@@ -2079,7 +2079,7 @@ Strings
     Strings                      'Ready ...\n'
     StringsStyle                 Message
     Top                          0
-    Width                        320
+    Width                        480
     OnChanged                    ''
 end
 UserImages
@@ -2087,9 +2087,9 @@ UserImages
     Alias                        Userimages1
     Height                       82
     Images                       Filament-Icon-1587x1600.jpg
-    Left                         116
+    Left                         212
     Stretch                      Yes
-    Top                          24
+    Top                          44
     Width                        93
     OnChanged                    ''
 end
@@ -2098,11 +2098,11 @@ UserButton
     Alias                        Userbutton52
     Height                       65
     Images                       'button (4).png\nbutton (5).png'
-    Left                         120
+    Left                         212
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          168
+    Top                          228
     Width                        85
     OnChanged                    'Report Message'
 end
@@ -2121,10 +2121,10 @@ Strings
     Font.Size                    22
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         88
+    Left                         184
     Strings                      'Press to Insert Filament\n'
     StringsStyle                 Message
-    Top                          112
+    Top                          160
     Width                        144
     OnChanged                    ''
 end
@@ -2160,10 +2160,10 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         60
+    Left                         144
     Strings                      'Which Extruder\n'
     StringsStyle                 Message
-    Top                          28
+    Top                          20
     Width                        200
     OnChanged                    ''
 end
@@ -2172,11 +2172,11 @@ UserButton
     Alias                        Userbutton75
     Height                       75
     Images                       'button (23).png\nbutton (20).png'
-    Left                         40
+    Left                         108
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          80
+    Top                          116
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2185,11 +2185,11 @@ UserButton
     Alias                        Userbutton76
     Height                       75
     Images                       'button (24).png\nbutton (21).png'
-    Left                         180
+    Left                         276
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          80
+    Top                          116
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2198,11 +2198,11 @@ UserButton
     Alias                        Userbutton77
     Height                       50
     Images                       'button (67).png\nbutton (66).png'
-    Left                         4
+    Left                         16
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
+    Top                          248
     Width                        60
     OnChanged                    Form6Activate
 end
@@ -2238,10 +2238,10 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         64
+    Left                         152
     Strings                      SUCCES
     StringsStyle                 Message
-    Top                          108
+    Top                          152
     Width                        200
     OnChanged                    ''
 end
@@ -2250,11 +2250,11 @@ UserButton
     Alias                        Userbutton53
     Height                       65
     Images                       'button (6).png\nbutton (7).png'
-    Left                         120
+    Left                         208
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          144
+    Top                          200
     Width                        85
     OnChanged                    Form6Activate
 end
@@ -2263,9 +2263,9 @@ UserImages
     Alias                        Userimages2
     Height                       81
     Images                       ok.png
-    Left                         120
+    Left                         208
     Stretch                      Yes
-    Top                          16
+    Top                          40
     Width                        85
     OnChanged                    ''
 end
@@ -2488,7 +2488,7 @@ Strings
     Strings                      Calibrations\n
     StringsStyle                 Message
     Top                          0
-    Width                        320
+    Width                        480
     OnChanged                    ''
 end
 UserButton
@@ -2500,7 +2500,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          132
+    Top                          216
     Width                        100
     OnChanged                    Form4Activate
 end
@@ -2508,12 +2508,12 @@ UserButton
     Name                         Userbutton67
     Alias                        Userbutton67
     Height                       100
-    Images                       button_extruder_cal.png\nbutton_extruder_cal_verd.png
-    Left                         108
+    Images                       ExtrX.png
+    Left                         48
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          24
+    Top                          64
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2522,11 +2522,11 @@ UserButton
     Alias                        Userbutton68
     Height                       100
     Images                       button_calibration.png\nbutton_calibration_verd.png
-    Left                         4
+    Left                         204
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          24
+    Top                          188
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2534,12 +2534,25 @@ UserButton
     Name                         Userbutton118
     Alias                        Userbutton118
     Height                       100
-    Images                       button_extruder_cal.png\nbutton_extruder_cal_verd.png
-    Left                         212
+    Images                       ExtrY.png
+    Left                         204
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          24
+    Top                          64
+    Width                        100
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton119
+    Alias                        Userbutton119
+    Height                       100
+    Images                       ExtrZ.png
+    Left                         352
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          64
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2576,10 +2589,10 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         0
-    Strings                      'Bed Calibration result\n'
+    Strings                      'Calibration result\n'
     StringsStyle                 Message
     Top                          0
-    Width                        320
+    Width                        480
     OnChanged                    ''
 end
 StaticText
@@ -2594,8 +2607,8 @@ StaticText
     Font.Size                    48
     Font.Style                   []
     Height                       77
-    Left                         48
-    Top                          44
+    Left                         136
+    Top                          88
     Transparent                  Yes
     Width                        224
     WordWrap                     Yes
@@ -2605,11 +2618,11 @@ UserButton
     Alias                        Userbutton69
     Height                       65
     Images                       'button (6).png\nbutton (7).png'
-    Left                         116
+    Left                         208
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          144
+    Top                          208
     Width                        85
     OnChanged                    'Report Message'
 end
@@ -2825,34 +2838,12 @@ UserButton
     Alias                        Userbutton71
     Height                       87
     Images                       Extruder_ON.png
-    Left                         128
+    Left                         204
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          28
+    Top                          60
     Width                        65
-    OnChanged                    ''
-end
-Strings
-    Name                         Strings33
-    Alias                        Strings33
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       22
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         116
-    Strings                      120º/220º\n
-    StringsStyle                 Message
-    Top                          124
-    Width                        92
     OnChanged                    ''
 end
 UserButton
@@ -2860,11 +2851,11 @@ UserButton
     Alias                        Userbutton74
     Height                       65
     Images                       'button_wait.png\nbutton_wait.png\nbutton (4).png\nbutton (5).png'
-    Left                         120
+    Left                         192
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          168
+    Top                          176
     Width                        85
     OnChanged                    'Report Message'
 end
@@ -2887,7 +2878,7 @@ Strings
     Strings                      Heating...\n
     StringsStyle                 Message
     Top                          0
-    Width                        320
+    Width                        480
     OnChanged                    ''
 end
 UserButton
@@ -2899,7 +2890,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
+    Top                          264
     Width                        60
     OnChanged                    'Report Message'
 end
@@ -2935,10 +2926,10 @@ Strings
     Font.Size                    22
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         88
+    Left                         184
     Strings                      Processing\n
     StringsStyle                 Message
-    Top                          88
+    Top                          140
     Width                        140
     OnChanged                    ''
 end

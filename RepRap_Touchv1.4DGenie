@@ -1718,6 +1718,19 @@ Strings
     Width                        144
     OnChanged                    ''
 end
+UserButton
+    Name                         Userbutton54
+    Alias                        Userbutton54
+    Height                       55
+    Images                       00_flechaGOBACK.png
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          24
+    Width                        55
+    OnChanged                    'Report Message'
+end
 Form
     Name                         Form20
     Alias                        Form20
@@ -1829,7 +1842,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         152
-    Strings                      SUCCES
+    Strings                      SUCCESS\n
     StringsStyle                 Message
     Top                          152
     Width                        200
@@ -1846,7 +1859,7 @@ UserButton
     Stretch                      No
     Top                          200
     Width                        85
-    OnChanged                    Form6Activate
+    OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages2
@@ -3751,6 +3764,19 @@ UserButton
     Width                        85
     OnChanged                    'Report Message'
 end
+UserButton
+    Name                         Userbutton49
+    Alias                        Userbutton49
+    Height                       55
+    Images                       00_flechaGOBACK.png
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        55
+    OnChanged                    'Report Message'
+end
 Form
     Name                         Form16
     Alias                        Form16
@@ -3791,7 +3817,7 @@ UserButton
     Images                       'button (4).png\nbutton (5).png'
     Left                         200
     Matrix                       -1
-    Momentary                    No
+    Momentary                    Yes
     Stretch                      No
     Top                          236
     Width                        85
@@ -3830,7 +3856,7 @@ UserButton
     Stretch                      No
     Top                          0
     Width                        55
-    OnChanged                    Form23Activate
+    OnChanged                    'Report Message'
 end
 Form
     Name                         Form17
@@ -3960,7 +3986,7 @@ UserButton
     Stretch                      No
     Top                          0
     Width                        55
-    OnChanged                    Form23Activate
+    OnChanged                    'Report Message'
 end
 Form
     Name                         Form25
@@ -3994,10 +4020,10 @@ Strings
     Font.Size                    22
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         152
+    Left                         140
     Strings                      'Initiating XY calibration!\n'
     StringsStyle                 Message
-    Top                          152
+    Top                          108
     Width                        191
     OnChanged                    ''
 end
@@ -4006,11 +4032,11 @@ UserButton
     Alias                        Userbutton47
     Height                       65
     Images                       'button (4).png\nbutton (5).png'
-    Left                         188
+    Left                         196
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          236
+    Top                          200
     Width                        85
     OnChanged                    'Report Message'
 end
@@ -4025,5 +4051,22 @@ UserButton
     Stretch                      No
     Top                          0
     Width                        55
-    OnChanged                    Form23Activate
+    OnChanged                    'Report Message'
+end
+Form
+    Name                         Form36
+    Alias                        Form36
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
 end

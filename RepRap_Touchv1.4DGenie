@@ -378,7 +378,7 @@ UserButton
     Stretch                      No
     Top                          216
     Width                        100
-    OnChanged                    Form4Activate
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton2
@@ -2521,7 +2521,7 @@ Form
     Source.Left                  0
     Source.Top                   0
     Source.Width                 480
-    OnActivate                   'Report Message'
+    OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''

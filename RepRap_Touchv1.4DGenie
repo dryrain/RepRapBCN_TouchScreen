@@ -4070,3 +4070,213 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
+Form
+    Name                         Form37
+    Alias                        Form37
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton62
+    Alias                        Userbutton62
+    Height                       320
+    Images                       ''
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          0
+    Width                        480
+    OnChanged                    Form5Activate
+end
+Form
+    Name                         Form38
+    Alias                        Form38
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton64
+    Alias                        Userbutton64
+    Height                       35
+    Images                       ''
+    Left                         308
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          165
+    Width                        70
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton65
+    Alias                        Userbutton65
+    Height                       55
+    Images                       00_flechaGOBACK.png
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        55
+    OnChanged                    Form9Activate
+end
+UserButton
+    Name                         Userbutton70
+    Alias                        Userbutton70
+    Height                       40
+    Images                       'up right.png'
+    Left                         316
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          156
+    Width                        59
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton120
+    Alias                        Userbutton120
+    Height                       40
+    Images                       'rightx3 up.png'
+    Left                         380
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          156
+    Width                        83
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton121
+    Alias                        Userbutton121
+    Height                       40
+    Images                       'down left.png'
+    Left                         116
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          152
+    Width                        59
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton122
+    Alias                        Userbutton122
+    Height                       40
+    Images                       'down x3 left.png'
+    Left                         24
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          152
+    Width                        83
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings31
+    Alias                        Strings31
+    BGcolor                      BLACK
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Strikethrough           No
+    Font.Underline               No
+    StringsStyle                 Message
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton123
+    Alias                        Userbutton123
+    Height                       56
+    Images                       But5.png\n00_FlechaDOWN.png
+    Left                         48
+    Matrix                       1
+    Momentary                    No
+    Stretch                      Yes
+    Top                          255
+    Width                        60
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton124
+    Alias                        Userbutton124
+    Height                       56
+    Images                       But6.png\n00_FlechaDOWN.png
+    Left                         140
+    Matrix                       1
+    Momentary                    No
+    Stretch                      Yes
+    Top                          256
+    Width                        59
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton125
+    Alias                        Userbutton125
+    Height                       57
+    Images                       But7.png\n00_FlechaDOWN.png
+    Left                         236
+    Matrix                       1
+    Momentary                    No
+    Stretch                      Yes
+    Top                          256
+    Width                        61
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton126
+    Alias                        Userbutton126
+    Height                       58
+    Images                       But8.png\n00_FlechaDOWN.png
+    Left                         324
+    Matrix                       1
+    Momentary                    No
+    Stretch                      Yes
+    Top                          256
+    Width                        62
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings32
+    Alias                        Strings32
+    BGcolor                      BLACK
+    Height                       49
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    '4D Font3 (8x12)'
+    Font.Size                    12
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         164
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          68
+    Width                        165
+    OnChanged                    ''
+end

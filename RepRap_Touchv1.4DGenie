@@ -4198,14 +4198,23 @@ end
 Strings
     Name                         Strings31
     Alias                        Strings31
+    Alignment                    Center
     BGcolor                      BLACK
+    Height                       45
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
+    Left                         200
+    Strings                      \n
     StringsStyle                 Message
+    Top                          152
+    Width                        96
     OnChanged                    ''
 end
 UserButton
@@ -4263,6 +4272,7 @@ end
 Strings
     Name                         Strings32
     Alias                        Strings32
+    Alignment                    Center
     BGcolor                      BLACK
     Height                       49
     FGcolor                      WHITE
@@ -4270,6 +4280,7 @@ Strings
     Font.CharSet                 ANSI
     Font.Italic                  No
     Font.Name                    '4D Font3 (8x12)'
+    Font.Opaque                  No
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No

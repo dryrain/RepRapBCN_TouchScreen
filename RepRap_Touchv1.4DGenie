@@ -4210,11 +4210,11 @@ Strings
     Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         212
-    Strings                      100
+    Left                         208
+    Strings                      '100 %\n'
     StringsStyle                 Message
     Top                          152
-    Width                        55
+    Width                        90
     OnChanged                    ''
 end
 UserButton

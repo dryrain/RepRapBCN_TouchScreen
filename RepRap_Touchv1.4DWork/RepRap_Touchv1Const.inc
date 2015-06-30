@@ -1,4 +1,4 @@
-// File generated 30/06/2015 10:31:45
+// File generated 30/06/2015 10:34:39
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -103,7 +103,7 @@
 #constant  Strings30Count    1
 #constant  Strings30Size     45
 #constant  Strings31Count    1
-#constant  Strings31Size     4
+#constant  Strings31Size     7
 #constant  Strings32Count    1
 #constant  Strings32Size     19
 // object indexes into ImageControl

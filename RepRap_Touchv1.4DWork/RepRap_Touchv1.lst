@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 30/06/2015 10:32:02
+005061  000003  // generated 30/06/2015 10:34:58
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,7 +5102,7 @@ file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DW
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 30/06/2015 10:31:45
+005093  000001  // File generated 30/06/2015 10:34:39
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
@@ -5308,8 +5308,8 @@ file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DW
 005296  000104  #constant  Strings30Size     45
 005297  000105  #constant  Strings31Count    1
 005298  000105  #constant  Strings31Count    1
-005299  000106  #constant  Strings31Size     4
-005300  000106  #constant  Strings31Size     4
+005299  000106  #constant  Strings31Size     7
+005300  000106  #constant  Strings31Size     7
 005301  000107  #constant  Strings32Count    1
 005302  000107  #constant  Strings32Count    1
 005303  000108  #constant  Strings32Size     19
@@ -16696,7 +16696,7 @@ Strings30Size                         45  0x0000002d (const dword)  (usage 3)
 Strings30StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings30StartL                    25088  0x00006200 (const dword)  (usage 3)
 Strings31Count                         1  0x00000001 (const dword)  (not used)
-Strings31Size                          4  0x00000004 (const dword)  (usage 3)
+Strings31Size                          7  0x00000007 (const dword)  (usage 3)
 Strings31StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings31StartL                    25600  0x00006400 (const dword)  (usage 3)
 Strings32Count                         1  0x00000001 (const dword)  (not used)

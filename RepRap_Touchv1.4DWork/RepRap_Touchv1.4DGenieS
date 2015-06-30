@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 30/06/2015 10:32:02
+// generated 30/06/2015 10:34:58
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -445,7 +445,7 @@
     word iStrings28  Strings28StartH, Strings28StartL, Strings28Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 24 
     word iStrings29  Strings29StartH, Strings29StartL, Strings29Size, 140, 136, 330, 208, WHITE, DEEPSKYBLUE, 0, 1, 1, 18 
     word iStrings30  Strings30StartH, Strings30StartL, Strings30Size, 140, 108, 330, 154, WHITE, DEEPSKYBLUE, 0, 1, 1, 25 
-    word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 212, 152, 266, 191, WHITE, BLACK, 0, 0, 1, 38 
+    word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 208, 152, 297, 191, WHITE, BLACK, 0, 0, 1, 38 
     word iStrings32  Strings32StartH, Strings32StartL, Strings32Size, 140, 68, 426, 110, WHITE, BLACK, 0, 0, 1, 38 
 
     word iStrings34  Strings34StartH, Strings34StartL, Strings34Size, 284, 208, 331, 240, WHITE, BLACK, 0, 0, 1, 9 

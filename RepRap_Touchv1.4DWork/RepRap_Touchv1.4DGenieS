@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 29/06/2015 17:32:35
+// generated 30/06/2015 10:32:02
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -445,8 +445,8 @@
     word iStrings28  Strings28StartH, Strings28StartL, Strings28Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 24 
     word iStrings29  Strings29StartH, Strings29StartL, Strings29Size, 140, 136, 330, 208, WHITE, DEEPSKYBLUE, 0, 1, 1, 18 
     word iStrings30  Strings30StartH, Strings30StartL, Strings30Size, 140, 108, 330, 154, WHITE, DEEPSKYBLUE, 0, 1, 1, 25 
-    word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 200, 152, 295, 196, WHITE, BLACK, 0, 0, 1, 38 
-    word iStrings32  Strings32StartH, Strings32StartL, Strings32Size, 164, 68, 328, 116, WHITE, BLACK, 0, 0, 1, 38 
+    word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 212, 152, 266, 191, WHITE, BLACK, 0, 0, 1, 38 
+    word iStrings32  Strings32StartH, Strings32StartL, Strings32Size, 140, 68, 426, 110, WHITE, BLACK, 0, 0, 1, 38 
 
     word iStrings34  Strings34StartH, Strings34StartL, Strings34Size, 284, 208, 331, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings35  Strings35StartH, Strings35StartL, Strings35Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 26 
@@ -850,7 +850,6 @@ func main()
     hFonts[23] := FONT3 ;
     hFonts[24] := FONT3 ;
     hFonts[28] := FONT3 ;
-    hFonts[32] := FONT3 ;
     hFonts[35] := FONT3 ;
     hFonts[37] := file_LoadImageControl("REPRAP~2.d04", "REPRAP~2.g04", 1)  ;
     hFonts[51] := FONT3 ;
@@ -868,6 +867,7 @@ func main()
     hFonts[29] := hFonts[11] ;
     hFonts[30] := hFonts[11] ;
     hFonts[31] := hFonts[1] ;
+    hFonts[32] := hFonts[1] ;
     hFonts[34] := hFonts[0] ;
     hFonts[36] := hFonts[0] ;
     hFonts[38] := hFonts[37] ;

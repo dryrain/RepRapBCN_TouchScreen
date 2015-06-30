@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 29/06/2015 17:32:35
+005061  000003  // generated 30/06/2015 10:32:02
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,7 +5102,7 @@ file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DW
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 29/06/2015 17:32:17
+005093  000001  // File generated 30/06/2015 10:31:45
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
@@ -5308,12 +5308,12 @@ file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DW
 005296  000104  #constant  Strings30Size     45
 005297  000105  #constant  Strings31Count    1
 005298  000105  #constant  Strings31Count    1
-005299  000106  #constant  Strings31Size     9
-005300  000106  #constant  Strings31Size     9
-005301  000107  #constant  Strings32Count    0
-005302  000107  #constant  Strings32Count    0
-005303  000108  #constant  Strings32Size     1
-005304  000108  #constant  Strings32Size     1
+005299  000106  #constant  Strings31Size     4
+005300  000106  #constant  Strings31Size     4
+005301  000107  #constant  Strings32Count    1
+005302  000107  #constant  Strings32Count    1
+005303  000108  #constant  Strings32Size     19
+005304  000108  #constant  Strings32Size     19
 005305  000109  // object indexes into ImageControl
 005306  000110  #CONST
 005307  000283  #END
@@ -14781,24 +14781,24 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 014767  000850      hFonts[23] := FONT3 ;
 014768  000851      hFonts[24] := FONT3 ;
 014769  000852      hFonts[28] := FONT3 ;
-014770  000853      hFonts[32] := FONT3 ;
-014771  000854      hFonts[35] := FONT3 ;
-014772  000855      hFonts[37] := file_LoadImageControl("REPRAP~2.d04", "REPRAP~2.g04", 1)  ;
-014773  000856      hFonts[51] := FONT3 ;
-014774  000857      hFonts[52] := FONT3 ;
-014775  000858      hFonts[7] := hFonts[37] ;
-014776  000859      hFonts[8] := hFonts[37] ;
-014777  000860      hFonts[9] := hFonts[0] ;
-014778  000861      hFonts[10] := hFonts[11] ;
-014779  000862      hFonts[17] := hFonts[11] ;
-014780  000863      hFonts[18] := hFonts[11] ;
-014781  000864      hFonts[19] := hFonts[11] ;
-014782  000865      hFonts[25] := hFonts[11] ;
-014783  000866      hFonts[26] := hFonts[11] ;
-014784  000867      hFonts[27] := hFonts[11] ;
-014785  000868      hFonts[29] := hFonts[11] ;
-014786  000869      hFonts[30] := hFonts[11] ;
-014787  000870      hFonts[31] := hFonts[1] ;
+014770  000853      hFonts[35] := FONT3 ;
+014771  000854      hFonts[37] := file_LoadImageControl("REPRAP~2.d04", "REPRAP~2.g04", 1)  ;
+014772  000855      hFonts[51] := FONT3 ;
+014773  000856      hFonts[52] := FONT3 ;
+014774  000857      hFonts[7] := hFonts[37] ;
+014775  000858      hFonts[8] := hFonts[37] ;
+014776  000859      hFonts[9] := hFonts[0] ;
+014777  000860      hFonts[10] := hFonts[11] ;
+014778  000861      hFonts[17] := hFonts[11] ;
+014779  000862      hFonts[18] := hFonts[11] ;
+014780  000863      hFonts[19] := hFonts[11] ;
+014781  000864      hFonts[25] := hFonts[11] ;
+014782  000865      hFonts[26] := hFonts[11] ;
+014783  000866      hFonts[27] := hFonts[11] ;
+014784  000867      hFonts[29] := hFonts[11] ;
+014785  000868      hFonts[30] := hFonts[11] ;
+014786  000869      hFonts[31] := hFonts[1] ;
+014787  000870      hFonts[32] := hFonts[1] ;
 014788  000871      hFonts[34] := hFonts[0] ;
 014789  000872      hFonts[36] := hFonts[0] ;
 014790  000873      hFonts[38] := hFonts[37] ;
@@ -15546,7 +15546,7 @@ flt_ULTOF                            -82  0xffffffae (PmmC func) args[2] r=1  (n
 flt_VAL                              -78  0xffffffb2 (PmmC func) args[2] r=1  (not used)
 FONT1                                  1  0x00000001 (const dword)  (not used)
 FONT2                                  2  0x00000002 (const dword)  (not used)
-FONT3                                  3  0x00000003 (const dword)  (usage 54)
+FONT3                                  3  0x00000003 (const dword)  (usage 51)
 FONT_1                                 1  0x00000001 (const dword)  (not used)
 FONT_10                               10  0x0000000a (const dword)  (not used)
 FONT_11                               11  0x0000000b (const dword)  (not used)
@@ -15708,7 +15708,7 @@ HEX4Z                               1040  0x00000410 (const dword)  (not used)
 HEX4ZB                              9232  0x00002410 (const dword)  (not used)
 HEXZ                                1040  0x00000410 (const dword)  (not used)
 HEXZB                               9232  0x00002410 (const dword)  (not used)
-hFonts                                 2  0x00000002 (mem) word[53] (global)  (usage 243)
+hFonts                                 2  0x00000002 (mem) word[53] (global)  (usage 246)
 HI                                     1  0x00000001 (const dword)  (not used)
 HIbyte                               -48  0xffffffd0 (PmmC func) args[1] r=1  (not used)
 HIDE                                   2  0x00000002 (const dword)  (not used)
@@ -16696,11 +16696,11 @@ Strings30Size                         45  0x0000002d (const dword)  (usage 3)
 Strings30StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings30StartL                    25088  0x00006200 (const dword)  (usage 3)
 Strings31Count                         1  0x00000001 (const dword)  (not used)
-Strings31Size                          9  0x00000009 (const dword)  (usage 3)
+Strings31Size                          4  0x00000004 (const dword)  (usage 3)
 Strings31StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings31StartL                    25600  0x00006400 (const dword)  (usage 3)
-Strings32Count                         0  0x00000000 (const dword)  (not used)
-Strings32Size                          1  0x00000001 (const dword)  (usage 3)
+Strings32Count                         1  0x00000001 (const dword)  (not used)
+Strings32Size                         19  0x00000013 (const dword)  (usage 3)
 Strings32StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings32StartL                    26112  0x00006600 (const dword)  (usage 3)
 Strings33Size                          0  0x00000000 (const dword)  (not used)

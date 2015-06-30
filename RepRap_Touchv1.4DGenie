@@ -4200,7 +4200,7 @@ Strings
     Alias                        Strings31
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       45
+    Height                       40
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -4210,11 +4210,11 @@ Strings
     Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         200
-    Strings                      \n
+    Left                         212
+    Strings                      100
     StringsStyle                 Message
     Top                          152
-    Width                        96
+    Width                        55
     OnChanged                    ''
 end
 UserButton
@@ -4274,20 +4274,20 @@ Strings
     Alias                        Strings32
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       49
+    Height                       43
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
+    Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    12
+    Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         164
-    Strings                      ''
+    Left                         140
+    Strings                      'BED TEMPERATURE\n'
     StringsStyle                 Message
     Top                          68
-    Width                        165
+    Width                        287
     OnChanged                    ''
 end

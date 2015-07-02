@@ -4214,3 +4214,392 @@ Strings
     Width                        287
     OnChanged                    ''
 end
+Form
+    Name                         Form39
+    Alias                        Form39
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        00_BackMain.png
+    Source.Height                321
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserImages
+    Name                         Userimages10
+    Alias                        Userimages10
+    Height                       320
+    Images                       EixosXY_provisional.png
+    Left                         0
+    Stretch                      Yes
+    Top                          0
+    Width                        480
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton127
+    Alias                        Userbutton127
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          10
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton128
+    Alias                        Userbutton128
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          32
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton129
+    Alias                        Userbutton129
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          52
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton130
+    Alias                        Userbutton130
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          76
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton131
+    Alias                        Userbutton131
+    Height                       21
+    Images                       ''
+    Left                         232
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          96
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton132
+    Alias                        Userbutton132
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          116
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton133
+    Alias                        Userbutton133
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          140
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton134
+    Alias                        Userbutton134
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          160
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton135
+    Alias                        Userbutton135
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          180
+    Width                        191
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton136
+    Alias                        Userbutton136
+    Height                       21
+    Images                       ''
+    Left                         236
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          204
+    Width                        191
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings13
+    Alias                        Strings13
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       35
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         52
+    Strings                      'X: \n'
+    StringsStyle                 Message
+    Top                          28
+    Width                        30
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings46
+    Alias                        Strings46
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       35
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         88
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          28
+    Width                        32
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings47
+    Alias                        Strings47
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       35
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         88
+    Strings                      \n
+    StringsStyle                 Message
+    Top                          68
+    Width                        32
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings48
+    Alias                        Strings48
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       35
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         52
+    Strings                      Y:
+    StringsStyle                 Message
+    Top                          68
+    Width                        30
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton137
+    Alias                        Userbutton137
+    Height                       92
+    Images                       00_accept.png
+    Left                         316
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          224
+    Width                        71
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton138
+    Alias                        Userbutton138
+    Height                       191
+    Images                       ''
+    Left                         12
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton139
+    Alias                        Userbutton139
+    Height                       191
+    Images                       ''
+    Left                         33
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton140
+    Alias                        Userbutton140
+    Height                       191
+    Images                       ''
+    Left                         52
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton141
+    Alias                        Userbutton141
+    Height                       191
+    Images                       ''
+    Left                         76
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton142
+    Alias                        Userbutton142
+    Height                       191
+    Images                       ''
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton143
+    Alias                        Userbutton143
+    Height                       191
+    Images                       ''
+    Left                         116
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton144
+    Alias                        Userbutton144
+    Height                       191
+    Images                       ''
+    Left                         140
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton145
+    Alias                        Userbutton145
+    Height                       191
+    Images                       ''
+    Left                         160
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton146
+    Alias                        Userbutton146
+    Height                       191
+    Images                       ''
+    Left                         180
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton147
+    Alias                        Userbutton147
+    Height                       191
+    Images                       ''
+    Left                         200
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          120
+    Width                        18
+    OnChanged                    'Report Message'
+end

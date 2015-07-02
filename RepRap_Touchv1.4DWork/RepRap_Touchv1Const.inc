@@ -1,4 +1,4 @@
-// File generated 02/07/2015 11:00:23
+// File generated 02/07/2015 12:27:54
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -96,6 +96,14 @@
 #constant  Strings31Size     7
 #constant  Strings32Count    1
 #constant  Strings32Size     19
+#constant  Strings13Count    1
+#constant  Strings13Size     4
+#constant  Strings46Count    0
+#constant  Strings46Size     1
+#constant  Strings47Count    0
+#constant  Strings47Size     1
+#constant  Strings48Count    1
+#constant  Strings48Size     3
 // object indexes into ImageControl
 #CONST
     iForm0          // offset 0x0
@@ -273,20 +281,30 @@
     iUserbutton124  // offset 0xDB5600
     iUserbutton125  // offset 0xDBBE00
     iUserbutton126  // offset 0xDC2C00
+    iUserimages10   // offset 0xDC9E00
+    iUserbutton127  // offset 0xE15000
+    iUserbutton128  // offset 0xE19000
+    iUserbutton129  // offset 0xE1D000
+    iUserbutton130  // offset 0xE21000
+    iUserbutton131  // offset 0xE25000
+    iUserbutton132  // offset 0xE29000
+    iUserbutton133  // offset 0xE2D000
+    iUserbutton134  // offset 0xE31000
+    iUserbutton135  // offset 0xE35000
+    iUserbutton136  // offset 0xE39000
+    iUserbutton137  // offset 0xE3D000
+    iUserbutton138  // offset 0xE43800
+    iUserbutton139  // offset 0xE46E00
+    iUserbutton140  // offset 0xE4A400
+    iUserbutton141  // offset 0xE4DA00
+    iUserbutton142  // offset 0xE51000
+    iUserbutton143  // offset 0xE54600
+    iUserbutton144  // offset 0xE57C00
+    iUserbutton145  // offset 0xE5B200
+    iUserbutton146  // offset 0xE5E800
+    iUserbutton147  // offset 0xE61E00
 #END
 
-#constant  Strings13Size     0
-#constant  Strings13StartH   0
-#constant  Strings13StartL   0
-#constant  Strings46Size     0
-#constant  Strings46StartH   0
-#constant  Strings46StartL   0
-#constant  Strings47Size     0
-#constant  Strings47StartH   0
-#constant  Strings47StartL   0
-#constant  Strings48Size     0
-#constant  Strings48StartH   0
-#constant  Strings48StartL   0
 #constant  Strings49Size     0
 #constant  Strings49StartH   0
 #constant  Strings49StartL   0
@@ -387,6 +405,14 @@
 #constant  Strings31StartL   0x5A00
 #constant  Strings32StartH   0x0
 #constant  Strings32StartL   0x5C00
+#constant  Strings13StartH   0x0
+#constant  Strings13StartL   0x5E00
+#constant  Strings46StartH   0x0
+#constant  Strings46StartL   0x6000
+#constant  Strings47StartH   0x0
+#constant  Strings47StartL   0x6200
+#constant  Strings48StartH   0x0
+#constant  Strings48StartL   0x6400
 #IFNOT EXISTS NOGLOBALS
 var hndl ;
 #ENDIF

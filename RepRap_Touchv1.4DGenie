@@ -2108,19 +2108,6 @@ UserButton
     OnChanged                    Form4Activate
 end
 UserButton
-    Name                         Userbutton67
-    Alias                        Userbutton67
-    Height                       100
-    Images                       ExtrX.png
-    Left                         360
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          72
-    Width                        100
-    OnChanged                    'Report Message'
-end
-UserButton
     Name                         Userbutton68
     Alias                        Userbutton68
     Height                       100
@@ -2144,19 +2131,6 @@ UserButton
     Stretch                      No
     Top                          236
     Width                        248
-    OnChanged                    'Report Message'
-end
-UserButton
-    Name                         Userbutton119
-    Alias                        Userbutton119
-    Height                       100
-    Images                       ExtrZ.png
-    Left                         360
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          72
-    Width                        100
     OnChanged                    'Report Message'
 end
 Form
@@ -4602,4 +4576,65 @@ UserButton
     Top                          120
     Width                        18
     OnChanged                    'Report Message'
+end
+Form
+    Name                         Form40
+    Alias                        Form40
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings49
+    Alias                        Strings49
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       50
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    41
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         128
+    Strings                      'LET''S CALIBRATE:\n'
+    StringsStyle                 Message
+    Top                          80
+    Width                        222
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings50
+    Alias                        Strings50
+    Alignment                    Left
+    BGcolor                      BLACK
+    Height                       41
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    41
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         120
+    Strings                      'X AXEL, heatting...\n'
+    StringsStyle                 Message
+    Top                          136
+    Width                        237
+    OnChanged                    ''
 end

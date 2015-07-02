@@ -3096,85 +3096,36 @@ UserImages
     Name                         Userimages3
     Alias                        Userimages3
     Height                       200
-    Images                       'Drawing.png\nDrawing (7).png\nDrawing (6).png\nDrawing (5).png\nDrawing (4).png\nDrawing (3).png\nDrawing (2).png\nDrawing (1).png\nDrawing.png\n1,8 Clockwise.png\n2,8 Cloclwise.png\n3,8 Clockwise.png\n4,8 Clockwise.png\n5,8 Clockwise.png\n6,8 Clockwise.png\n7,8 Clockwise.png\n8,8 Clockwise.png'
-    Left                         44
+    Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
+    Left                         221
     Stretch                      Yes
     Top                          0
-    Width                        200
+    Width                        259
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton93
     Alias                        Userbutton93
     Height                       112
-    Images                       00_accept.png\n00_accept.png\n00_accept.png\n00_accept.png
-    Left                         120
+    Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaGOBACK.png
+    Left                         308
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          208
-    Width                        75
+    Top                          196
+    Width                        85
     OnChanged                    'Report Message'
 end
-Strings
-    Name                         Strings13
-    Alias                        Strings13
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       34
-    FGcolor                      BLACK
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  No
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         112
-    Strings                      '1 / 8\n'
-    StringsStyle                 Message
-    Top                          92
-    Width                        75
-    OnChanged                    ''
-end
-Strings
-    Name                         Strings48
-    Alias                        Strings48
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       38
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  Yes
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
+UserImages
+    Name                         Userimages7
+    Alias                        Userimages7
+    Height                       320
+    Images                       Llit_Screw_1.png
     Left                         0
-    Strings                      'Screw 1\n'
-    StringsStyle                 Message
-    Top                          212
-    Width                        100
+    Stretch                      Yes
+    Top                          0
+    Width                        240
     OnChanged                    ''
-end
-Image
-    Name                         Image1
-    Alias                        Image1
-    Height                       300
-    Image                        ScreenScrew1.png
-    Left                         276
-    Source.Height                300
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 200
-    Top                          8
-    Width                        200
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
 end
 Form
     Name                         Form31
@@ -3196,86 +3147,37 @@ end
 UserButton
     Name                         Userbutton94
     Alias                        Userbutton94
-    Height                       175
-    Images                       00_accept.png\n00_accept.png\n00_accept.png\n00_accept.png
-    Left                         200
+    Height                       112
+    Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaGOBACK.png
+    Left                         308
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          92
-    Width                        68
+    Top                          196
+    Width                        85
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages4
     Alias                        Userimages4
     Height                       200
-    Images                       'Drawing.png\nDrawing (7).png\nDrawing (6).png\nDrawing (5).png\nDrawing (4).png\nDrawing (3).png\nDrawing (2).png\nDrawing (1).png\nDrawing.png\n1,8 Clockwise.png\n2,8 Cloclwise.png\n3,8 Clockwise.png\n4,8 Clockwise.png\n5,8 Clockwise.png\n6,8 Clockwise.png\n7,8 Clockwise.png\n8,8 Clockwise.png'
+    Images                       '8,8_Clockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
+    Left                         221
+    Stretch                      Yes
+    Top                          0
+    Width                        259
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages8
+    Alias                        Userimages8
+    Height                       320
+    Images                       Llit_Screw_2.png
     Left                         0
     Stretch                      Yes
-    Top                          68
-    Width                        200
+    Top                          0
+    Width                        240
     OnChanged                    ''
-end
-Strings
-    Name                         Strings46
-    Alias                        Strings46
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       34
-    FGcolor                      BLACK
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  No
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         72
-    Strings                      '1 / 8\n'
-    StringsStyle                 Message
-    Top                          156
-    Width                        75
-    OnChanged                    ''
-end
-Strings
-    Name                         Strings49
-    Alias                        Strings49
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       38
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  Yes
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         152
-    Strings                      'Screw 2\n'
-    StringsStyle                 Message
-    Top                          16
-    Width                        100
-    OnChanged                    ''
-end
-Image
-    Name                         Image2
-    Alias                        Image2
-    Height                       300
-    Image                        ScreenScrew2.png
-    Left                         272
-    Source.Height                300
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 200
-    Top                          8
-    Width                        200
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
 end
 Form
     Name                         Form32
@@ -3294,89 +3196,40 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings47
-    Alias                        Strings47
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       34
-    FGcolor                      BLACK
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  Yes
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         320
-    Strings                      '1 / 8\n'
-    StringsStyle                 Message
-    Top                          108
-    Width                        75
-    OnChanged                    ''
-end
 UserImages
     Name                         Userimages5
     Alias                        Userimages5
     Height                       200
-    Images                       'Drawing.png\nDrawing (7).png\nDrawing (6).png\nDrawing (5).png\nDrawing (4).png\nDrawing (3).png\nDrawing (2).png\nDrawing (1).png\nDrawing.png\n1,8 Clockwise.png\n2,8 Cloclwise.png\n3,8 Clockwise.png\n4,8 Clockwise.png\n5,8 Clockwise.png\n6,8 Clockwise.png\n7,8 Clockwise.png\n8,8 Clockwise.png'
-    Left                         248
+    Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
+    Left                         221
     Stretch                      Yes
-    Top                          8
-    Width                        199
+    Top                          0
+    Width                        259
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton95
     Alias                        Userbutton95
-    Height                       90
-    Images                       00_accept.png
-    Left                         320
+    Height                       112
+    Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaUP_1.png
+    Left                         308
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          220
-    Width                        77
+    Top                          196
+    Width                        85
     OnChanged                    'Report Message'
 end
-Strings
-    Name                         Strings50
-    Alias                        Strings50
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       38
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  Yes
-    Font.Size                    33
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         60
-    Strings                      'Screw 3\n'
-    StringsStyle                 Message
-    Top                          132
-    Width                        100
+UserImages
+    Name                         Userimages9
+    Alias                        Userimages9
+    Height                       320
+    Images                       Llit_Screw3.png
+    Left                         0
+    Stretch                      Yes
+    Top                          0
+    Width                        240
     OnChanged                    ''
-end
-Image
-    Name                         Image3
-    Alias                        Image3
-    Height                       300
-    Image                        ScreenScrew3.png
-    Left                         4
-    Source.Height                300
-    Source.Left                  0
-    Source.Top                   0
-    Source.Width                 200
-    Top                          8
-    Width                        200
-    OnTouchMoving                ''
-    OnTouchPressed               ''
-    OnTouchReleased              ''
 end
 Form
     Name                         Form33

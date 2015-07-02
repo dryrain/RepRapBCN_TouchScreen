@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 01/07/2015 17:17:32
+// generated 02/07/2015 11:00:42
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -427,7 +427,7 @@
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 168, 144, 307, 175, WHITE, BLACK, 0, 1, 1, 11 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 184, 160, 327, 208, WHITE, DEEPSKYBLUE, 0, 1, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 180, 136, 298, 165, WHITE, BLACK, 0, 1, 1, 12 
-    word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 112, 92, 186, 125, BLACK, BLACK, 0, 0, 1, 30 
+
     word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 13 
     word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 15 
     word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 184, 180, 250, 224, WHITE, BLACK, 0, 1, 1, 14 
@@ -460,11 +460,11 @@
     word iStrings43  Strings43StartH, Strings43StartL, Strings43Size, 56, 148, 123, 199, WHITE, BLACK, 0, 0, 1, 29 
     word iStrings44  Strings44StartH, Strings44StartL, Strings44Size, 252, 148, 319, 199, WHITE, BLACK, 0, 0, 1, 29 
     word iStrings45  Strings45StartH, Strings45StartL, Strings45Size, 160, 148, 206, 199, WHITE, BLACK, 0, 0, 1, 29 
-    word iStrings46  Strings46StartH, Strings46StartL, Strings46Size, 72, 156, 146, 189, BLACK, BLACK, 0, 0, 1, 31 
-    word iStrings47  Strings47StartH, Strings47StartL, Strings47Size, 344, 116, 418, 149, BLACK, BLACK, 0, 1, 1, 32 
-    word iStrings48  Strings48StartH, Strings48StartL, Strings48Size, 0, 212, 99, 249, WHITE, BLACK, 0, 1, 1, 30 
-    word iStrings49  Strings49StartH, Strings49StartL, Strings49Size, 152, 16, 251, 53, WHITE, BLACK, 0, 1, 1, 31 
-    word iStrings50  Strings50StartH, Strings50StartL, Strings50Size, 212, 260, 311, 297, WHITE, BLACK, 0, 1, 1, 32 
+
+
+
+
+
     word iStrings51  Strings51StartH, Strings51StartL, Strings51Size, 164, 172, 230, 216, WHITE, BLACK, 0, 1, 1, 34 
     word iStrings52  Strings52StartH, Strings52StartL, Strings52Size, 172, 180, 238, 224, WHITE, BLACK, 0, 1, 1, 35 
     word oDipSwitchs 0
@@ -479,12 +479,12 @@
     word oCustomdigitss 0
     word oForms 39, iForm0, iForm1, iForm2, -1, iForm4, iForm5, -1, -1, -1, iForm9, iForm10, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, iForm28, iForm29, -1, -1, -1, -1, -1, -1, -1, -1, -1
     word oGauges 0
-    word oImages 4, iImage0, iImage1, iImage2, iImage3
+    word oImages 1, iImage0
     word oKeyboards 0
     word oLeds 0
     word oLeddigitss 3, iLeddigits0, iLeddigits1, iLeddigits2
     word oMeters 0
-    word oStringss 53, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, iStrings20, iStrings21, iStrings22, iStrings23, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, iStrings34, iStrings35, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, iStrings46, iStrings47, iStrings48, iStrings49, iStrings50, iStrings51, iStrings52
+    word oStringss 53, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, -1, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, iStrings20, iStrings21, iStrings22, iStrings23, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, iStrings34, iStrings35, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, -1, -1, -1, -1, -1, iStrings51, iStrings52
     word oThermometers 0
     word oUserleds 0
     word oVideos 1, iVideo0
@@ -492,7 +492,7 @@
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
-    word oUserImagess 7, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, iUserimages6
+    word oUserImagess 10, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, iUserimages6, iUserimages7, iUserimages8, iUserimages9
     word oPinInputs 0
     word o4Dbuttons 0
     word oAniButtons 0
@@ -840,7 +840,6 @@ func main()
     hFonts[6] := FONT3 ;
     hFonts[11] := file_LoadImageControl("REPRAP~2.d05", "REPRAP~2.g05", 1)  ;
     hFonts[12] := FONT3 ;
-    hFonts[13] := file_LoadImageControl("REPRAP~2.d07", "REPRAP~2.g07", 1)  ;
     hFonts[14] := FONT3 ;
     hFonts[15] := FONT3 ;
     hFonts[16] := FONT3 ;
@@ -879,11 +878,6 @@ func main()
     hFonts[43] := hFonts[37] ;
     hFonts[44] := hFonts[37] ;
     hFonts[45] := hFonts[37] ;
-    hFonts[46] := hFonts[13] ;
-    hFonts[47] := hFonts[13] ;
-    hFonts[48] := hFonts[13] ;
-    hFonts[49] := hFonts[13] ;
-    hFonts[50] := hFonts[13] ;
 // Start P4.inc
     hstrings := file_Open("REPRAP~2.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
     // init comms

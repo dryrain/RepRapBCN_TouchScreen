@@ -2112,11 +2112,11 @@ UserButton
     Alias                        Userbutton67
     Height                       100
     Images                       ExtrX.png
-    Left                         48
+    Left                         360
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          64
+    Top                          72
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -2125,25 +2125,25 @@ UserButton
     Alias                        Userbutton68
     Height                       100
     Images                       button_calibration.png\nbutton_calibration_verd.png
-    Left                         204
+    Left                         212
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          188
+    Top                          68
     Width                        100
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton118
     Alias                        Userbutton118
-    Height                       100
-    Images                       ExtrY.png
-    Left                         204
+    Height                       41
+    Images                       'button (2).png'
+    Left                         140
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          64
-    Width                        100
+    Top                          236
+    Width                        248
     OnChanged                    'Report Message'
 end
 UserButton
@@ -2151,11 +2151,11 @@ UserButton
     Alias                        Userbutton119
     Height                       100
     Images                       ExtrZ.png
-    Left                         352
+    Left                         360
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          64
+    Top                          72
     Width                        100
     OnChanged                    'Report Message'
 end

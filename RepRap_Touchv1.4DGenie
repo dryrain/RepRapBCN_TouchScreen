@@ -4401,12 +4401,12 @@ UserButton
     Alias                        Userbutton136
     Height                       119
     Images                       00_accept.png
-    Left                         336
+    Left                         361
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          0
-    Width                        100
+    Width                        75
     OnChanged                    'Report Message'
 end
 Strings

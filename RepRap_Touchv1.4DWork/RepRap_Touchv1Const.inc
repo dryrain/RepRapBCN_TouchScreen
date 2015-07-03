@@ -1,4 +1,4 @@
-// File generated 02/07/2015 17:19:19
+// File generated 03/07/2015 15:55:02
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
@@ -96,18 +96,18 @@
 #constant  Strings31Size     7
 #constant  Strings32Count    1
 #constant  Strings32Size     19
-#constant  Strings13Count    1
-#constant  Strings13Size     4
-#constant  Strings46Count    0
-#constant  Strings46Size     1
-#constant  Strings47Count    0
-#constant  Strings47Size     1
-#constant  Strings48Count    1
-#constant  Strings48Size     3
 #constant  Strings49Count    1
 #constant  Strings49Size     17
 #constant  Strings50Count    1
 #constant  Strings50Size     20
+#constant  Strings13Count    1
+#constant  Strings13Size     3
+#constant  Strings46Count    0
+#constant  Strings46Size     1
+#constant  Strings47Count    1
+#constant  Strings47Size     3
+#constant  Strings48Count    0
+#constant  Strings48Size     1
 // object indexes into ImageControl
 #CONST
     iForm0          // offset 0x0
@@ -283,28 +283,28 @@
     iUserbutton124  // offset 0xDA2400
     iUserbutton125  // offset 0xDA8C00
     iUserbutton126  // offset 0xDAFA00
-    iUserimages10   // offset 0xDB6C00
-    iUserbutton127  // offset 0xE01E00
-    iUserbutton128  // offset 0xE05E00
-    iUserbutton129  // offset 0xE09E00
-    iUserbutton130  // offset 0xE0DE00
-    iUserbutton131  // offset 0xE11E00
-    iUserbutton132  // offset 0xE15E00
-    iUserbutton133  // offset 0xE19E00
-    iUserbutton134  // offset 0xE1DE00
-    iUserbutton135  // offset 0xE21E00
-    iUserbutton136  // offset 0xE25E00
-    iUserbutton137  // offset 0xE29E00
-    iUserbutton138  // offset 0xE30600
-    iUserbutton139  // offset 0xE33C00
-    iUserbutton140  // offset 0xE37200
-    iUserbutton141  // offset 0xE3A800
-    iUserbutton142  // offset 0xE3DE00
-    iUserbutton143  // offset 0xE41400
-    iUserbutton144  // offset 0xE44A00
-    iUserbutton145  // offset 0xE48000
-    iUserbutton146  // offset 0xE4B600
-    iUserbutton147  // offset 0xE4EC00
+    iUserbutton134  // offset 0xDB6C00
+    iUserbutton119  // offset 0xDC0400
+    iUserbutton127  // offset 0xDC9C00
+    iUserbutton128  // offset 0xDD3400
+    iUserbutton129  // offset 0xDDCC00
+    iUserbutton130  // offset 0xDE6400
+    iUserbutton131  // offset 0xDEFC00
+    iUserbutton132  // offset 0xDF9400
+    iUserbutton133  // offset 0xE02C00
+    iUserbutton135  // offset 0xE0C400
+    iUserbutton136  // offset 0xE15C00
+    iUserbutton137  // offset 0xE21600
+    iUserbutton138  // offset 0xE2C600
+    iUserbutton139  // offset 0xE37600
+    iUserbutton140  // offset 0xE42600
+    iUserbutton141  // offset 0xE4D600
+    iUserbutton142  // offset 0xE58600
+    iUserbutton143  // offset 0xE63600
+    iUserbutton144  // offset 0xE6E600
+    iUserbutton145  // offset 0xE79600
+    iUserbutton146  // offset 0xE84600
+    iUserbutton147  // offset 0xE8F600
 #END
 
 #constant  Strings1StartH   0x0
@@ -401,18 +401,18 @@
 #constant  Strings31StartL   0x5A00
 #constant  Strings32StartH   0x0
 #constant  Strings32StartL   0x5C00
-#constant  Strings13StartH   0x0
-#constant  Strings13StartL   0x5E00
-#constant  Strings46StartH   0x0
-#constant  Strings46StartL   0x6000
-#constant  Strings47StartH   0x0
-#constant  Strings47StartL   0x6200
-#constant  Strings48StartH   0x0
-#constant  Strings48StartL   0x6400
 #constant  Strings49StartH   0x0
-#constant  Strings49StartL   0x6600
+#constant  Strings49StartL   0x5E00
 #constant  Strings50StartH   0x0
-#constant  Strings50StartL   0x6800
+#constant  Strings50StartL   0x6000
+#constant  Strings13StartH   0x0
+#constant  Strings13StartL   0x6200
+#constant  Strings46StartH   0x0
+#constant  Strings46StartL   0x6400
+#constant  Strings47StartH   0x0
+#constant  Strings47StartL   0x6600
+#constant  Strings48StartH   0x0
+#constant  Strings48StartL   0x6800
 #IFNOT EXISTS NOGLOBALS
 var hndl ;
 #ENDIF

@@ -2116,8 +2116,8 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          68
-    Width                        248
+    Top                          56
+    Width                        100
     OnChanged                    'Report Message'
 end
 UserButton

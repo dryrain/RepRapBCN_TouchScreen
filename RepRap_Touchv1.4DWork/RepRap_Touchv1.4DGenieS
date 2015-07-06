@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 03/07/2015 16:36:01
+// generated 06/07/2015 12:08:11
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -833,7 +833,7 @@ func main()
     gfx_ScreenMode(LANDSCAPE) ;
 
     // open image control
-    hndl := file_LoadImageControl("REPRAP~2.dat", "REPRAP~2.gci", 1);
+    hndl := file_LoadImageControl("RepRap_T.dat", "RepRap_T.gci", 1);
 
     // init 'constants'
 // End P3.inc
@@ -871,16 +871,16 @@ func main()
     oObjects[tAniButton] := oAniButtons ;
     oObjects[tColorPicker] := oColorPickers ;
     oObjects[tUserButton] := oUserButtons ;
-    hFonts[0] := file_LoadImageControl("REPRAP~2.d03", "REPRAP~2.g03", 1)  ;
-    hFonts[1] := file_LoadImageControl("REPRAP~2.d01", "REPRAP~2.g01", 1)  ;
-    hFonts[2] := file_LoadImageControl("REPRAP~2.d02", "REPRAP~2.g02", 1)  ;
+    hFonts[0] := file_LoadImageControl("RepRap_T.d03", "RepRap_T.g03", 1)  ;
+    hFonts[1] := file_LoadImageControl("RepRap_T.d01", "RepRap_T.g01", 1)  ;
+    hFonts[2] := file_LoadImageControl("RepRap_T.d02", "RepRap_T.g02", 1)  ;
     hFonts[3] := FONT3 ;
     hFonts[4] := FONT3 ;
     hFonts[5] := FONT3 ;
     hFonts[6] := FONT3 ;
-    hFonts[11] := file_LoadImageControl("REPRAP~2.d05", "REPRAP~2.g05", 1)  ;
+    hFonts[11] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
     hFonts[12] := FONT3 ;
-    hFonts[13] := file_LoadImageControl("REPRAP~2.d08", "REPRAP~2.g08", 1)  ;
+    hFonts[13] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
     hFonts[14] := FONT3 ;
     hFonts[15] := FONT3 ;
     hFonts[16] := FONT3 ;
@@ -890,10 +890,10 @@ func main()
     hFonts[23] := FONT3 ;
     hFonts[24] := FONT3 ;
     hFonts[28] := FONT3 ;
-    hFonts[33] := file_LoadImageControl("REPRAP~2.d06", "REPRAP~2.g06", 1)  ;
+    hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
     hFonts[35] := FONT3 ;
-    hFonts[37] := file_LoadImageControl("REPRAP~2.d04", "REPRAP~2.g04", 1)  ;
-    hFonts[49] := file_LoadImageControl("REPRAP~2.d07", "REPRAP~2.g07", 1)  ;
+    hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
+    hFonts[49] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[51] := FONT3 ;
     hFonts[52] := FONT3 ;
     hFonts[7] := hFonts[37] ;
@@ -925,7 +925,7 @@ func main()
     hFonts[48] := hFonts[13] ;
     hFonts[50] := hFonts[49] ;
 // Start P4.inc
-    hstrings := file_Open("REPRAP~2.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
+    hstrings := file_Open("RepRap_T.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
     // init comms
     com_Init(comRX,CMDLenMAX,0);
     com_SetBaud(COM0,19886);

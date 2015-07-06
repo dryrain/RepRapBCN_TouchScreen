@@ -4474,7 +4474,7 @@ UserButton
     Name                         Userbutton137
     Alias                        Userbutton137
     Height                       32
-    Images                       'horitzonrtal 1.png'
+    Images                       'Horitzontal 1.png'
     Left                         0
     Matrix                       -1
     Momentary                    Yes

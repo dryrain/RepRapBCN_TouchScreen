@@ -1,4 +1,4 @@
-file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS
+file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS
 
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\uLCD-35DT.fnc
 
@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 02/07/2015 11:00:42
+005061  000003  // generated 06/07/2015 17:43:21
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5098,11 +5098,11 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\VisualConst.inc
 005088  000007  #constant  LPSOLID     0x0000
 005089  000009        
 005090  000010        
-file C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1Const.inc
+file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1Const.inc
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 02/07/2015 11:00:23
+005093  000001  // File generated 06/07/2015 17:43:01
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
@@ -14596,7 +14596,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 014582  000793      gfx_ScreenMode(LANDSCAPE) ;
 014583  000794        
 014584  000795      // open image control
-014585  000796      hndl := file_LoadImageControl("REPRAP~2.dat", "REPRAP~2.gci", 1);
+014585  000796      hndl := file_LoadImageControl("RepRap_T.dat", "RepRap_T.gci", 1);
 014586  000797        
 014587  000798      // init 'constants'
 014588  000799  // End P3.inc
@@ -14634,14 +14634,14 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 014620  000831      oObjects[tAniButton] := oAniButtons ;
 014621  000832      oObjects[tColorPicker] := oColorPickers ;
 014622  000833      oObjects[tUserButton] := oUserButtons ;
-014623  000834      hFonts[0] := file_LoadImageControl("REPRAP~2.d03", "REPRAP~2.g03", 1)  ;
-014624  000835      hFonts[1] := file_LoadImageControl("REPRAP~2.d01", "REPRAP~2.g01", 1)  ;
-014625  000836      hFonts[2] := file_LoadImageControl("REPRAP~2.d02", "REPRAP~2.g02", 1)  ;
+014623  000834      hFonts[0] := file_LoadImageControl("RepRap_T.d03", "RepRap_T.g03", 1)  ;
+014624  000835      hFonts[1] := file_LoadImageControl("RepRap_T.d01", "RepRap_T.g01", 1)  ;
+014625  000836      hFonts[2] := file_LoadImageControl("RepRap_T.d02", "RepRap_T.g02", 1)  ;
 014626  000837      hFonts[3] := FONT3 ;
 014627  000838      hFonts[4] := FONT3 ;
 014628  000839      hFonts[5] := FONT3 ;
 014629  000840      hFonts[6] := FONT3 ;
-014630  000841      hFonts[11] := file_LoadImageControl("REPRAP~2.d05", "REPRAP~2.g05", 1)  ;
+014630  000841      hFonts[11] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
 014631  000842      hFonts[12] := FONT3 ;
 014632  000843      hFonts[14] := FONT3 ;
 014633  000844      hFonts[15] := FONT3 ;
@@ -14652,9 +14652,9 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 014638  000849      hFonts[23] := FONT3 ;
 014639  000850      hFonts[24] := FONT3 ;
 014640  000851      hFonts[28] := FONT3 ;
-014641  000852      hFonts[33] := file_LoadImageControl("REPRAP~2.d06", "REPRAP~2.g06", 1)  ;
+014641  000852      hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
 014642  000853      hFonts[35] := FONT3 ;
-014643  000854      hFonts[37] := file_LoadImageControl("REPRAP~2.d04", "REPRAP~2.g04", 1)  ;
+014643  000854      hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
 014644  000855      hFonts[51] := FONT3 ;
 014645  000856      hFonts[52] := FONT3 ;
 014646  000857      hFonts[7] := hFonts[37] ;
@@ -14682,7 +14682,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 014668  000879      hFonts[44] := hFonts[37] ;
 014669  000880      hFonts[45] := hFonts[37] ;
 014670  000881  // Start P4.inc
-014671  000882      hstrings := file_Open("REPRAP~2.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
+014671  000882      hstrings := file_Open("RepRap_T.txf", 'r') ; // Open handle to access uSD strings, uncomment if required
 014672  000883      // init comms
 014673  000884      com_Init(comRX,CMDLenMAX,0);
 014674  000885      com_SetBaud(COM0,19886);
@@ -15060,7 +15060,6 @@ BUTTON_DOWN                            0  0x00000000 (const dword)  (not used)
 BUTTON_UP                              1  0x00000001 (const dword)  (not used)
 ByteSwap                             -49  0xffffffcf (PmmC func) args[1] r=1  (not used)
 c4DButton                         UNRESOLVED  (not used)
-C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS    2803  0x00000af3 (const ??? 0)  (not used)
 CADETBLUE                          23796  0x00005cf4 (const dword)  (not used)
 cAniButton                        UNRESOLVED  (not used)
 cColorPicker                      UNRESOLVED  (not used)
@@ -15428,10 +15427,10 @@ FONT_9                                 9  0x00000009 (const dword)  (not used)
 FONT_ID                                2  0x00000002 (const dword)  (not used)
 FONT_SIZE                              2  0x00000002 (const dword)  (not used)
 FORESTGREEN                         9284  0x00002444 (const dword)  (not used)
-FormBGcolors                        8503  0x00002137FormBGcolors                        8503  0x00002137 (mem) word[39] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 8)
+FormBGcolors                        8503  0x00002137FormBGcolors                        8503  0x00002137 (mem) word[39] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 8)
 FormBGcolors                      UNRESOLVED  (usage 4)
-FormEndIndex                          85  0x00000055FormEndIndex                          85  0x00000055 (mem) word[39] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 6)
-FormStartIndex                         7  0x00000007FormStartIndex                         7  0x00000007 (mem) word[39] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 7)
+FormEndIndex                          85  0x00000055FormEndIndex                          85  0x00000055 (mem) word[39] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 6)
+FormStartIndex                         7  0x00000007FormStartIndex                         7  0x00000007 (mem) word[39] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 7)
 FormStartIndex                    UNRESOLVED  (usage 2)
 FRAME_DELAY                           22  0x00000016 (const dword)  (not used)
 FUCHSIA                            63519  0x0000f81f (const dword)  (not used)
@@ -15642,6 +15641,7 @@ I2C_50KHZ                              5  0x00000005 (const dword)  (not used)
 I2C_FAST                               2  0x00000002 (const dword)  (not used)
 I2C_MED                                1  0x00000001 (const dword)  (not used)
 I2C_SLOW                               0  0x00000000 (const dword)  (not used)
+I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS    2803  0x00000af3 (const ??? 0)  (not used)
 I_COLOUR16                            16  0x00000010 (const dword)  (not used)
 I_DARKEN                           16384  0x00004000 (const dword)  (not used)
 I_ENABLED                          32768  0x00008000 (const dword)  (usage 6)
@@ -15713,9 +15713,9 @@ img_Touched                         -384  0xfffffe80 (PmmC func) args[2] r=1  (u
 IMG_WIDTH                             82  0x00000052 (const dword)  (not used)
 INDIANRED                          51947  0x0000caeb (const dword)  (not used)
 INDIGO                             18448  0x00004810 (const dword)  (not used)
-InputControls                        163  0x000000a3InputControls                        163  0x000000a3 (mem) word[175] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 9)
+InputControls                        163  0x000000a3InputControls                        163  0x000000a3 (mem) word[175] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 9)
 InputCS                              538  0x0000021a (mem) word (global)  (usage 21)
-InputData                            513  0x00000201InputData                            513  0x00000201 (mem) word[3091] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 30)
+InputData                            513  0x00000201InputData                            513  0x00000201 (mem) word[3091] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 30)
 InputType                            290  0x00000122 (mem) word (global)  (usage 24)
 INVERSE                               64  0x00000040 (const dword)  (not used)
 IPDatasize                            22  0x00000016 (const dword)  (usage 3)
@@ -15737,53 +15737,53 @@ iStatictext6                         146  0x00000092 (const ??? 0)  (usage 3)
 iStatictext7                         147  0x00000093 (const ??? 0)  (usage 3)
 iStatictext8                         148  0x00000094 (const ??? 0)  (usage 3)
 iStatictext9                          52  0x00000034 (const ??? 0)  (usage 3)
-iStrings0                           6695  0x00001a27iStrings0                           6695  0x00001a27 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings1                           6721  0x00001a41iStrings1                           6721  0x00001a41 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings10                          6955  0x00001b2biStrings10                          6955  0x00001b2b (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings11                          6981  0x00001b45iStrings11                          6981  0x00001b45 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings12                          7007  0x00001b5fiStrings12                          7007  0x00001b5f (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings14                          7033  0x00001b79iStrings14                          7033  0x00001b79 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings15                          7059  0x00001b93iStrings15                          7059  0x00001b93 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings16                          7085  0x00001badiStrings16                          7085  0x00001bad (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings17                          7111  0x00001bc7iStrings17                          7111  0x00001bc7 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings18                          7137  0x00001be1iStrings18                          7137  0x00001be1 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings19                          7163  0x00001bfbiStrings19                          7163  0x00001bfb (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings2                           6747  0x00001a5biStrings2                           6747  0x00001a5b (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings20                          7189  0x00001c15iStrings20                          7189  0x00001c15 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings21                          7215  0x00001c2fiStrings21                          7215  0x00001c2f (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings22                          7241  0x00001c49iStrings22                          7241  0x00001c49 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings23                          7267  0x00001c63iStrings23                          7267  0x00001c63 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings24                          7293  0x00001c7diStrings24                          7293  0x00001c7d (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings25                          7319  0x00001c97iStrings25                          7319  0x00001c97 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings26                          7345  0x00001cb1iStrings26                          7345  0x00001cb1 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings27                          7371  0x00001ccbiStrings27                          7371  0x00001ccb (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings28                          7397  0x00001ce5iStrings28                          7397  0x00001ce5 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings29                          7423  0x00001cffiStrings29                          7423  0x00001cff (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings3                           6773  0x00001a75iStrings3                           6773  0x00001a75 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings30                          7449  0x00001d19iStrings30                          7449  0x00001d19 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings31                          7475  0x00001d33iStrings31                          7475  0x00001d33 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings32                          7501  0x00001d4diStrings32                          7501  0x00001d4d (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings33                          7527  0x00001d67iStrings33                          7527  0x00001d67 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings34                          7553  0x00001d81iStrings34                          7553  0x00001d81 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings35                          7579  0x00001d9biStrings35                          7579  0x00001d9b (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings36                          7605  0x00001db5iStrings36                          7605  0x00001db5 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings37                          7631  0x00001dcfiStrings37                          7631  0x00001dcf (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings38                          7657  0x00001de9iStrings38                          7657  0x00001de9 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings39                          7683  0x00001e03iStrings39                          7683  0x00001e03 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings4                           6799  0x00001a8fiStrings4                           6799  0x00001a8f (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings40                          7709  0x00001e1diStrings40                          7709  0x00001e1d (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings41                          7735  0x00001e37iStrings41                          7735  0x00001e37 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings42                          7761  0x00001e51iStrings42                          7761  0x00001e51 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings43                          7787  0x00001e6biStrings43                          7787  0x00001e6b (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings44                          7813  0x00001e85iStrings44                          7813  0x00001e85 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings45                          7839  0x00001e9fiStrings45                          7839  0x00001e9f (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings5                           6825  0x00001aa9iStrings5                           6825  0x00001aa9 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings51                          7865  0x00001eb9iStrings51                          7865  0x00001eb9 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings52                          7891  0x00001ed3iStrings52                          7891  0x00001ed3 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings6                           6851  0x00001ac3iStrings6                           6851  0x00001ac3 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings7                           6877  0x00001addiStrings7                           6877  0x00001add (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings8                           6903  0x00001af7iStrings8                           6903  0x00001af7 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-iStrings9                           6929  0x00001b11iStrings9                           6929  0x00001b11 (mem) word[13] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings0                           6695  0x00001a27iStrings0                           6695  0x00001a27 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings1                           6721  0x00001a41iStrings1                           6721  0x00001a41 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings10                          6955  0x00001b2biStrings10                          6955  0x00001b2b (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings11                          6981  0x00001b45iStrings11                          6981  0x00001b45 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings12                          7007  0x00001b5fiStrings12                          7007  0x00001b5f (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings14                          7033  0x00001b79iStrings14                          7033  0x00001b79 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings15                          7059  0x00001b93iStrings15                          7059  0x00001b93 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings16                          7085  0x00001badiStrings16                          7085  0x00001bad (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings17                          7111  0x00001bc7iStrings17                          7111  0x00001bc7 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings18                          7137  0x00001be1iStrings18                          7137  0x00001be1 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings19                          7163  0x00001bfbiStrings19                          7163  0x00001bfb (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings2                           6747  0x00001a5biStrings2                           6747  0x00001a5b (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings20                          7189  0x00001c15iStrings20                          7189  0x00001c15 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings21                          7215  0x00001c2fiStrings21                          7215  0x00001c2f (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings22                          7241  0x00001c49iStrings22                          7241  0x00001c49 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings23                          7267  0x00001c63iStrings23                          7267  0x00001c63 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings24                          7293  0x00001c7diStrings24                          7293  0x00001c7d (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings25                          7319  0x00001c97iStrings25                          7319  0x00001c97 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings26                          7345  0x00001cb1iStrings26                          7345  0x00001cb1 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings27                          7371  0x00001ccbiStrings27                          7371  0x00001ccb (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings28                          7397  0x00001ce5iStrings28                          7397  0x00001ce5 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings29                          7423  0x00001cffiStrings29                          7423  0x00001cff (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings3                           6773  0x00001a75iStrings3                           6773  0x00001a75 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings30                          7449  0x00001d19iStrings30                          7449  0x00001d19 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings31                          7475  0x00001d33iStrings31                          7475  0x00001d33 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings32                          7501  0x00001d4diStrings32                          7501  0x00001d4d (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings33                          7527  0x00001d67iStrings33                          7527  0x00001d67 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings34                          7553  0x00001d81iStrings34                          7553  0x00001d81 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings35                          7579  0x00001d9biStrings35                          7579  0x00001d9b (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings36                          7605  0x00001db5iStrings36                          7605  0x00001db5 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings37                          7631  0x00001dcfiStrings37                          7631  0x00001dcf (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings38                          7657  0x00001de9iStrings38                          7657  0x00001de9 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings39                          7683  0x00001e03iStrings39                          7683  0x00001e03 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings4                           6799  0x00001a8fiStrings4                           6799  0x00001a8f (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings40                          7709  0x00001e1diStrings40                          7709  0x00001e1d (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings41                          7735  0x00001e37iStrings41                          7735  0x00001e37 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings42                          7761  0x00001e51iStrings42                          7761  0x00001e51 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings43                          7787  0x00001e6biStrings43                          7787  0x00001e6b (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings44                          7813  0x00001e85iStrings44                          7813  0x00001e85 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings45                          7839  0x00001e9fiStrings45                          7839  0x00001e9f (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings5                           6825  0x00001aa9iStrings5                           6825  0x00001aa9 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings51                          7865  0x00001eb9iStrings51                          7865  0x00001eb9 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings52                          7891  0x00001ed3iStrings52                          7891  0x00001ed3 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings6                           6851  0x00001ac3iStrings6                           6851  0x00001ac3 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings7                           6877  0x00001addiStrings7                           6877  0x00001add (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings8                           6903  0x00001af7iStrings8                           6903  0x00001af7 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+iStrings9                           6929  0x00001b11iStrings9                           6929  0x00001b11 (mem) word[13] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 isupper                              -38  0xffffffda (PmmC func) args[1] r=1  (not used)
 iswhite                              -44  0xffffffd4 (PmmC func) args[1] r=1  (not used)
 isxdigit                             -37  0xffffffdb (PmmC func) args[1] r=1  (not used)
@@ -15938,7 +15938,7 @@ iWinbutton6                           41  0x00000029 (const ??? 0)  (usage 3)
 iWinbutton7                           27  0x0000001b (const ??? 0)  (usage 3)
 iWinbutton8                           28  0x0000001c (const ??? 0)  (usage 3)
 KHAKI                              63281  0x0000f731 (const dword)  (not used)
-kKeyboardKeystrokes                 8581  0x00002185kKeyboardKeystrokes                 8581  0x00002185 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
+kKeyboardKeystrokes                 8581  0x00002185kKeyboardKeystrokes                 8581  0x00002185 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
 LANDSCAPE                              0  0x00000000 (const dword)  (usage 3)
 LANDSCAPE_R                            1  0x00000001 (const dword)  (not used)
 LAVENDER                           59199  0x0000e73f (const dword)  (not used)
@@ -16053,16 +16053,16 @@ NP_Write                            -535  0xfffffde9 (PmmC func) args[7] r=1  (n
 NP_XRGB                                2  0x00000002 (const dword)  (not used)
 nStrings                              53  0x00000035 (const dword)  (usage 3)
 NybleSwap                            -50  0xffffffce (PmmC func) args[1] r=1  (not used)
-o4Dbuttons                          8235  0x0000202bo4Dbuttons                          8235  0x0000202b (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oAngularmeters                      7949  0x00001f0doAngularmeters                      7949  0x00001f0d (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oAniButtons                         8237  0x0000202doAniButtons                         8237  0x0000202d (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+o4Dbuttons                          8235  0x0000202bo4Dbuttons                          8235  0x0000202b (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oAngularmeters                      7949  0x00001f0doAngularmeters                      7949  0x00001f0d (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oAniButtons                         8237  0x0000202doAniButtons                         8237  0x0000202d (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OBJECT_COLOUR                         18  0x00000012 (const dword)  (not used)
-oColorPickers                       8239  0x0000202foColorPickers                       8239  0x0000202f (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oCoolgauges                         7951  0x00001f0foCoolgauges                         7951  0x00001f0f (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oCustomdigitss                      7953  0x00001f11oCustomdigitss                      7953  0x00001f11 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oDipSwitchs                         7917  0x00001eedoDipSwitchs                         7917  0x00001eed (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oColorPickers                       8239  0x0000202foColorPickers                       8239  0x0000202f (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oCoolgauges                         7951  0x00001f0foCoolgauges                         7951  0x00001f0f (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oCustomdigitss                      7953  0x00001f11oCustomdigitss                      7953  0x00001f11 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oDipSwitchs                         7917  0x00001eedoDipSwitchs                         7917  0x00001eed (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OFF                                    0  0x00000000 (const dword)  (usage 3)
-oForms                              7955  0x00001f13oForms                              7955  0x00001f13 (mem) word[40] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oForms                              7955  0x00001f13oForms                              7955  0x00001f13 (mem) word[40] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 Ofs_Digits_Digits                      2  0x00000002 (const dword)  (usage 9)
 Ofs_Digits_LeadingBlanks               8  0x00000008 (const dword)  (usage 3)
 Ofs_Digits_Left                        0  0x00000000 (const dword)  (usage 3)
@@ -16091,18 +16091,18 @@ Ofs_String_x1                          6  0x00000006 (const dword)  (usage 12)
 Ofs_String_x2                         10  0x0000000a (const dword)  (usage 9)
 Ofs_String_y1                          8  0x00000008 (const dword)  (usage 12)
 Ofs_String_y2                         12  0x0000000c (const dword)  (usage 9)
-oGauges                             8035  0x00001f63oGauges                             8035  0x00001f63 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oGSliders                           7925  0x00001ef5oGSliders                           7925  0x00001ef5 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oImages                             8037  0x00001f65oImages                             8037  0x00001f65 (mem) word[2] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oKeyboards                          8041  0x00001f69oKeyboards                          8041  0x00001f69 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oKnobs                              7919  0x00001eefoKnobs                              7919  0x00001eef (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oGauges                             8035  0x00001f63oGauges                             8035  0x00001f63 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oGSliders                           7925  0x00001ef5oGSliders                           7925  0x00001ef5 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oImages                             8037  0x00001f65oImages                             8037  0x00001f65 (mem) word[2] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oKeyboards                          8041  0x00001f69oKeyboards                          8041  0x00001f69 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oKnobs                              7919  0x00001eefoKnobs                              7919  0x00001eef (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OLDLACE                            65468  0x0000ffbc (const dword)  (not used)
-oLedDigitsn                         8585  0x00002189oLedDigitsn                         8585  0x00002189 (mem) word[15] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 6)
-oLeddigitss                         8045  0x00001f6doLeddigitss                         8045  0x00001f6d (mem) word[4] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 9)
-oLeds                               8043  0x00001f6boLeds                               8043  0x00001f6b (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oLedDigitsn                         8585  0x00002189oLedDigitsn                         8585  0x00002189 (mem) word[15] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 6)
+oLeddigitss                         8045  0x00001f6doLeddigitss                         8045  0x00001f6d (mem) word[4] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 9)
+oLeds                               8043  0x00001f6boLeds                               8043  0x00001f6b (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OLIVE                              33792  0x00008400 (const dword)  (not used)
 OLIVEDRAB                          27748  0x00006c64 (const dword)  (not used)
-oMeters                             8053  0x00001f75oMeters                             8053  0x00001f75 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oMeters                             8053  0x00001f75oMeters                             8053  0x00001f75 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 ON                                     1  0x00000001 (const dword)  (usage 3)
 oObjects                             216  0x000000d8 (mem) word[34] (global)  (usage 108)
 OP1_ADD                                5  0x00000005 (const dword)  (not used)
@@ -16134,18 +16134,18 @@ OP2_MUL                                6  0x00000006 (const dword)  (not used)
 OP2_SUB                                5  0x00000005 (const dword)  (not used)
 OP2_XOR                                3  0x00000003 (const dword)  (not used)
 OPAQUE                                 1  0x00000001 (const dword)  (not used)
-oPinInputs                          8233  0x00002029oPinInputs                          8233  0x00002029 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oPinOutputs                         8501  0x00002135oPinOutputs                         8501  0x00002135 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oPinInputs                          8233  0x00002029oPinInputs                          8233  0x00002029 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oPinOutputs                         8501  0x00002135oPinOutputs                         8501  0x00002135 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 ORANGE                             64800  0x0000fd20 (const dword)  (not used)
 ORANGERED                          64032  0x0000fa20 (const dword)  (not used)
 ORCHID                             56218  0x0000db9a (const dword)  (not used)
-oRockerSwitchs                      7921  0x00001ef1oRockerSwitchs                      7921  0x00001ef1 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oRotarySwitchs                      7923  0x00001ef3oRotarySwitchs                      7923  0x00001ef3 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oScopes                             8207  0x0000200foScopes                             8207  0x0000200f (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
-oSoundss                            8499  0x00002133oSoundss                            8499  0x00002133 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oSpectrums                          8205  0x0000200doSpectrums                          8205  0x0000200d (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oStaticTexts                        8171  0x00001feboStaticTexts                        8171  0x00001feb (mem) word[17] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oStringss                           8055  0x00001f77oStringss                           8055  0x00001f77 (mem) word[54] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 4)
+oRockerSwitchs                      7921  0x00001ef1oRockerSwitchs                      7921  0x00001ef1 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oRotarySwitchs                      7923  0x00001ef3oRotarySwitchs                      7923  0x00001ef3 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oScopes                             8207  0x0000200foScopes                             8207  0x0000200f (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
+oSoundss                            8499  0x00002133oSoundss                            8499  0x00002133 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oSpectrums                          8205  0x0000200doSpectrums                          8205  0x0000200d (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oStaticTexts                        8171  0x00001feboStaticTexts                        8171  0x00001feb (mem) word[17] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oStringss                           8055  0x00001f77oStringss                           8055  0x00001f77 (mem) word[54] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 4)
 oStringss                         UNRESOLVED  (usage 2)
 OT_ACTIVATE                          103  0x00000067 (const dword)  (usage 84)
 OT_MAGIC                             108  0x0000006c (const dword)  (usage 3)
@@ -16156,23 +16156,23 @@ OT_PREVSTRING                        107  0x0000006b (const dword)  (usage 3)
 OT_REPORT                            100  0x00000064 (const dword)  (usage 357)
 OT_SETANOTHER                        102  0x00000066 (const dword)  (usage 3)
 OT_SETCONST                          101  0x00000065 (const dword)  (usage 3)
-oTanks                              8209  0x00002011oTanks                              8209  0x00002011 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oThermometers                       8163  0x00001fe3oThermometers                       8163  0x00001fe3 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oTimers                             8497  0x00002131oTimers                             8497  0x00002131 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oTrackbars                          7927  0x00001ef7oTrackbars                          7927  0x00001ef7 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oUserButtons                        8241  0x00002031oUserButtons                        8241  0x00002031 (mem) word[128] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 12)
-oUserImagess                        8211  0x00002013oUserImagess                        8211  0x00002013 (mem) word[11] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
-oUserleds                           8165  0x00001fe5oUserleds                           8165  0x00001fe5 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oTanks                              8209  0x00002011oTanks                              8209  0x00002011 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oThermometers                       8163  0x00001fe3oThermometers                       8163  0x00001fe3 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oTimers                             8497  0x00002131oTimers                             8497  0x00002131 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oTrackbars                          7927  0x00001ef7oTrackbars                          7927  0x00001ef7 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oUserButtons                        8241  0x00002031oUserButtons                        8241  0x00002031 (mem) word[128] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 12)
+oUserImagess                        8211  0x00002013oUserImagess                        8211  0x00002013 (mem) word[11] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oUserleds                           8165  0x00001fe5oUserleds                           8165  0x00001fe5 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OUTLINE                                1  0x00000001 (const dword)  (not used)
 OUTLINE_COLOUR                        24  0x00000018 (const dword)  (not used)
 OutputCS                             540  0x0000021c (mem) word (global)  (usage 9)
 OVF                                  -63  0xffffffc1 (PmmC func) args[0] r=1  (usage 3)
-oVideos                             8167  0x00001fe7oVideos                             8167  0x00001fe7 (mem) word[2] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
+oVideos                             8167  0x00001fe7oVideos                             8167  0x00001fe7 (mem) word[2] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 OW_Read                             -523  0xfffffdf5 (PmmC func) args[1] r=1  (not used)
 OW_Read9                            -524  0xfffffdf4 (PmmC func) args[1] r=1  (not used)
 OW_Reset                            -522  0xfffffdf6 (PmmC func) args[1] r=1  (not used)
 OW_Write                            -525  0xfffffdf3 (PmmC func) args[2] r=0  (not used)
-oWinButtons                         7929  0x00001ef9oWinButtons                         7929  0x00001ef9 (mem) word[10] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 12)
+oWinButtons                         7929  0x00001ef9oWinButtons                         7929  0x00001ef9 (mem) word[10] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 12)
 PA0                                    1  0x00000001 (const dword)  (not used)
 PA1                                    2  0x00000002 (const dword)  (not used)
 PA10                                  11  0x0000000b (const dword)  (not used)
@@ -16310,7 +16310,7 @@ REPORT_MAGIC_EVENT_BYTES              10  0x0000000a (const dword)  (not used)
 REPORT_MAGIC_EVENT_DBYTES             11  0x0000000b (const dword)  (not used)
 REPORT_OBJ                             5  0x00000005 (const dword)  (usage 3)
 RIGHT_POS                              4  0x00000004 (const dword)  (not used)
-rKeyboardRoutines                   8583  0x00002187rKeyboardRoutines                   8583  0x00002187 (mem) word[1] (member of C:\Users\jcalduch\Documents\GitHub\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
+rKeyboardRoutines                   8583  0x00002187rKeyboardRoutines                   8583  0x00002187 (mem) word[1] (member of I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (not used)
 ROSYBROWN                          48241  0x0000bc71 (const dword)  (not used)
 ROYALBLUE                          17244  0x0000435c (const dword)  (not used)
 RUNFLASH                             128  0x00000080 (const dword)  (not used)

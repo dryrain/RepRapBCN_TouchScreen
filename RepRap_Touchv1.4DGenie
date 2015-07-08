@@ -4650,3 +4650,66 @@ Strings
     Width                        45
     OnChanged                    ''
 end
+Form
+    Name                         Form41
+    Alias                        Form41
+    Bgtype                       Color
+    Color                        DEEPSKYBLUE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings53
+    Alias                        Strings53
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       125
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    36
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         108
+    Strings                      'Wait until the image will be red, then, clean the extruder and press OK\n'
+    StringsStyle                 Message
+    Top                          24
+    Width                        268
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton67
+    Alias                        Userbutton67
+    Height                       53
+    Images                       BUTTON_ok.png
+    Left                         200
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          244
+    Width                        84
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages11
+    Alias                        Userimages11
+    Height                       295
+    Images                       cold_burned.png\nheat_burned.png
+    Left                         404
+    Stretch                      Yes
+    Top                          16
+    Width                        69
+    OnChanged                    ''
+end

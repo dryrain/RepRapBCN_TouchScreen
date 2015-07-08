@@ -1455,11 +1455,11 @@ UserButton
     Alias                        Userbutton32
     Height                       80
     Images                       00_flechaUP_1_Bigger_area.png
-    Left                         188
+    Left                         227
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          84
+    Top                          63
     Width                        60
     OnChanged                    'Report Message'
 end
@@ -1468,31 +1468,13 @@ UserButton
     Alias                        Userbutton33
     Height                       80
     Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         188
+    Left                         227
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          240
+    Top                          210
     Width                        60
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext10
-    Alias                        Statictext10
-    AutoSize                     Yes
-    Caption                      Extruder:
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       42
-    Left                         12
-    Top                          172
-    Transparent                  Yes
-    Width                        144
-    WordWrap                     Yes
 end
 Strings
     Name                         Strings16
@@ -1509,11 +1491,22 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         184
+    Left                         224
     Strings                      ''
     StringsStyle                 Message
-    Top                          180
+    Top                          154
     Width                        67
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages10
+    Alias                        Userimages10
+    Height                       283
+    Images                       Zcalibration.png
+    Left                         0
+    Stretch                      Yes
+    Top                          37
+    Width                        207
     OnChanged                    ''
 end
 Form

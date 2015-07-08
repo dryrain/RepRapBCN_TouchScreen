@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 06/07/2015 17:39:37
+// generated 08/07/2015 10:09:44
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -470,7 +470,7 @@
     word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 44, 8, 79, 47, WHITE, BLACK, 0, 0, 1, 39 
     word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 13 
     word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 15 
-    word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 184, 180, 250, 224, WHITE, BLACK, 0, 1, 1, 14 
+    word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 224, 154, 290, 198, WHITE, BLACK, 0, 1, 1, 14 
     word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 160, 144, 350, 190, WHITE, DEEPSKYBLUE, 0, 1, 1, 7 
     word iStrings18  Strings18StartH, Strings18StartL, Strings18Size, 152, 160, 342, 206, WHITE, DEEPSKYBLUE, 0, 1, 1, 16 
     word iStrings19  Strings19StartH, Strings19StartL, Strings19Size, 152, 152, 342, 198, WHITE, DEEPSKYBLUE, 0, 1, 1, 17 
@@ -528,11 +528,11 @@
     word oThermometers 0
     word oUserleds 0
     word oVideos 1, iVideo0
-    word oStaticTexts 16, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, iStatictext9, iStatictext10, -1, -1, -1, -1, iStatictext15
+    word oStaticTexts 16, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, iStatictext9, -1, -1, -1, -1, -1, iStatictext15
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
-    word oUserImagess 10, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, iUserimages6, iUserimages7, iUserimages8, iUserimages9
+    word oUserImagess 11, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, iUserimages6, iUserimages7, iUserimages8, iUserimages9, iUserimages10
     word oPinInputs 0
     word o4Dbuttons 0
     word oAniButtons 0

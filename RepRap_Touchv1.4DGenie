@@ -4694,13 +4694,13 @@ UserButton
     Alias                        Userbutton67
     Height                       53
     Images                       BUTTON_ok.png
-    Left                         200
+    Left                         252
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          244
     Width                        84
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages11
@@ -4712,4 +4712,17 @@ UserImages
     Top                          16
     Width                        69
     OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton148
+    Alias                        Userbutton148
+    Height                       50
+    Images                       00_flechaGOBACK.png
+    Left                         144
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          244
+    Width                        50
+    OnChanged                    'Report Message'
 end

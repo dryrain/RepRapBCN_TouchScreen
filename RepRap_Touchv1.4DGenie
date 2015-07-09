@@ -108,24 +108,24 @@ end
 Strings
     Name                         Strings1
     Alias                        Strings1
-    Alignment                    Left
+    Alignment                    Center
     BGcolor                      BLACK
-    Height                       42
+    Height                       85
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
     Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    40
+    Font.Size                    37
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         124
+    Left                         84
     Strings                      ''
     StringsStyle                 Message
-    Top                          176
-    Width                        206
-    OnChanged                    ''
+    Top                          160
+    Width                        294
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton5

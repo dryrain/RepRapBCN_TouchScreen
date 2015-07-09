@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 09/07/2015 10:23:48
+// generated 09/07/2015 16:33:17
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -459,7 +459,7 @@
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7128, 298,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148
     word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 139, 240, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 124, 176, 329, 217, WHITE, BLACK, 0, 0, 1, 2 
+    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 84, 160, 377, 244, WHITE, BLACK, 0, 0, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 16, 256, 323, 305, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings3  Strings3StartH, Strings3StartL, Strings3Size, 64, 36, 263, 55, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 3 
     word iStrings4  Strings4StartH, Strings4StartL, Strings4Size, 0, 0, 319, 16, WHITE, BLACK, 0, 1, 1, 8 
@@ -885,7 +885,7 @@ func main()
     hFonts[6] := FONT3 ;
     hFonts[11] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
     hFonts[12] := FONT3 ;
-    hFonts[13] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+    hFonts[13] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
     hFonts[14] := FONT3 ;
     hFonts[15] := FONT3 ;
     hFonts[16] := FONT3 ;
@@ -895,13 +895,14 @@ func main()
     hFonts[23] := FONT3 ;
     hFonts[24] := FONT3 ;
     hFonts[28] := FONT3 ;
+    hFonts[31] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
     hFonts[35] := FONT3 ;
     hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
-    hFonts[49] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
+    hFonts[49] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
     hFonts[51] := FONT3 ;
     hFonts[52] := FONT3 ;
-    hFonts[53] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
+    hFonts[53] := file_LoadImageControl("RepRap_T.d0@", "RepRap_T.g0@", 1)  ;
     hFonts[7] := hFonts[37] ;
     hFonts[8] := hFonts[37] ;
     hFonts[9] := hFonts[0] ;
@@ -914,8 +915,7 @@ func main()
     hFonts[27] := hFonts[11] ;
     hFonts[29] := hFonts[11] ;
     hFonts[30] := hFonts[11] ;
-    hFonts[31] := hFonts[1] ;
-    hFonts[32] := hFonts[1] ;
+    hFonts[32] := hFonts[31] ;
     hFonts[34] := hFonts[0] ;
     hFonts[36] := hFonts[0] ;
     hFonts[38] := hFonts[37] ;

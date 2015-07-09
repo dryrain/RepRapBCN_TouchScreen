@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 09/07/2015 10:23:48
+005061  000003  // generated 09/07/2015 16:33:17
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,14 +5102,14 @@ file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 09/07/2015 10:23:28
+005093  000001  // File generated 09/07/2015 16:32:51
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
-005097  000005  #constant  Strings1Count    0
-005098  000005  #constant  Strings1Count    0
-005099  000006  #constant  Strings1Size     1
-005100  000006  #constant  Strings1Size     1
+005097  000005  #constant  Strings1Count    1
+005098  000005  #constant  Strings1Count    1
+005099  000006  #constant  Strings1Size     40
+005100  000006  #constant  Strings1Size     40
 005101  000007  #constant  Strings3Count    1
 005102  000007  #constant  Strings3Count    1
 005103  000008  #constant  Strings3Size     18
@@ -15943,7 +15943,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 015929  000885      hFonts[6] := FONT3 ;
 015930  000886      hFonts[11] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
 015931  000887      hFonts[12] := FONT3 ;
-015932  000888      hFonts[13] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+015932  000888      hFonts[13] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
 015933  000889      hFonts[14] := FONT3 ;
 015934  000890      hFonts[15] := FONT3 ;
 015935  000891      hFonts[16] := FONT3 ;
@@ -15953,27 +15953,27 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\CLPrintStrings.inc
 015939  000895      hFonts[23] := FONT3 ;
 015940  000896      hFonts[24] := FONT3 ;
 015941  000897      hFonts[28] := FONT3 ;
-015942  000898      hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
-015943  000899      hFonts[35] := FONT3 ;
-015944  000900      hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
-015945  000901      hFonts[49] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
-015946  000902      hFonts[51] := FONT3 ;
-015947  000903      hFonts[52] := FONT3 ;
-015948  000904      hFonts[53] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
-015949  000905      hFonts[7] := hFonts[37] ;
-015950  000906      hFonts[8] := hFonts[37] ;
-015951  000907      hFonts[9] := hFonts[0] ;
-015952  000908      hFonts[10] := hFonts[11] ;
-015953  000909      hFonts[17] := hFonts[11] ;
-015954  000910      hFonts[18] := hFonts[11] ;
-015955  000911      hFonts[19] := hFonts[11] ;
-015956  000912      hFonts[25] := hFonts[11] ;
-015957  000913      hFonts[26] := hFonts[11] ;
-015958  000914      hFonts[27] := hFonts[11] ;
-015959  000915      hFonts[29] := hFonts[11] ;
-015960  000916      hFonts[30] := hFonts[11] ;
-015961  000917      hFonts[31] := hFonts[1] ;
-015962  000918      hFonts[32] := hFonts[1] ;
+015942  000898      hFonts[31] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
+015943  000899      hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
+015944  000900      hFonts[35] := FONT3 ;
+015945  000901      hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
+015946  000902      hFonts[49] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+015947  000903      hFonts[51] := FONT3 ;
+015948  000904      hFonts[52] := FONT3 ;
+015949  000905      hFonts[53] := file_LoadImageControl("RepRap_T.d0@", "RepRap_T.g0@", 1)  ;
+015950  000906      hFonts[7] := hFonts[37] ;
+015951  000907      hFonts[8] := hFonts[37] ;
+015952  000908      hFonts[9] := hFonts[0] ;
+015953  000909      hFonts[10] := hFonts[11] ;
+015954  000910      hFonts[17] := hFonts[11] ;
+015955  000911      hFonts[18] := hFonts[11] ;
+015956  000912      hFonts[19] := hFonts[11] ;
+015957  000913      hFonts[25] := hFonts[11] ;
+015958  000914      hFonts[26] := hFonts[11] ;
+015959  000915      hFonts[27] := hFonts[11] ;
+015960  000916      hFonts[29] := hFonts[11] ;
+015961  000917      hFonts[30] := hFonts[11] ;
+015962  000918      hFonts[32] := hFonts[31] ;
 015963  000919      hFonts[34] := hFonts[0] ;
 015964  000920      hFonts[36] := hFonts[0] ;
 015965  000921      hFonts[38] := hFonts[37] ;
@@ -16260,7 +16260,7 @@ __reserved9                         -110  0xffffff92 (PmmC func) args[0] r=0  (n
 __translate                           -8  0xfffffff8 (PmmC func) args[4] r=1  (not used)
 ABS                                  -53  0xffffffcb (PmmC func) args[1] r=1  (not used)
 ACK                                    6  0x00000006 (const dword)  (usage 12)
-ActivateForm                       13007  0x000032cf (User func) args[1] r=0  (usage 9)
+ActivateForm                       13044  0x000032f4 (User func) args[1] r=0  (usage 9)
 ALICEBLUE                          63455  0x0000f7df (const dword)  (not used)
 ALL                                65535  0x0000ffff (const dword)  (not used)
 ana_HS                              -533  0xfffffdeb (PmmC func) args[7] r=0  (not used)
@@ -16540,7 +16540,7 @@ disp_WrGRAM                         -364  0xfffffe94 (PmmC func) args[1] r=0  (n
 disp_WriteControl                   -365  0xfffffe93 (PmmC func) args[1] r=0  (not used)
 disp_WriteWord                      -366  0xfffffe92 (PmmC func) args[1] r=0  (not used)
 DODGERBLUE                          7327  0x00001c9f (const dword)  (not used)
-DoGFXObjects                       12375  0x00003057 (User func) args[0] r=0  (usage 6)
+DoGFXObjects                       12412  0x0000307c (User func) args[0] r=0  (usage 6)
 DOWN                                   0  0x00000000 (const dword)  (not used)
 DSK                                63490  0x0000f802 (const dword)  (not used)
 ENABLE                                 1  0x00000001 (const dword)  (not used)
@@ -16602,7 +16602,7 @@ file_GetW                           -443  0xfffffe45 (PmmC func) args[1] r=1  (u
 file_Image                          -438  0xfffffe4a (PmmC func) args[3] r=1  (not used)
 file_Index                          -434  0xfffffe4e (PmmC func) args[4] r=1  (not used)
 file_LoadFunction                   -448  0xfffffe40 (PmmC func) args[1] r=1  (not used)
-file_LoadImageControl               -451  0xfffffe3d (PmmC func) args[3] r=1  (usage 30)
+file_LoadImageControl               -451  0xfffffe3d (PmmC func) args[3] r=1  (usage 33)
 FILE_MODE                             17  0x00000011 (const dword)  (not used)
 file_Mount                          -452  0xfffffe3c (PmmC func) args[0] r=1  (usage 6)
 FILE_NAME                             11  0x0000000b (const dword)  (not used)
@@ -16881,7 +16881,7 @@ HEX4Z                               1040  0x00000410 (const dword)  (not used)
 HEX4ZB                              9232  0x00002410 (const dword)  (not used)
 HEXZ                                1040  0x00000410 (const dword)  (not used)
 HEXZB                               9232  0x00002410 (const dword)  (not used)
-hFonts                                 2  0x00000002 (mem) word[54] (global)  (usage 249)
+hFonts                                 2  0x00000002 (mem) word[54] (global)  (usage 246)
 HI                                     1  0x00000001 (const dword)  (not used)
 HIbyte                               -48  0xffffffd0 (PmmC func) args[1] r=1  (not used)
 HIDE                                   2  0x00000002 (const dword)  (not used)
@@ -17281,7 +17281,7 @@ LANDSCAPE_R                            1  0x00000001 (const dword)  (not used)
 LAVENDER                           59199  0x0000e73f (const dword)  (not used)
 LAVENDERBLUSH                      65438  0x0000ff9e (const dword)  (not used)
 LAWNGREEN                          32736  0x00007fe0 (const dword)  (not used)
-ledDigitsDisplay                   13353  0x00003429 (User func) args[3] r=0  (usage 6)
+ledDigitsDisplay                   13390  0x0000344e (User func) args[3] r=0  (usage 6)
 LEFT_POS                               2  0x00000002 (const dword)  (not used)
 LEMONCHIFFON                       65497  0x0000ffd9 (const dword)  (not used)
 LIGHTBLUE                          44764  0x0000aedc (const dword)  (not used)
@@ -17327,7 +17327,7 @@ M_PA7                                128  0x00000080 (const dword)  (not used)
 M_PA8                                256  0x00000100 (const dword)  (not used)
 M_PA9                                512  0x00000200 (const dword)  (not used)
 MAGENTA                            63519  0x0000f81f (const dword)  (not used)
-main                               10347  0x0000286b (User func) args[0] r=0  (not used)
+main                               10373  0x00002885 (User func) args[0] r=0  (not used)
 MAROON                             32768  0x00008000 (const dword)  (not used)
 MAX                                  -55  0xffffffc9 (PmmC func) args[2] r=1  (not used)
 MaxTotObjects                         33  0x00000021 (const dword)  (usage 6)
@@ -17377,7 +17377,7 @@ MINTCREAM                          63487  0x0000f7ff (const dword)  (not used)
 MISTYROSE                          65340  0x0000ff3c (const dword)  (not used)
 MOCCASIN                           65334  0x0000ff36 (const dword)  (not used)
 NAK                                   21  0x00000015 (const dword)  (usage 3)
-nak0                               14475  0x0000388b (User func) args[0] r=0  (usage 24)
+nak0                               14512  0x000038b0 (User func) args[0] r=0  (usage 24)
 nAniTimers                             0  0x00000000 (const dword)  (not used)
 NAVAJOWHITE                        65269  0x0000fef5 (const dword)  (not used)
 NAVY                                  16  0x00000010 (const dword)  (not used)
@@ -17575,7 +17575,7 @@ pokeW                                -35  0xffffffdd (PmmC func) args[2] r=0  (n
 PORTRAIT                               2  0x00000002 (const dword)  (not used)
 PORTRAIT_R                             3  0x00000003 (const dword)  (not used)
 POWDERBLUE                         46876  0x0000b71c (const dword)  (not used)
-PrintStrings                       14510  0x000038ae (User func) args[3] r=0  (usage 9)
+PrintStrings                       14547  0x000038d3 (User func) args[3] r=0  (usage 9)
 PROGRESSBAR_HIDE                       2  0x00000002 (const dword)  (not used)
 PROGRESSBAR_RAISED                 65535  0x0000ffff (const dword)  (not used)
 PROGRESSBAR_SUNKEN                 65534  0x0000fffe (const dword)  (not used)
@@ -17640,7 +17640,7 @@ RANDOM_LO                             32  0x00000020 (const dword)  (not used)
 RANDVAL                              -60  0xffffffc4 (PmmC func) args[2] r=1  (not used)
 READ_OBJ                               0  0x00000000 (const dword)  (usage 3)
 ReadCmd                              128  0x00000080 (const dword)  (not used)
-ReadObject                         14222  0x0000378e (User func) args[2] r=0  (usage 3)
+ReadObject                         14259  0x000037b3 (User func) args[2] r=0  (usage 3)
 RED                                63488  0x0000f800 (const dword)  (not used)
 REPORT_EVENT                           7  0x00000007 (const dword)  (usage 3)
 REPORT_MAGIC_EVENT_BYTES              10  0x0000000a (const dword)  (not used)
@@ -17659,7 +17659,7 @@ SCREEN_MODE                           23  0x00000017 (const dword)  (not used)
 SEAGREEN                           11338  0x00002c4a (const dword)  (not used)
 SEASHELL                           65469  0x0000ffbd (const dword)  (not used)
 SEED                                 -61  0xffffffc3 (PmmC func) args[1] r=0  (not used)
-SendReport                         14408  0x00003848 (User func) args[4] r=0  (usage 6)
+SendReport                         14445  0x0000386d (User func) args[4] r=0  (usage 6)
 serin                               -236  0xffffff14 (PmmC func) args[0] r=1  (usage 3)
 serin1                              -237  0xffffff13 (PmmC func) args[0] r=1  (not used)
 serin2                              -238  0xffffff12 (PmmC func) args[0] r=1  (not used)
@@ -17669,8 +17669,8 @@ serout                              -240  0xffffff10 (PmmC func) args[1] r=0  (u
 serout1                             -241  0xffffff0f (PmmC func) args[1] r=0  (not used)
 serout2                             -242  0xffffff0e (PmmC func) args[1] r=0  (not used)
 serout3                             -243  0xffffff0d (PmmC func) args[1] r=0  (not used)
-seroutCS                           14491  0x0000389b (User func) args[1] r=0  (usage 15)
-seroutOcs                          14458  0x0000387a (User func) args[0] r=0  (usage 3)
+seroutCS                           14528  0x000038c0 (User func) args[1] r=0  (usage 15)
+seroutOcs                          14495  0x0000389f (User func) args[0] r=0  (usage 3)
 seroutX                              N/A         N/A (macro) serout   (not used)
 setbaud                             -224  0xffffff20 (PmmC func) args[1] r=0  (not used)
 SIENNA                             41605  0x0000a285 (const dword)  (not used)
@@ -17845,8 +17845,8 @@ Strings19Count                         1  0x00000001 (const dword)  (not used)
 Strings19Size                         45  0x0000002d (const dword)  (usage 3)
 Strings19StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings19StartL                    21504  0x00005400 (const dword)  (usage 3)
-Strings1Count                          0  0x00000000 (const dword)  (not used)
-Strings1Size                           1  0x00000001 (const dword)  (usage 3)
+Strings1Count                          1  0x00000001 (const dword)  (not used)
+Strings1Size                          40  0x00000028 (const dword)  (usage 3)
 Strings1StartH                         0  0x00000000 (const dword)  (usage 3)
 Strings1StartL                         0  0x00000000 (const dword)  (usage 3)
 Strings20Count                         1  0x00000001 (const dword)  (not used)
@@ -18151,7 +18151,7 @@ tTank                                 26  0x0000001a (const dword)  (usage 3)
 tThermometer                          18  0x00000012 (const dword)  (usage 3)
 tTimer                                23  0x00000017 (const dword)  (usage 6)
 tTrackbar                              5  0x00000005 (const dword)  (usage 3)
-TurnOffButtons                     13667  0x00003563 (User func) args[1] r=0  (usage 6)
+TurnOffButtons                     13704  0x00003588 (User func) args[1] r=0  (usage 6)
 TURQUOISE                          18202  0x0000471a (const dword)  (not used)
 tUserButton                           33  0x00000021 (const dword)  (usage 462)
 tUserImages                           27  0x0000001b (const dword)  (usage 3)
@@ -18209,7 +18209,7 @@ UNCHECKED                              1  0x00000001 (const dword)  (not used)
 UNDERLINED                           128  0x00000080 (const dword)  (not used)
 unicode_page                         -15  0xfffffff1 (PmmC func) args[3] r=1  (not used)
 UP                                     1  0x00000001 (const dword)  (not used)
-UpdateObjects                      12376  0x00003058 (User func) args[1] r=0  (usage 3)
+UpdateObjects                      12413  0x0000307d (User func) args[1] r=0  (usage 3)
 usub_3232                            -72  0xffffffb8 (PmmC func) args[3] r=1  (not used)
 VIOLET                             60445  0x0000ec1d (const dword)  (not used)
 WHEAT                              63222  0x0000f6f6 (const dword)  (not used)
@@ -18222,7 +18222,7 @@ WRITE_OBJ                              1  0x00000001 (const dword)  (usage 3)
 WRITE_STR                              2  0x00000002 (const dword)  (usage 6)
 WRITE_STRU                             3  0x00000003 (const dword)  (usage 6)
 WriteCmd                               0  0x00000000 (const dword)  (not used)
-WriteObject                        13867  0x0000362b (User func) args[3] r=0  (usage 24)
+WriteObject                        13904  0x00003650 (User func) args[3] r=0  (usage 24)
 X_MAX                                  0  0x00000000 (const dword)  (not used)
 X_ORG                                  6  0x00000006 (const dword)  (not used)
 X_ORIGIN                              30  0x0000001e (const dword)  (not used)

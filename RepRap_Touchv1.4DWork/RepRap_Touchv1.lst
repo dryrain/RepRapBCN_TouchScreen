@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 09/07/2015 16:33:17
+005061  000003  // generated 10/07/2015 9:24:23
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,14 +5102,14 @@ file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 09/07/2015 16:32:51
+005093  000001  // File generated 10/07/2015 9:24:04
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
-005097  000005  #constant  Strings1Count    1
-005098  000005  #constant  Strings1Count    1
-005099  000006  #constant  Strings1Size     40
-005100  000006  #constant  Strings1Size     40
+005097  000005  #constant  Strings1Count    0
+005098  000005  #constant  Strings1Count    0
+005099  000006  #constant  Strings1Size     1
+005100  000006  #constant  Strings1Size     1
 005101  000007  #constant  Strings3Count    1
 005102  000007  #constant  Strings3Count    1
 005103  000008  #constant  Strings3Size     18
@@ -17845,8 +17845,8 @@ Strings19Count                         1  0x00000001 (const dword)  (not used)
 Strings19Size                         45  0x0000002d (const dword)  (usage 3)
 Strings19StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings19StartL                    21504  0x00005400 (const dword)  (usage 3)
-Strings1Count                          1  0x00000001 (const dword)  (not used)
-Strings1Size                          40  0x00000028 (const dword)  (usage 3)
+Strings1Count                          0  0x00000000 (const dword)  (not used)
+Strings1Size                           1  0x00000001 (const dword)  (usage 3)
 Strings1StartH                         0  0x00000000 (const dword)  (usage 3)
 Strings1StartL                         0  0x00000000 (const dword)  (usage 3)
 Strings20Count                         1  0x00000001 (const dword)  (not used)

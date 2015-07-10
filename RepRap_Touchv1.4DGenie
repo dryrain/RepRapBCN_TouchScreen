@@ -4596,14 +4596,14 @@ end
 UserButton
     Name                         Userbutton147
     Alias                        Userbutton147
-    Height                       123
+    Height                       119
     Images                       00_accept.png
     Left                         360
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          136
-    Width                        89
+    Width                        75
     OnChanged                    'Report Message'
 end
 Strings

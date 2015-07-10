@@ -1501,11 +1501,11 @@ end
 UserImages
     Name                         Userimages10
     Alias                        Userimages10
-    Height                       283
+    Height                       228
     Images                       Zcalibration.png
     Left                         0
     Stretch                      Yes
-    Top                          37
+    Top                          71
     Width                        207
     OnChanged                    ''
 end

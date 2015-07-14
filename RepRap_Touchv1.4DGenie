@@ -3403,11 +3403,11 @@ UserButton
     Alias                        Userbutton112
     Height                       80
     Images                       00_flechaUP_1_Bigger_area.png
-    Left                         168
+    Left                         237
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          76
+    Top                          88
     Width                        60
     OnChanged                    'Report Message'
 end
@@ -3416,11 +3416,11 @@ UserButton
     Alias                        Userbutton113
     Height                       80
     Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         168
+    Left                         237
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          236
+    Top                          244
     Width                        60
     OnChanged                    'Report Message'
 end
@@ -3439,10 +3439,10 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         164
+    Left                         232
     Strings                      ''
     StringsStyle                 Message
-    Top                          172
+    Top                          183
     Width                        67
     OnChanged                    ''
 end
@@ -3471,11 +3471,22 @@ StaticText
     Font.Size                    26
     Font.Style                   []
     Height                       46
-    Left                         20
-    Top                          172
+    Left                         211
+    Top                          84
     Transparent                  Yes
     Width                        124
     WordWrap                     Yes
+end
+UserImages
+    Name                         Userimages13
+    Alias                        Userimages13
+    Height                       212
+    Images                       Zcalibration.png
+    Left                         0
+    Stretch                      Yes
+    Top                          108
+    Width                        189
+    OnChanged                    ''
 end
 Form
     Name                         Form35
@@ -3507,7 +3518,7 @@ StaticText
     Font.Style                   []
     Height                       84
     Left                         28
-    Top                          24
+    Top                          7
     Transparent                  Yes
     Width                        415
     WordWrap                     Yes
@@ -3524,8 +3535,8 @@ StaticText
     Font.Size                    26
     Font.Style                   []
     Height                       42
-    Left                         28
-    Top                          180
+    Left                         211
+    Top                          62
     Transparent                  Yes
     Width                        115
     WordWrap                     Yes
@@ -3548,11 +3559,11 @@ UserButton
     Alias                        Userbutton116
     Height                       80
     Images                       00_flechaUP_1_Bigger_area.png
-    Left                         176
+    Left                         235
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          84
+    Top                          100
     Width                        60
     OnChanged                    'Report Message'
 end
@@ -3561,7 +3572,7 @@ UserButton
     Alias                        Userbutton117
     Height                       80
     Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         176
+    Left                         237
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -3584,11 +3595,22 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         172
+    Left                         232
     Strings                      ''
     StringsStyle                 Message
-    Top                          180
+    Top                          188
     Width                        67
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages12
+    Alias                        Userimages12
+    Height                       212
+    Images                       Zcalibration.png
+    Left                         0
+    Stretch                      Yes
+    Top                          108
+    Width                        189
     OnChanged                    ''
 end
 Form
@@ -4446,6 +4468,19 @@ Strings
     Width                        160
     OnChanged                    ''
 end
+UserButton
+    Name                         Userbutton149
+    Alias                        Userbutton149
+    Height                       73
+    Images                       00_flechaGOBACK.png
+    Left                         272
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          16
+    Width                        77
+    OnChanged                    'Report Message'
+end
 Form
     Name                         Form42
     Alias                        Form42
@@ -4598,11 +4633,11 @@ UserButton
     Alias                        Userbutton147
     Height                       119
     Images                       00_accept.png
-    Left                         360
+    Left                         356
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          136
+    Top                          176
     Width                        75
     OnChanged                    'Report Message'
 end
@@ -4649,6 +4684,19 @@ Strings
     Top                          25
     Width                        45
     OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton150
+    Alias                        Userbutton150
+    Height                       73
+    Images                       00_flechaGOBACK.png
+    Left                         352
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          92
+    Width                        77
+    OnChanged                    'Report Message'
 end
 Form
     Name                         Form41

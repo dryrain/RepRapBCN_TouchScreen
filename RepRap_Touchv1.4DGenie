@@ -383,14 +383,14 @@ end
 UserButton
     Name                         Userbutton2
     Alias                        Userbutton2
-    Height                       100
-    Images                       'button (1).png\nbutton (2).png'
-    Left                         108
+    Height                       150
+    Images                       'insert filament.png'
+    Left                         65
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          68
-    Width                        100
+    Top                          88
+    Width                        150
     OnChanged                    'Report Message'
 end
 Strings
@@ -418,15 +418,51 @@ end
 UserButton
     Name                         Userbutton50
     Alias                        Userbutton50
-    Height                       100
-    Images                       'button.png\nbutton (3).png'
-    Left                         296
+    Height                       150
+    Images                       'remove filament.png'
+    Left                         270
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          68
-    Width                        100
+    Top                          88
+    Width                        150
     OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext16
+    Alias                        Statictext16
+    AutoSize                     Yes
+    Caption                      'Insert filament'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    18
+    Font.Style                   []
+    Height                       29
+    Left                         60
+    Top                          240
+    Transparent                  Yes
+    Width                        156
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext17
+    Alias                        Statictext17
+    AutoSize                     Yes
+    Caption                      'Remove filament'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    18
+    Font.Style                   []
+    Height                       31
+    Left                         255
+    Top                          240
+    Transparent                  Yes
+    Width                        186
+    WordWrap                     Yes
 end
 Form
     Name                         Form8

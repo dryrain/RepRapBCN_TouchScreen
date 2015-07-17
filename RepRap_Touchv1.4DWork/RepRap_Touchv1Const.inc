@@ -1,9 +1,9 @@
-// File generated 17/07/2015 9:00:00
+// File generated 17/07/2015 14:55:55
 // Warning! This is a generated file, any manual changes will be
 // lost during the next generation.
 
-#constant  Strings1Count    1
-#constant  Strings1Size     20
+#constant  Strings1Count    0
+#constant  Strings1Size     1
 #constant  Strings3Count    1
 #constant  Strings3Size     18
 #constant  Strings20Count    1

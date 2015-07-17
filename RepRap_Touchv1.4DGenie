@@ -121,7 +121,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         73
-    Strings                      0123456789012345678
+    Strings                      \n
     StringsStyle                 Message
     Top                          172
     Width                        294

@@ -110,7 +110,7 @@ Strings
     Alias                        Strings1
     Alignment                    Left
     BGcolor                      BLACK
-    Height                       42
+    Height                       112
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -120,11 +120,11 @@ Strings
     Font.Size                    37
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         76
+    Left                         73
     Strings                      0123456789012345678
     StringsStyle                 Message
     Top                          172
-    Width                        291
+    Width                        294
     OnChanged                    'Report Message'
 end
 UserButton
@@ -1471,27 +1471,27 @@ end
 UserButton
     Name                         Userbutton32
     Alias                        Userbutton32
-    Height                       80
-    Images                       00_flechaUP_1_Bigger_area.png
-    Left                         227
+    Height                       50
+    Images                       00_FlechaUP.png
+    Left                         232
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          63
-    Width                        60
+    Top                          91
+    Width                        50
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton33
     Alias                        Userbutton33
-    Height                       80
-    Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         227
+    Height                       50
+    Images                       00_FlechaDOWN.png
+    Left                         232
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          210
-    Width                        60
+    Width                        50
     OnChanged                    'Report Message'
 end
 Strings
@@ -3505,27 +3505,27 @@ end
 UserButton
     Name                         Userbutton112
     Alias                        Userbutton112
-    Height                       80
-    Images                       00_flechaUP_1_Bigger_area.png
-    Left                         237
+    Height                       50
+    Images                       00_FlechaUP.png
+    Left                         240
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          88
-    Width                        60
+    Top                          128
+    Width                        50
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton113
     Alias                        Userbutton113
-    Height                       80
-    Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         237
+    Height                       50
+    Images                       00_FlechaDOWN.png
+    Left                         240
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          244
-    Width                        60
+    Top                          238
+    Width                        50
     OnChanged                    'Report Message'
 end
 Strings
@@ -3661,27 +3661,27 @@ end
 UserButton
     Name                         Userbutton116
     Alias                        Userbutton116
-    Height                       80
-    Images                       00_flechaUP_1_Bigger_area.png
-    Left                         235
+    Height                       50
+    Images                       00_FlechaUP.png
+    Left                         240
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        60
+    Top                          128
+    Width                        50
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton117
     Alias                        Userbutton117
-    Height                       80
-    Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         237
+    Height                       50
+    Images                       00_FlechaDOWN.png
+    Left                         240
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          244
-    Width                        60
+    Top                          238
+    Width                        50
     OnChanged                    'Report Message'
 end
 Strings
@@ -3702,7 +3702,7 @@ Strings
     Left                         232
     Strings                      ''
     StringsStyle                 Message
-    Top                          188
+    Top                          183
     Width                        67
     OnChanged                    ''
 end
@@ -4741,7 +4741,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          176
+    Top                          132
     Width                        75
     OnChanged                    ''
 end
@@ -4798,7 +4798,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          92
+    Top                          68
     Width                        77
     OnChanged                    'Report Message'
 end
@@ -4824,7 +4824,7 @@ Strings
     Alias                        Strings53
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       125
+    Height                       185
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -4835,10 +4835,10 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         20
-    Strings                      'Wait until the image will be red, then, clean the extruder and press OK\n'
+    Strings                      'Wait until the image will be red, then, clean the left extruder, after that, press GO to change the extruder and clean it\n'
     StringsStyle                 Message
-    Top                          72
-    Width                        268
+    Top                          20
+    Width                        306
     OnChanged                    ''
 end
 UserButton
@@ -4858,10 +4858,10 @@ UserImages
     Name                         Userimages11
     Alias                        Userimages11
     Height                       176
-    Images                       preheatTemps.png\nheatpreheatTemps.png
-    Left                         348
+    Images                       coldTemps.png\nredtemperature.png
+    Left                         340
     Stretch                      Yes
     Top                          84
-    Width                        118
+    Width                        126
     OnChanged                    ''
 end

@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 16/07/2015 13:05:58
+// generated 17/07/2015 9:00:26
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -460,7 +460,7 @@
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7150, 136,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67
     word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 139, 240, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 76, 172, 366, 213, WHITE, BLACK, 0, 0, 1, 2 
+    word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 73, 172, 366, 283, WHITE, BLACK, 0, 0, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 16, 256, 323, 305, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings3  Strings3StartH, Strings3StartL, Strings3Size, 64, 36, 263, 55, DARKGOLDENROD, BLANCHEDALMOND, 0, 1, 1, 3 
     word iStrings4  Strings4StartH, Strings4StartL, Strings4Size, 0, 0, 319, 16, WHITE, BLACK, 0, 1, 1, 8 
@@ -511,8 +511,8 @@
     word iStrings49  Strings49StartH, Strings49StartL, Strings49Size, 128, 80, 349, 129, WHITE, BLACK, 0, 0, 1, 40 
     word iStrings50  Strings50StartH, Strings50StartL, Strings50Size, 120, 136, 356, 176, WHITE, BLACK, 0, 0, 1, 40 
     word iStrings51  Strings51StartH, Strings51StartL, Strings51Size, 232, 183, 298, 227, WHITE, BLACK, 0, 1, 1, 34 
-    word iStrings52  Strings52StartH, Strings52StartL, Strings52Size, 232, 188, 298, 232, WHITE, BLACK, 0, 1, 1, 35 
-    word iStrings53  Strings53StartH, Strings53StartL, Strings53Size, 20, 72, 287, 196, WHITE, BLACK, 0, 0, 1, 41 
+    word iStrings52  Strings52StartH, Strings52StartL, Strings52Size, 232, 183, 298, 227, WHITE, BLACK, 0, 1, 1, 35 
+    word iStrings53  Strings53StartH, Strings53StartL, Strings53Size, 20, 20, 325, 204, WHITE, BLACK, 0, 0, 1, 41 
     word oDipSwitchs 0
     word oKnobs 0
     word oRockerSwitchs 0

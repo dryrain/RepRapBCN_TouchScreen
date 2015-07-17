@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 16/07/2015 13:05:58
+005061  000003  // generated 17/07/2015 9:00:26
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,7 +5102,7 @@ file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 16/07/2015 13:05:37
+005093  000001  // File generated 17/07/2015 9:00:00
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
@@ -5320,8 +5320,8 @@ file I:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 005308  000110  #constant  Strings48Size     1
 005309  000111  #constant  Strings53Count    1
 005310  000111  #constant  Strings53Count    1
-005311  000112  #constant  Strings53Size     75
-005312  000112  #constant  Strings53Size     75
+005311  000112  #constant  Strings53Size     142
+005312  000112  #constant  Strings53Size     142
 005313  000113  // object indexes into ImageControl
 005314  000114  #CONST
 005315  000346  #END
@@ -18125,7 +18125,7 @@ Strings52Size                          1  0x00000001 (const dword)  (usage 3)
 Strings52StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings52StartL                    19968  0x00004e00 (const dword)  (usage 3)
 Strings53Count                         1  0x00000001 (const dword)  (not used)
-Strings53Size                         75  0x0000004b (const dword)  (usage 3)
+Strings53Size                        142  0x0000008e (const dword)  (usage 3)
 Strings53StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings53StartL                    27136  0x00006a00 (const dword)  (usage 3)
 Strings5Count                          1  0x00000001 (const dword)  (not used)

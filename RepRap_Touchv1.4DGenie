@@ -355,7 +355,7 @@ Form
     Alias                        Form6
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM6.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -376,7 +376,7 @@ UserButton
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          20
+    Top                          0
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -392,28 +392,6 @@ UserButton
     Top                          88
     Width                        150
     OnChanged                    'Report Message'
-end
-Strings
-    Name                         Strings20
-    Alias                        Strings20
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      Filament\n
-    StringsStyle                 Message
-    Top                          0
-    Width                        480
-    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton50
@@ -1304,21 +1282,21 @@ Strings
     Alias                        Strings12
     Alignment                    Left
     BGcolor                      BLACK
-    Height                       30
+    Height                       29
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    29
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         180
-    Strings                      ' COOLING down!\n'
+    Left                         168
+    Strings                      'COOLING down!\n'
     StringsStyle                 Message
-    Top                          136
-    Width                        119
+    Top                          144
+    Width                        156
     OnChanged                    ''
 end
 Form
@@ -1443,7 +1421,7 @@ Form
     Alias                        Form14
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM14.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -1460,11 +1438,11 @@ UserButton
     Alias                        Userbutton17
     Height                       175
     Images                       00_accept.png
-    Left                         336
+    Left                         324
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          112
+    Top                          100
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -1473,7 +1451,7 @@ UserButton
     Alias                        Userbutton32
     Height                       50
     Images                       00_FlechaUP.png
-    Left                         232
+    Left                         214
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1486,7 +1464,7 @@ UserButton
     Alias                        Userbutton33
     Height                       50
     Images                       00_FlechaDOWN.png
-    Left                         232
+    Left                         214
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1509,7 +1487,7 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         224
+    Left                         204
     Strings                      ''
     StringsStyle                 Message
     Top                          154
@@ -1524,32 +1502,14 @@ StaticText
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       42
-    Left                         24
-    Top                          152
+    Font.Name                    'Titillium Bd'
+    Font.Size                    20
+    Font.Style                   [Bold]
+    Height                       38
+    Left                         48
+    Top                          156
     Transparent                  Yes
-    Width                        144
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext9
-    Alias                        Statictext9
-    AutoSize                     Yes
-    Caption                      'Adjust Filament'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       42
-    Left                         132
-    Top                          32
-    Transparent                  Yes
-    Width                        240
+    Width                        109
     WordWrap                     Yes
 end
 Form
@@ -1737,17 +1697,17 @@ Strings
     Alias                        Strings11
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       49
+    Height                       61
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         184
+    Left                         180
     Strings                      'Press to Insert Filament\n'
     StringsStyle                 Message
     Top                          160
@@ -1791,12 +1751,12 @@ Strings
     BGcolor                      BLACK
     Height                       31
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         144
@@ -1903,14 +1863,14 @@ Strings
     Alias                        Strings23
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       20
+    Height                       30
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
     Left                         152
@@ -2388,16 +2348,16 @@ Strings
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    'Titillium Bd'
+    Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    27
+    Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
     Left                         100
-    Strings                      'Make sure there is no filament'
+    Strings                      'Make sure there is no filament\n'
     StringsStyle                 Message
     Top                          212
-    Width                        276
+    Width                        297
     OnChanged                    ''
 end
 Form
@@ -2424,12 +2384,12 @@ Strings
     BGcolor                      BLACK
     Height                       32
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         168
@@ -3151,7 +3111,7 @@ Form
     Alias                        Form30
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM30.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3166,12 +3126,12 @@ end
 UserImages
     Name                         Userimages3
     Alias                        Userimages3
-    Height                       200
+    Height                       149
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
-    Left                         221
+    Left                         248
     Stretch                      Yes
-    Top                          0
-    Width                        259
+    Top                          52
+    Width                        211
     OnChanged                    ''
 end
 UserButton
@@ -3179,22 +3139,22 @@ UserButton
     Alias                        Userbutton93
     Height                       112
     Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaGOBACK.png
-    Left                         308
+    Left                         312
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          196
-    Width                        85
+    Width                        78
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages7
     Alias                        Userimages7
-    Height                       320
+    Height                       269
     Images                       Llit_Screw_1.png
     Left                         0
     Stretch                      Yes
-    Top                          0
+    Top                          51
     Width                        240
     OnChanged                    ''
 end
@@ -3203,7 +3163,7 @@ Form
     Alias                        Form31
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM30.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3220,33 +3180,33 @@ UserButton
     Alias                        Userbutton94
     Height                       112
     Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaGOBACK.png
-    Left                         308
+    Left                         312
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          196
-    Width                        85
+    Width                        78
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages4
     Alias                        Userimages4
-    Height                       200
+    Height                       149
     Images                       '1,8 Counterclockwise.png\n8,8_Clockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
-    Left                         221
+    Left                         248
     Stretch                      Yes
-    Top                          0
-    Width                        259
+    Top                          52
+    Width                        211
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages8
     Alias                        Userimages8
-    Height                       320
+    Height                       269
     Images                       Llit_Screw_2.png
     Left                         0
     Stretch                      Yes
-    Top                          0
+    Top                          51
     Width                        240
     OnChanged                    ''
 end
@@ -3255,7 +3215,7 @@ Form
     Alias                        Form32
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM30.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3270,12 +3230,12 @@ end
 UserImages
     Name                         Userimages5
     Alias                        Userimages5
-    Height                       200
+    Height                       149
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
-    Left                         221
+    Left                         248
     Stretch                      Yes
-    Top                          0
-    Width                        259
+    Top                          52
+    Width                        211
     OnChanged                    ''
 end
 UserButton
@@ -3283,22 +3243,22 @@ UserButton
     Alias                        Userbutton95
     Height                       112
     Images                       00_accept.png\n00_accept.png\n00_flechaGOBACK.png\n00_flechaUP_1.png
-    Left                         308
+    Left                         312
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          196
-    Width                        85
+    Width                        78
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages9
     Alias                        Userimages9
-    Height                       320
+    Height                       269
     Images                       Llit_Screw3.png
     Left                         0
     Stretch                      Yes
-    Top                          0
+    Top                          51
     Width                        240
     OnChanged                    ''
 end
@@ -3472,7 +3432,7 @@ Form
     Alias                        Form34
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM34.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3492,14 +3452,14 @@ StaticText
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       84
+    Font.Name                    'Titillium Bd'
+    Font.Size                    14
+    Font.Style                   [Bold]
+    Height                       27
     Left                         28
-    Top                          24
+    Top                          60
     Transparent                  Yes
-    Width                        415
+    Width                        270
     WordWrap                     Yes
 end
 UserButton
@@ -3555,11 +3515,11 @@ UserButton
     Alias                        Userbutton114
     Height                       175
     Images                       00_accept.png
-    Left                         328
+    Left                         356
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          104
+    Top                          128
     Width                        100
     OnChanged                    'Report Message'
 end
@@ -3571,24 +3531,24 @@ StaticText
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       46
-    Left                         211
-    Top                          84
+    Font.Name                    'Titillium Bd'
+    Font.Size                    20
+    Font.Style                   [Bold]
+    Height                       38
+    Left                         64
+    Top                          104
     Transparent                  Yes
-    Width                        124
+    Width                        82
     WordWrap                     Yes
 end
 UserImages
     Name                         Userimages13
     Alias                        Userimages13
-    Height                       212
+    Height                       213
     Images                       Zcalibration.png
     Left                         0
     Stretch                      Yes
-    Top                          108
+    Top                          107
     Width                        189
     OnChanged                    ''
 end
@@ -3597,7 +3557,7 @@ Form
     Alias                        Form35
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM34.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3608,42 +3568,6 @@ Form
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-StaticText
-    Name                         Statictext7
-    Alias                        Statictext7
-    AutoSize                     Yes
-    Caption                      'Move Z until it touches the card'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       84
-    Left                         28
-    Top                          7
-    Transparent                  Yes
-    Width                        415
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext8
-    Alias                        Statictext8
-    AutoSize                     Yes
-    Caption                      'Extr 2: '
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Tahoma
-    Font.Size                    26
-    Font.Style                   []
-    Height                       42
-    Left                         211
-    Top                          62
-    Transparent                  Yes
-    Width                        115
-    WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton115
@@ -3717,6 +3641,42 @@ UserImages
     Width                        189
     OnChanged                    ''
 end
+StaticText
+    Name                         Statictext18
+    Alias                        Statictext18
+    AutoSize                     Yes
+    Caption                      'Move Z until it touches the card'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    14
+    Font.Style                   [Bold]
+    Height                       27
+    Left                         28
+    Top                          60
+    Transparent                  Yes
+    Width                        270
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    AutoSize                     Yes
+    Caption                      'Extr 2: '
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    20
+    Font.Style                   [Bold]
+    Height                       38
+    Left                         64
+    Top                          104
+    Transparent                  Yes
+    Width                        82
+    WordWrap                     Yes
+end
 Form
     Name                         Form7
     Alias                        Form7
@@ -3750,21 +3710,21 @@ Strings
     Alias                        Strings17
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       47
+    Height                       73
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         160
+    Left                         124
     Strings                      'Make sure there is NO filament inserted already!\n'
     StringsStyle                 Message
-    Top                          144
-    Width                        191
+    Top                          140
+    Width                        266
     OnChanged                    ''
 end
 UserButton
@@ -3815,12 +3775,12 @@ Image
     Alias                        Image0
     Height                       120
     Image                        ScrewICON.png
-    Left                         188
+    Left                         180
     Source.Height                128
     Source.Left                  0
     Source.Top                   0
     Source.Width                 128
-    Top                          12
+    Top                          20
     Width                        120
     OnTouchMoving                ''
     OnTouchPressed               ''
@@ -3844,20 +3804,20 @@ Strings
     Alias                        Strings18
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       47
+    Height                       68
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         152
     Strings                      'Turn the screws accordingly\n'
     StringsStyle                 Message
-    Top                          160
+    Top                          156
     Width                        191
     OnChanged                    ''
 end
@@ -3896,14 +3856,14 @@ Strings
     Alias                        Strings19
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       47
+    Height                       57
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
     Left                         152
@@ -3961,21 +3921,21 @@ Strings
     Alias                        Strings29
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       73
+    Height                       92
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         140
+    Left                         132
     Strings                      'Make sure there is filament in each extruder!\n'
     StringsStyle                 Message
-    Top                          136
-    Width                        191
+    Top                          132
+    Width                        205
     OnChanged                    ''
 end
 UserButton
@@ -4026,14 +3986,14 @@ Strings
     Alias                        Strings30
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       47
+    Height                       62
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Arial
-    Font.Opaque                  Yes
-    Font.Size                    22
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         140
@@ -4121,7 +4081,7 @@ Form
     Alias                        Form38
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM38.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -4300,10 +4260,10 @@ Strings
     Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         128
+    Left                         119
     Strings                      'BED TEMPERATURE\n'
     StringsStyle                 Message
-    Top                          68
+    Top                          88
     Width                        287
     OnChanged                    ''
 end
@@ -4351,20 +4311,20 @@ Strings
     Alias                        Strings50
     Alignment                    Left
     BGcolor                      BLACK
-    Height                       41
+    Height                       36
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    'Titillium Bd'
+    Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    41
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         120
+    Left                         144
     Strings                      'X AXEL, heatting...\n'
     StringsStyle                 Message
-    Top                          136
+    Top                          144
     Width                        237
     OnChanged                    ''
 end
@@ -4824,20 +4784,20 @@ Strings
     Alias                        Strings53
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       185
+    Height                       131
     FGcolor                      WHITE
-    Font.Bold                    No
+    Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    'Titillium Bd'
+    Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    36
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         20
     Strings                      'Wait until the image will be red, then, clean the left extruder, after that, press GO to change the extruder and clean it\n'
     StringsStyle                 Message
-    Top                          20
+    Top                          76
     Width                        306
     OnChanged                    ''
 end
@@ -4857,11 +4817,11 @@ end
 UserImages
     Name                         Userimages11
     Alias                        Userimages11
-    Height                       176
-    Images                       coldTemps.png\nredtemperature.png
-    Left                         340
+    Height                       217
+    Images                       'temperatura not ok.png\ntemperatura ok.png'
+    Left                         352
     Stretch                      Yes
-    Top                          84
-    Width                        126
+    Top                          40
+    Width                        112
     OnChanged                    ''
 end

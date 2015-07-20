@@ -2081,7 +2081,7 @@ Form
     Alias                        Form23
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        FORM23.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -2093,28 +2093,6 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings5
-    Alias                        Strings5
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      Calibrations\n
-    StringsStyle                 Message
-    Top                          0
-    Width                        480
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton66
     Alias                        Userbutton66
@@ -2124,7 +2102,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          0
     Width                        50
     OnChanged                    Form4Activate
 end
@@ -2145,7 +2123,7 @@ UserButton
     Name                         Userbutton118
     Alias                        Userbutton118
     Height                       163
-    Images                       R_EXTRUDER.png
+    Images                       extruder_right_good.png
     Left                         280
     Matrix                       -1
     Momentary                    Yes
@@ -3814,7 +3792,7 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         152
+    Left                         144
     Strings                      'Turn the screws accordingly\n'
     StringsStyle                 Message
     Top                          156
@@ -4198,7 +4176,7 @@ UserButton
     Alias                        Userbutton123
     Height                       56
     Images                       L_EXTRUDER.png
-    Left                         58
+    Left                         60
     Matrix                       1
     Momentary                    No
     Stretch                      Yes

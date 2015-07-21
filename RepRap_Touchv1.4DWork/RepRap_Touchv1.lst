@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 20/07/2015 16:31:52
+005061  000003  // generated 21/07/2015 12:54:30
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,7 +5102,7 @@ file V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 20/07/2015 16:31:30
+005093  000001  // File generated 21/07/2015 12:53:59
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        
@@ -5310,10 +5310,10 @@ file V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 005298  000105  #constant  Strings48Count    0
 005299  000106  #constant  Strings48Size     1
 005300  000106  #constant  Strings48Size     1
-005301  000107  #constant  Strings53Count    1
-005302  000107  #constant  Strings53Count    1
-005303  000108  #constant  Strings53Size     134
-005304  000108  #constant  Strings53Size     134
+005301  000107  #constant  Strings53Count    0
+005302  000107  #constant  Strings53Count    0
+005303  000108  #constant  Strings53Size     1
+005304  000108  #constant  Strings53Size     1
 005305  000109  // object indexes into ImageControl
 005306  000110  #CONST
 005307  000341  #END
@@ -17106,13 +17106,13 @@ iStatictext14                         90  0x0000005a (const ??? 0)  (usage 3)
 iStatictext15                        100  0x00000064 (const ??? 0)  (usage 3)
 iStatictext16                         23  0x00000017 (const ??? 0)  (usage 3)
 iStatictext17                         24  0x00000018 (const ??? 0)  (usage 3)
-iStatictext18                        171  0x000000ab (const ??? 0)  (usage 3)
+iStatictext18                        170  0x000000aa (const ??? 0)  (usage 3)
 iStatictext2                          40  0x00000028 (const ??? 0)  (usage 3)
 iStatictext3                         148  0x00000094 (const ??? 0)  (usage 3)
 iStatictext4                          41  0x00000029 (const ??? 0)  (usage 3)
 iStatictext5                         160  0x000000a0 (const ??? 0)  (usage 3)
 iStatictext6                         164  0x000000a4 (const ??? 0)  (usage 3)
-iStatictext7                         172  0x000000ac (const ??? 0)  (usage 3)
+iStatictext7                         171  0x000000ab (const ??? 0)  (usage 3)
 iStrings0                           7809  0x00001e81iStrings0                           7809  0x00001e81 (mem) word[13] (member of V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 iStrings1                           7835  0x00001e9biStrings1                           7835  0x00001e9b (mem) word[13] (member of V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
 iStrings10                          8043  0x00001f6biStrings10                          8043  0x00001f6b (mem) word[13] (member of V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBCN_TouchScreen\RepRap_Touchv1.4DWork\RepRap_Touchv1.4DGenieS)  (usage 3)
@@ -17323,8 +17323,8 @@ iUserbutton99                        108  0x0000006c (const ??? 0)  (usage 3)
 iUserimages0                         124  0x0000007c (const ??? 0)  (usage 3)
 iUserimages1                          68  0x00000044 (const ??? 0)  (usage 3)
 iUserimages11                        229  0x000000e5 (const ??? 0)  (usage 3)
-iUserimages12                        170  0x000000aa (const ??? 0)  (usage 3)
 iUserimages13                        165  0x000000a5 (const ??? 0)  (usage 3)
+iUserimages2                         172  0x000000ac (const ??? 0)  (usage 3)
 iUserimages3                         136  0x00000088 (const ??? 0)  (usage 3)
 iUserimages4                         141  0x0000008d (const ??? 0)  (usage 3)
 iUserimages5                         144  0x00000090 (const ??? 0)  (usage 3)
@@ -18061,8 +18061,8 @@ Strings52Count                         0  0x00000000 (const dword)  (not used)
 Strings52Size                          1  0x00000001 (const dword)  (usage 3)
 Strings52StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings52StartL                    18944  0x00004a00 (const dword)  (usage 3)
-Strings53Count                         1  0x00000001 (const dword)  (not used)
-Strings53Size                        134  0x00000086 (const dword)  (usage 3)
+Strings53Count                         0  0x00000000 (const dword)  (not used)
+Strings53Size                          1  0x00000001 (const dword)  (usage 3)
 Strings53StartH                        0  0x00000000 (const dword)  (usage 3)
 Strings53StartL                    26112  0x00006600 (const dword)  (usage 3)
 Strings5Size                           0  0x00000000 (const dword)  (not used)

@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 20/07/2015 16:31:52
+// generated 21/07/2015 12:54:30
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -470,26 +470,26 @@
     word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 160, 148, 206, 199, WHITE, BLACK, 0, 0, 1, 10 
     word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 188, 208, 235, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 168, 144, 307, 175, WHITE, BLACK, 0, 0, 1, 11 
-    word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 180, 160, 323, 220, WHITE, DEEPSKYBLUE, 0, 0, 1, 19 
+    word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 172, 160, 315, 220, WHITE, DEEPSKYBLUE, 0, 0, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 168, 144, 323, 172, WHITE, BLACK, 0, 0, 1, 12 
     word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 44, 8, 79, 47, WHITE, BLACK, 0, 0, 1, 39 
     word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 13 
     word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 15 
     word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 204, 154, 270, 198, WHITE, BLACK, 0, 1, 1, 14 
-    word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 124, 140, 389, 212, WHITE, DEEPSKYBLUE, 0, 0, 1, 7 
+    word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 112, 140, 377, 212, WHITE, DEEPSKYBLUE, 0, 0, 1, 7 
     word iStrings18  Strings18StartH, Strings18StartL, Strings18Size, 144, 156, 334, 223, WHITE, DEEPSKYBLUE, 0, 0, 1, 16 
     word iStrings19  Strings19StartH, Strings19StartL, Strings19Size, 152, 152, 342, 208, WHITE, DEEPSKYBLUE, 0, 0, 1, 17 
 
     word iStrings21  Strings21StartH, Strings21StartL, Strings21Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 19 
     word iStrings22  Strings22StartH, Strings22StartL, Strings22Size, 144, 20, 343, 50, WHITE, BLACK, 0, 0, 1, 20 
-    word iStrings23  Strings23StartH, Strings23StartL, Strings23Size, 152, 152, 351, 181, WHITE, BLACK, 0, 0, 1, 21 
+    word iStrings23  Strings23StartH, Strings23StartL, Strings23Size, 144, 152, 343, 181, WHITE, BLACK, 0, 0, 1, 21 
     word iStrings24  Strings24StartH, Strings24StartL, Strings24Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings25  Strings25StartH, Strings25StartL, Strings25Size, 8, 100, 99, 121, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings26  Strings26StartH, Strings26StartL, Strings26Size, 112, 100, 203, 121, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings27  Strings27StartH, Strings27StartL, Strings27Size, 216, 100, 308, 121, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings28  Strings28StartH, Strings28StartL, Strings28Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 24 
-    word iStrings29  Strings29StartH, Strings29StartL, Strings29Size, 132, 132, 336, 223, WHITE, DEEPSKYBLUE, 0, 0, 1, 18 
-    word iStrings30  Strings30StartH, Strings30StartL, Strings30Size, 140, 108, 330, 169, WHITE, DEEPSKYBLUE, 0, 0, 1, 25 
+    word iStrings29  Strings29StartH, Strings29StartL, Strings29Size, 140, 124, 344, 215, WHITE, DEEPSKYBLUE, 0, 0, 1, 18 
+    word iStrings30  Strings30StartH, Strings30StartL, Strings30Size, 140, 124, 330, 185, WHITE, DEEPSKYBLUE, 0, 0, 1, 25 
     word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 208, 155, 297, 194, WHITE, BLACK, 0, 0, 1, 38 
     word iStrings32  Strings32StartH, Strings32StartL, Strings32Size, 119, 88, 405, 130, WHITE, BLACK, 0, 0, 1, 38 
     word iStrings33  Strings33StartH, Strings33StartL, Strings33Size, 100, 212, 396, 241, WHITE, BLACK, 0, 0, 1, 26 
@@ -538,7 +538,7 @@
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
-    word oUserImagess 14, iUserimages0, iUserimages1, -1, iUserimages3, iUserimages4, iUserimages5, iUserimages6, iUserimages7, iUserimages8, iUserimages9, -1, iUserimages11, iUserimages12, iUserimages13
+    word oUserImagess 14, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, iUserimages6, iUserimages7, iUserimages8, iUserimages9, -1, iUserimages11, -1, iUserimages13
     word oPinInputs 0
     word o4Dbuttons 0
     word oAniButtons 0

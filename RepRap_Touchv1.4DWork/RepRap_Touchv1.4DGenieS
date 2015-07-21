@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 21/07/2015 12:54:30
+// generated 21/07/2015 13:27:41
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -123,16 +123,16 @@
     REPORT_MAGIC_EVENT_BYTES 10
     REPORT_MAGIC_EVENT_DBYTES 11
 // End P1.inc
-    nObjects        230
+    nObjects        231
     nInputs         326
     nAniTimers      0
     nStrings        54
 #END
 
 #DATA
-    word FormStartIndex 0, 1, 4, 9, 10, 16, 19, 173, 25, 45, 111, 98, 49, 50, 56, 61, 177, 181, 184, 67, 71, 77, 79, 85, 91, 187, 94, 99, 121, 126, 135, 139, 143, 147, 159, 166, 190, 190, 191, 203, 202, 227, 215
-    word FormEndIndex 1, 4, 9, 10, 16, 19, 25, 177, 45, 49, 121, 99, 50, 56, 61, 67, 181, 184, 187, 71, 77, 79, 85, 91, 94, 190, 98, 111, 126, 135, 139, 143, 147, 159, 166, 173, 190, 191, 202, 215, 203, 230, 227
-    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, -1, 308, 374, 418, 462, 506, -1, 550, 616, -1, 682, 726, 770, -1, -1, 814, 858, 902, 946, 990, 1034, 1078, 1122, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1188, 1232, 1276, -1, 1320, 1364, 1408, -1, 1452, 1496, 1562, 1606, 1650, 1694, -1, 1738, 1782, 1826, -1, 1870, 1914, 1958, 2002, 2024, 2046, -1, -1, 2068, 2112, -1, 2156, 2200, 2244, -1, -1, -1, 2288, 2332, 2398, 2442, 2486, 2530, 2574, -1, 2618, 2684, 2728, -1, -1, -1, -1, 2772, -1, 2816, 2838, 2882, -1, -1, -1, 2926, 2970, 3014, 3058, 3102, 3146, 3190, 3234, 3278, 3322, -1, 3366, 3410, 3454, 3498, 3542, 3586, 3630, 3674, 3718, -1, 3784, 3850, -1, 3894, -1, 3960, 4004, 4048, 4092, 4136, 4180, 4224, 4268, -1, -1, 4312, -1, -1, 4356, -1, -1, -1, -1, 4400, -1, -1, -1, 4444, 4488, 4532, 4576, 4620, 4664, 4708, 4752, 4796, 4840, -1, -1, 4884, 4928, 4972, -1, -1, -1, 5016, 5060, 5104, -1, -1, -1, -1, -1, 5148, 5192, -1, -1, 5236, 5280, -1, 5324, 5368, -1, 5412, 5456, -1, 5500, 5544, 5588, -1, 5654, 5676, 5742, 5786, 5830, 5874, 5918, 5962, 6006, 6050, -1, 6094, 6138, 6182, 6226, 6270, 6314, 6358, 6402, 6446, 6490, 6534, 6578, 6622, 6666, 6710, 6754, 6798, 6842, 6886, 6930, 6974, 7018, 7062, 7084, -1, 7128
+    word FormStartIndex 0, 1, 4, 9, 10, 16, 19, 174, 25, 45, 112, 99, 49, 50, 56, 61, 178, 182, 185, 67, 71, 77, 80, 86, 92, 188, 95, 100, 122, 127, 136, 140, 144, 148, 160, 167, 191, 191, 192, 204, 203, 228, 216
+    word FormEndIndex 1, 4, 9, 10, 16, 19, 25, 178, 45, 49, 122, 100, 50, 56, 61, 67, 182, 185, 188, 71, 77, 80, 86, 92, 95, 191, 99, 112, 127, 136, 140, 144, 148, 160, 167, 174, 191, 192, 203, 216, 204, 231, 228
+    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, -1, 308, 374, 418, 462, 506, -1, 550, 616, -1, 682, 726, 770, -1, -1, 814, 858, 902, 946, 990, 1034, 1078, 1122, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1188, 1232, 1276, -1, 1320, 1364, 1408, -1, 1452, 1496, 1562, 1606, 1650, 1694, -1, 1738, 1782, 1826, -1, 1870, 1914, 1958, 2002, 2024, 2046, -1, -1, 2068, 2112, -1, 2156, 2200, 2244, -1, -1, -1, 2288, -1, 2332, 2398, 2442, 2486, 2530, 2574, -1, 2618, 2684, 2728, -1, -1, -1, -1, 2772, -1, 2816, 2838, 2882, -1, -1, -1, 2926, 2970, 3014, 3058, 3102, 3146, 3190, 3234, 3278, 3322, -1, 3366, 3410, 3454, 3498, 3542, 3586, 3630, 3674, 3718, -1, 3784, 3850, -1, 3894, -1, 3960, 4004, 4048, 4092, 4136, 4180, 4224, 4268, -1, -1, 4312, -1, -1, 4356, -1, -1, -1, -1, 4400, -1, -1, -1, 4444, 4488, 4532, 4576, 4620, 4664, 4708, 4752, 4796, 4840, -1, -1, 4884, 4928, 4972, -1, -1, -1, 5016, 5060, 5104, -1, -1, -1, -1, -1, 5148, 5192, -1, -1, 5236, 5280, -1, 5324, 5368, -1, 5412, 5456, -1, 5500, 5544, 5588, -1, 5654, 5676, 5742, 5786, 5830, 5874, 5918, 5962, 6006, 6050, -1, 6094, 6138, 6182, 6226, 6270, 6314, 6358, 6402, 6446, 6490, 6534, 6578, 6622, 6666, 6710, 6754, 6798, 6842, 6886, 6930, 6974, 7018, 7062, 7084, -1, 7128
     word InputData tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 22, 4,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 124,
@@ -482,7 +482,7 @@
 
     word iStrings21  Strings21StartH, Strings21StartL, Strings21Size, 0, 0, 479, 19, WHITE, BLACK, 0, 1, 1, 19 
     word iStrings22  Strings22StartH, Strings22StartL, Strings22Size, 144, 20, 343, 50, WHITE, BLACK, 0, 0, 1, 20 
-    word iStrings23  Strings23StartH, Strings23StartL, Strings23Size, 144, 152, 343, 181, WHITE, BLACK, 0, 0, 1, 21 
+
     word iStrings24  Strings24StartH, Strings24StartL, Strings24Size, 0, 0, 319, 19, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings25  Strings25StartH, Strings25StartL, Strings25Size, 8, 100, 99, 121, WHITE, BLACK, 0, 1, 1, 22 
     word iStrings26  Strings26StartH, Strings26StartL, Strings26Size, 112, 100, 203, 121, WHITE, BLACK, 0, 1, 1, 22 
@@ -530,11 +530,11 @@
     word oLeds 0
     word oLeddigitss 3, iLeddigits0, iLeddigits1, iLeddigits2
     word oMeters 0
-    word oStringss 54, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, -1, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, -1, iStrings21, iStrings22, iStrings23, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, iStrings34, iStrings35, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, iStrings46, iStrings47, iStrings48, iStrings49, iStrings50, iStrings51, iStrings52, iStrings53
+    word oStringss 54, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, -1, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, iStrings18, iStrings19, -1, iStrings21, iStrings22, -1, iStrings24, iStrings25, iStrings26, iStrings27, iStrings28, iStrings29, iStrings30, iStrings31, iStrings32, iStrings33, iStrings34, iStrings35, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, iStrings46, iStrings47, iStrings48, iStrings49, iStrings50, iStrings51, iStrings52, iStrings53
     word oThermometers 0
     word oUserleds 0
     word oVideos 1, iVideo0
-    word oStaticTexts 19, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, -1, -1, iStatictext10, iStatictext11, iStatictext12, iStatictext13, iStatictext14, iStatictext15, iStatictext16, iStatictext17, iStatictext18
+    word oStaticTexts 19, iStatictext0, iStatictext1, iStatictext2, iStatictext3, iStatictext4, iStatictext5, iStatictext6, iStatictext7, iStatictext8, -1, iStatictext10, iStatictext11, iStatictext12, iStatictext13, iStatictext14, iStatictext15, iStatictext16, iStatictext17, iStatictext18
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
@@ -889,14 +889,14 @@ func main()
     hFonts[14] := FONT3 ;
     hFonts[15] := FONT3 ;
     hFonts[16] := FONT3 ;
+    hFonts[19] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
     hFonts[21] := FONT3 ;
-    hFonts[23] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[24] := FONT3 ;
-    hFonts[25] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+    hFonts[25] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[28] := FONT3 ;
     hFonts[30] := file_LoadImageControl("RepRap_T.d0@", "RepRap_T.g0@", 1)  ;
     hFonts[31] := file_LoadImageControl("RepRap_T.d0B", "RepRap_T.g0B", 1)  ;
-    hFonts[33] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
+    hFonts[33] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
     hFonts[35] := FONT3 ;
     hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
     hFonts[49] := file_LoadImageControl("RepRap_T.d0C", "RepRap_T.g0C", 1)  ;
@@ -908,7 +908,6 @@ func main()
     hFonts[10] := hFonts[11] ;
     hFonts[17] := hFonts[11] ;
     hFonts[18] := hFonts[11] ;
-    hFonts[19] := hFonts[23] ;
     hFonts[22] := hFonts[11] ;
     hFonts[26] := hFonts[25] ;
     hFonts[27] := hFonts[25] ;

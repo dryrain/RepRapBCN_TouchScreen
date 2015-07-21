@@ -1858,28 +1858,6 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings23
-    Alias                        Strings23
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       30
-    FGcolor                      WHITE
-    Font.Bold                    Yes
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    Titillium
-    Font.Opaque                  No
-    Font.Size                    30
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         144
-    Strings                      SUCCESS\n
-    StringsStyle                 Message
-    Top                          152
-    Width                        200
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton53
     Alias                        Userbutton53
@@ -1892,6 +1870,24 @@ UserButton
     Top                          200
     Width                        83
     OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext8
+    Alias                        Statictext8
+    AutoSize                     Yes
+    Caption                      Success
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    48
+    Font.Style                   []
+    Height                       77
+    Left                         136
+    Top                          88
+    Transparent                  Yes
+    Width                        224
+    WordWrap                     Yes
 end
 Form
     Name                         Form22

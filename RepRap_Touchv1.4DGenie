@@ -2340,7 +2340,7 @@ Form
     Bgtype                       Image
     Color                        DEEPSKYBLUE
     Image                        Background.png
-    Source.Height                321
+    Source.Height                322
     Source.Left                  0
     Source.Top                   0
     Source.Width                 481
@@ -3747,15 +3747,15 @@ end
 Image
     Name                         Image0
     Alias                        Image0
-    Height                       120
+    Height                       128
     Image                        ScrewICON.png
-    Left                         180
+    Left                         177
     Source.Height                128
     Source.Left                  0
     Source.Top                   0
     Source.Width                 128
     Top                          20
-    Width                        120
+    Width                        128
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''

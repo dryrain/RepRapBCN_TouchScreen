@@ -5064,7 +5064,7 @@ file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\Diablo16_Functions
 005058  000017        
 005059  000018        
 005060  000002        
-005061  000003  // generated 24/07/2015 16:18:44
+005061  000003  // generated 24/07/2015 16:35:56
 005062  000004        
 005063  000005        
 file C:\Program Files (x86)\4D Labs\4D Workshop 4 IDE\include\4DGL_16bitColours.fnc
@@ -5102,7 +5102,7 @@ file V:\P1405043 - INTERN - BCN3DSigma\Desenvolupament\Disseny\Firmware\RepRapBC
 
 005091  000011  #inherit "RepRap_Touchv1Const.inc"
 005092  000011  #inherit "RepRap_Touchv1Const.inc"
-005093  000001  // File generated 24/07/2015 16:18:18
+005093  000001  // File generated 24/07/2015 16:35:33
 005094  000002  // Warning! This is a generated file, any manual changes will be
 005095  000003  // lost during the next generation.
 005096  000004        

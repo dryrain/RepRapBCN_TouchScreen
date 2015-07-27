@@ -350,6 +350,19 @@ UserButton
     Width                        118
     OnChanged                    Form4Activate
 end
+UserButton
+    Name                         Userbutton148
+    Alias                        Userbutton148
+    Height                       96
+    Images                       languages.png
+    Left                         396
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          16
+    Width                        69
+    OnChanged                    'Report Message'
+end
 Form
     Name                         Form6
     Alias                        Form6
@@ -1438,7 +1451,7 @@ UserButton
     Alias                        Userbutton17
     Height                       175
     Images                       00_accept.png
-    Left                         324
+    Left                         342
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1451,11 +1464,11 @@ UserButton
     Alias                        Userbutton32
     Height                       50
     Images                       00_FlechaUP.png
-    Left                         214
+    Left                         223
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          66
+    Top                          100
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -1464,11 +1477,11 @@ UserButton
     Alias                        Userbutton33
     Height                       50
     Images                       00_FlechaDOWN.png
-    Left                         214
+    Left                         223
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          246
+    Top                          210
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -1487,7 +1500,7 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         204
+    Left                         215
     Strings                      ''
     StringsStyle                 Message
     Top                          154
@@ -1498,18 +1511,18 @@ StaticText
     Name                         Statictext10
     Alias                        Statictext10
     AutoSize                     Yes
-    Caption                      Hotend
+    Caption                      'Keep presing INSERT until filament comes out of the nozzle'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
-    Font.Size                    20
+    Font.Size                    16
     Font.Style                   [Bold]
-    Height                       38
-    Left                         48
-    Top                          156
+    Height                       150
+    Left                         12
+    Top                          120
     Transparent                  Yes
-    Width                        86
+    Width                        161
     WordWrap                     Yes
 end
 StaticText
@@ -1524,8 +1537,8 @@ StaticText
     Font.Size                    18
     Font.Style                   [Bold]
     Height                       34
-    Left                         200
-    Top                          214
+    Left                         212
+    Top                          256
     Transparent                  Yes
     Width                        78
     WordWrap                     Yes
@@ -1542,8 +1555,8 @@ StaticText
     Font.Size                    18
     Font.Style                   [Bold]
     Height                       34
-    Left                         195
-    Top                          107
+    Left                         201
+    Top                          69
     Transparent                  Yes
     Width                        92
     WordWrap                     Yes
@@ -1682,28 +1695,6 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings21
-    Alias                        Strings21
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       20
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
-    Font.Opaque                  Yes
-    Font.Size                    12
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      'Ready ...\n'
-    StringsStyle                 Message
-    Top                          0
-    Width                        480
-    OnChanged                    ''
-end
 UserImages
     Name                         Userimages1
     Alias                        Userimages1
@@ -1743,11 +1734,11 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         164
-    Strings                      'Press GO to Insert Filament\n'
+    Left                         80
+    Strings                      \n
     StringsStyle                 Message
     Top                          160
-    Width                        153
+    Width                        325
     OnChanged                    ''
 end
 UserButton
@@ -1759,7 +1750,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          0
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -1796,7 +1787,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         144
-    Strings                      'Which Hotend\n'
+    Strings                      'Which Extruder\n'
     StringsStyle                 Message
     Top                          20
     Width                        200
@@ -1845,7 +1836,7 @@ StaticText
     Name                         Statictext11
     Alias                        Statictext11
     AutoSize                     No
-    Caption                      'LEFT HOTEND'
+    Caption                      'LEFT EXTRUDER'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
@@ -1863,7 +1854,7 @@ StaticText
     Name                         Statictext12
     Alias                        Statictext12
     AutoSize                     No
-    Caption                      'RIGHT HOTEND'
+    Caption                      'RIGHT EXTRUDER'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
@@ -2186,18 +2177,18 @@ StaticText
     Name                         Statictext14
     Alias                        Statictext14
     AutoSize                     Yes
-    Caption                      'Hotend calibration'
+    Caption                      'Extruder calibration'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    Tahoma
     Font.Size                    18
     Font.Style                   []
-    Height                       29
-    Left                         266
+    Height                       33
+    Left                         251
     Top                          264
     Transparent                  Yes
-    Width                        192
+    Width                        214
     WordWrap                     Yes
 end
 Form
@@ -2305,11 +2296,11 @@ UserButton
     Alias                        Userbutton74
     Height                       65
     Images                       'button_wait.png\nbutton_wait.png\nbutton (4).png\nbutton (5).png'
-    Left                         196
+    Left                         192
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          132
     Width                        85
     OnChanged                    'Report Message'
 end
@@ -2318,18 +2309,18 @@ Strings
     Alias                        Strings35
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       20
+    Height                       33
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
+    Font.Name                    'Titillium Bd'
     Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
     Left                         0
-    Strings                      Heating...\n
+    Strings                      Heating...
     StringsStyle                 Message
     Top                          0
     Width                        480
@@ -2344,7 +2335,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          20
+    Top                          32
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -2353,7 +2344,7 @@ Strings
     Alias                        Strings33
     Alignment                    Center
     BGcolor                      BLACK
-    Height                       94
+    Height                       86
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -2363,11 +2354,22 @@ Strings
     Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         64
-    Strings                      'Press go and it will start to remove the filament'
+    Left                         380
+    Strings                      ''
     StringsStyle                 Message
+    Top                          48
+    Width                        86
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages10
+    Alias                        Userimages10
+    Height                       107
+    Images                       'info text.png\nno info text.png'
+    Left                         20
+    Stretch                      Yes
     Top                          204
-    Width                        389
+    Width                        448
     OnChanged                    ''
 end
 Form
@@ -3537,18 +3539,18 @@ StaticText
     Name                         Statictext6
     Alias                        Statictext6
     AutoSize                     Yes
-    Caption                      'Hotend 1: '
+    Caption                      'Extruder 1:'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
     Font.Size                    20
     Font.Style                   [Bold]
-    Height                       43
+    Height                       41
     Left                         64
     Top                          96
     Transparent                  Yes
-    Width                        127
+    Width                        136
     WordWrap                     Yes
 end
 UserImages
@@ -3662,18 +3664,18 @@ StaticText
     Name                         Statictext7
     Alias                        Statictext7
     AutoSize                     Yes
-    Caption                      'Hotend 2: '
+    Caption                      'Extruder 2: '
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
     Font.Size                    20
     Font.Style                   [Bold]
-    Height                       42
+    Height                       39
     Left                         64
     Top                          96
     Transparent                  Yes
-    Width                        120
+    Width                        138
     WordWrap                     Yes
 end
 UserImages

@@ -4824,3 +4824,165 @@ UserImages
     Width                        96
     OnChanged                    ''
 end
+Form
+    Name                         Form43
+    Alias                        Form43
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        Background.png
+    Source.Height                321
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton148
+    Alias                        Userbutton148
+    Height                       175
+    Images                       00_accept.png
+    Left                         104
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          128
+    Width                        100
+    OnChanged                    Form44Activate
+end
+UserButton
+    Name                         Userbutton151
+    Alias                        Userbutton151
+    Height                       175
+    Images                       00_cancel.png
+    Left                         296
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          128
+    Width                        100
+    OnChanged                    Form9Activate
+end
+StaticText
+    Name                         Statictext20
+    Alias                        Statictext20
+    AutoSize                     Yes
+    Caption                      'Do you want to change the filament?'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    20
+    Font.Style                   [Bold]
+    Height                       38
+    Left                         28
+    Top                          52
+    Transparent                  Yes
+    Width                        429
+    WordWrap                     Yes
+end
+Form
+    Name                         Form44
+    Alias                        Form44
+    Bgtype                       Image
+    Color                        BLACK
+    Image                        Background.png
+    Source.Height                321
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 481
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton152
+    Alias                        Userbutton152
+    Height                       163
+    Images                       L_EXTRUDER.png
+    Left                         76
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          96
+    Width                        118
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton153
+    Alias                        Userbutton153
+    Height                       163
+    Images                       R_EXTRUDER.png
+    Left                         276
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          96
+    Width                        118
+    OnChanged                    'Report Message'
+end
+Strings
+    Name                         Strings5
+    Alias                        Strings5
+    Alignment                    Center
+    BGcolor                      DEEPSKYBLUE
+    Height                       31
+    FGcolor                      WHITE
+    Font.Bold                    Yes
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    Titillium
+    Font.Opaque                  No
+    Font.Size                    31
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         144
+    Strings                      'Which Extruder\n'
+    StringsStyle                 Message
+    Top                          20
+    Width                        200
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext21
+    Alias                        Statictext21
+    AutoSize                     No
+    Caption                      'LEFT EXTRUDER'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Titillium
+    Font.Size                    12
+    Font.Style                   []
+    Height                       30
+    Left                         76
+    Top                          264
+    Transparent                  Yes
+    Width                        119
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext22
+    Alias                        Statictext22
+    AutoSize                     No
+    Caption                      'RIGHT EXTRUDER'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Titillium
+    Font.Size                    12
+    Font.Style                   []
+    Height                       26
+    Left                         280
+    Top                          264
+    Transparent                  Yes
+    Width                        134
+    WordWrap                     Yes
+end

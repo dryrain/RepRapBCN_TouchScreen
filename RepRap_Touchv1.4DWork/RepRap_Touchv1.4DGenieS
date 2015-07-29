@@ -1,10 +1,6 @@
 #platform "uLCD-35DT"
 
-<<<<<<< HEAD
-// generated 06/07/2015 17:43:21
-=======
-// generated 28/07/2015 15:41:30
->>>>>>> origin/master
+// generated 29/07/2015 11:15:33
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -887,14 +883,9 @@ func main()
     hFonts[3] := FONT3 ;
     hFonts[4] := FONT3 ;
     hFonts[6] := FONT3 ;
-<<<<<<< HEAD
-    hFonts[11] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
-    hFonts[12] := FONT3 ;
-=======
     hFonts[11] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
     hFonts[12] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
     hFonts[13] := file_LoadImageControl("RepRap_T.d0E", "RepRap_T.g0E", 1)  ;
->>>>>>> origin/master
     hFonts[14] := FONT3 ;
     hFonts[15] := FONT3 ;
     hFonts[16] := FONT3 ;
@@ -902,18 +893,12 @@ func main()
     hFonts[24] := FONT3 ;
     hFonts[25] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[28] := FONT3 ;
-<<<<<<< HEAD
-    hFonts[33] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
-    hFonts[35] := FONT3 ;
-    hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
-=======
     hFonts[30] := file_LoadImageControl("RepRap_T.d0B", "RepRap_T.g0B", 1)  ;
     hFonts[31] := file_LoadImageControl("RepRap_T.d0C", "RepRap_T.g0C", 1)  ;
     hFonts[33] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
     hFonts[35] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
     hFonts[37] := file_LoadImageControl("RepRap_T.d04", "RepRap_T.g04", 1)  ;
     hFonts[49] := file_LoadImageControl("RepRap_T.d0D", "RepRap_T.g0D", 1)  ;
->>>>>>> origin/master
     hFonts[51] := FONT3 ;
     hFonts[52] := FONT3 ;
     hFonts[7] := hFonts[37] ;

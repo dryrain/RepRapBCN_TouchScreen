@@ -1649,9 +1649,9 @@ end
 Strings
     Name                         Strings11
     Alias                        Strings11
-    Alignment                    Center
+    Alignment                    Left
     BGcolor                      DEEPSKYBLUE
-    Height                       61
+    Height                       25
     FGcolor                      WHITE
     Font.Bold                    Yes
     Font.CharSet                 ANSI
@@ -1661,11 +1661,11 @@ Strings
     Font.Size                    23
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         80
-    Strings                      ''
+    Left                         132
+    Strings                      'Press go to insert filament\n'
     StringsStyle                 Message
-    Top                          160
-    Width                        325
+    Top                          172
+    Width                        193
     OnChanged                    ''
 end
 UserButton
@@ -2196,28 +2196,6 @@ UserButton
     Top                          32
     Width                        50
     OnChanged                    'Report Message'
-end
-Strings
-    Name                         Strings33
-    Alias                        Strings33
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       5
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    Titillium
-    Font.Opaque                  No
-    Font.Size                    30
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         460
-    Strings                      ''
-    StringsStyle                 Message
-    Top                          28
-    Width                        6
-    OnChanged                    ''
 end
 UserImages
     Name                         Userimages10
@@ -3000,7 +2978,7 @@ end
 UserImages
     Name                         Userimages3
     Alias                        Userimages3
-    Height                       191
+    Height                       165
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
     Left                         248
     Stretch                      Yes
@@ -3065,7 +3043,7 @@ end
 UserImages
     Name                         Userimages4
     Alias                        Userimages4
-    Height                       191
+    Height                       165
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
     Left                         248
     Stretch                      Yes
@@ -3117,7 +3095,7 @@ end
 UserImages
     Name                         Userimages5
     Alias                        Userimages5
-    Height                       191
+    Height                       165
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,9_Clockwise.png\n8,8_Clockwise.png'
     Left                         248
     Stretch                      Yes
@@ -3470,9 +3448,9 @@ end
 Strings
     Name                         Strings17
     Alias                        Strings17
-    Alignment                    Center
+    Alignment                    Left
     BGcolor                      DEEPSKYBLUE
-    Height                       73
+    Height                       54
     FGcolor                      WHITE
     Font.Bold                    Yes
     Font.CharSet                 ANSI
@@ -3482,10 +3460,10 @@ Strings
     Font.Size                    23
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         112
+    Left                         100
     Strings                      'Make sure there is NO filament inserted already!\n'
     StringsStyle                 Message
-    Top                          157
+    Top                          160
     Width                        266
     OnChanged                    ''
 end
@@ -4552,8 +4530,8 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         20
-    Strings                      'Clean the left nozzle \nand press GO to move on to the next hotend'
-    StringsStyle                 Book
+    Strings                      'Wait until the image turns red, the EXTRUDER are heating up\n'
+    StringsStyle                 Message
     Top                          76
     Width                        325
     OnChanged                    ''
@@ -4561,14 +4539,14 @@ end
 UserButton
     Name                         Userbutton67
     Alias                        Userbutton67
-    Height                       51
-    Images                       GO.png\nGO.png
-    Left                         124
+    Height                       55
+    Images                       00_Go-01.png
+    Left                         152
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
     Top                          232
-    Width                        83
+    Width                        55
     OnChanged                    'Report Message'
 end
 UserImages

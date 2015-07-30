@@ -294,19 +294,6 @@ UserButton
     Width                        150
     OnChanged                    Form6Activate
 end
-UserButton
-    Name                         Userbutton10
-    Alias                        Userbutton10
-    Height                       34
-    Images                       00_flechaDOWN_1.png
-    Left                         424
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          4
-    Width                        51
-    OnChanged                    Form8Activate
-end
 Form
     Name                         Form5
     Alias                        Form5

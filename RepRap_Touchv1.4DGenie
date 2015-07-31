@@ -1636,14 +1636,14 @@ end
 UserButton
     Name                         Userbutton52
     Alias                        Userbutton52
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         216
+    Height                       64
+    Images                       GO-02.png
+    Left                         184
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          236
-    Width                        55
+    Top                          232
+    Width                        128
     OnChanged                    'Report Message'
 end
 Strings
@@ -1651,21 +1651,21 @@ Strings
     Alias                        Strings11
     Alignment                    Left
     BGcolor                      DEEPSKYBLUE
-    Height                       25
+    Height                       55
     FGcolor                      WHITE
     Font.Bold                    Yes
     Font.CharSet                 ANSI
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         132
-    Strings                      'Press go to insert filament\n'
+    Left                         80
+    Strings                      'Press GO and keep pushing the filament until starts being pulled by gear\n'
     StringsStyle                 Message
-    Top                          172
-    Width                        193
+    Top                          164
+    Width                        349
     OnChanged                    ''
 end
 UserButton
@@ -1684,12 +1684,12 @@ end
 UserImages
     Name                         Userimages1
     Alias                        Userimages1
-    Height                       79
-    Images                       00_filament-01.png
-    Left                         216
+    Height                       146
+    Images                       Filament-03_interiors_NoText-03.png
+    Left                         172
     Stretch                      No
-    Top                          67
-    Width                        55
+    Top                          22
+    Width                        131
     OnChanged                    ''
 end
 Form
@@ -1697,7 +1697,7 @@ Form
     Alias                        Form20
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-01.png
+    Image                        WHICH_EXT_BACKGROUND-01.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -1712,27 +1712,27 @@ end
 UserButton
     Name                         Userbutton75
     Alias                        Userbutton75
-    Height                       163
-    Images                       LEFT_EXTR-01.png
-    Left                         76
+    Height                       183
+    Images                       Extr_Left_boton-03.png
+    Left                         44
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      Yes
-    Top                          96
-    Width                        118
+    Stretch                      No
+    Top                          100
+    Width                        180
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton76
     Alias                        Userbutton76
-    Height                       163
-    Images                       RIGHT_EXTR-01.png
-    Left                         276
+    Height                       183
+    Images                       Extr_right_boton-03.png
+    Left                         256
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      Yes
-    Top                          96
-    Width                        118
+    Stretch                      No
+    Top                          97
+    Width                        180
     OnChanged                    'Report Message'
 end
 UserButton
@@ -1768,14 +1768,14 @@ end
 UserButton
     Name                         Userbutton53
     Alias                        Userbutton53
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         216
+    Height                       64
+    Images                       GO-02.png
+    Left                         184
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          200
-    Width                        55
+    Top                          238
+    Width                        128
     OnChanged                    'Report Message'
 end
 StaticText
@@ -1790,11 +1790,22 @@ StaticText
     Font.Size                    35
     Font.Style                   []
     Height                       57
-    Left                         164
-    Top                          120
+    Left                         168
+    Top                          181
     Transparent                  Yes
     Width                        163
     WordWrap                     Yes
+end
+UserImages
+    Name                         Userimages13
+    Alias                        Userimages13
+    Height                       183
+    Images                       Success-03.png
+    Left                         160
+    Stretch                      No
+    Top                          0
+    Width                        180
+    OnChanged                    ''
 end
 Form
     Name                         Form22
@@ -2012,64 +2023,28 @@ end
 UserButton
     Name                         Userbutton68
     Alias                        Userbutton68
-    Height                       88
-    Images                       bed.png
-    Left                         92
+    Height                       146
+    Images                       Bed_Calibration-03.png
+    Left                         32
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          128
-    Width                        94
+    Top                          120
+    Width                        168
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton118
     Alias                        Userbutton118
-    Height                       140
-    Images                       extruder_right_good.png
-    Left                         312
+    Height                       179
+    Images                       EXTR_CALIBRATION-03.png
+    Left                         229
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          88
-    Width                        100
+    Top                          85
+    Width                        224
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext13
-    Alias                        Statictext13
-    AutoSize                     Yes
-    Caption                      'Bed calibration'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Titillium
-    Font.Size                    16
-    Font.Style                   []
-    Height                       29
-    Left                         72
-    Top                          252
-    Transparent                  Yes
-    Width                        133
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext14
-    Alias                        Statictext14
-    AutoSize                     Yes
-    Caption                      'Extruder calibration'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Titillium
-    Font.Size                    16
-    Font.Style                   []
-    Height                       29
-    Left                         276
-    Top                          252
-    Transparent                  Yes
-    Width                        173
-    WordWrap                     Yes
 end
 Form
     Name                         Form24
@@ -2096,28 +2071,39 @@ StaticText
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Tahoma
+    Font.Name                    Titillium
     Font.Size                    35
     Font.Style                   []
     Height                       57
-    Left                         168
-    Top                          116
+    Left                         162
+    Top                          181
     Transparent                  Yes
-    Width                        163
+    Width                        158
     WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton69
     Alias                        Userbutton69
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         216
+    Height                       64
+    Images                       GO-02.png
+    Left                         182
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          208
-    Width                        55
+    Top                          238
+    Width                        128
     OnChanged                    'Report Message'
+end
+UserImages
+    Name                         Userimages16
+    Alias                        Userimages16
+    Height                       183
+    Images                       Success-03.png
+    Left                         156
+    Stretch                      No
+    Top                          0
+    Width                        180
+    OnChanged                    ''
 end
 Form
     Name                         Form26
@@ -2150,41 +2136,6 @@ UserButton
     OnChanged                    ''
 end
 UserButton
-    Name                         Userbutton74
-    Alias                        Userbutton74
-    Height                       65
-    Images                       'button_wait.png\nbutton_wait.png\nbutton (4).png\nbutton (5).png'
-    Left                         192
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          144
-    Width                        85
-    OnChanged                    'Report Message'
-end
-Strings
-    Name                         Strings35
-    Alias                        Strings35
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       35
-    FGcolor                      WHITE
-    Font.Bold                    No
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    'Titillium Bd'
-    Font.Opaque                  Yes
-    Font.Size                    31
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         0
-    Strings                      Heating...
-    StringsStyle                 Message
-    Top                          0
-    Width                        480
-    OnChanged                    ''
-end
-UserButton
     Name                         Userbutton20
     Alias                        Userbutton20
     Height                       50
@@ -2200,24 +2151,42 @@ end
 UserImages
     Name                         Userimages10
     Alias                        Userimages10
-    Height                       92
+    Height                       40
     Images                       'info text.png\nno info text.png'
     Left                         24
     Stretch                      Yes
-    Top                          220
+    Top                          252
     Width                        430
     OnChanged                    ''
+end
+StaticText
+    Name                         Statictext3
+    Alias                        Statictext3
+    AutoSize                     Yes
+    Caption                      HEATING
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    Titillium
+    Font.Size                    26
+    Font.Style                   []
+    Height                       48
+    Left                         174
+    Top                          162
+    Transparent                  Yes
+    Width                        135
+    WordWrap                     Yes
 end
 Form
     Name                         Form11
     Alias                        Form11
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
+    Image                        PROCESSING_mesAbaix-01.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 480
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2225,26 +2194,15 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-Strings
-    Name                         Strings10
-    Alias                        Strings10
-    Alignment                    Center
-    BGcolor                      BLACK
-    Height                       32
-    FGcolor                      WHITE
-    Font.Bold                    Yes
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    Titillium
-    Font.Opaque                  No
-    Font.Size                    23
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         168
-    Strings                      Processing\n
-    StringsStyle                 Message
-    Top                          144
-    Width                        140
+UserImages
+    Name                         Userimages2
+    Alias                        Userimages2
+    Height                       125
+    Images                       1-03.png
+    Left                         177
+    Stretch                      No
+    Top                          68
+    Width                        120
     OnChanged                    ''
 end
 Form
@@ -3438,10 +3396,10 @@ UserImages
     Name                         Userimages6
     Alias                        Userimages6
     Height                       99
-    Images                       FilamentPreheat.png
+    Images                       Filament-03_interiors_NoText-03.png
     Left                         192
     Stretch                      Yes
-    Top                          40
+    Top                          60
     Width                        102
     OnChanged                    ''
 end
@@ -3457,7 +3415,7 @@ Strings
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
     Left                         100
@@ -3470,14 +3428,14 @@ end
 UserButton
     Name                         Userbutton34
     Alias                        Userbutton34
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         216
+    Height                       64
+    Images                       GO-02.png
+    Left                         184
     Matrix                       -1
     Momentary                    No
     Stretch                      No
-    Top                          232
-    Width                        55
+    Top                          224
+    Width                        128
     OnChanged                    'Report Message'
 end
 UserButton
@@ -3513,14 +3471,14 @@ end
 UserButton
     Name                         Userbutton41
     Alias                        Userbutton41
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         216
+    Height                       64
+    Images                       GO-02.png
+    Left                         172
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          216
-    Width                        55
+    Top                          228
+    Width                        128
     OnChanged                    'Report Message'
 end
 Strings
@@ -3528,20 +3486,20 @@ Strings
     Alias                        Strings18
     Alignment                    Center
     BGcolor                      DEEPSKYBLUE
-    Height                       53
+    Height                       64
     FGcolor                      WHITE
     Font.Bold                    Yes
     Font.CharSet                 Unicode
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         132
+    Left                         123
     Strings                      'Turn the screws \naccordingly\n'
     StringsStyle                 Book
-    Top                          164
+    Top                          160
     Width                        219
     OnChanged                    ''
 end
@@ -3561,12 +3519,12 @@ end
 UserImages
     Name                         Userimages12
     Alias                        Userimages12
-    Height                       55
-    Images                       00_Tornillo-01.png
-    Left                         216
+    Height                       146
+    Images                       'tornillo_screws-03 turned.png'
+    Left                         172
     Stretch                      No
-    Top                          93
-    Width                        55
+    Top                          15
+    Width                        131
     OnChanged                    ''
 end
 Form
@@ -3598,7 +3556,7 @@ Strings
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
     Left                         152
@@ -3611,14 +3569,14 @@ end
 UserButton
     Name                         Userbutton43
     Alias                        Userbutton43
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         211
+    Height                       64
+    Images                       GO-02.png
+    Left                         180
     Matrix                       -1
     Momentary                    No
     Stretch                      No
     Top                          216
-    Width                        55
+    Width                        128
     OnChanged                    'Report Message'
 end
 UserButton
@@ -3663,7 +3621,7 @@ Strings
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
     Left                         140
@@ -3676,14 +3634,14 @@ end
 UserButton
     Name                         Userbutton45
     Alias                        Userbutton45
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         212
+    Height                       64
+    Images                       GO-02.png
+    Left                         184
     Matrix                       -1
     Momentary                    No
     Stretch                      No
     Top                          224
-    Width                        55
+    Width                        128
     OnChanged                    'Report Message'
 end
 UserButton
@@ -3728,7 +3686,7 @@ Strings
     Font.Italic                  No
     Font.Name                    Titillium
     Font.Opaque                  No
-    Font.Size                    23
+    Font.Size                    26
     Font.Strikethrough           No
     Font.Underline               No
     Left                         140
@@ -3741,14 +3699,14 @@ end
 UserButton
     Name                         Userbutton47
     Alias                        Userbutton47
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         204
+    Height                       64
+    Images                       GO-02.png
+    Left                         176
     Matrix                       -1
     Momentary                    No
     Stretch                      No
     Top                          204
-    Width                        55
+    Width                        128
     OnChanged                    'Report Message'
 end
 UserButton

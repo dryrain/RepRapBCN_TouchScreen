@@ -1449,16 +1449,16 @@ StaticText
     Name                         Statictext10
     Alias                        Statictext10
     AutoSize                     Yes
-    Caption                      'Keep presing INSERT until filament comes out of the nozzle'
+    Caption                      'Press INSERT several times until the new filament comes out of the nozzle'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
     Font.Size                    16
     Font.Style                   [Bold]
-    Height                       150
+    Height                       180
     Left                         12
-    Top                          108
+    Top                          96
     Transparent                  Yes
     Width                        142
     WordWrap                     Yes
@@ -2144,37 +2144,37 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          32
+    Top                          0
     Width                        50
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages10
     Alias                        Userimages10
-    Height                       40
-    Images                       'info text.png\nno info text.png'
+    Height                       69
+    Images                       'info text 2.png\nno info text 2.png'
     Left                         24
     Stretch                      Yes
-    Top                          252
+    Top                          228
     Width                        430
     OnChanged                    ''
 end
 StaticText
     Name                         Statictext3
     Alias                        Statictext3
-    AutoSize                     Yes
-    Caption                      HEATING
+    AutoSize                     No
+    Caption                      'ADJUSTING TEMPERATURES'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    Titillium
     Font.Size                    26
     Font.Style                   []
-    Height                       48
-    Left                         174
-    Top                          162
+    Height                       58
+    Left                         28
+    Top                          148
     Transparent                  Yes
-    Width                        135
+    Width                        435
     WordWrap                     Yes
 end
 Form
@@ -3481,28 +3481,6 @@ UserButton
     Width                        128
     OnChanged                    'Report Message'
 end
-Strings
-    Name                         Strings18
-    Alias                        Strings18
-    Alignment                    Center
-    BGcolor                      DEEPSKYBLUE
-    Height                       64
-    FGcolor                      WHITE
-    Font.Bold                    Yes
-    Font.CharSet                 Unicode
-    Font.Italic                  No
-    Font.Name                    Titillium
-    Font.Opaque                  No
-    Font.Size                    26
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         123
-    Strings                      'Turn the screws \naccordingly\n'
-    StringsStyle                 Book
-    Top                          160
-    Width                        219
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton42
     Alias                        Userbutton42
@@ -3521,11 +3499,29 @@ UserImages
     Alias                        Userimages12
     Height                       146
     Images                       'tornillo_screws-03 turned.png'
-    Left                         172
+    Left                         168
     Stretch                      No
-    Top                          15
+    Top                          16
     Width                        131
     OnChanged                    ''
+end
+StaticText
+    Name                         Statictext5
+    Alias                        Statictext5
+    AutoSize                     No
+    Caption                      'Press GO to get directions to \n          calibrate the bed'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         108
+    Top                          156
+    Transparent                  Yes
+    Width                        267
+    WordWrap                     Yes
 end
 Form
     Name                         Form17
@@ -4020,6 +4016,24 @@ Strings
     Top                          144
     Width                        237
     OnChanged                    ''
+end
+StaticText
+    Name                         Statictext6
+    Alias                        Statictext6
+    AutoSize                     Yes
+    Caption                      'Wait while the calibration\n     process is executed'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       68
+    Left                         108
+    Top                          228
+    Transparent                  Yes
+    Width                        264
+    WordWrap                     Yes
 end
 Form
     Name                         Form39

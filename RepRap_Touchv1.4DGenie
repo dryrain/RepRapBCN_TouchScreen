@@ -110,7 +110,7 @@ Strings
     Alias                        Strings1
     Alignment                    Center
     BGcolor                      0xDA2C06
-    Height                       41
+    Height                       125
     FGcolor                      WHITE
     Font.Bold                    No
     Font.CharSet                 ANSI
@@ -120,11 +120,11 @@ Strings
     Font.Size                    37
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         73
+    Left                         16
     Strings                      \n
     StringsStyle                 Message
     Top                          172
-    Width                        294
+    Width                        354
     OnChanged                    'Report Message'
 end
 UserButton
@@ -158,11 +158,11 @@ UserButton
     Alias                        Userbutton15
     Height                       80
     Images                       01_iconFile_Lienzo.png
-    Left                         148
+    Left                         100
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          84
+    Top                          88
     Width                        160
     OnChanged                    'Report Message'
 end
@@ -3077,7 +3077,7 @@ Form
     Alias                        Form33
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-01.png
+    Image                        Background-01_selecty.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3403,41 +3403,6 @@ UserImages
     Width                        102
     OnChanged                    ''
 end
-Strings
-    Name                         Strings17
-    Alias                        Strings17
-    Alignment                    Left
-    BGcolor                      DEEPSKYBLUE
-    Height                       54
-    FGcolor                      WHITE
-    Font.Bold                    Yes
-    Font.CharSet                 ANSI
-    Font.Italic                  No
-    Font.Name                    Titillium
-    Font.Opaque                  No
-    Font.Size                    26
-    Font.Strikethrough           No
-    Font.Underline               No
-    Left                         100
-    Strings                      'Make sure there is NO filament inserted already!\n'
-    StringsStyle                 Message
-    Top                          160
-    Width                        266
-    OnChanged                    ''
-end
-UserButton
-    Name                         Userbutton34
-    Alias                        Userbutton34
-    Height                       64
-    Images                       GO-02.png
-    Left                         184
-    Matrix                       -1
-    Momentary                    No
-    Stretch                      No
-    Top                          224
-    Width                        128
-    OnChanged                    'Report Message'
-end
 UserButton
     Name                         Userbutton49
     Alias                        Userbutton49
@@ -3449,6 +3414,37 @@ UserButton
     Stretch                      No
     Top                          0
     Width                        50
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext7
+    Alias                        Statictext7
+    AutoSize                     Yes
+    Caption                      'Make sure there is NO filament              inserted already!'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       60
+    Left                         96
+    Top                          160
+    Transparent                  Yes
+    Width                        294
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton10
+    Alias                        Userbutton10
+    Height                       64
+    Images                       GO-02.png
+    Left                         172
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          240
+    Width                        128
     OnChanged                    'Report Message'
 end
 Form

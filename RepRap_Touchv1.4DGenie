@@ -2018,7 +2018,7 @@ UserButton
     Stretch                      No
     Top                          0
     Width                        50
-    OnChanged                    Form4Activate
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton68
@@ -4508,7 +4508,7 @@ UserButton
     Name                         Userbutton67
     Alias                        Userbutton67
     Height                       64
-    Images                       'GO-02.png\nGO-02 empty.png'
+    Images                       GO-02.png
     Left                         120
     Matrix                       -1
     Momentary                    Yes

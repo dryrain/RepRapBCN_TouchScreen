@@ -4507,14 +4507,14 @@ end
 UserButton
     Name                         Userbutton67
     Alias                        Userbutton67
-    Height                       55
-    Images                       00_Go-01.png
-    Left                         152
+    Height                       64
+    Images                       'GO-02.png\nGO-02 empty.png'
+    Left                         120
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      Yes
+    Stretch                      No
     Top                          232
-    Width                        55
+    Width                        128
     OnChanged                    'Report Message'
 end
 UserImages

@@ -4528,3 +4528,77 @@ UserImages
     Width                        96
     OnChanged                    ''
 end
+UserButton
+    Name                         Userbutton148
+    Alias                        Userbutton148
+    Height                       50
+    Images                       00_flechaGOBACK.png
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        50
+    OnChanged                    'Report Message'
+end
+Form
+    Name                         Form43
+    Alias                        Form43
+    Bgtype                       Color
+    Color                        0xC17C0B
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+StaticText
+    Name                         Statictext11
+    Alias                        Statictext11
+    AutoSize                     Yes
+    Caption                      'BOTH EXTRUDERS AND THE BED ARE                     GONNA BE COOLED'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       68
+    Left                         44
+    Top                          38
+    Transparent                  Yes
+    Width                        415
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton34
+    Alias                        Userbutton34
+    Height                       175
+    Images                       00_accept.png
+    Left                         96
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          128
+    Width                        100
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton74
+    Alias                        Userbutton74
+    Height                       175
+    Images                       00_cancel.png
+    Left                         300
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          136
+    Width                        100
+    OnChanged                    ''
+end

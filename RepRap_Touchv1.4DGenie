@@ -2615,7 +2615,7 @@ UserButton
     Stretch                      No
     Top                          72
     Width                        150
-    OnChanged                    'Report Message'
+    OnChanged                    Form43Activate
 end
 Strings
     Name                         Strings40
@@ -4581,24 +4581,225 @@ UserButton
     Alias                        Userbutton34
     Height                       175
     Images                       00_accept.png
-    Left                         96
+    Left                         292
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          128
     Width                        100
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton74
     Alias                        Userbutton74
     Height                       175
     Images                       00_cancel.png
-    Left                         300
+    Left                         76
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          136
+    Top                          132
     Width                        100
+    OnChanged                    Form28Activate
+end
+Form
+    Name                         Form44
+    Alias                        Form44
+    Bgtype                       Color
+    Color                        0xC17C0B
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Strings
+    Name                         Strings5
+    Alias                        Strings5
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       31
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    30
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         33
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          216
+    Width                        107
     OnChanged                    ''
+end
+UserImages
+    Name                         Userimages17
+    Alias                        Userimages17
+    Height                       98
+    Images                       Temp-03.png
+    Left                         41
+    Stretch                      Yes
+    Top                          111
+    Width                        90
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages18
+    Alias                        Userimages18
+    Height                       98
+    Images                       Filament-03.png
+    Left                         372
+    Stretch                      Yes
+    Top                          102
+    Width                        90
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton151
+    Alias                        Userbutton151
+    Height                       59
+    Images                       FlechaUP-02.png
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          48
+    Width                        99
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton152
+    Alias                        Userbutton152
+    Height                       59
+    Images                       FlechaDOWN-02.png
+    Left                         368
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          200
+    Width                        99
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton153
+    Alias                        Userbutton153
+    Height                       57
+    Images                       DOWNX3.png
+    Left                         385
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          258
+    Width                        69
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton154
+    Alias                        Userbutton154
+    Height                       104
+    Images                       Extr_Left_boton-03.png\nExtr_Left_boton-03_SELECTED.png
+    Left                         156
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          88
+    Width                        95
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton155
+    Alias                        Userbutton155
+    Height                       104
+    Images                       Extr_right_boton-03.png\nExtr_right_boton-03_SLECTED.png
+    Left                         269
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          88
+    Width                        95
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton156
+    Alias                        Userbutton156
+    Height                       59
+    Images                       FlechaUP-02.png
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          52
+    Width                        99
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton157
+    Alias                        Userbutton157
+    Height                       59
+    Images                       FlechaDOWN-02.png
+    Left                         36
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          247
+    Width                        99
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext12
+    Alias                        Statictext12
+    AutoSize                     Yes
+    Caption                      '              PURGE SETTINGS             '
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 [Underline]
+    Font.Name                    'Titillium Bd'
+    Font.Size                    18
+    Font.Style                   [Bold]
+    Height                       34
+    Left                         80
+    Top                          16
+    Transparent                  Yes
+    Width                        317
+    WordWrap                     Yes
+end
+UserButton
+    Name                         Userbutton158
+    Alias                        Userbutton158
+    Height                       73
+    Images                       Filament-03_interiors_NoText-03_ADJUST.png
+    Left                         228
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          197
+    Width                        72
+    OnChanged                    ''
+end
+StaticText
+    Name                         Statictext13
+    Alias                        Statictext13
+    AutoSize                     Yes
+    Caption                      'INSERT NEW FILAMENT'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    10
+    Font.Style                   [Bold]
+    Height                       19
+    Left                         197
+    Top                          274
+    Transparent                  Yes
+    Width                        135
+    WordWrap                     Yes
 end

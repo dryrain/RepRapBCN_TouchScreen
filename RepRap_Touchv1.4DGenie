@@ -372,11 +372,11 @@ UserButton
     Alias                        Userbutton2
     Height                       103
     Images                       Filament_up-01.png
-    Left                         64
+    Left                         32
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          140
+    Top                          144
     Width                        130
     OnChanged                    'Report Message'
 end
@@ -385,12 +385,25 @@ UserButton
     Alias                        Userbutton50
     Height                       103
     Images                       Filament_down-01.png
-    Left                         284
+    Left                         192
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          140
     Width                        130
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton159
+    Alias                        Userbutton159
+    Height                       108
+    Images                       Ext_Filament-01.png
+    Left                         360
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      Yes
+    Top                          132
+    Width                        95
     OnChanged                    'Report Message'
 end
 Form

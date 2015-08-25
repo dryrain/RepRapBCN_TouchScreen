@@ -372,11 +372,11 @@ UserButton
     Alias                        Userbutton2
     Height                       103
     Images                       Filament_up-01.png
-    Left                         48
+    Left                         64
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          140
     Width                        130
     OnChanged                    'Report Message'
 end
@@ -385,11 +385,11 @@ UserButton
     Alias                        Userbutton50
     Height                       103
     Images                       Filament_down-01.png
-    Left                         276
+    Left                         284
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          128
+    Top                          140
     Width                        130
     OnChanged                    'Report Message'
 end
@@ -4634,7 +4634,7 @@ Strings
     Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         33
+    Left                         30
     Strings                      ''
     StringsStyle                 Message
     Top                          216
@@ -4646,7 +4646,7 @@ UserImages
     Alias                        Userimages17
     Height                       98
     Images                       Temp-03.png
-    Left                         41
+    Left                         38
     Stretch                      Yes
     Top                          111
     Width                        90
@@ -4659,7 +4659,7 @@ UserImages
     Images                       Filament-03.png
     Left                         372
     Stretch                      Yes
-    Top                          102
+    Top                          106
     Width                        90
     OnChanged                    ''
 end
@@ -4674,7 +4674,7 @@ UserButton
     Stretch                      No
     Top                          48
     Width                        99
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton152
@@ -4685,9 +4685,9 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          200
+    Top                          202
     Width                        99
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton153
@@ -4700,59 +4700,59 @@ UserButton
     Stretch                      Yes
     Top                          258
     Width                        69
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton154
     Alias                        Userbutton154
     Height                       104
     Images                       Extr_Left_boton-03.png\nExtr_Left_boton-03_SELECTED.png
-    Left                         156
+    Left                         150
     Matrix                       -1
-    Momentary                    Yes
+    Momentary                    No
     Stretch                      Yes
-    Top                          88
+    Top                          68
     Width                        95
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton155
     Alias                        Userbutton155
     Height                       104
     Images                       Extr_right_boton-03.png\nExtr_right_boton-03_SLECTED.png
-    Left                         269
+    Left                         264
     Matrix                       -1
-    Momentary                    Yes
+    Momentary                    On
     Stretch                      Yes
-    Top                          88
+    Top                          68
     Width                        95
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton156
     Alias                        Userbutton156
     Height                       59
     Images                       FlechaUP-02.png
-    Left                         36
+    Left                         33
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          52
     Width                        99
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton157
     Alias                        Userbutton157
     Height                       59
     Images                       FlechaDOWN-02.png
-    Left                         36
+    Left                         33
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
     Top                          247
     Width                        99
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 StaticText
     Name                         Statictext12
@@ -4777,13 +4777,13 @@ UserButton
     Alias                        Userbutton158
     Height                       73
     Images                       Filament-03_interiors_NoText-03_ADJUST.png
-    Left                         228
+    Left                         225
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          197
+    Top                          206
     Width                        72
-    OnChanged                    ''
+    OnChanged                    'Report Message'
 end
 StaticText
     Name                         Statictext13
@@ -4797,9 +4797,66 @@ StaticText
     Font.Size                    10
     Font.Style                   [Bold]
     Height                       19
-    Left                         197
-    Top                          274
+    Left                         194
+    Top                          279
     Transparent                  Yes
     Width                        135
     WordWrap                     Yes
+end
+Strings
+    Name                         Strings10
+    Alias                        Strings10
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       31
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    30
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         142
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          171
+    Width                        107
+    OnChanged                    ''
+end
+Strings
+    Name                         Strings17
+    Alias                        Strings17
+    Alignment                    Center
+    BGcolor                      BLACK
+    Height                       31
+    FGcolor                      WHITE
+    Font.Bold                    No
+    Font.CharSet                 ANSI
+    Font.Italic                  No
+    Font.Name                    'Titillium Bd'
+    Font.Opaque                  No
+    Font.Size                    30
+    Font.Strikethrough           No
+    Font.Underline               No
+    Left                         260
+    Strings                      ''
+    StringsStyle                 Message
+    Top                          172
+    Width                        107
+    OnChanged                    ''
+end
+UserButton
+    Name                         Userbutton160
+    Alias                        Userbutton160
+    Height                       50
+    Images                       00_flechaGOBACK.png
+    Left                         0
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          0
+    Width                        50
+    OnChanged                    Form6Activate
 end

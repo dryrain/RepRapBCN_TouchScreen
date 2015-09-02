@@ -32,6 +32,24 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
+StaticText
+    Name                         Statictext14
+    Alias                        Statictext14
+    AutoSize                     Yes
+    Caption                      v01-0.0.1
+    Color                        BLACK
+    Font.Color                   BLUE
+    Font.Effects                 []
+    Font.Name                    Tahoma
+    Font.Size                    9
+    Font.Style                   [Bold]
+    Height                       12
+    Left                         412
+    Top                          301
+    Transparent                  Yes
+    Width                        60
+    WordWrap                     Yes
+end
 Form
     Name                         Form1
     Alias                        Form1
@@ -3237,7 +3255,7 @@ Form
     Alias                        Form34
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-01_zcalib1.png
+    Image                        Background-01_zcalib1_v2.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -3315,7 +3333,7 @@ Form
     Alias                        Form35
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-02.png
+    Image                        Background-02_v2.png
     Source.Height                321
     Source.Left                  0
     Source.Top                   0
@@ -4511,7 +4529,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         20
-    Strings                      'Wait until the image turns red, the EXTRUDER are heating up\n'
+    Strings                      'Wait until the image turns red, the EXTRUDERS are heating up\n'
     StringsStyle                 Message
     Top                          76
     Width                        325
@@ -4524,7 +4542,7 @@ UserButton
     Images                       GO-02.png
     Left                         120
     Matrix                       -1
-    Momentary                    Yes
+    Momentary                    No
     Stretch                      No
     Top                          232
     Width                        128

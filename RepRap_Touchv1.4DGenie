@@ -2203,7 +2203,7 @@ UserImages
     Name                         Userimages2
     Alias                        Userimages2
     Height                       125
-    Images                       1-03.png
+    Images                       1-03.png\n2-03.png\n3-03.png
     Left                         177
     Stretch                      No
     Top                          68

@@ -3768,18 +3768,18 @@ StaticText
     Name                         Statictext15
     Alias                        Statictext15
     AutoSize                     Yes
-    Caption                      'REDO X CALIBRATION'
+    Caption                      'REDO X AXIS CALIBRATION'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
     Font.Size                    16
     Font.Style                   [Bold]
-    Height                       36
-    Left                         148
-    Top                          48
+    Height                       35
+    Left                         128
+    Top                          44
     Transparent                  Yes
-    Width                        218
+    Width                        255
     WordWrap                     Yes
 end
 UserButton
@@ -3791,7 +3791,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          156
+    Top                          187
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3804,7 +3804,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          152
+    Top                          188
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3817,7 +3817,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          168
+    Top                          204
     Width                        108
     OnChanged                    'Report Message'
 end
@@ -3832,7 +3832,7 @@ StaticText
     Font.Name                    'Titillium Bd'
     Font.Size                    12
     Font.Style                   [Bold]
-    Height                       46
+    Height                       30
     Left                         76
     Top                          92
     Transparent                  Yes
@@ -3843,18 +3843,18 @@ StaticText
     Name                         Statictext22
     Alias                        Statictext22
     AutoSize                     Yes
-    Caption                      'Remember to clean the bed before'
+    Caption                      'REMEMBER TO CLEAN THE BED BEFORE'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Titillium
-    Font.Size                    11
-    Font.Style                   []
-    Height                       28
-    Left                         180
-    Top                          264
+    Font.Name                    'Titillium Bd'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       23
+    Left                         76
+    Top                          124
     Transparent                  Yes
-    Width                        232
+    Width                        283
     WordWrap                     Yes
 end
 Form
@@ -3878,18 +3878,18 @@ StaticText
     Name                         Statictext16
     Alias                        Statictext16
     AutoSize                     Yes
-    Caption                      'REDO Y CALIBRATION'
+    Caption                      'REDO Y AXIS CALIBRATION'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
     Font.Size                    16
     Font.Style                   [Bold]
-    Height                       40
-    Left                         140
+    Height                       34
+    Left                         128
     Top                          28
     Transparent                  Yes
-    Width                        220
+    Width                        249
     WordWrap                     Yes
 end
 UserButton
@@ -3901,7 +3901,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          172
+    Top                          186
     Width                        108
     OnChanged                    'Report Message'
 end
@@ -3914,7 +3914,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          160
+    Top                          172
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3927,7 +3927,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          160
+    Top                          175
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3953,18 +3953,18 @@ StaticText
     Name                         Statictext23
     Alias                        Statictext23
     AutoSize                     Yes
-    Caption                      'Remember to clean the bed before'
+    Caption                      'REMEMBER TO CLEAN THE BED BEFORE'
     Color                        BLACK
     Font.Color                   WHITE
     Font.Effects                 []
-    Font.Name                    Titillium
-    Font.Size                    11
-    Font.Style                   []
-    Height                       28
-    Left                         180
-    Top                          264
+    Font.Name                    'Titillium Bd'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       29
+    Left                         76
+    Top                          116
     Transparent                  Yes
-    Width                        232
+    Width                        342
     WordWrap                     Yes
 end
 Form
@@ -4400,25 +4400,14 @@ StaticText
     Font.Color                   WHITE
     Font.Effects                 []
     Font.Name                    'Titillium Bd'
-    Font.Size                    12
+    Font.Size                    16
     Font.Style                   [Bold]
-    Height                       75
-    Left                         68
-    Top                          180
+    Height                       98
+    Left                         60
+    Top                          88
     Transparent                  Yes
-    Width                        376
+    Width                        394
     WordWrap                     Yes
-end
-UserImages
-    Name                         Userimages25
-    Alias                        Userimages25
-    Height                       159
-    Images                       hands.png
-    Left                         80
-    Stretch                      Yes
-    Top                          12
-    Width                        352
-    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton58
@@ -4429,7 +4418,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          252
+    Top                          236
     Width                        128
     OnChanged                    'Report Message'
 end
@@ -4507,7 +4496,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          136
+    Top                          140
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4523,6 +4512,55 @@ UserButton
     Top                          140
     Width                        95
     OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton131
+    Alias                        Userbutton131
+    Height                       49
+    Images                       REDO.png
+    Left                         188
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        108
+    OnChanged                    Form49Activate
+end
+StaticText
+    Name                         Statictext25
+    Alias                        Statictext25
+    AutoSize                     Yes
+    Caption                      'Z AXIS TEST'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       30
+    Left                         192
+    Top                          24
+    Transparent                  Yes
+    Width                        108
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext26
+    Alias                        Statictext26
+    AutoSize                     Yes
+    Caption                      'SELECT WHICH LINE FITS BEST'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       23
+    Left                         128
+    Top                          80
+    Transparent                  Yes
+    Width                        218
+    WordWrap                     Yes
 end
 Form
     Name                         Form48
@@ -4550,7 +4588,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          112
+    Top                          140
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4563,7 +4601,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          112
+    Top                          140
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4576,7 +4614,148 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          112
+    Top                          140
     Width                        95
     OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton127
+    Alias                        Userbutton127
+    Height                       49
+    Images                       REDO.png
+    Left                         184
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          248
+    Width                        108
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext27
+    Alias                        Statictext27
+    AutoSize                     Yes
+    Caption                      'SELECT WHICH LINE FITS BEST'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       23
+    Left                         132
+    Top                          80
+    Transparent                  Yes
+    Width                        218
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext28
+    Alias                        Statictext28
+    AutoSize                     Yes
+    Caption                      'Z AXIS TEST'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       33
+    Left                         180
+    Top                          20
+    Transparent                  Yes
+    Width                        120
+    WordWrap                     Yes
+end
+Form
+    Name                         Form49
+    Alias                        Form49
+    Bgtype                       Color
+    Color                        0xC17C0B
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserButton
+    Name                         Userbutton128
+    Alias                        Userbutton128
+    Height                       80
+    Images                       boton_1-01.png
+    Left                         40
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          165
+    Width                        95
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton129
+    Alias                        Userbutton129
+    Height                       80
+    Images                       boton_3-01.png
+    Left                         356
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          165
+    Width                        95
+    OnChanged                    'Report Message'
+end
+UserButton
+    Name                         Userbutton130
+    Alias                        Userbutton130
+    Height                       49
+    Images                       REDO.png
+    Left                         188
+    Matrix                       -1
+    Momentary                    Yes
+    Stretch                      No
+    Top                          180
+    Width                        108
+    OnChanged                    'Report Message'
+end
+StaticText
+    Name                         Statictext29
+    Alias                        Statictext29
+    AutoSize                     Yes
+    Caption                      'REDO Z AXIS TEST'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    16
+    Font.Style                   [Bold]
+    Height                       34
+    Left                         160
+    Top                          32
+    Transparent                  Yes
+    Width                        165
+    WordWrap                     Yes
+end
+StaticText
+    Name                         Statictext30
+    Alias                        Statictext30
+    AutoSize                     Yes
+    Caption                      'CLEAN THE BED, THEN SELECT WHICH LINE FITS BEST OR PRESS REDO IF THE PRINT TEST HAS FAILED'
+    Color                        BLACK
+    Font.Color                   WHITE
+    Font.Effects                 []
+    Font.Name                    'Titillium Bd'
+    Font.Size                    12
+    Font.Style                   [Bold]
+    Height                       69
+    Left                         68
+    Top                          76
+    Transparent                  Yes
+    Width                        345
+    WordWrap                     Yes
 end

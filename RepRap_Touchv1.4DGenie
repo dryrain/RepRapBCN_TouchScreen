@@ -1231,11 +1231,11 @@ Form
     Alias                        Form14
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        FORM14.png
-    Source.Height                321
+    Image                        MUESTRA-AdjustFilament.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 490
     OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
@@ -1247,39 +1247,39 @@ UserButton
     Name                         Userbutton17
     Alias                        Userbutton17
     Height                       175
-    Images                       00_accept.png
-    Left                         342
+    Images                       ''
+    Left                         326
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          100
-    Width                        100
+    Stretch                      Yes
+    Top                          92
+    Width                        127
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton32
     Alias                        Userbutton32
-    Height                       50
-    Images                       00_FlechaUP.png
-    Left                         223
+    Height                       77
+    Images                       ''
+    Left                         198
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          100
-    Width                        50
+    Stretch                      Yes
+    Top                          73
+    Width                        93
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton33
     Alias                        Userbutton33
-    Height                       50
-    Images                       00_FlechaDOWN.png
-    Left                         223
+    Height                       85
+    Images                       ''
+    Left                         201
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          210
-    Width                        50
+    Stretch                      Yes
+    Top                          208
+    Width                        76
     OnChanged                    'Report Message'
 end
 Strings
@@ -1297,66 +1297,12 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         215
+    Left                         208
     Strings                      ''
     StringsStyle                 Message
-    Top                          154
+    Top                          156
     Width                        67
     OnChanged                    ''
-end
-StaticText
-    Name                         Statictext10
-    Alias                        Statictext10
-    AutoSize                     Yes
-    Caption                      'Press INSERT several times until the new filament comes out of the nozzle'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       180
-    Left                         12
-    Top                          96
-    Transparent                  Yes
-    Width                        142
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext9
-    Alias                        Statictext9
-    AutoSize                     Yes
-    Caption                      INSERT
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    18
-    Font.Style                   [Bold]
-    Height                       34
-    Left                         212
-    Top                          256
-    Transparent                  Yes
-    Width                        78
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext19
-    Alias                        Statictext19
-    AutoSize                     Yes
-    Caption                      REMOVE
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    18
-    Font.Style                   [Bold]
-    Height                       34
-    Left                         201
-    Top                          69
-    Transparent                  Yes
-    Width                        92
-    WordWrap                     Yes
 end
 Form
     Name                         Form19
@@ -1380,7 +1326,7 @@ UserButton
     Alias                        Userbutton52
     Height                       64
     Images                       GO-02.png
-    Left                         184
+    Left                         172
     Matrix                       -1
     Momentary                    No
     Stretch                      No
@@ -1417,7 +1363,7 @@ UserImages
     Images                       Filament-03_interiors_NoText-03.png
     Left                         172
     Stretch                      No
-    Top                          22
+    Top                          16
     Width                        131
     OnChanged                    ''
 end
@@ -1426,11 +1372,11 @@ Form
     Alias                        Form20
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        WHICH_EXT_BACKGROUND-01.png
-    Source.Height                321
+    Image                        MUESTRA-SelectExtruder.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -1442,11 +1388,11 @@ UserButton
     Name                         Userbutton75
     Alias                        Userbutton75
     Height                       183
-    Images                       Extr_Left_boton-03.png
+    Images                       ''
     Left                         44
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          100
     Width                        180
     OnChanged                    'Report Message'
@@ -1455,11 +1401,11 @@ UserButton
     Name                         Userbutton76
     Alias                        Userbutton76
     Height                       183
-    Images                       Extr_right_boton-03.png
+    Images                       ''
     Left                         256
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          97
     Width                        180
     OnChanged                    'Report Message'
@@ -1468,12 +1414,12 @@ UserButton
     Name                         Userbutton77
     Alias                        Userbutton77
     Height                       50
-    Images                       00_flechaGOBACK.png
-    Left                         0
+    Images                       ''
+    Left                         28
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          0
+    Stretch                      Yes
+    Top                          8
     Width                        50
     OnChanged                    Form6Activate
 end
@@ -1656,11 +1602,11 @@ Form
     Alias                        Form26
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
-    Source.Height                321
+    Image                        MUESTRA-Heating.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 490
     OnActivate                   'Report Message'
     OnCreate                     ''
     OnRepeat                     ''
@@ -1668,47 +1614,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserButton
-    Name                         Userbutton71
-    Alias                        Userbutton71
-    Height                       87
-    Images                       Ext_Filament-01.png\nExtruder_ON.png
-    Left                         193
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      Yes
-    Top                          41
-    Width                        65
-    OnChanged                    ''
-end
 UserImages
     Name                         Userimages10
     Alias                        Userimages10
     Height                       69
-    Images                       'info text 2.png\nno info text 2.png'
-    Left                         24
+    Images                       'no info text.png\nno info text.png'
+    Left                         415
     Stretch                      Yes
-    Top                          228
-    Width                        430
+    Top                          0
+    Width                        65
     OnChanged                    ''
-end
-StaticText
-    Name                         Statictext3
-    Alias                        Statictext3
-    AutoSize                     No
-    Caption                      'ADJUSTING TEMPERATURES'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    Titillium
-    Font.Size                    26
-    Font.Style                   []
-    Height                       58
-    Left                         28
-    Top                          148
-    Transparent                  Yes
-    Width                        435
-    WordWrap                     Yes
 end
 Form
     Name                         Form11
@@ -1743,11 +1658,11 @@ Form
     Alias                        Form27
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-01_selecty.png
-    Source.Height                321
+    Image                        MUESTRA-SelectLineFits2.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -1758,143 +1673,143 @@ end
 UserButton
     Name                         Userbutton21
     Alias                        Userbutton21
-    Height                       80
-    Images                       boton_1-01.png
-    Left                         6
+    Height                       76
+    Images                       ''
+    Left                         20
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          94
-    Width                        95
+    Stretch                      Yes
+    Top                          100
+    Width                        81
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton22
     Alias                        Userbutton22
-    Height                       80
-    Images                       boton_2-01.png
-    Left                         100
+    Height                       76
+    Images                       ''
+    Left                         116
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          94
-    Width                        95
+    Stretch                      Yes
+    Top                          100
+    Width                        75
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton51
     Alias                        Userbutton51
-    Height                       80
-    Images                       boton_3-01.png
-    Left                         194
+    Height                       67
+    Images                       ''
+    Left                         201
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          94
-    Width                        95
+    Stretch                      Yes
+    Top                          106
+    Width                        73
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton72
     Alias                        Userbutton72
-    Height                       80
-    Images                       boton_4-01.png
-    Left                         288
+    Height                       70
+    Images                       ''
+    Left                         295
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          94
-    Width                        95
+    Stretch                      Yes
+    Top                          104
+    Width                        72
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton96
     Alias                        Userbutton96
-    Height                       80
-    Images                       boton_5-01.png
+    Height                       67
+    Images                       ''
     Left                         382
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          94
-    Width                        95
+    Stretch                      Yes
+    Top                          106
+    Width                        74
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton97
     Alias                        Userbutton97
-    Height                       80
-    Images                       boton_6-01.png
-    Left                         6
+    Height                       73
+    Images                       ''
+    Left                         24
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          185
+    Width                        75
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton98
     Alias                        Userbutton98
-    Height                       80
-    Images                       boton_7-01.png
-    Left                         100
+    Height                       75
+    Images                       ''
+    Left                         114
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          183
+    Width                        75
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton99
     Alias                        Userbutton99
-    Height                       80
-    Images                       boton_8-01.png
-    Left                         194
+    Height                       71
+    Images                       ''
+    Left                         204
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          184
+    Width                        74
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton100
     Alias                        Userbutton100
-    Height                       80
-    Images                       boton_9-01.png
-    Left                         288
+    Height                       75
+    Images                       ''
+    Left                         291
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          183
+    Width                        79
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton101
     Alias                        Userbutton101
-    Height                       80
-    Images                       boton_10-01.png
+    Height                       72
+    Images                       ''
     Left                         382
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          186
+    Width                        77
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton20
     Alias                        Userbutton20
-    Height                       49
-    Images                       REDO.png
-    Left                         188
+    Height                       51
+    Images                       ''
+    Left                         176
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          264
+    Stretch                      Yes
+    Top                          260
     Width                        108
     OnChanged                    Form3Activate
 end
@@ -2125,11 +2040,11 @@ Form
     Alias                        Form28
     Bgtype                       Image
     Color                        BLACK
-    Image                        background-07-01.png
-    Source.Height                321
+    Image                        MUESTRA-10.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2141,11 +2056,11 @@ UserButton
     Name                         Userbutton11
     Alias                        Userbutton11
     Height                       167
-    Images                       heatpreheatTemps.png
+    Images                       ''
     Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          72
     Width                        150
     OnChanged                    Form29Activate
@@ -2154,13 +2069,13 @@ UserButton
     Name                         Userbutton83
     Alias                        Userbutton83
     Height                       167
-    Images                       cooldownpreheatTemps.png
-    Left                         260
+    Images                       ''
+    Left                         274
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          72
-    Width                        150
+    Stretch                      Yes
+    Top                          76
+    Width                        160
     OnChanged                    Form43Activate
 end
 Strings
@@ -2178,10 +2093,10 @@ Strings
     Font.Size                    25
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         95
+    Left                         88
     Strings                      \n
     StringsStyle                 Message
-    Top                          260
+    Top                          273
     Width                        48
     OnChanged                    ''
 end
@@ -2200,10 +2115,10 @@ Strings
     Font.Size                    25
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         227
+    Left                         242
     Strings                      \n
     StringsStyle                 Message
-    Top                          260
+    Top                          273
     Width                        48
     OnChanged                    ''
 end
@@ -2222,10 +2137,10 @@ Strings
     Font.Size                    25
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         357
+    Left                         411
     Strings                      \n
     StringsStyle                 Message
-    Top                          260
+    Top                          273
     Width                        48
     OnChanged                    ''
 end
@@ -2233,47 +2148,14 @@ UserButton
     Name                         Userbutton92
     Alias                        Userbutton92
     Height                       50
-    Images                       00_flechaGOBACK.png
-    Left                         0
+    Images                       ''
+    Left                         20
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          0
+    Stretch                      Yes
+    Top                          4
     Width                        50
     OnChanged                    Form4Activate
-end
-UserImages
-    Name                         Userimages0
-    Alias                        Userimages0
-    Height                       44
-    Images                       L_EXTRUDER.png
-    Left                         48
-    Stretch                      Yes
-    Top                          253
-    Width                        41
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages14
-    Alias                        Userimages14
-    Height                       36
-    Images                       bed.png
-    Left                         178
-    Stretch                      Yes
-    Top                          258
-    Width                        36
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages15
-    Alias                        Userimages15
-    Height                       44
-    Images                       R_EXTRUDER.png
-    Left                         310
-    Stretch                      Yes
-    Top                          253
-    Width                        41
-    OnChanged                    ''
 end
 Form
     Name                         Form29
@@ -2519,11 +2401,11 @@ Form
     Alias                        Form31
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        FORM30.png
-    Source.Height                321
+    Image                        BACKGROUND-BedCalibrationL.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2534,14 +2416,14 @@ end
 UserButton
     Name                         Userbutton94
     Alias                        Userbutton94
-    Height                       91
-    Images                       00_accept.png\n00_accept.png\n00_accept.png\n00_accept.png
-    Left                         322
+    Height                       127
+    Images                       Accept-01.png\nAccept-01.png\nAccept-01.png\nAccept-01.png
+    Left                         364
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      Yes
-    Top                          219
-    Width                        63
+    Stretch                      No
+    Top                          132
+    Width                        95
     OnChanged                    'Report Message'
 end
 UserImages
@@ -2549,21 +2431,21 @@ UserImages
     Alias                        Userimages4
     Height                       160
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,8_Clockwise.png\n8,8_Clockwise.png'
-    Left                         248
+    Left                         148
     Stretch                      Yes
-    Top                          54
+    Top                          120
     Width                        205
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages8
     Alias                        Userimages8
-    Height                       226
+    Height                       133
     Images                       Llit_2-02.png
-    Left                         32
+    Left                         24
     Stretch                      No
-    Top                          76
-    Width                        187
+    Top                          132
+    Width                        108
     OnChanged                    ''
 end
 Form
@@ -2571,11 +2453,11 @@ Form
     Alias                        Form32
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        FORM30.png
-    Source.Height                321
+    Image                        BACKGROUND-BedCalibrationR.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2586,14 +2468,14 @@ end
 UserButton
     Name                         Userbutton95
     Alias                        Userbutton95
-    Height                       91
-    Images                       00_accept.png\n00_accept.png\n00_accept.png\n00_accept.png
-    Left                         322
+    Height                       127
+    Images                       Accept-01.png\nAccept-01.png\nAccept-01.png\nAccept-01.png
+    Left                         364
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      Yes
-    Top                          219
-    Width                        63
+    Stretch                      No
+    Top                          132
+    Width                        95
     OnChanged                    'Report Message'
 end
 UserImages
@@ -2601,21 +2483,21 @@ UserImages
     Alias                        Userimages5
     Height                       160
     Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,8_Clockwise.png\n8,8_Clockwise.png'
-    Left                         248
+    Left                         148
     Stretch                      Yes
-    Top                          54
+    Top                          120
     Width                        211
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages9
     Alias                        Userimages9
-    Height                       226
+    Height                       133
     Images                       Llit_3-02.png
-    Left                         32
+    Left                         24
     Stretch                      No
-    Top                          76
-    Width                        187
+    Top                          132
+    Width                        108
     OnChanged                    ''
 end
 Form
@@ -2623,11 +2505,11 @@ Form
     Alias                        Form33
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background-01_selecty.png
-    Source.Height                321
+    Image                        MUESTRA-SelectLineFits2.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2639,11 +2521,11 @@ UserButton
     Name                         Userbutton102
     Alias                        Userbutton102
     Height                       80
-    Images                       boton_1-01.png
+    Images                       ''
     Left                         6
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          94
     Width                        95
     OnChanged                    'Report Message'
@@ -2652,129 +2534,129 @@ UserButton
     Name                         Userbutton103
     Alias                        Userbutton103
     Height                       80
-    Images                       boton_2-01.png
-    Left                         100
+    Images                       ''
+    Left                         116
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          94
-    Width                        95
+    Width                        73
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton104
     Alias                        Userbutton104
-    Height                       80
-    Images                       boton_3-01.png
-    Left                         194
+    Height                       82
+    Images                       ''
+    Left                         201
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          94
-    Width                        95
+    Width                        79
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton105
     Alias                        Userbutton105
-    Height                       80
-    Images                       boton_4-01.png
-    Left                         288
+    Height                       84
+    Images                       ''
+    Left                         293
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          94
-    Width                        95
+    Width                        73
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton106
     Alias                        Userbutton106
-    Height                       80
-    Images                       boton_5-01.png
+    Height                       82
+    Images                       ''
     Left                         382
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          94
-    Width                        95
+    Width                        74
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton107
     Alias                        Userbutton107
-    Height                       80
-    Images                       boton_6-01.png
-    Left                         6
+    Height                       73
+    Images                       ''
+    Left                         26
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          185
+    Width                        75
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton108
     Alias                        Userbutton108
-    Height                       80
-    Images                       boton_7-01.png
-    Left                         100
+    Height                       74
+    Images                       ''
+    Left                         114
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          184
+    Width                        77
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton109
     Alias                        Userbutton109
-    Height                       80
-    Images                       boton_8-01.png
-    Left                         194
+    Height                       71
+    Images                       ''
+    Left                         204
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          187
+    Width                        79
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton110
     Alias                        Userbutton110
-    Height                       80
-    Images                       boton_9-01.png
-    Left                         288
+    Height                       76
+    Images                       ''
+    Left                         295
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          182
+    Width                        72
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton111
     Alias                        Userbutton111
-    Height                       80
-    Images                       boton_10-01.png
+    Height                       74
+    Images                       ''
     Left                         382
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          178
-    Width                        95
+    Stretch                      Yes
+    Top                          184
+    Width                        74
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton26
     Alias                        Userbutton26
     Height                       49
-    Images                       REDO.png
-    Left                         188
+    Images                       ''
+    Left                         176
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          264
+    Stretch                      Yes
+    Top                          260
     Width                        108
     OnChanged                    Form13Activate
 end
@@ -2783,11 +2665,11 @@ Form
     Alias                        Form34
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        zcalib_v2.png
-    Source.Height                321
+    Image                        MUESTRA-zcalibrationL.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2799,26 +2681,26 @@ UserButton
     Name                         Userbutton112
     Alias                        Userbutton112
     Height                       50
-    Images                       00_FlechaUP.png
-    Left                         240
+    Images                       ''
+    Left                         208
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          128
-    Width                        50
+    Stretch                      Yes
+    Top                          148
+    Width                        67
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton113
     Alias                        Userbutton113
     Height                       50
-    Images                       00_FlechaDOWN.png
-    Left                         240
+    Images                       ''
+    Left                         210
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          238
-    Width                        50
+    Stretch                      Yes
+    Top                          244
+    Width                        64
     OnChanged                    'Report Message'
 end
 Strings
@@ -2836,24 +2718,24 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         232
+    Left                         208
     Strings                      ''
     StringsStyle                 Message
-    Top                          183
+    Top                          200
     Width                        67
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton114
     Alias                        Userbutton114
-    Height                       127
-    Images                       Accept-01.png
-    Left                         356
+    Height                       132
+    Images                       ''
+    Left                         335
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
-    Width                        95
+    Stretch                      Yes
+    Top                          156
+    Width                        96
     OnChanged                    'Report Message'
 end
 Form
@@ -2861,11 +2743,11 @@ Form
     Alias                        Form35
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        zcalib2_v2.png
-    Source.Height                321
+    Image                        MUESTRA-zcalibrationR.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2876,40 +2758,40 @@ end
 UserButton
     Name                         Userbutton115
     Alias                        Userbutton115
-    Height                       127
-    Images                       Accept-01.png
-    Left                         356
+    Height                       134
+    Images                       ''
+    Left                         331
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
-    Width                        95
+    Stretch                      Yes
+    Top                          156
+    Width                        100
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton116
     Alias                        Userbutton116
     Height                       50
-    Images                       00_FlechaUP.png
-    Left                         240
+    Images                       ''
+    Left                         208
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          128
-    Width                        50
+    Stretch                      Yes
+    Top                          148
+    Width                        68
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton117
     Alias                        Userbutton117
     Height                       50
-    Images                       00_FlechaDOWN.png
-    Left                         240
+    Images                       ''
+    Left                         208
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          238
-    Width                        50
+    Stretch                      Yes
+    Top                          240
+    Width                        59
     OnChanged                    'Report Message'
 end
 Strings
@@ -2927,10 +2809,10 @@ Strings
     Font.Size                    12
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         232
+    Left                         208
     Strings                      ''
     StringsStyle                 Message
-    Top                          183
+    Top                          200
     Width                        67
     OnChanged                    ''
 end
@@ -2939,11 +2821,11 @@ Form
     Alias                        Form7
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
-    Source.Height                321
+    Image                        MUESTRA-ReadyFilament.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -2951,58 +2833,29 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserImages
-    Name                         Userimages6
-    Alias                        Userimages6
-    Height                       99
-    Images                       Filament-03_interiors_NoText-03.png
-    Left                         192
-    Stretch                      Yes
-    Top                          60
-    Width                        102
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton49
     Alias                        Userbutton49
     Height                       50
-    Images                       00_flechaGOBACK.png
-    Left                         0
+    Images                       ''
+    Left                         28
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          0
+    Stretch                      Yes
+    Top                          8
     Width                        50
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext7
-    Alias                        Statictext7
-    AutoSize                     Yes
-    Caption                      'Make sure there is NO filament              inserted already!'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       60
-    Left                         96
-    Top                          160
-    Transparent                  Yes
-    Width                        294
-    WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton10
     Alias                        Userbutton10
     Height                       64
-    Images                       GO-02.png
+    Images                       ''
     Left                         172
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          240
+    Stretch                      Yes
+    Top                          220
     Width                        128
     OnChanged                    'Report Message'
 end
@@ -3011,11 +2864,11 @@ Form
     Alias                        Form16
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        Background.png
-    Source.Height                321
+    Image                        'MUESTRA-Screws accordingly.png'
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3027,43 +2880,14 @@ UserButton
     Name                         Userbutton41
     Alias                        Userbutton41
     Height                       64
-    Images                       GO-02.png
+    Images                       ''
     Left                         172
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          228
     Width                        128
     OnChanged                    'Report Message'
-end
-UserImages
-    Name                         Userimages12
-    Alias                        Userimages12
-    Height                       146
-    Images                       'tornillo_screws-03 turned.png'
-    Left                         168
-    Stretch                      No
-    Top                          16
-    Width                        131
-    OnChanged                    ''
-end
-StaticText
-    Name                         Statictext5
-    Alias                        Statictext5
-    AutoSize                     No
-    Caption                      'Press GO to get directions to \n          calibrate the bed'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       60
-    Left                         108
-    Top                          156
-    Transparent                  Yes
-    Width                        267
-    WordWrap                     Yes
 end
 UserButton
     Name                         Userbutton158
@@ -3135,11 +2959,11 @@ Form
     Alias                        Form38
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        background_printing.png
-    Source.Height                321
+    Image                        MUESTRA-printsettings.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 481
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3148,28 +2972,15 @@ Form
     OnTouchReleased              ''
 end
 UserButton
-    Name                         Userbutton64
-    Alias                        Userbutton64
-    Height                       35
-    Images                       ''
-    Left                         308
-    Matrix                       -1
-    Momentary                    Yes
-    Stretch                      No
-    Top                          165
-    Width                        70
-    OnChanged                    ''
-end
-UserButton
     Name                         Userbutton65
     Alias                        Userbutton65
     Height                       50
-    Images                       00_flechaGOBACK.png
-    Left                         0
+    Images                       ''
+    Left                         28
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          0
+    Stretch                      Yes
+    Top                          4
     Width                        50
     OnChanged                    Form9Activate
 end
@@ -3177,12 +2988,12 @@ UserButton
     Name                         Userbutton70
     Alias                        Userbutton70
     Height                       50
-    Images                       'FLECHA RIGHT.png'
-    Left                         328
+    Images                       ''
+    Left                         304
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          152
+    Stretch                      Yes
+    Top                          144
     Width                        50
     OnChanged                    'Report Message'
 end
@@ -3190,39 +3001,39 @@ UserButton
     Name                         Userbutton120
     Alias                        Userbutton120
     Height                       57
-    Images                       rightx3.png
-    Left                         400
+    Images                       ''
+    Left                         384
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          148
-    Width                        57
+    Stretch                      Yes
+    Top                          140
+    Width                        62
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton121
     Alias                        Userbutton121
-    Height                       50
-    Images                       'FLECHA LEFT.png'
-    Left                         116
+    Height                       51
+    Images                       ''
+    Left                         131
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          152
-    Width                        50
+    Stretch                      Yes
+    Top                          144
+    Width                        51
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton122
     Alias                        Userbutton122
     Height                       57
-    Images                       leftx3.png
-    Left                         22
+    Images                       ''
+    Left                         36
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          149
-    Width                        57
+    Stretch                      Yes
+    Top                          140
+    Width                        61
     OnChanged                    'Report Message'
 end
 Strings
@@ -3243,60 +3054,60 @@ Strings
     Left                         208
     Strings                      '100 %\n'
     StringsStyle                 Message
-    Top                          155
+    Top                          148
     Width                        90
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton123
     Alias                        Userbutton123
-    Height                       56
-    Images                       L_EXTRUDER.png
-    Left                         60
+    Height                       65
+    Images                       ''
+    Left                         28
     Matrix                       1
     Momentary                    No
     Stretch                      Yes
-    Top                          251
-    Width                        60
+    Top                          236
+    Width                        62
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton124
     Alias                        Userbutton124
-    Height                       56
-    Images                       bed.png
-    Left                         157
+    Height                       58
+    Images                       ''
+    Left                         152
     Matrix                       1
     Momentary                    No
     Stretch                      Yes
-    Top                          252
+    Top                          242
     Width                        59
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton125
     Alias                        Userbutton125
-    Height                       57
-    Images                       R_EXTRUDER.png
-    Left                         260
+    Height                       67
+    Images                       ''
+    Left                         266
     Matrix                       1
     Momentary                    No
     Stretch                      Yes
-    Top                          251
-    Width                        61
+    Top                          236
+    Width                        67
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton126
     Alias                        Userbutton126
-    Height                       58
-    Images                       speed.png
-    Left                         358
+    Height                       61
+    Images                       ''
+    Left                         384
     Matrix                       1
     Momentary                    No
     Stretch                      Yes
-    Top                          254
-    Width                        62
+    Top                          241
+    Width                        67
     OnChanged                    'Report Message'
 end
 Strings
@@ -3317,7 +3128,7 @@ Strings
     Left                         119
     Strings                      'BED TEMPERATURE\n'
     StringsStyle                 Message
-    Top                          88
+    Top                          82
     Width                        287
     OnChanged                    ''
 end
@@ -3462,13 +3273,13 @@ end
 Form
     Name                         Form43
     Alias                        Form43
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-AreYouSure.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3476,48 +3287,30 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext11
-    Alias                        Statictext11
-    AutoSize                     Yes
-    Caption                      'BOTH EXTRUDERS AND THE BED ARE                     GONNA BE COOLED'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    18
-    Font.Style                   [Bold]
-    Height                       68
-    Left                         44
-    Top                          38
-    Transparent                  Yes
-    Width                        415
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton34
     Alias                        Userbutton34
     Height                       175
-    Images                       00_accept.png
+    Images                       ''
     Left                         292
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          128
-    Width                        100
+    Width                        121
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton74
     Alias                        Userbutton74
     Height                       175
-    Images                       00_cancel.png
+    Images                       ''
     Left                         76
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          132
-    Width                        100
+    Stretch                      Yes
+    Top                          124
+    Width                        111
     OnChanged                    Form28Activate
 end
 Form
@@ -3552,59 +3345,59 @@ Strings
     Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         43
+    Left                         48
     Strings                      ''
     StringsStyle                 Message
-    Top                          218
+    Top                          287
     Width                        49
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages17
     Alias                        Userimages17
-    Height                       98
-    Images                       Temp-03.png
-    Left                         23
-    Stretch                      Yes
-    Top                          111
-    Width                        90
+    Height                       150
+    Images                       Temp-01.png
+    Left                         0
+    Stretch                      No
+    Top                          80
+    Width                        150
     OnChanged                    ''
 end
 UserImages
     Name                         Userimages18
     Alias                        Userimages18
-    Height                       100
-    Images                       Filament-03.png
-    Left                         386
-    Stretch                      Yes
-    Top                          93
-    Width                        90
+    Height                       95
+    Images                       00_filament-01.png
+    Left                         382
+    Stretch                      No
+    Top                          96
+    Width                        98
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton151
     Alias                        Userbutton151
-    Height                       59
-    Images                       FlechaUP-02.png
-    Left                         380
+    Height                       55
+    Images                       00_flechaUP_1.png
+    Left                         406
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          28
-    Width                        99
+    Top                          24
+    Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton152
     Alias                        Userbutton152
-    Height                       59
-    Images                       FlechaDOWN-02.png
-    Left                         380
+    Height                       55
+    Images                       00_flechaDOWN_1.png
+    Left                         406
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          195
-    Width                        99
+    Top                          196
+    Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
@@ -3612,64 +3405,64 @@ UserButton
     Alias                        Userbutton153
     Height                       57
     Images                       DOWNX3.png
-    Left                         396
+    Left                         408
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          257
-    Width                        69
+    Top                          252
+    Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton154
     Alias                        Userbutton154
-    Height                       104
-    Images                       Extr_Left_boton-03.png\nExtr_Left_boton-03_SELECTED.png
-    Left                         143
+    Height                       96
+    Images                       lextr_white.png\nlextr_white_ON.png
+    Left                         151
     Matrix                       -1
     Momentary                    No
-    Stretch                      Yes
+    Stretch                      No
     Top                          96
-    Width                        95
+    Width                        96
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton155
     Alias                        Userbutton155
-    Height                       104
-    Images                       Extr_right_boton-03.png\nExtr_right_boton-03_SLECTED.png
-    Left                         259
+    Height                       96
+    Images                       rextr_white.png\nrextr_white_ON.png
+    Left                         262
     Matrix                       -1
-    Momentary                    On
-    Stretch                      Yes
+    Momentary                    No
+    Stretch                      No
     Top                          96
-    Width                        95
+    Width                        96
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton156
     Alias                        Userbutton156
-    Height                       59
-    Images                       FlechaUP-02.png
-    Left                         18
+    Height                       55
+    Images                       00_flechaUP_1.png
+    Left                         44
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          51
-    Width                        99
+    Top                          24
+    Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton157
     Alias                        Userbutton157
-    Height                       59
-    Images                       FlechaDOWN-02.png
-    Left                         18
+    Height                       55
+    Images                       00_flechaDOWN_1.png
+    Left                         44
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          251
-    Width                        99
+    Top                          231
+    Width                        55
     OnChanged                    'Report Message'
 end
 StaticText
@@ -3705,10 +3498,10 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         168
+    Left                         176
     Strings                      \n
     StringsStyle                 Message
-    Top                          215
+    Top                          200
     Width                        49
     OnChanged                    ''
 end
@@ -3727,10 +3520,10 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         280
+    Left                         288
     Strings                      ''
     StringsStyle                 Message
-    Top                          215
+    Top                          200
     Width                        49
     OnChanged                    ''
 end
@@ -3750,13 +3543,13 @@ end
 Form
     Name                         Form3
     Alias                        Form3
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        IDEX_REDO_MUESTRA.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3764,34 +3557,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext15
-    Alias                        Statictext15
-    AutoSize                     Yes
-    Caption                      'REDO X AXIS CALIBRATION'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       35
-    Left                         128
-    Top                          44
-    Transparent                  Yes
-    Width                        255
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton27
     Alias                        Userbutton27
     Height                       80
-    Images                       boton_1-01.png
-    Left                         48
+    Images                       ''
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          187
+    Stretch                      Yes
+    Top                          184
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3799,12 +3574,12 @@ UserButton
     Name                         Userbutton28
     Alias                        Userbutton28
     Height                       80
-    Images                       boton_10-01.png
+    Images                       ''
     Left                         340
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          188
+    Stretch                      Yes
+    Top                          184
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3812,61 +3587,25 @@ UserButton
     Name                         Userbutton29
     Alias                        Userbutton29
     Height                       49
-    Images                       REDO.png
-    Left                         188
+    Images                       ''
+    Left                         184
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          204
     Width                        108
     OnChanged                    'Report Message'
 end
-StaticText
-    Name                         Statictext17
-    Alias                        Statictext17
-    AutoSize                     Yes
-    Caption                      'SELECT WHICH TWO LINES FIT TOGETHER BEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       30
-    Left                         76
-    Top                          92
-    Transparent                  Yes
-    Width                        343
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext22
-    Alias                        Statictext22
-    AutoSize                     Yes
-    Caption                      'REMEMBER TO CLEAN THE BED BEFORE'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       23
-    Left                         76
-    Top                          124
-    Transparent                  Yes
-    Width                        283
-    WordWrap                     Yes
-end
 Form
     Name                         Form13
     Alias                        Form13
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        IDEX_REDO_MUESTRA.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3874,34 +3613,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext16
-    Alias                        Statictext16
-    AutoSize                     Yes
-    Caption                      'REDO Y AXIS CALIBRATION'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       34
-    Left                         128
-    Top                          28
-    Transparent                  Yes
-    Width                        249
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton30
     Alias                        Userbutton30
     Height                       49
-    Images                       REDO.png
-    Left                         184
+    Images                       ''
+    Left                         188
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          186
+    Stretch                      Yes
+    Top                          204
     Width                        108
     OnChanged                    'Report Message'
 end
@@ -3909,12 +3630,12 @@ UserButton
     Name                         Userbutton31
     Alias                        Userbutton31
     Height                       80
-    Images                       boton_1-01.png
-    Left                         64
+    Images                       ''
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          172
+    Stretch                      Yes
+    Top                          184
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -3922,7 +3643,7 @@ UserButton
     Name                         Userbutton35
     Alias                        Userbutton35
     Height                       80
-    Images                       boton_10-01.png
+    Images                       ''
     Left                         324
     Matrix                       -1
     Momentary                    Yes
@@ -3931,52 +3652,16 @@ UserButton
     Width                        95
     OnChanged                    'Report Message'
 end
-StaticText
-    Name                         Statictext18
-    Alias                        Statictext18
-    AutoSize                     Yes
-    Caption                      'SELECT WHICH TWO LINES FIT TOGETHER BEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       23
-    Left                         76
-    Top                          80
-    Transparent                  Yes
-    Width                        334
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext23
-    Alias                        Statictext23
-    AutoSize                     Yes
-    Caption                      'REMEMBER TO CLEAN THE BED BEFORE'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       29
-    Left                         76
-    Top                          116
-    Transparent                  Yes
-    Width                        342
-    WordWrap                     Yes
-end
 Form
     Name                         Form15
     Alias                        Form15
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-WELCOME.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3984,52 +3669,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext20
-    Alias                        Statictext20
-    AutoSize                     Yes
-    Caption                      'WELCOME TO SIGMA!'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       31
-    Left                         136
-    Top                          64
-    Transparent                  Yes
-    Width                        226
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext21
-    Alias                        Statictext21
-    AutoSize                     Yes
-    Caption                      'THIS IS THE START UP PROCESS,          PLEASE PRESS GO TO GET                            STARTED!'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       90
-    Left                         88
-    Top                          120
-    Transparent                  Yes
-    Width                        310
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton36
     Alias                        Userbutton36
     Height                       64
-    Images                       GO-02.png
+    Images                       ''
     Left                         172
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          232
+    Stretch                      Yes
+    Top                          212
     Width                        128
     OnChanged                    Form22Activate
 end
@@ -4038,28 +3687,17 @@ Form
     Alias                        Form22
     Bgtype                       Image
     Color                        BLACK
-    Image                        '2. Main Utilities-01.jpg'
-    Source.Height                321
+    Image                        MUESTRA-mainmenupopup.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-UserImages
-    Name                         Userimages19
-    Alias                        Userimages19
-    Height                       114
-    Images                       Message1.png
-    Left                         12
-    Stretch                      No
-    Top                          20
-    Width                        303
-    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton39
@@ -4077,14 +3715,14 @@ end
 UserButton
     Name                         Userbutton59
     Alias                        Userbutton59
-    Height                       132
+    Height                       183
     Images                       ''
-    Left                         256
+    Left                         264
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          135
-    Width                        153
+    Top                          104
+    Width                        163
     OnChanged                    Form37Activate
 end
 Form
@@ -4122,11 +3760,11 @@ Form
     Alias                        Form37
     Bgtype                       Image
     Color                        BLACK
-    Image                        '3.Utilities Menu-01.jpg'
-    Source.Height                321
+    Image                        MUESTRA-utilitiesMenufilament.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4134,27 +3772,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserImages
-    Name                         Userimages20
-    Alias                        Userimages20
-    Height                       33
-    Images                       'Message 2.png'
-    Left                         88
-    Stretch                      No
-    Top                          60
-    Width                        303
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton38
     Alias                        Userbutton38
-    Height                       177
+    Height                       170
     Images                       ''
     Left                         158
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          97
+    Top                          104
     Width                        162
     OnChanged                    Form39Activate
 end
@@ -4163,11 +3790,11 @@ Form
     Alias                        Form39
     Bgtype                       Image
     Color                        BLACK
-    Image                        5.Insert-left-01.jpg
-    Source.Height                321
+    Image                        MUESTRA-SelectExtruderL.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4175,28 +3802,17 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserImages
-    Name                         Userimages21
-    Alias                        Userimages21
-    Height                       107
-    Images                       Message3.png
-    Left                         168
-    Stretch                      No
-    Top                          36
-    Width                        303
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton40
     Alias                        Userbutton40
-    Height                       145
+    Height                       205
     Images                       ''
     Left                         60
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          143
-    Width                        137
+    Top                          83
+    Width                        163
     OnChanged                    'Report Message'
 end
 UserButton
@@ -4217,11 +3833,11 @@ Form
     Alias                        Form42
     Bgtype                       Image
     Color                        BLACK
-    Image                        '7.Insert- right-01.jpg'
-    Source.Height                321
+    Image                        MUESTRA-SelectExtruderR.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4229,28 +3845,17 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserImages
-    Name                         Userimages22
-    Alias                        Userimages22
-    Height                       107
-    Images                       Message4.png
-    Left                         0
-    Stretch                      No
-    Top                          72
-    Width                        303
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton42
     Alias                        Userbutton42
-    Height                       185
+    Height                       202
     Images                       ''
-    Left                         304
+    Left                         247
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          96
-    Width                        128
+    Top                          79
+    Width                        194
     OnChanged                    'Report Message'
 end
 UserButton
@@ -4271,11 +3876,11 @@ Form
     Alias                        Form45
     Bgtype                       Image
     Color                        BLACK
-    Image                        '10.Utilities Menu-01-01.jpg'
-    Source.Height                321
+    Image                        MUESTRA-utilitiesMenucalibrate.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4283,28 +3888,17 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-UserImages
-    Name                         Userimages23
-    Alias                        Userimages23
-    Height                       141
-    Images                       Message5.png
-    Left                         0
-    Stretch                      No
-    Top                          40
-    Width                        360
-    OnChanged                    ''
-end
 UserButton
     Name                         Userbutton44
     Alias                        Userbutton44
-    Height                       169
+    Height                       187
     Images                       ''
-    Left                         362
+    Left                         322
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          100
-    Width                        104
+    Top                          82
+    Width                        144
     OnChanged                    Form46Activate
 end
 UserButton
@@ -4312,11 +3906,11 @@ UserButton
     Alias                        Userbutton57
     Height                       79
     Images                       ''
-    Left                         328
+    Left                         324
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          183
+    Top                          88
     Width                        70
     OnChanged                    Form46Activate
 end
@@ -4325,28 +3919,17 @@ Form
     Alias                        Form46
     Bgtype                       Image
     Color                        BLACK
-    Image                        '11.calibration - Full Calibration-01.jpg'
-    Source.Height                321
+    Image                        MUESTRA-Cali.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 480
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-UserImages
-    Name                         Userimages24
-    Alias                        Userimages24
-    Height                       192
-    Images                       Message6.png\nMessage7.png
-    Left                         4
-    Stretch                      Yes
-    Top                          28
-    Width                        325
-    OnChanged                    ''
 end
 UserButton
     Name                         Userbutton46
@@ -4377,13 +3960,13 @@ end
 Form
     Name                         Form47
     Alias                        Form47
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-KeepHands.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4391,34 +3974,16 @@ Form
     OnTouchPressed               ''
     OnTouchReleased              ''
 end
-StaticText
-    Name                         Statictext24
-    Alias                        Statictext24
-    AutoSize                     Yes
-    Caption                      'Insert the filament until you feel it stops, then withdraw your hands because the Sigma is going to move the extruders'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       98
-    Left                         60
-    Top                          88
-    Transparent                  Yes
-    Width                        394
-    WordWrap                     Yes
-end
 UserButton
     Name                         Userbutton58
     Alias                        Userbutton58
     Height                       64
-    Images                       GO-02.png
-    Left                         188
+    Images                       ''
+    Left                         180
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          236
+    Stretch                      Yes
+    Top                          232
     Width                        128
     OnChanged                    'Report Message'
 end
@@ -4460,13 +4025,13 @@ end
 Form
     Name                         Form25
     Alias                        Form25
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-SelectLineFits1.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4478,12 +4043,12 @@ UserButton
     Name                         Userbutton43
     Alias                        Userbutton43
     Height                       80
-    Images                       boton_1-01.png
-    Left                         84
+    Images                       ''
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          164
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4491,12 +4056,12 @@ UserButton
     Name                         Userbutton47
     Alias                        Userbutton47
     Height                       80
-    Images                       boton_2-01.png
-    Left                         200
+    Images                       ''
+    Left                         196
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          164
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4504,12 +4069,12 @@ UserButton
     Name                         Userbutton48
     Alias                        Userbutton48
     Height                       80
-    Images                       boton_3-01.png
-    Left                         316
+    Images                       ''
+    Left                         336
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          168
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4522,56 +4087,20 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          248
+    Top                          256
     Width                        108
     OnChanged                    Form49Activate
-end
-StaticText
-    Name                         Statictext25
-    Alias                        Statictext25
-    AutoSize                     Yes
-    Caption                      'Z AXIS TEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       30
-    Left                         192
-    Top                          24
-    Transparent                  Yes
-    Width                        108
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext26
-    Alias                        Statictext26
-    AutoSize                     Yes
-    Caption                      'SELECT WHICH LINE FITS BEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       23
-    Left                         128
-    Top                          80
-    Transparent                  Yes
-    Width                        218
-    WordWrap                     Yes
 end
 Form
     Name                         Form48
     Alias                        Form48
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-SelectLineFits1.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4583,12 +4112,12 @@ UserButton
     Name                         Userbutton60
     Alias                        Userbutton60
     Height                       80
-    Images                       boton_1-01.png
-    Left                         72
+    Images                       ''
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          164
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4596,12 +4125,12 @@ UserButton
     Name                         Userbutton62
     Alias                        Userbutton62
     Height                       80
-    Images                       boton_2-01.png
+    Images                       ''
     Left                         192
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          164
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4609,12 +4138,12 @@ UserButton
     Name                         Userbutton119
     Alias                        Userbutton119
     Height                       80
-    Images                       boton_3-01.png
-    Left                         316
+    Images                       ''
+    Left                         336
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          140
+    Stretch                      Yes
+    Top                          164
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4627,56 +4156,20 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          248
+    Top                          264
     Width                        108
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext27
-    Alias                        Statictext27
-    AutoSize                     Yes
-    Caption                      'SELECT WHICH LINE FITS BEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       23
-    Left                         132
-    Top                          80
-    Transparent                  Yes
-    Width                        218
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext28
-    Alias                        Statictext28
-    AutoSize                     Yes
-    Caption                      'Z AXIS TEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       33
-    Left                         180
-    Top                          20
-    Transparent                  Yes
-    Width                        120
-    WordWrap                     Yes
 end
 Form
     Name                         Form49
     Alias                        Form49
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        BACKGROUND-SelectLineFits3.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 491
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -4706,7 +4199,7 @@ UserButton
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          165
+    Top                          168
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4722,40 +4215,4 @@ UserButton
     Top                          180
     Width                        108
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext29
-    Alias                        Statictext29
-    AutoSize                     Yes
-    Caption                      'REDO Z AXIS TEST'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    16
-    Font.Style                   [Bold]
-    Height                       34
-    Left                         160
-    Top                          32
-    Transparent                  Yes
-    Width                        165
-    WordWrap                     Yes
-end
-StaticText
-    Name                         Statictext30
-    Alias                        Statictext30
-    AutoSize                     Yes
-    Caption                      'CLEAN THE BED, THEN SELECT WHICH LINE FITS BEST OR PRESS REDO IF THE PRINT TEST HAS FAILED'
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 []
-    Font.Name                    'Titillium Bd'
-    Font.Size                    12
-    Font.Style                   [Bold]
-    Height                       69
-    Left                         68
-    Top                          76
-    Transparent                  Yes
-    Width                        345
-    WordWrap                     Yes
 end

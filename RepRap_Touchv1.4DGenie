@@ -3316,13 +3316,13 @@ end
 Form
     Name                         Form44
     Alias                        Form44
-    Bgtype                       Color
+    Bgtype                       Image
     Color                        0xC17C0B
-    Image                        (None)
-    Source.Height                0
+    Image                        MUESTRA-purgesettings_rev.png
+    Source.Height                331
     Source.Left                  0
     Source.Top                   0
-    Source.Width                 0
+    Source.Width                 490
     OnActivate                   ''
     OnCreate                     ''
     OnRepeat                     ''
@@ -3345,72 +3345,50 @@ Strings
     Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         48
+    Left                         44
     Strings                      ''
     StringsStyle                 Message
-    Top                          287
+    Top                          260
     Width                        49
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages17
-    Alias                        Userimages17
-    Height                       150
-    Images                       Temp-01.png
-    Left                         0
-    Stretch                      No
-    Top                          80
-    Width                        150
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages18
-    Alias                        Userimages18
-    Height                       95
-    Images                       00_filament-01.png
-    Left                         382
-    Stretch                      No
-    Top                          96
-    Width                        98
     OnChanged                    ''
 end
 UserButton
     Name                         Userbutton151
     Alias                        Userbutton151
     Height                       55
-    Images                       00_flechaUP_1.png
-    Left                         406
+    Images                       ''
+    Left                         381
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          24
+    Stretch                      Yes
+    Top                          65
     Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton152
     Alias                        Userbutton152
-    Height                       55
-    Images                       00_flechaDOWN_1.png
-    Left                         406
+    Height                       49
+    Images                       ''
+    Left                         381
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          196
+    Stretch                      Yes
+    Top                          203
     Width                        55
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton153
     Alias                        Userbutton153
-    Height                       57
-    Images                       DOWNX3.png
-    Left                         408
+    Height                       64
+    Images                       ''
+    Left                         380
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          252
-    Width                        55
+    Top                          256
+    Width                        58
     OnChanged                    'Report Message'
 end
 UserButton
@@ -3443,12 +3421,12 @@ UserButton
     Name                         Userbutton156
     Alias                        Userbutton156
     Height                       55
-    Images                       00_flechaUP_1.png
+    Images                       ''
     Left                         44
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          24
+    Stretch                      Yes
+    Top                          68
     Width                        55
     OnChanged                    'Report Message'
 end
@@ -3456,32 +3434,14 @@ UserButton
     Name                         Userbutton157
     Alias                        Userbutton157
     Height                       55
-    Images                       00_flechaDOWN_1.png
+    Images                       ''
     Left                         44
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          231
+    Stretch                      Yes
+    Top                          208
     Width                        55
     OnChanged                    'Report Message'
-end
-StaticText
-    Name                         Statictext12
-    Alias                        Statictext12
-    AutoSize                     Yes
-    Caption                      '              PURGE SETTINGS             '
-    Color                        BLACK
-    Font.Color                   WHITE
-    Font.Effects                 [Underline]
-    Font.Name                    'Titillium Bd'
-    Font.Size                    14
-    Font.Style                   [Bold]
-    Height                       27
-    Left                         121
-    Top                          15
-    Transparent                  Yes
-    Width                        251
-    WordWrap                     Yes
 end
 Strings
     Name                         Strings10
@@ -3531,12 +3491,12 @@ UserButton
     Name                         Userbutton160
     Alias                        Userbutton160
     Height                       50
-    Images                       00_flechaGOBACK.png
-    Left                         0
+    Images                       ''
+    Left                         28
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          0
+    Stretch                      Yes
+    Top                          4
     Width                        50
     OnChanged                    Form6Activate
 end
@@ -3545,7 +3505,7 @@ Form
     Alias                        Form3
     Bgtype                       Image
     Color                        0xC17C0B
-    Image                        IDEX_REDO_MUESTRA.png
+    Image                        MUESTRA-SelectLineFits4.png
     Source.Height                331
     Source.Left                  0
     Source.Top                   0
@@ -3601,7 +3561,7 @@ Form
     Alias                        Form13
     Bgtype                       Image
     Color                        0xC17C0B
-    Image                        IDEX_REDO_MUESTRA.png
+    Image                        MUESTRA-SelectLineFits4.png
     Source.Height                331
     Source.Left                  0
     Source.Top                   0
@@ -3644,11 +3604,11 @@ UserButton
     Alias                        Userbutton35
     Height                       80
     Images                       ''
-    Left                         324
+    Left                         332
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
-    Top                          175
+    Top                          180
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4165,7 +4125,7 @@ Form
     Alias                        Form49
     Bgtype                       Image
     Color                        0xC17C0B
-    Image                        BACKGROUND-SelectLineFits3.png
+    Image                        MUESTRA-SelectLineFits3.png
     Source.Height                331
     Source.Left                  0
     Source.Top                   0
@@ -4181,12 +4141,12 @@ UserButton
     Name                         Userbutton128
     Alias                        Userbutton128
     Height                       80
-    Images                       boton_1-01.png
-    Left                         40
+    Images                       ''
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          165
+    Stretch                      Yes
+    Top                          184
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4194,12 +4154,12 @@ UserButton
     Name                         Userbutton129
     Alias                        Userbutton129
     Height                       80
-    Images                       boton_3-01.png
-    Left                         356
+    Images                       ''
+    Left                         336
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          168
+    Stretch                      Yes
+    Top                          184
     Width                        95
     OnChanged                    'Report Message'
 end
@@ -4207,12 +4167,12 @@ UserButton
     Name                         Userbutton130
     Alias                        Userbutton130
     Height                       49
-    Images                       REDO.png
-    Left                         188
+    Images                       ''
+    Left                         184
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          180
+    Stretch                      Yes
+    Top                          200
     Width                        108
     OnChanged                    'Report Message'
 end

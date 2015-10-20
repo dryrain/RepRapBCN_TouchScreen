@@ -1387,26 +1387,26 @@ end
 UserButton
     Name                         Userbutton75
     Alias                        Userbutton75
-    Height                       183
+    Height                       203
     Images                       ''
     Left                         44
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          100
+    Top                          80
     Width                        180
     OnChanged                    'Report Message'
 end
 UserButton
     Name                         Userbutton76
     Alias                        Userbutton76
-    Height                       183
+    Height                       203
     Images                       ''
     Left                         256
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          97
+    Top                          77
     Width                        180
     OnChanged                    'Report Message'
 end
@@ -2401,7 +2401,7 @@ Form
     Alias                        Form31
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        BACKGROUND-BedCalibrationL.png
+    Image                        MUESTRA-BedCalibrationL_2.png
     Source.Height                331
     Source.Left                  0
     Source.Top                   0
@@ -2416,36 +2416,25 @@ end
 UserButton
     Name                         Userbutton94
     Alias                        Userbutton94
-    Height                       127
-    Images                       Accept-01.png\nAccept-01.png\nAccept-01.png\nAccept-01.png
-    Left                         364
+    Height                       133
+    Images                       'no info text.png\nno info text.png\nno info text.png\nno info text.png'
+    Left                         336
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
-    Top                          132
-    Width                        95
+    Stretch                      Yes
+    Top                          148
+    Width                        107
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages4
     Alias                        Userimages4
-    Height                       160
-    Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,8_Clockwise.png\n8,8_Clockwise.png'
-    Left                         148
+    Height                       129
+    Images                       screw_1_2.png\nscrew_1.png\nscrew_2.png\nscrew_3.png\nscrew_4.png\nscrew_5.png\nscrew_6.png\nscrew_7.png\nscrew_8.png\nscrew_1_2.png\nscrew_2_2.png\nscrew_3_2.png\nscrew_4_2.png\nscrew_5_2.png\nscrew_6_2.png\nscrew_7_2.png\nscrew_8_2.png
+    Left                         180
     Stretch                      Yes
-    Top                          120
-    Width                        205
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages8
-    Alias                        Userimages8
-    Height                       133
-    Images                       Llit_2-02.png
-    Left                         24
-    Stretch                      No
-    Top                          132
-    Width                        108
+    Top                          151
+    Width                        129
     OnChanged                    ''
 end
 Form
@@ -2453,7 +2442,7 @@ Form
     Alias                        Form32
     Bgtype                       Image
     Color                        DEEPSKYBLUE
-    Image                        BACKGROUND-BedCalibrationR.png
+    Image                        BACKGROUND-BedCalibrationR_2.png
     Source.Height                331
     Source.Left                  0
     Source.Top                   0
@@ -2468,36 +2457,25 @@ end
 UserButton
     Name                         Userbutton95
     Alias                        Userbutton95
-    Height                       127
-    Images                       Accept-01.png\nAccept-01.png\nAccept-01.png\nAccept-01.png
-    Left                         364
+    Height                       148
+    Images                       'no info text.png\nno info text.png\nno info text.png\nno info text.png'
+    Left                         336
     Matrix                       -1
     Momentary                    Yes
-    Stretch                      No
+    Stretch                      Yes
     Top                          132
-    Width                        95
+    Width                        112
     OnChanged                    'Report Message'
 end
 UserImages
     Name                         Userimages5
     Alias                        Userimages5
-    Height                       160
-    Images                       '1,8 Counterclockwise.png\n1,8 Counterclockwise.png\n2,8 Counterclockwise.png\n3,8 Counterclockwise.png\n4,8 Counterclockwise.png\n5,8 Counterclockwise.png\n6,8 Counterclockwise.png\n7,8 Counterclockwise.png\n8,8 Counterclockwise.png\n1,8_Clockwise.png\n2,8_Clockwise.png\n3,8_Clockwise.png\n4,8_Clockwise.png\n5,8_Clockwise.png\n6,8_Clockwise.png\n7,8_Clockwise.png\n8,8_Clockwise.png'
-    Left                         148
-    Stretch                      Yes
-    Top                          120
-    Width                        211
-    OnChanged                    ''
-end
-UserImages
-    Name                         Userimages9
-    Alias                        Userimages9
-    Height                       133
-    Images                       Llit_3-02.png
-    Left                         24
+    Height                       129
+    Images                       screw_1.png\nscrew_1.png\nscrew_2.png\nscrew_3.png\nscrew_4.png\nscrew_5.png\nscrew_6.png\nscrew_7.png\nscrew_8.png\nscrew_1_2.png\nscrew_2_2.png\nscrew_3_2.png\nscrew_4_2.png\nscrew_5_2.png\nscrew_6_2.png\nscrew_7_2.png\nscrew_8_2.png
+    Left                         180
     Stretch                      No
-    Top                          132
-    Width                        108
+    Top                          151
+    Width                        129
     OnChanged                    ''
 end
 Form

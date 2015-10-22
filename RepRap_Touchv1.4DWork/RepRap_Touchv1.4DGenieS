@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 20/10/2015 8:59:24
+// generated 22/10/2015 10:44:45
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -123,16 +123,16 @@
     REPORT_MAGIC_EVENT_BYTES 10
     REPORT_MAGIC_EVENT_DBYTES 11
 // End P1.inc
-    nObjects        221
-    nInputs         308
+    nObjects        245
+    nInputs         348
     nAniTimers      0
     nStrings        54
 #END
 
 #DATA
-    word FormStartIndex 0, 1, 4, 175, 9, 14, 17, 139, 22, 42, 86, 72, 46, 179, 47, 183, 142, 206, 145, 51, 54, 58, 185, 62, 66, 207, 70, 74, 96, 100, 109, 113, 116, 119, 131, 135, 188, 190, 147, 192, 157, 160, 195, 163, 166, 198, 201, 204, 212, 217
-    word FormEndIndex 1, 4, 9, 179, 14, 17, 22, 142, 42, 46, 96, 74, 47, 183, 51, 185, 145, 207, 147, 54, 58, 62, 188, 66, 70, 212, 72, 86, 100, 109, 113, 116, 119, 131, 135, 139, 190, 192, 157, 195, 160, 163, 198, 166, 175, 201, 204, 206, 217, 221
-    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, 308, 374, 418, 462, -1, 506, 572, -1, 638, 682, 726, 770, 814, 858, 902, 946, 990, 1034, 1078, 1122, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1188, 1232, 1276, -1, 1320, 1364, 1408, -1, -1, 1452, 1496, 1540, -1, 1584, -1, -1, 1628, 1672, 1716, -1, 1760, -1, -1, -1, 1804, 1848, 1892, -1, -1, 1936, -1, -1, -1, -1, -1, -1, 1980, 2024, 2068, 2112, 2156, 2200, 2244, 2288, 2332, 2376, 2420, -1, 2464, 2508, 2552, 2596, 2640, 2684, 2728, 2772, 2816, -1, 2882, 2948, 2992, -1, 3058, 3102, 3146, 3190, 3234, 3278, 3322, 3366, -1, -1, 3410, -1, -1, 3454, -1, -1, 3498, -1, -1, 3542, 3586, 3630, 3674, 3718, 3762, 3806, 3850, 3894, 3938, 3982, -1, 4026, 4070, 4114, -1, 4158, 4202, 4246, -1, 4290, 4334, -1, 4378, 4422, -1, 4466, -1, 4510, 4576, 4620, 4664, 4708, 4752, 4796, 4840, 4884, -1, -1, -1, -1, 4928, -1, -1, 4972, 5016, -1, 5060, 5104, 5148, 5192, 5236, 5280, 5324, 5368, -1, 5412, 5456, 5500, -1, 5544, 5588, 5632, -1, 5676, -1, 5720, 5764, -1, 5808, -1, 5852, -1, 5896, 5940, -1, 5984, 6028, -1, 6072, 6116, -1, 6160, 6204, -1, 6248, -1, -1, 6292, 6336, 6380, 6424, -1, 6468, 6512, 6556, 6600, -1, 6644, 6688, 6732
+    word FormStartIndex 0, 1, 4, 176, 9, 14, 17, 140, 22, 42, 87, 73, 46, 180, 47, 184, 143, 207, 146, 51, 54, 58, 186, 62, 66, 208, 70, 75, 97, 101, 110, 114, 117, 120, 132, 136, 189, 191, 148, 193, 158, 161, 196, 164, 167, 199, 202, 205, 214, 220, 224, 230, 236
+    word FormEndIndex 1, 4, 9, 180, 14, 17, 22, 143, 42, 46, 97, 75, 47, 184, 51, 186, 146, 208, 148, 54, 58, 62, 189, 66, 70, 214, 73, 87, 101, 110, 114, 117, 120, 132, 136, 140, 191, 193, 158, 196, 161, 164, 199, 167, 176, 202, 205, 207, 220, 224, 230, 236, 245
+    word InputControls -1, -1, 0, 44, -1, 110, 176, 220, 264, -1, 308, 374, 418, 462, -1, 506, 572, -1, 638, 682, 726, 770, 814, 858, 902, 946, 990, 1034, 1078, 1122, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1188, 1232, 1276, -1, 1320, 1364, 1408, -1, -1, 1452, 1496, 1540, -1, 1584, -1, -1, 1628, 1672, 1716, -1, 1760, -1, -1, -1, 1804, 1848, 1892, -1, -1, 1936, -1, -1, -1, -1, -1, -1, -1, 1980, 2024, 2068, 2112, 2156, 2200, 2244, 2288, 2332, 2376, 2420, -1, 2464, 2508, 2552, 2596, 2640, 2684, 2728, 2772, 2816, -1, 2882, 2948, 2992, -1, 3058, 3102, 3146, 3190, 3234, 3278, 3322, 3366, -1, -1, 3410, -1, -1, 3454, -1, -1, 3498, -1, -1, 3542, 3586, 3630, 3674, 3718, 3762, 3806, 3850, 3894, 3938, 3982, -1, 4026, 4070, 4114, -1, 4158, 4202, 4246, -1, 4290, 4334, -1, 4378, 4422, -1, 4466, -1, 4510, 4576, 4620, 4664, 4708, 4752, 4796, 4840, 4884, -1, -1, -1, -1, 4928, -1, -1, 4972, 5016, -1, 5060, 5104, 5148, 5192, 5236, 5280, 5324, 5368, -1, 5412, 5456, 5500, -1, 5544, 5588, 5632, -1, 5676, -1, 5720, 5764, -1, 5808, -1, 5852, -1, 5896, 5940, -1, 5984, 6028, -1, 6072, 6116, -1, 6160, 6204, -1, 6248, -1, -1, 6292, 6336, 6380, 6424, 6468, -1, 6512, 6556, 6600, 6644, 6688, -1, 6732, 6776, 6820, -1, 6864, 6908, 6952, 6996, 7040, -1, 7084, 7128, 7172, 7216, 7260, -1, 7304, 7348, 7392, 7436, 7480, 7524, 7568, 7612
     word InputData tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 22, 4,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 66, 124,
@@ -427,20 +427,60 @@
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 48,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6446, 264,
                 OT_ACTIVATE, 10, 49, 0, 18, 0, 0, 0, 0, 0, 0,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6490, 122,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6490, 130,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6534, 122,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 60,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6534, 126,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6578, 126,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 62,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6578, 240,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6622, 240,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6622, 256,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6666, 256,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 127,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6666, 258,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6710, 144,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6754, 258,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 128,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6710, 260,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6798, 260,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 129,
-                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6754, 262,
-                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6842, 262,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 130,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6886, 266,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 132,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6930, 268,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 133,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6974, 270,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 134,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7018, 272,
+                OT_ACTIVATE, 10, 52, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7062, 274,
+                OT_ACTIVATE, 10, 20, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7106, 276,
+                OT_ACTIVATE, 10, 20, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7150, 278,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 138,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7194, 280,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 139,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7238, 282,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7282, 284,
+                OT_ACTIVATE, 10, 52, 0, 18, 0, 0, 0, 0, 0, 0,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7326, 286,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 142,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7370, 288,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 143,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7414, 290,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 144,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7458, 292,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 145,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7502, 294,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 146,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7546, 296,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 147,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7590, 298,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148,
+                tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7634, 300,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 149
     word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 139, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 16, 172, 369, 296, WHITE, 0x017B, 0, 0, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 16, 256, 323, 305, WHITE, BLACK, 0, 0, 1, 9 
@@ -454,9 +494,9 @@
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 176, 200, 224, 230, WHITE, BLACK, 0, 0, 1, 44 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 80, 164, 428, 218, WHITE, DEEPSKYBLUE, 0, 0, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 192, 144, 298, 172, WHITE, BLACK, 0, 0, 1, 12 
-
-
-
+    word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 36, 156, 103, 183, WHITE, BLACK, 0, 0, 1, 52 
+    word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 140, 156, 211, 183, WHITE, BLACK, 0, 0, 1, 52 
+    word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 256, 152, 316, 179, WHITE, BLACK, 0, 0, 1, 52 
     word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 208, 156, 274, 200, WHITE, BLACK, 0, 0, 1, 14 
     word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 288, 200, 336, 230, WHITE, BLACK, 0, 0, 1, 44 
 
@@ -505,14 +545,14 @@
     word oAngularmeters 0
     word oCoolgauges 0
     word oCustomdigitss 0
-    word oForms 50, iForm0, iForm1, iForm2, iForm3, iForm4, iForm5, iForm6, iForm7, -1, iForm9, iForm10, iForm11, iForm12, iForm13, iForm14, iForm15, iForm16, -1, iForm18, iForm19, iForm20, iForm21, iForm22, iForm23, iForm24, iForm25, iForm26, iForm27, iForm28, iForm29, iForm30, iForm31, iForm32, iForm33, iForm34, iForm35, iForm36, iForm37, iForm38, iForm39, iForm40, iForm41, iForm42, iForm43, iForm44, iForm45, iForm46, iForm47, iForm48, iForm49
+    word oForms 53, iForm0, iForm1, iForm2, iForm3, iForm4, iForm5, iForm6, iForm7, -1, iForm9, iForm10, iForm11, iForm12, iForm13, iForm14, iForm15, iForm16, -1, iForm18, iForm19, iForm20, iForm21, iForm22, iForm23, iForm24, iForm25, iForm26, iForm27, iForm28, iForm29, iForm30, iForm31, iForm32, iForm33, iForm34, iForm35, iForm36, iForm37, iForm38, iForm39, iForm40, iForm41, iForm42, iForm43, iForm44, iForm45, iForm46, iForm47, iForm48, iForm49, iForm50, iForm51, iForm52
     word oGauges 0
     word oImages 0
     word oKeyboards 0
     word oLeds 0
     word oLeddigitss 3, iLeddigits0, iLeddigits1, iLeddigits2
     word oMeters 0
-    word oStringss 54, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, -1, -1, -1, iStrings16, iStrings17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, iStrings29, -1, iStrings31, iStrings32, -1, iStrings34, -1, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, -1, -1, -1, -1, iStrings50, iStrings51, iStrings52, iStrings53
+    word oStringss 54, iStrings0, iStrings1, iStrings2, iStrings3, iStrings4, iStrings5, iStrings6, iStrings7, iStrings8, iStrings9, iStrings10, iStrings11, iStrings12, iStrings13, iStrings14, iStrings15, iStrings16, iStrings17, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, iStrings29, -1, iStrings31, iStrings32, -1, iStrings34, -1, iStrings36, iStrings37, iStrings38, iStrings39, iStrings40, iStrings41, iStrings42, iStrings43, iStrings44, iStrings45, -1, -1, -1, -1, iStrings50, iStrings51, iStrings52, iStrings53
     word oThermometers 0
     word oUserleds 0
     word oVideos 0
@@ -520,16 +560,16 @@
     word oSpectrums 0
     word oScopes 0
     word oTanks 0
-    word oUserImagess 17, -1, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, -1, iUserimages7, -1, -1, iUserimages10, iUserimages11, -1, iUserimages13, -1, -1, iUserimages16
+    word oUserImagess 17, iUserimages0, iUserimages1, iUserimages2, iUserimages3, iUserimages4, iUserimages5, -1, iUserimages7, -1, -1, iUserimages10, iUserimages11, -1, iUserimages13, -1, -1, iUserimages16
     word oPinInputs 0
     word o4Dbuttons 0
     word oAniButtons 0
     word oColorPickers 0
-    word oUserButtons 161, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, iUserbutton14, iUserbutton15, iUserbutton16, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21, iUserbutton22, iUserbutton23, iUserbutton24, iUserbutton25, iUserbutton26, iUserbutton27, iUserbutton28, iUserbutton29, iUserbutton30, iUserbutton31, iUserbutton32, iUserbutton33, iUserbutton34, iUserbutton35, iUserbutton36, iUserbutton37, iUserbutton38, iUserbutton39, iUserbutton40, iUserbutton41, iUserbutton42, iUserbutton43, iUserbutton44, iUserbutton45, iUserbutton46, iUserbutton47, iUserbutton48, iUserbutton49, iUserbutton50, iUserbutton51, iUserbutton52, iUserbutton53, iUserbutton54, iUserbutton55, iUserbutton56, iUserbutton57, iUserbutton58, iUserbutton59, iUserbutton60, iUserbutton61, iUserbutton62, iUserbutton63, -1, iUserbutton65, iUserbutton66, iUserbutton67, iUserbutton68, iUserbutton69, iUserbutton70, -1, iUserbutton72, iUserbutton73, iUserbutton74, iUserbutton75, iUserbutton76, iUserbutton77, iUserbutton78, iUserbutton79, iUserbutton80, iUserbutton81, iUserbutton82, iUserbutton83, iUserbutton84, iUserbutton85, iUserbutton86, iUserbutton87, iUserbutton88, iUserbutton89, iUserbutton90, iUserbutton91, iUserbutton92, iUserbutton93, iUserbutton94, iUserbutton95, iUserbutton96, iUserbutton97, iUserbutton98, iUserbutton99, iUserbutton100, iUserbutton101, iUserbutton102, iUserbutton103, iUserbutton104, iUserbutton105, iUserbutton106, iUserbutton107, iUserbutton108, iUserbutton109, iUserbutton110, iUserbutton111, iUserbutton112, iUserbutton113, iUserbutton114, iUserbutton115, iUserbutton116, iUserbutton117, iUserbutton118, iUserbutton119, iUserbutton120, iUserbutton121, iUserbutton122, iUserbutton123, iUserbutton124, iUserbutton125, iUserbutton126, iUserbutton127, iUserbutton128, iUserbutton129, iUserbutton130, iUserbutton131, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, iUserbutton151, iUserbutton152, iUserbutton153, iUserbutton154, iUserbutton155, iUserbutton156, iUserbutton157, iUserbutton158, iUserbutton159, iUserbutton160
+    word oUserButtons 161, iUserbutton0, iUserbutton1, iUserbutton2, iUserbutton3, iUserbutton4, iUserbutton5, iUserbutton6, iUserbutton7, iUserbutton8, iUserbutton9, iUserbutton10, iUserbutton11, iUserbutton12, iUserbutton13, iUserbutton14, iUserbutton15, iUserbutton16, iUserbutton17, iUserbutton18, iUserbutton19, iUserbutton20, iUserbutton21, iUserbutton22, iUserbutton23, iUserbutton24, iUserbutton25, iUserbutton26, iUserbutton27, iUserbutton28, iUserbutton29, iUserbutton30, iUserbutton31, iUserbutton32, iUserbutton33, iUserbutton34, iUserbutton35, iUserbutton36, iUserbutton37, iUserbutton38, iUserbutton39, iUserbutton40, iUserbutton41, iUserbutton42, iUserbutton43, iUserbutton44, iUserbutton45, iUserbutton46, iUserbutton47, iUserbutton48, iUserbutton49, iUserbutton50, iUserbutton51, iUserbutton52, iUserbutton53, iUserbutton54, iUserbutton55, iUserbutton56, iUserbutton57, iUserbutton58, iUserbutton59, iUserbutton60, iUserbutton61, iUserbutton62, iUserbutton63, iUserbutton64, iUserbutton65, iUserbutton66, iUserbutton67, iUserbutton68, iUserbutton69, iUserbutton70, iUserbutton71, iUserbutton72, iUserbutton73, iUserbutton74, iUserbutton75, iUserbutton76, iUserbutton77, iUserbutton78, iUserbutton79, iUserbutton80, iUserbutton81, iUserbutton82, iUserbutton83, iUserbutton84, iUserbutton85, iUserbutton86, iUserbutton87, iUserbutton88, iUserbutton89, iUserbutton90, iUserbutton91, iUserbutton92, iUserbutton93, iUserbutton94, iUserbutton95, iUserbutton96, iUserbutton97, iUserbutton98, iUserbutton99, iUserbutton100, iUserbutton101, iUserbutton102, iUserbutton103, iUserbutton104, iUserbutton105, iUserbutton106, iUserbutton107, iUserbutton108, iUserbutton109, iUserbutton110, iUserbutton111, iUserbutton112, iUserbutton113, iUserbutton114, iUserbutton115, iUserbutton116, iUserbutton117, iUserbutton118, iUserbutton119, iUserbutton120, iUserbutton121, iUserbutton122, iUserbutton123, iUserbutton124, iUserbutton125, iUserbutton126, iUserbutton127, iUserbutton128, iUserbutton129, iUserbutton130, iUserbutton131, iUserbutton132, iUserbutton133, iUserbutton134, iUserbutton135, iUserbutton136, iUserbutton137, iUserbutton138, iUserbutton139, iUserbutton140, iUserbutton141, iUserbutton142, iUserbutton143, iUserbutton144, iUserbutton145, iUserbutton146, iUserbutton147, iUserbutton148, iUserbutton149, -1, iUserbutton151, iUserbutton152, iUserbutton153, iUserbutton154, iUserbutton155, iUserbutton156, iUserbutton157, iUserbutton158, iUserbutton159, iUserbutton160
     word oTimers 0
     word oSoundss 0
     word oPinOutputs 0
-    word FormBGcolors ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x05FF, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x0BF8, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage
+    word FormBGcolors ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x05FF, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, 0x0BF8, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage, ColorBGimage
     word kKeyboardKeystrokes -1
     word rKeyboardRoutines -1
     word oLedDigitsn 32, 3, 1, 21, 0,
@@ -869,6 +909,7 @@ func main()
     hFonts[10] := file_LoadImageControl("RepRap_T.d0B", "RepRap_T.g0B", 1)  ;
     hFonts[11] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[12] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
+    hFonts[13] := file_LoadImageControl("RepRap_T.d0D", "RepRap_T.g0D", 1)  ;
     hFonts[16] := FONT3 ;
     hFonts[17] := file_LoadImageControl("RepRap_T.d0C", "RepRap_T.g0C", 1)  ;
     hFonts[31] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
@@ -879,6 +920,8 @@ func main()
     hFonts[7] := hFonts[37] ;
     hFonts[8] := hFonts[37] ;
     hFonts[9] := hFonts[0] ;
+    hFonts[14] := hFonts[13] ;
+    hFonts[15] := hFonts[13] ;
     hFonts[29] := hFonts[11] ;
     hFonts[32] := hFonts[31] ;
     hFonts[34] := hFonts[0] ;

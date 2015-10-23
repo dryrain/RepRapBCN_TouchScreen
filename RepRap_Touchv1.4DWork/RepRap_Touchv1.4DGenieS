@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 22/10/2015 10:44:45
+// generated 23/10/2015 14:48:41
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -452,7 +452,7 @@
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 6974, 270,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 134,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7018, 272,
-                OT_ACTIVATE, 10, 52, 0, 18, 0, 0, 0, 0, 0, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 135,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7062, 274,
                 OT_ACTIVATE, 10, 20, 0, 18, 0, 0, 0, 0, 0, 0,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7106, 276,
@@ -464,7 +464,7 @@
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7238, 282,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 140,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7282, 284,
-                OT_ACTIVATE, 10, 52, 0, 18, 0, 0, 0, 0, 0, 0,
+                OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 141,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7326, 286,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 142,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7370, 288,
@@ -494,9 +494,9 @@
     word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 176, 200, 224, 230, WHITE, BLACK, 0, 0, 1, 44 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 80, 164, 428, 218, WHITE, DEEPSKYBLUE, 0, 0, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 192, 144, 298, 172, WHITE, BLACK, 0, 0, 1, 12 
-    word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 36, 156, 103, 183, WHITE, BLACK, 0, 0, 1, 52 
+    word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 36, 156, 103, 183, WHITE, 0x23DD, 0, 0, 1, 52 
     word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 140, 156, 211, 183, WHITE, BLACK, 0, 0, 1, 52 
-    word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 256, 152, 316, 179, WHITE, BLACK, 0, 0, 1, 52 
+    word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 256, 156, 316, 183, WHITE, BLACK, 0, 0, 1, 52 
     word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 208, 156, 274, 200, WHITE, BLACK, 0, 0, 1, 14 
     word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 288, 200, 336, 230, WHITE, BLACK, 0, 0, 1, 44 
 

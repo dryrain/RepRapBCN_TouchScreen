@@ -4467,7 +4467,7 @@ Strings
     Name                         Strings13
     Alias                        Strings13
     Alignment                    Left
-    BGcolor                      BLACK
+    BGcolor                      0xEC7922
     Height                       28
     FGcolor                      WHITE
     Font.Bold                    No
@@ -4479,7 +4479,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         36
-    Strings                      '210 \n'
+    Strings                      '210 ºC\n'
     StringsStyle                 Message
     Top                          156
     Width                        68
@@ -4501,7 +4501,7 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         140
-    Strings                      210\n
+    Strings                      '210 ºC\n'
     StringsStyle                 Message
     Top                          156
     Width                        72
@@ -4523,9 +4523,9 @@ Strings
     Font.Strikethrough           No
     Font.Underline               No
     Left                         256
-    Strings                      210\n
+    Strings                      '210 ºC\n\n'
     StringsStyle                 Message
-    Top                          152
+    Top                          156
     Width                        61
     OnChanged                    ''
 end

@@ -1096,7 +1096,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          208
-    Width                        48
+    Width                        54
     OnChanged                    ''
 end
 Strings
@@ -1118,7 +1118,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          208
-    Width                        48
+    Width                        54
     OnChanged                    ''
 end
 Strings
@@ -1140,7 +1140,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          208
-    Width                        48
+    Width                        54
     OnChanged                    ''
 end
 Strings
@@ -1846,7 +1846,7 @@ UserButton
     Alias                        Userbutton23
     Height                       80
     Images                       00_flechaUP_1_Bigger_area.png
-    Left                         60
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1898,7 +1898,7 @@ UserButton
     Alias                        Userbutton78
     Height                       80
     Images                       00_flechaDOWN_1_Bigger_area.png
-    Left                         60
+    Left                         56
     Matrix                       -1
     Momentary                    Yes
     Stretch                      No
@@ -1957,14 +1957,14 @@ Strings
     Font.Italic                  No
     Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    50
+    Font.Size                    47
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         56
-    Strings                      ''
+    Left                         32
+    Strings                      '333 ºC\n'
     StringsStyle                 Message
     Top                          148
-    Width                        68
+    Width                        99
     OnChanged                    ''
 end
 Strings
@@ -1979,14 +1979,14 @@ Strings
     Font.Italic                  No
     Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    50
+    Font.Size                    47
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         160
-    Strings                      \n
+    Left                         140
+    Strings                      '333 ºC\n'
     StringsStyle                 Message
     Top                          148
-    Width                        57
+    Width                        98
     OnChanged                    ''
 end
 Strings
@@ -2001,14 +2001,14 @@ Strings
     Font.Italic                  No
     Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    50
+    Font.Size                    47
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         252
-    Strings                      \n
+    Left                         244
+    Strings                      '333 ºC\n'
     StringsStyle                 Message
     Top                          148
-    Width                        68
+    Width                        97
     OnChanged                    ''
 end
 Strings
@@ -2023,14 +2023,14 @@ Strings
     Font.Italic                  No
     Font.Name                    'Titillium Bd'
     Font.Opaque                  No
-    Font.Size                    50
+    Font.Size                    47
     Font.Strikethrough           No
     Font.Underline               No
     Left                         356
-    Strings                      \n
+    Strings                      '777 %\n'
     StringsStyle                 Message
     Top                          148
-    Width                        91
+    Width                        84
     OnChanged                    ''
 end
 UserButton
@@ -2108,7 +2108,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          273
-    Width                        48
+    Width                        93
     OnChanged                    ''
 end
 Strings
@@ -2130,7 +2130,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          273
-    Width                        48
+    Width                        99
     OnChanged                    ''
 end
 Strings
@@ -2152,7 +2152,7 @@ Strings
     Strings                      \n
     StringsStyle                 Message
     Top                          273
-    Width                        48
+    Width                        63
     OnChanged                    ''
 end
 UserButton
@@ -2291,11 +2291,11 @@ Strings
     Font.Size                    50
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         44
-    Strings                      ''
+    Left                         24
+    Strings                      \n
     StringsStyle                 Message
     Top                          148
-    Width                        68
+    Width                        105
     OnChanged                    ''
 end
 Strings
@@ -2313,11 +2313,11 @@ Strings
     Font.Size                    50
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         252
-    Strings                      ''
+    Left                         244
+    Strings                      \n
     StringsStyle                 Message
     Top                          148
-    Width                        68
+    Width                        105
     OnChanged                    ''
 end
 Strings
@@ -2335,11 +2335,11 @@ Strings
     Font.Size                    50
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         160
+    Left                         132
     Strings                      \n
     StringsStyle                 Message
     Top                          148
-    Width                        47
+    Width                        106
     OnChanged                    ''
 end
 UserButton
@@ -3334,11 +3334,11 @@ Strings
     Font.Size                    30
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         44
-    Strings                      ''
+    Left                         28
+    Strings                      \n
     StringsStyle                 Message
     Top                          260
-    Width                        49
+    Width                        99
     OnChanged                    ''
 end
 UserButton
@@ -3359,11 +3359,11 @@ UserButton
     Alias                        Userbutton152
     Height                       49
     Images                       ''
-    Left                         381
+    Left                         380
     Matrix                       -1
     Momentary                    Yes
     Stretch                      Yes
-    Top                          203
+    Top                          204
     Width                        55
     OnChanged                    'Report Message'
 end
@@ -3447,11 +3447,11 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         176
+    Left                         164
     Strings                      \n
     StringsStyle                 Message
     Top                          200
-    Width                        49
+    Width                        69
     OnChanged                    ''
 end
 Strings
@@ -3469,11 +3469,11 @@ Strings
     Font.Size                    31
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         288
-    Strings                      ''
+    Left                         276
+    Strings                      \n
     StringsStyle                 Message
     Top                          200
-    Width                        49
+    Width                        70
     OnChanged                    ''
 end
 UserButton

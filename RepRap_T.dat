@@ -86,11 +86,11 @@
 "Userbutton101" C400 007C 17E BA
 "Userbutton20" 1C00 007D B0 104
 "Form10" 7400 007D 00 00
-"Userbutton23" 2600 0082 3C 34
+"Userbutton23" 2600 0082 38 34
 "Userbutton24" 7200 0082 9C 34
 "Userbutton25" BE00 0082 100 34
 "Userbutton73" 0A00 0083 16C 34
-"Userbutton78" 5600 0083 3C D8
+"Userbutton78" 5600 0083 38 D8
 "Userbutton79" A200 0083 9C D8
 "Userbutton80" EE00 0083 100 D8
 "Userbutton81" 3A00 0084 16C D8
@@ -167,7 +167,7 @@
 "Userbutton74" AE00 0109 4C 7C
 "Form44" DE00 010A 00 00
 "Userbutton151" 9000 010F 17D 41
-"Userbutton152" C000 010F 17D CB
+"Userbutton152" C000 010F 17C CC
 "Userbutton153" EC00 010F 17C 100
 "Userbutton154" 2800 0110 97 60
 "Userbutton155" 4A00 0111 106 60

@@ -1,6 +1,6 @@
 #platform "uLCD-35DT"
 
-// generated 23/10/2015 14:48:41
+// generated 26/10/2015 10:43:55
 
 
 #inherit "4DGL_16bitColours.fnc"
@@ -481,24 +481,24 @@
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 148,
                 tUserButton, 1, -1, -1, -1, -1, -1, -1, 0, 7634, 300,
                 OT_REPORT, 0, 0, 0, 0, 0, 0, 0, 0, 0, 149
-    word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 139, 240, WHITE, BLACK, 0, 0, 1, 9 
+    word iStrings0  Strings0StartH, Strings0StartL, Strings0Size, 92, 208, 145, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings1  Strings1StartH, Strings1StartL, Strings1Size, 16, 172, 369, 296, WHITE, 0x017B, 0, 0, 1, 2 
     word iStrings2  Strings2StartH, Strings2StartL, Strings2Size, 16, 256, 323, 305, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings3  Strings3StartH, Strings3StartL, Strings3Size, 400, 294, 479, 319, 0x0A18, BLACK, 0, 0, 1, 0 
     word iStrings4  Strings4StartH, Strings4StartL, Strings4Size, 0, 0, 319, 16, WHITE, BLACK, 0, 1, 1, 8 
-    word iStrings5  Strings5StartH, Strings5StartL, Strings5Size, 44, 260, 92, 290, WHITE, BLACK, 0, 0, 1, 44 
+    word iStrings5  Strings5StartH, Strings5StartL, Strings5Size, 28, 260, 126, 290, WHITE, BLACK, 0, 0, 1, 44 
     word iStrings6  Strings6StartH, Strings6StartL, Strings6Size, 0, 0, 479, 19, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings7  Strings7StartH, Strings7StartL, Strings7Size, 56, 148, 123, 199, WHITE, BLACK, 0, 0, 1, 10 
-    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 160, 148, 216, 199, WHITE, BLACK, 0, 0, 1, 10 
-    word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 188, 208, 235, 240, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 176, 200, 224, 230, WHITE, BLACK, 0, 0, 1, 44 
+    word iStrings7  Strings7StartH, Strings7StartL, Strings7Size, 32, 148, 130, 199, WHITE, BLACK, 0, 0, 1, 10 
+    word iStrings8  Strings8StartH, Strings8StartL, Strings8Size, 140, 148, 237, 199, WHITE, BLACK, 0, 0, 1, 10 
+    word iStrings9  Strings9StartH, Strings9StartL, Strings9Size, 188, 208, 241, 240, WHITE, BLACK, 0, 0, 1, 9 
+    word iStrings10  Strings10StartH, Strings10StartL, Strings10Size, 164, 200, 232, 230, WHITE, BLACK, 0, 0, 1, 44 
     word iStrings11  Strings11StartH, Strings11StartL, Strings11Size, 80, 164, 428, 218, WHITE, DEEPSKYBLUE, 0, 0, 1, 19 
     word iStrings12  Strings12StartH, Strings12StartL, Strings12Size, 192, 144, 298, 172, WHITE, BLACK, 0, 0, 1, 12 
     word iStrings13  Strings13StartH, Strings13StartL, Strings13Size, 36, 156, 103, 183, WHITE, 0x23DD, 0, 0, 1, 52 
     word iStrings14  Strings14StartH, Strings14StartL, Strings14Size, 140, 156, 211, 183, WHITE, BLACK, 0, 0, 1, 52 
     word iStrings15  Strings15StartH, Strings15StartL, Strings15Size, 256, 156, 316, 183, WHITE, BLACK, 0, 0, 1, 52 
     word iStrings16  Strings16StartH, Strings16StartL, Strings16Size, 208, 156, 274, 200, WHITE, BLACK, 0, 0, 1, 14 
-    word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 288, 200, 336, 230, WHITE, BLACK, 0, 0, 1, 44 
+    word iStrings17  Strings17StartH, Strings17StartL, Strings17Size, 276, 200, 345, 230, WHITE, BLACK, 0, 0, 1, 44 
 
 
 
@@ -515,18 +515,18 @@
     word iStrings31  Strings31StartH, Strings31StartL, Strings31Size, 208, 148, 297, 187, WHITE, BLACK, 0, 0, 1, 38 
     word iStrings32  Strings32StartH, Strings32StartL, Strings32Size, 119, 82, 405, 124, WHITE, BLACK, 0, 0, 1, 38 
 
-    word iStrings34  Strings34StartH, Strings34StartL, Strings34Size, 284, 208, 331, 240, WHITE, BLACK, 0, 0, 1, 9 
+    word iStrings34  Strings34StartH, Strings34StartL, Strings34Size, 284, 208, 337, 240, WHITE, BLACK, 0, 0, 1, 9 
 
     word iStrings36  Strings36StartH, Strings36StartL, Strings36Size, 380, 208, 427, 240, WHITE, BLACK, 0, 0, 1, 9 
     word iStrings37  Strings37StartH, Strings37StartL, Strings37Size, 360, 256, 456, 307, WHITE, BLACK, 0, 0, 1, 9 
-    word iStrings38  Strings38StartH, Strings38StartL, Strings38Size, 252, 148, 319, 199, WHITE, BLACK, 0, 0, 1, 10 
-    word iStrings39  Strings39StartH, Strings39StartL, Strings39Size, 356, 148, 446, 199, WHITE, BLACK, 0, 0, 1, 10 
-    word iStrings40  Strings40StartH, Strings40StartL, Strings40Size, 88, 273, 135, 305, WHITE, BLACK, 0, 0, 1, 28 
-    word iStrings41  Strings41StartH, Strings41StartL, Strings41Size, 242, 273, 289, 305, WHITE, BLACK, 0, 0, 1, 28 
-    word iStrings42  Strings42StartH, Strings42StartL, Strings42Size, 411, 273, 458, 305, WHITE, BLACK, 0, 0, 1, 28 
-    word iStrings43  Strings43StartH, Strings43StartL, Strings43Size, 44, 148, 111, 199, WHITE, BLACK, 0, 0, 1, 29 
-    word iStrings44  Strings44StartH, Strings44StartL, Strings44Size, 252, 148, 319, 199, WHITE, BLACK, 0, 0, 1, 29 
-    word iStrings45  Strings45StartH, Strings45StartL, Strings45Size, 160, 148, 206, 199, WHITE, BLACK, 0, 0, 1, 29 
+    word iStrings38  Strings38StartH, Strings38StartL, Strings38Size, 244, 148, 340, 199, WHITE, BLACK, 0, 0, 1, 10 
+    word iStrings39  Strings39StartH, Strings39StartL, Strings39Size, 356, 148, 439, 199, WHITE, BLACK, 0, 0, 1, 10 
+    word iStrings40  Strings40StartH, Strings40StartL, Strings40Size, 88, 273, 180, 305, WHITE, BLACK, 0, 0, 1, 28 
+    word iStrings41  Strings41StartH, Strings41StartL, Strings41Size, 242, 273, 340, 305, WHITE, BLACK, 0, 0, 1, 28 
+    word iStrings42  Strings42StartH, Strings42StartL, Strings42Size, 411, 273, 473, 305, WHITE, BLACK, 0, 0, 1, 28 
+    word iStrings43  Strings43StartH, Strings43StartL, Strings43Size, 24, 148, 128, 199, WHITE, BLACK, 0, 0, 1, 29 
+    word iStrings44  Strings44StartH, Strings44StartL, Strings44Size, 244, 148, 348, 199, WHITE, BLACK, 0, 0, 1, 29 
+    word iStrings45  Strings45StartH, Strings45StartL, Strings45Size, 132, 148, 237, 199, WHITE, BLACK, 0, 0, 1, 29 
 
 
 
@@ -904,21 +904,21 @@ func main()
     hFonts[2] := file_LoadImageControl("RepRap_T.d03", "RepRap_T.g03", 1)  ;
     hFonts[3] := file_LoadImageControl("RepRap_T.d01", "RepRap_T.g01", 1)  ;
     hFonts[4] := FONT3 ;
-    hFonts[5] := file_LoadImageControl("RepRap_T.d0@", "RepRap_T.g0@", 1)  ;
+    hFonts[5] := file_LoadImageControl("RepRap_T.d0B", "RepRap_T.g0B", 1)  ;
     hFonts[6] := FONT3 ;
-    hFonts[10] := file_LoadImageControl("RepRap_T.d0B", "RepRap_T.g0B", 1)  ;
+    hFonts[7] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+    hFonts[10] := file_LoadImageControl("RepRap_T.d0C", "RepRap_T.g0C", 1)  ;
     hFonts[11] := file_LoadImageControl("RepRap_T.d07", "RepRap_T.g07", 1)  ;
     hFonts[12] := file_LoadImageControl("RepRap_T.d06", "RepRap_T.g06", 1)  ;
-    hFonts[13] := file_LoadImageControl("RepRap_T.d0D", "RepRap_T.g0D", 1)  ;
+    hFonts[13] := file_LoadImageControl("RepRap_T.d0E", "RepRap_T.g0E", 1)  ;
     hFonts[16] := FONT3 ;
-    hFonts[17] := file_LoadImageControl("RepRap_T.d0C", "RepRap_T.g0C", 1)  ;
-    hFonts[31] := file_LoadImageControl("RepRap_T.d08", "RepRap_T.g08", 1)  ;
+    hFonts[17] := file_LoadImageControl("RepRap_T.d0D", "RepRap_T.g0D", 1)  ;
+    hFonts[31] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
     hFonts[37] := file_LoadImageControl("RepRap_T.d05", "RepRap_T.g05", 1)  ;
-    hFonts[50] := file_LoadImageControl("RepRap_T.d09", "RepRap_T.g09", 1)  ;
+    hFonts[50] := file_LoadImageControl("RepRap_T.d0@", "RepRap_T.g0@", 1)  ;
     hFonts[51] := FONT3 ;
     hFonts[52] := FONT3 ;
-    hFonts[7] := hFonts[37] ;
-    hFonts[8] := hFonts[37] ;
+    hFonts[8] := hFonts[7] ;
     hFonts[9] := hFonts[0] ;
     hFonts[14] := hFonts[13] ;
     hFonts[15] := hFonts[13] ;
@@ -926,8 +926,8 @@ func main()
     hFonts[32] := hFonts[31] ;
     hFonts[34] := hFonts[0] ;
     hFonts[36] := hFonts[0] ;
-    hFonts[38] := hFonts[37] ;
-    hFonts[39] := hFonts[37] ;
+    hFonts[38] := hFonts[7] ;
+    hFonts[39] := hFonts[7] ;
     hFonts[40] := hFonts[0] ;
     hFonts[41] := hFonts[0] ;
     hFonts[42] := hFonts[0] ;
